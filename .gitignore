@@ -1,0 +1,7 @@
+*.o
+bin/
+out/
+*.cxx
+practrand/practrand.go
+practrand/practrand_gc.c
+.vscode
