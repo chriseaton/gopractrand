@@ -35,7 +35,8 @@
 namespace PractRand {
     namespace RNGs {
         namespace Raw {
-
+            %rename (SeedAndIV) salsa::seed(const Uint32 seed_and_iv[10], bool extend_cycle_ = false);
+            %ignore salsa::seed(const Uint32 seed_and_iv[10]);
         }
         namespace Polymorphic {
             %rename (PolymorphicSalsa) salsa;

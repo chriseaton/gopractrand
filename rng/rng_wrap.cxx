@@ -275,7 +275,7 @@ static void* Swig_malloc(int c) {
 extern "C" {
 #endif
 
-void _wrap_Swig_free_rng_ae47b152c742082b(void *_swig_go_0) {
+void _wrap_Swig_free_rng_9d087d9bb75357bd(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -285,7 +285,7 @@ void _wrap_Swig_free_rng_ae47b152c742082b(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_rng_ae47b152c742082b(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_rng_9d087d9bb75357bd(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -298,7 +298,7 @@ void *_wrap_Swig_malloc_rng_ae47b152c742082b(intgo _swig_go_0) {
 }
 
 
-void _wrap_version_str_set_rng_ae47b152c742082b(_gostring_ _swig_go_0) {
+void _wrap_version_str_set_rng_9d087d9bb75357bd(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   
   
@@ -320,7 +320,7 @@ void _wrap_version_str_set_rng_ae47b152c742082b(_gostring_ _swig_go_0) {
 }
 
 
-_gostring_ _wrap_version_str_get_rng_ae47b152c742082b() {
+_gostring_ _wrap_version_str_get_rng_9d087d9bb75357bd() {
   char *result = 0 ;
   _gostring_ _swig_go_result;
   
@@ -331,7 +331,7 @@ _gostring_ _wrap_version_str_get_rng_ae47b152c742082b() {
 }
 
 
-bool _wrap_initialize_PractRand_rng_ae47b152c742082b() {
+bool _wrap_initialize_PractRand_rng_9d087d9bb75357bd() {
   bool result;
   bool _swig_go_result;
   
@@ -342,13 +342,13 @@ bool _wrap_initialize_PractRand_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_self_test_PractRand_rng_ae47b152c742082b() {
+void _wrap_self_test_PractRand_rng_9d087d9bb75357bd() {
   PractRand::self_test_PractRand();
   
 }
 
 
-void _wrap_issue_error__SWIG_0_rng_ae47b152c742082b(_gostring_ _swig_go_0) {
+void _wrap_issue_error__SWIG_0_rng_9d087d9bb75357bd(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   
   
@@ -363,13 +363,13 @@ void _wrap_issue_error__SWIG_0_rng_ae47b152c742082b(_gostring_ _swig_go_0) {
 }
 
 
-void _wrap_issue_error__SWIG_1_rng_ae47b152c742082b() {
+void _wrap_issue_error__SWIG_1_rng_9d087d9bb75357bd() {
   PractRand::issue_error();
   
 }
 
 
-void _wrap_hook_error_handler_rng_ae47b152c742082b(void* _swig_go_0) {
+void _wrap_hook_error_handler_rng_9d087d9bb75357bd(void* _swig_go_0) {
   void (*arg1)(char const *) = (void (*)(char const *)) 0 ;
   
   arg1 = *(void (**)(char const *))&_swig_go_0; 
@@ -379,7 +379,7 @@ void _wrap_hook_error_handler_rng_ae47b152c742082b(void* _swig_go_0) {
 }
 
 
-PractRand::SEED_AUTO_TYPE *_wrap_new_SEED_AUTO_TYPE_rng_ae47b152c742082b() {
+PractRand::SEED_AUTO_TYPE *_wrap_new_SEED_AUTO_TYPE_rng_9d087d9bb75357bd() {
   PractRand::SEED_AUTO_TYPE *result = 0 ;
   PractRand::SEED_AUTO_TYPE *_swig_go_result;
   
@@ -390,7 +390,7 @@ PractRand::SEED_AUTO_TYPE *_wrap_new_SEED_AUTO_TYPE_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_delete_SEED_AUTO_TYPE_rng_ae47b152c742082b(PractRand::SEED_AUTO_TYPE *_swig_go_0) {
+void _wrap_delete_SEED_AUTO_TYPE_rng_9d087d9bb75357bd(PractRand::SEED_AUTO_TYPE *_swig_go_0) {
   PractRand::SEED_AUTO_TYPE *arg1 = (PractRand::SEED_AUTO_TYPE *) 0 ;
   
   arg1 = *(PractRand::SEED_AUTO_TYPE **)&_swig_go_0; 
@@ -400,7 +400,7 @@ void _wrap_delete_SEED_AUTO_TYPE_rng_ae47b152c742082b(PractRand::SEED_AUTO_TYPE 
 }
 
 
-PractRand::SEED_NONE_TYPE *_wrap_new_SEED_NONE_TYPE_rng_ae47b152c742082b() {
+PractRand::SEED_NONE_TYPE *_wrap_new_SEED_NONE_TYPE_rng_9d087d9bb75357bd() {
   PractRand::SEED_NONE_TYPE *result = 0 ;
   PractRand::SEED_NONE_TYPE *_swig_go_result;
   
@@ -411,7 +411,7 @@ PractRand::SEED_NONE_TYPE *_wrap_new_SEED_NONE_TYPE_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_delete_SEED_NONE_TYPE_rng_ae47b152c742082b(PractRand::SEED_NONE_TYPE *_swig_go_0) {
+void _wrap_delete_SEED_NONE_TYPE_rng_9d087d9bb75357bd(PractRand::SEED_NONE_TYPE *_swig_go_0) {
   PractRand::SEED_NONE_TYPE *arg1 = (PractRand::SEED_NONE_TYPE *) 0 ;
   
   arg1 = *(PractRand::SEED_NONE_TYPE **)&_swig_go_0; 
@@ -421,7 +421,7 @@ void _wrap_delete_SEED_NONE_TYPE_rng_ae47b152c742082b(PractRand::SEED_NONE_TYPE 
 }
 
 
-void _wrap_SEED_AUTO_set_rng_ae47b152c742082b(PractRand::SEED_AUTO_TYPE *_swig_go_0) {
+void _wrap_SEED_AUTO_set_rng_9d087d9bb75357bd(PractRand::SEED_AUTO_TYPE *_swig_go_0) {
   PractRand::SEED_AUTO_TYPE *arg1 = (PractRand::SEED_AUTO_TYPE *) 0 ;
   
   arg1 = *(PractRand::SEED_AUTO_TYPE **)&_swig_go_0; 
@@ -431,7 +431,7 @@ void _wrap_SEED_AUTO_set_rng_ae47b152c742082b(PractRand::SEED_AUTO_TYPE *_swig_g
 }
 
 
-PractRand::SEED_AUTO_TYPE *_wrap_SEED_AUTO_get_rng_ae47b152c742082b() {
+PractRand::SEED_AUTO_TYPE *_wrap_SEED_AUTO_get_rng_9d087d9bb75357bd() {
   PractRand::SEED_AUTO_TYPE *result = 0 ;
   PractRand::SEED_AUTO_TYPE *_swig_go_result;
   
@@ -442,7 +442,7 @@ PractRand::SEED_AUTO_TYPE *_wrap_SEED_AUTO_get_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_SEED_NONE_set_rng_ae47b152c742082b(PractRand::SEED_NONE_TYPE *_swig_go_0) {
+void _wrap_SEED_NONE_set_rng_9d087d9bb75357bd(PractRand::SEED_NONE_TYPE *_swig_go_0) {
   PractRand::SEED_NONE_TYPE *arg1 = (PractRand::SEED_NONE_TYPE *) 0 ;
   
   arg1 = *(PractRand::SEED_NONE_TYPE **)&_swig_go_0; 
@@ -452,7 +452,7 @@ void _wrap_SEED_NONE_set_rng_ae47b152c742082b(PractRand::SEED_NONE_TYPE *_swig_g
 }
 
 
-PractRand::SEED_NONE_TYPE *_wrap_SEED_NONE_get_rng_ae47b152c742082b() {
+PractRand::SEED_NONE_TYPE *_wrap_SEED_NONE_get_rng_9d087d9bb75357bd() {
   PractRand::SEED_NONE_TYPE *result = 0 ;
   PractRand::SEED_NONE_TYPE *_swig_go_result;
   
@@ -463,7 +463,7 @@ PractRand::SEED_NONE_TYPE *_wrap_SEED_NONE_get_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_delete_vRNG_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+void _wrap_delete_vRNG_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG **)&_swig_go_0; 
@@ -473,7 +473,7 @@ void _wrap_delete_vRNG_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
 }
 
 
-void _wrap_vRNG_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -485,7 +485,7 @@ void _wrap_vRNG_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_g
 }
 
 
-void _wrap_vRNG_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG_seed_fast_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -497,7 +497,7 @@ void _wrap_vRNG_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0
 }
 
 
-void _wrap_vRNG_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
+void _wrap_vRNG_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::RNGs::vRNG *arg2 = (PractRand::RNGs::vRNG *) 0 ;
   
@@ -509,7 +509,7 @@ void _wrap_vRNG_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_g
 }
 
 
-void _wrap_vRNG_autoseed_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+void _wrap_vRNG_autoseed_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG **)&_swig_go_0; 
@@ -519,7 +519,7 @@ void _wrap_vRNG_autoseed_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0)
 }
 
 
-long long _wrap_vRNG_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+long long _wrap_vRNG_serialize__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -541,7 +541,7 @@ long long _wrap_vRNG_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRN
 }
 
 
-_gostring_ _wrap_vRNG_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, long long *_swig_go_1) {
+_gostring_ _wrap_vRNG_serialize__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, long long *_swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   size_t *arg2 = (size_t *) 0 ;
   char *result = 0 ;
@@ -556,7 +556,7 @@ _gostring_ _wrap_vRNG_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vR
 }
 
 
-bool _wrap_vRNG_deserialize_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+bool _wrap_vRNG_deserialize_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -578,7 +578,7 @@ bool _wrap_vRNG_deserialize_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go
 }
 
 
-_gostring_ _wrap_vRNG_print_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+_gostring_ _wrap_vRNG_print_state_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -591,7 +591,7 @@ _gostring_ _wrap_vRNG_print_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_s
 }
 
 
-void _wrap_vRNG_walk_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_vRNG_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -603,7 +603,7 @@ void _wrap_vRNG_walk_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_
 }
 
 
-char _wrap_vRNG_raw8_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+char _wrap_vRNG_raw8_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint8 result;
   char _swig_go_result;
@@ -616,7 +616,7 @@ char _wrap_vRNG_raw8_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
 }
 
 
-short _wrap_vRNG_raw16_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+short _wrap_vRNG_raw16_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint16 result;
   short _swig_go_result;
@@ -629,7 +629,7 @@ short _wrap_vRNG_raw16_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
 }
 
 
-intgo _wrap_vRNG_raw32_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+intgo _wrap_vRNG_raw32_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint32 result;
   intgo _swig_go_result;
@@ -642,7 +642,7 @@ intgo _wrap_vRNG_raw32_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
 }
 
 
-long long _wrap_vRNG_raw64_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+long long _wrap_vRNG_raw64_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -655,7 +655,7 @@ long long _wrap_vRNG_raw64_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_
 }
 
 
-intgo _wrap_vRNG_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_vRNG_randi__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -670,7 +670,7 @@ intgo _wrap_vRNG_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig
 }
 
 
-intgo _wrap_vRNG_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_vRNG_randi__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -687,7 +687,7 @@ intgo _wrap_vRNG_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig
 }
 
 
-intgo _wrap_vRNG_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_vRNG_randi_fast__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -702,7 +702,7 @@ intgo _wrap_vRNG_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *
 }
 
 
-intgo _wrap_vRNG_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_vRNG_randi_fast__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -719,7 +719,7 @@ intgo _wrap_vRNG_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *
 }
 
 
-long long _wrap_vRNG_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
+long long _wrap_vRNG_randli__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 result;
@@ -734,7 +734,7 @@ long long _wrap_vRNG_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *
 }
 
 
-long long _wrap_vRNG_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+long long _wrap_vRNG_randli__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -751,7 +751,7 @@ long long _wrap_vRNG_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *
 }
 
 
-float _wrap_vRNG_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+float _wrap_vRNG_randf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   float result;
   float _swig_go_result;
@@ -764,7 +764,7 @@ float _wrap_vRNG_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig
 }
 
 
-float _wrap_vRNG_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, float _swig_go_1) {
+float _wrap_vRNG_randf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, float _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   float arg2 ;
   float result;
@@ -779,7 +779,7 @@ float _wrap_vRNG_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig
 }
 
 
-float _wrap_vRNG_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+float _wrap_vRNG_randf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -796,7 +796,7 @@ float _wrap_vRNG_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig
 }
 
 
-double _wrap_vRNG_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+double _wrap_vRNG_randlf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   double result;
   double _swig_go_result;
@@ -809,7 +809,7 @@ double _wrap_vRNG_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_sw
 }
 
 
-double _wrap_vRNG_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, double _swig_go_1) {
+double _wrap_vRNG_randlf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, double _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   double arg2 ;
   double result;
@@ -824,7 +824,7 @@ double _wrap_vRNG_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_sw
 }
 
 
-double _wrap_vRNG_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_vRNG_randlf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -841,7 +841,7 @@ double _wrap_vRNG_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_sw
 }
 
 
-double _wrap_vRNG_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+double _wrap_vRNG_gaussian__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   double result;
   double _swig_go_result;
@@ -854,7 +854,7 @@ double _wrap_vRNG_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_
 }
 
 
-double _wrap_vRNG_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_vRNG_gaussian__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -871,7 +871,7 @@ double _wrap_vRNG_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_
 }
 
 
-long long _wrap_vRNG_get_flags_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+long long _wrap_vRNG_get_flags_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -884,7 +884,7 @@ long long _wrap_vRNG_get_flags_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig
 }
 
 
-_gostring_ _wrap_vRNG_get_name_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+_gostring_ _wrap_vRNG_get_name_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -897,7 +897,7 @@ _gostring_ _wrap_vRNG_get_name_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig
 }
 
 
-intgo _wrap_vRNG_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+intgo _wrap_vRNG_get_native_output_size_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -910,7 +910,7 @@ intgo _wrap_vRNG_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::vR
 }
 
 
-void _wrap_vRNG_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG_seek_forward128_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -924,7 +924,7 @@ void _wrap_vRNG_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swi
 }
 
 
-void _wrap_vRNG_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG_seek_backward128_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -938,7 +938,7 @@ void _wrap_vRNG_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_sw
 }
 
 
-void _wrap_vRNG_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG_seek_forward_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -950,7 +950,7 @@ void _wrap_vRNG_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_g
 }
 
 
-void _wrap_vRNG_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG_seek_backward_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -962,7 +962,7 @@ void _wrap_vRNG_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_
 }
 
 
-void _wrap_vRNG_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+void _wrap_vRNG_reset_entropy_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG **)&_swig_go_0; 
@@ -972,7 +972,7 @@ void _wrap_vRNG_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_
 }
 
 
-void _wrap_vRNG_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, char _swig_go_1) {
+void _wrap_vRNG_add_entropy8_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, char _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint8 arg2 ;
   
@@ -984,7 +984,7 @@ void _wrap_vRNG_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_g
 }
 
 
-void _wrap_vRNG_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, short _swig_go_1) {
+void _wrap_vRNG_add_entropy16_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, short _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint16 arg2 ;
   
@@ -996,7 +996,7 @@ void _wrap_vRNG_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_
 }
 
 
-void _wrap_vRNG_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1) {
+void _wrap_vRNG_add_entropy32_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint32 arg2 ;
   
@@ -1008,7 +1008,7 @@ void _wrap_vRNG_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_
 }
 
 
-void _wrap_vRNG_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG_add_entropy64_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -1020,7 +1020,7 @@ void _wrap_vRNG_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_
 }
 
 
-void _wrap_vRNG_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG_add_entropy_N_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   void *arg2 = (void *) 0 ;
   size_t arg3 ;
@@ -1034,7 +1034,7 @@ void _wrap_vRNG_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_
 }
 
 
-bool _wrap_vRNG_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_vRNG_add_entropy_automatically__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   int arg2 ;
   bool result;
@@ -1049,7 +1049,7 @@ bool _wrap_vRNG_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRand
 }
 
 
-bool _wrap_vRNG_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+bool _wrap_vRNG_add_entropy_automatically__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1062,7 +1062,7 @@ bool _wrap_vRNG_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRand
 }
 
 
-void _wrap_vRNG_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+void _wrap_vRNG_flush_buffers_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG **)&_swig_go_0; 
@@ -1072,7 +1072,7 @@ void _wrap_vRNG_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_
 }
 
 
-intgo _wrap_OUTPUT_BITS_vRNG8_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_vRNG8_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -1084,7 +1084,7 @@ intgo _wrap_OUTPUT_BITS_vRNG8_rng_ae47b152c742082b() {
 }
 
 
-short _wrap_vRNG8_raw16_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+short _wrap_vRNG8_raw16_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint16 result;
   short _swig_go_result;
@@ -1097,7 +1097,7 @@ short _wrap_vRNG8_raw16_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0)
 }
 
 
-intgo _wrap_vRNG8_raw32_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+intgo _wrap_vRNG8_raw32_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint32 result;
   intgo _swig_go_result;
@@ -1110,7 +1110,7 @@ intgo _wrap_vRNG8_raw32_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0)
 }
 
 
-long long _wrap_vRNG8_raw64_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+long long _wrap_vRNG8_raw64_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -1123,7 +1123,7 @@ long long _wrap_vRNG8_raw64_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_g
 }
 
 
-intgo _wrap_vRNG8_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+intgo _wrap_vRNG8_get_native_output_size_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1136,7 +1136,7 @@ intgo _wrap_vRNG8_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::v
 }
 
 
-void _wrap_delete_vRNG8_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+void _wrap_delete_vRNG8_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG8 **)&_swig_go_0; 
@@ -1146,7 +1146,7 @@ void _wrap_delete_vRNG8_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0)
 }
 
 
-void _wrap_vRNG8_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG8_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -1159,7 +1159,7 @@ void _wrap_vRNG8_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig
 }
 
 
-void _wrap_vRNG8_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
+void _wrap_vRNG8_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::RNGs::vRNG *arg2 = (PractRand::RNGs::vRNG *) 0 ;
   
@@ -1172,7 +1172,7 @@ void _wrap_vRNG8_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig
 }
 
 
-void _wrap_vRNG8_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG8_seed_fast_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -1185,7 +1185,7 @@ void _wrap_vRNG8_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go
 }
 
 
-void _wrap_vRNG8_autoseed_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+void _wrap_vRNG8_autoseed_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG8 **)&_swig_go_0; 
@@ -1196,7 +1196,7 @@ void _wrap_vRNG8_autoseed_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_
 }
 
 
-long long _wrap_vRNG8_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+long long _wrap_vRNG8_serialize__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -1219,7 +1219,7 @@ long long _wrap_vRNG8_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vR
 }
 
 
-_gostring_ _wrap_vRNG8_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, long long *_swig_go_1) {
+_gostring_ _wrap_vRNG8_serialize__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, long long *_swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   size_t *arg2 = (size_t *) 0 ;
   char *result = 0 ;
@@ -1235,7 +1235,7 @@ _gostring_ _wrap_vRNG8_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::v
 }
 
 
-bool _wrap_vRNG8_deserialize_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+bool _wrap_vRNG8_deserialize_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -1258,7 +1258,7 @@ bool _wrap_vRNG8_deserialize_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_
 }
 
 
-_gostring_ _wrap_vRNG8_print_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+_gostring_ _wrap_vRNG8_print_state_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -1272,7 +1272,7 @@ _gostring_ _wrap_vRNG8_print_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *
 }
 
 
-void _wrap_vRNG8_walk_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_vRNG8_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -1285,7 +1285,7 @@ void _wrap_vRNG8_walk_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_g
 }
 
 
-char _wrap_vRNG8_raw8_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+char _wrap_vRNG8_raw8_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint8 result;
   char _swig_go_result;
@@ -1299,7 +1299,7 @@ char _wrap_vRNG8_raw8_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
 }
 
 
-intgo _wrap_vRNG8_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_vRNG8_randi__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -1315,7 +1315,7 @@ intgo _wrap_vRNG8_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_sw
 }
 
 
-intgo _wrap_vRNG8_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_vRNG8_randi__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -1333,7 +1333,7 @@ intgo _wrap_vRNG8_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_sw
 }
 
 
-intgo _wrap_vRNG8_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_vRNG8_randi_fast__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -1349,7 +1349,7 @@ intgo _wrap_vRNG8_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8
 }
 
 
-intgo _wrap_vRNG8_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_vRNG8_randi_fast__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -1367,7 +1367,7 @@ intgo _wrap_vRNG8_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8
 }
 
 
-long long _wrap_vRNG8_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
+long long _wrap_vRNG8_randli__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 result;
@@ -1383,7 +1383,7 @@ long long _wrap_vRNG8_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8
 }
 
 
-long long _wrap_vRNG8_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+long long _wrap_vRNG8_randli__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -1401,7 +1401,7 @@ long long _wrap_vRNG8_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8
 }
 
 
-float _wrap_vRNG8_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+float _wrap_vRNG8_randf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   float result;
   float _swig_go_result;
@@ -1415,7 +1415,7 @@ float _wrap_vRNG8_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_sw
 }
 
 
-float _wrap_vRNG8_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, float _swig_go_1) {
+float _wrap_vRNG8_randf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, float _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   float arg2 ;
   float result;
@@ -1431,7 +1431,7 @@ float _wrap_vRNG8_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_sw
 }
 
 
-float _wrap_vRNG8_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+float _wrap_vRNG8_randf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -1449,7 +1449,7 @@ float _wrap_vRNG8_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_sw
 }
 
 
-double _wrap_vRNG8_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+double _wrap_vRNG8_randlf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   double result;
   double _swig_go_result;
@@ -1463,7 +1463,7 @@ double _wrap_vRNG8_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_
 }
 
 
-double _wrap_vRNG8_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, double _swig_go_1) {
+double _wrap_vRNG8_randlf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, double _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   double arg2 ;
   double result;
@@ -1479,7 +1479,7 @@ double _wrap_vRNG8_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_
 }
 
 
-double _wrap_vRNG8_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_vRNG8_randlf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -1497,7 +1497,7 @@ double _wrap_vRNG8_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_
 }
 
 
-double _wrap_vRNG8_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+double _wrap_vRNG8_gaussian__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   double result;
   double _swig_go_result;
@@ -1511,7 +1511,7 @@ double _wrap_vRNG8_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 
 }
 
 
-double _wrap_vRNG8_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_vRNG8_gaussian__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -1529,7 +1529,7 @@ double _wrap_vRNG8_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 
 }
 
 
-long long _wrap_vRNG8_get_flags_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+long long _wrap_vRNG8_get_flags_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -1543,7 +1543,7 @@ long long _wrap_vRNG8_get_flags_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_sw
 }
 
 
-_gostring_ _wrap_vRNG8_get_name_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+_gostring_ _wrap_vRNG8_get_name_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -1557,7 +1557,7 @@ _gostring_ _wrap_vRNG8_get_name_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_sw
 }
 
 
-void _wrap_vRNG8_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG8_seek_forward128_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -1572,7 +1572,7 @@ void _wrap_vRNG8_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_s
 }
 
 
-void _wrap_vRNG8_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG8_seek_backward128_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -1587,7 +1587,7 @@ void _wrap_vRNG8_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_
 }
 
 
-void _wrap_vRNG8_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG8_seek_forward_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -1600,7 +1600,7 @@ void _wrap_vRNG8_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig
 }
 
 
-void _wrap_vRNG8_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG8_seek_backward_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -1613,7 +1613,7 @@ void _wrap_vRNG8_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swi
 }
 
 
-void _wrap_vRNG8_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+void _wrap_vRNG8_reset_entropy_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG8 **)&_swig_go_0; 
@@ -1624,7 +1624,7 @@ void _wrap_vRNG8_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swi
 }
 
 
-void _wrap_vRNG8_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, char _swig_go_1) {
+void _wrap_vRNG8_add_entropy8_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, char _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint8 arg2 ;
   
@@ -1637,7 +1637,7 @@ void _wrap_vRNG8_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig
 }
 
 
-void _wrap_vRNG8_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, short _swig_go_1) {
+void _wrap_vRNG8_add_entropy16_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, short _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint16 arg2 ;
   
@@ -1650,7 +1650,7 @@ void _wrap_vRNG8_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swi
 }
 
 
-void _wrap_vRNG8_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_vRNG8_add_entropy32_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint32 arg2 ;
   
@@ -1663,7 +1663,7 @@ void _wrap_vRNG8_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swi
 }
 
 
-void _wrap_vRNG8_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG8_add_entropy64_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -1676,7 +1676,7 @@ void _wrap_vRNG8_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swi
 }
 
 
-void _wrap_vRNG8_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG8_add_entropy_N_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   void *arg2 = (void *) 0 ;
   size_t arg3 ;
@@ -1691,7 +1691,7 @@ void _wrap_vRNG8_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swi
 }
 
 
-bool _wrap_vRNG8_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_vRNG8_add_entropy_automatically__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   int arg2 ;
   bool result;
@@ -1707,7 +1707,7 @@ bool _wrap_vRNG8_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRan
 }
 
 
-bool _wrap_vRNG8_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+bool _wrap_vRNG8_add_entropy_automatically__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1721,7 +1721,7 @@ bool _wrap_vRNG8_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRan
 }
 
 
-void _wrap_vRNG8_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swig_go_0) {
+void _wrap_vRNG8_flush_buffers_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG8 *_swig_go_0) {
   PractRand::RNGs::vRNG8 *arg1 = (PractRand::RNGs::vRNG8 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG8 **)&_swig_go_0; 
@@ -1732,7 +1732,7 @@ void _wrap_vRNG8_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::vRNG8 *_swi
 }
 
 
-intgo _wrap_OUTPUT_BITS_vRNG16_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_vRNG16_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -1744,7 +1744,7 @@ intgo _wrap_OUTPUT_BITS_vRNG16_rng_ae47b152c742082b() {
 }
 
 
-char _wrap_vRNG16_raw8_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+char _wrap_vRNG16_raw8_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint8 result;
   char _swig_go_result;
@@ -1757,7 +1757,7 @@ char _wrap_vRNG16_raw8_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0)
 }
 
 
-intgo _wrap_vRNG16_raw32_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+intgo _wrap_vRNG16_raw32_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint32 result;
   intgo _swig_go_result;
@@ -1770,7 +1770,7 @@ intgo _wrap_vRNG16_raw32_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_
 }
 
 
-long long _wrap_vRNG16_raw64_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+long long _wrap_vRNG16_raw64_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -1783,7 +1783,7 @@ long long _wrap_vRNG16_raw64_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig
 }
 
 
-intgo _wrap_vRNG16_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+intgo _wrap_vRNG16_get_native_output_size_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1796,7 +1796,7 @@ intgo _wrap_vRNG16_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-void _wrap_delete_vRNG16_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+void _wrap_delete_vRNG16_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG16 **)&_swig_go_0; 
@@ -1806,7 +1806,7 @@ void _wrap_delete_vRNG16_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_
 }
 
 
-void _wrap_vRNG16_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG16_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -1819,7 +1819,7 @@ void _wrap_vRNG16_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_sw
 }
 
 
-void _wrap_vRNG16_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
+void _wrap_vRNG16_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::RNGs::vRNG *arg2 = (PractRand::RNGs::vRNG *) 0 ;
   
@@ -1832,7 +1832,7 @@ void _wrap_vRNG16_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_sw
 }
 
 
-void _wrap_vRNG16_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG16_seed_fast_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -1845,7 +1845,7 @@ void _wrap_vRNG16_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_
 }
 
 
-void _wrap_vRNG16_autoseed_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+void _wrap_vRNG16_autoseed_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG16 **)&_swig_go_0; 
@@ -1856,7 +1856,7 @@ void _wrap_vRNG16_autoseed_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_g
 }
 
 
-long long _wrap_vRNG16_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+long long _wrap_vRNG16_serialize__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -1879,7 +1879,7 @@ long long _wrap_vRNG16_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::v
 }
 
 
-_gostring_ _wrap_vRNG16_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, long long *_swig_go_1) {
+_gostring_ _wrap_vRNG16_serialize__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, long long *_swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   size_t *arg2 = (size_t *) 0 ;
   char *result = 0 ;
@@ -1895,7 +1895,7 @@ _gostring_ _wrap_vRNG16_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-bool _wrap_vRNG16_deserialize_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+bool _wrap_vRNG16_deserialize_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -1918,7 +1918,7 @@ bool _wrap_vRNG16_deserialize_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swi
 }
 
 
-_gostring_ _wrap_vRNG16_print_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+_gostring_ _wrap_vRNG16_print_state_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -1932,7 +1932,7 @@ _gostring_ _wrap_vRNG16_print_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG16
 }
 
 
-void _wrap_vRNG16_walk_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_vRNG16_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -1945,7 +1945,7 @@ void _wrap_vRNG16_walk_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig
 }
 
 
-short _wrap_vRNG16_raw16_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+short _wrap_vRNG16_raw16_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint16 result;
   short _swig_go_result;
@@ -1959,7 +1959,7 @@ short _wrap_vRNG16_raw16_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_
 }
 
 
-intgo _wrap_vRNG16_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_vRNG16_randi__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -1975,7 +1975,7 @@ intgo _wrap_vRNG16_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_
 }
 
 
-intgo _wrap_vRNG16_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_vRNG16_randi__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -1993,7 +1993,7 @@ intgo _wrap_vRNG16_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_
 }
 
 
-intgo _wrap_vRNG16_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_vRNG16_randi_fast__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -2009,7 +2009,7 @@ intgo _wrap_vRNG16_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-intgo _wrap_vRNG16_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_vRNG16_randi_fast__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -2027,7 +2027,7 @@ intgo _wrap_vRNG16_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-long long _wrap_vRNG16_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
+long long _wrap_vRNG16_randli__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 result;
@@ -2043,7 +2043,7 @@ long long _wrap_vRNG16_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-long long _wrap_vRNG16_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+long long _wrap_vRNG16_randli__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -2061,7 +2061,7 @@ long long _wrap_vRNG16_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-float _wrap_vRNG16_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+float _wrap_vRNG16_randf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   float result;
   float _swig_go_result;
@@ -2075,7 +2075,7 @@ float _wrap_vRNG16_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_
 }
 
 
-float _wrap_vRNG16_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, float _swig_go_1) {
+float _wrap_vRNG16_randf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, float _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   float arg2 ;
   float result;
@@ -2091,7 +2091,7 @@ float _wrap_vRNG16_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_
 }
 
 
-float _wrap_vRNG16_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+float _wrap_vRNG16_randf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -2109,7 +2109,7 @@ float _wrap_vRNG16_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_
 }
 
 
-double _wrap_vRNG16_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+double _wrap_vRNG16_randlf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   double result;
   double _swig_go_result;
@@ -2123,7 +2123,7 @@ double _wrap_vRNG16_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 
 }
 
 
-double _wrap_vRNG16_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, double _swig_go_1) {
+double _wrap_vRNG16_randlf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, double _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   double arg2 ;
   double result;
@@ -2139,7 +2139,7 @@ double _wrap_vRNG16_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 
 }
 
 
-double _wrap_vRNG16_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_vRNG16_randlf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -2157,7 +2157,7 @@ double _wrap_vRNG16_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 
 }
 
 
-double _wrap_vRNG16_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+double _wrap_vRNG16_gaussian__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   double result;
   double _swig_go_result;
@@ -2171,7 +2171,7 @@ double _wrap_vRNG16_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG1
 }
 
 
-double _wrap_vRNG16_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_vRNG16_gaussian__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -2189,7 +2189,7 @@ double _wrap_vRNG16_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG1
 }
 
 
-long long _wrap_vRNG16_get_flags_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+long long _wrap_vRNG16_get_flags_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -2203,7 +2203,7 @@ long long _wrap_vRNG16_get_flags_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_
 }
 
 
-_gostring_ _wrap_vRNG16_get_name_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+_gostring_ _wrap_vRNG16_get_name_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -2217,7 +2217,7 @@ _gostring_ _wrap_vRNG16_get_name_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_
 }
 
 
-void _wrap_vRNG16_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG16_seek_forward128_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -2232,7 +2232,7 @@ void _wrap_vRNG16_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *
 }
 
 
-void _wrap_vRNG16_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG16_seek_backward128_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -2247,7 +2247,7 @@ void _wrap_vRNG16_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 
 }
 
 
-void _wrap_vRNG16_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG16_seek_forward_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -2260,7 +2260,7 @@ void _wrap_vRNG16_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_sw
 }
 
 
-void _wrap_vRNG16_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG16_seek_backward_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -2273,7 +2273,7 @@ void _wrap_vRNG16_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_s
 }
 
 
-void _wrap_vRNG16_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+void _wrap_vRNG16_reset_entropy_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG16 **)&_swig_go_0; 
@@ -2284,7 +2284,7 @@ void _wrap_vRNG16_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_s
 }
 
 
-void _wrap_vRNG16_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, char _swig_go_1) {
+void _wrap_vRNG16_add_entropy8_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, char _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint8 arg2 ;
   
@@ -2297,7 +2297,7 @@ void _wrap_vRNG16_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_sw
 }
 
 
-void _wrap_vRNG16_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, short _swig_go_1) {
+void _wrap_vRNG16_add_entropy16_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, short _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint16 arg2 ;
   
@@ -2310,7 +2310,7 @@ void _wrap_vRNG16_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_s
 }
 
 
-void _wrap_vRNG16_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_vRNG16_add_entropy32_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint32 arg2 ;
   
@@ -2323,7 +2323,7 @@ void _wrap_vRNG16_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_s
 }
 
 
-void _wrap_vRNG16_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG16_add_entropy64_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -2336,7 +2336,7 @@ void _wrap_vRNG16_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_s
 }
 
 
-void _wrap_vRNG16_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG16_add_entropy_N_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   void *arg2 = (void *) 0 ;
   size_t arg3 ;
@@ -2351,7 +2351,7 @@ void _wrap_vRNG16_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_s
 }
 
 
-bool _wrap_vRNG16_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_vRNG16_add_entropy_automatically__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   int arg2 ;
   bool result;
@@ -2367,7 +2367,7 @@ bool _wrap_vRNG16_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRa
 }
 
 
-bool _wrap_vRNG16_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+bool _wrap_vRNG16_add_entropy_automatically__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -2381,7 +2381,7 @@ bool _wrap_vRNG16_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRa
 }
 
 
-void _wrap_vRNG16_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_swig_go_0) {
+void _wrap_vRNG16_flush_buffers_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG16 *_swig_go_0) {
   PractRand::RNGs::vRNG16 *arg1 = (PractRand::RNGs::vRNG16 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG16 **)&_swig_go_0; 
@@ -2392,7 +2392,7 @@ void _wrap_vRNG16_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::vRNG16 *_s
 }
 
 
-intgo _wrap_OUTPUT_BITS_vRNG32_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_vRNG32_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -2404,7 +2404,7 @@ intgo _wrap_OUTPUT_BITS_vRNG32_rng_ae47b152c742082b() {
 }
 
 
-char _wrap_vRNG32_raw8_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+char _wrap_vRNG32_raw8_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint8 result;
   char _swig_go_result;
@@ -2417,7 +2417,7 @@ char _wrap_vRNG32_raw8_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0)
 }
 
 
-short _wrap_vRNG32_raw16_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+short _wrap_vRNG32_raw16_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint16 result;
   short _swig_go_result;
@@ -2430,7 +2430,7 @@ short _wrap_vRNG32_raw16_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_
 }
 
 
-long long _wrap_vRNG32_raw64_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+long long _wrap_vRNG32_raw64_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -2443,7 +2443,7 @@ long long _wrap_vRNG32_raw64_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig
 }
 
 
-intgo _wrap_vRNG32_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+intgo _wrap_vRNG32_get_native_output_size_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2456,7 +2456,7 @@ intgo _wrap_vRNG32_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-void _wrap_delete_vRNG32_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+void _wrap_delete_vRNG32_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG32 **)&_swig_go_0; 
@@ -2466,7 +2466,7 @@ void _wrap_delete_vRNG32_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_
 }
 
 
-void _wrap_vRNG32_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG32_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -2479,7 +2479,7 @@ void _wrap_vRNG32_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_sw
 }
 
 
-void _wrap_vRNG32_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
+void _wrap_vRNG32_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::RNGs::vRNG *arg2 = (PractRand::RNGs::vRNG *) 0 ;
   
@@ -2492,7 +2492,7 @@ void _wrap_vRNG32_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_sw
 }
 
 
-void _wrap_vRNG32_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG32_seed_fast_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -2505,7 +2505,7 @@ void _wrap_vRNG32_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_
 }
 
 
-void _wrap_vRNG32_autoseed_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+void _wrap_vRNG32_autoseed_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG32 **)&_swig_go_0; 
@@ -2516,7 +2516,7 @@ void _wrap_vRNG32_autoseed_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_g
 }
 
 
-long long _wrap_vRNG32_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+long long _wrap_vRNG32_serialize__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -2539,7 +2539,7 @@ long long _wrap_vRNG32_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::v
 }
 
 
-_gostring_ _wrap_vRNG32_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, long long *_swig_go_1) {
+_gostring_ _wrap_vRNG32_serialize__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, long long *_swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   size_t *arg2 = (size_t *) 0 ;
   char *result = 0 ;
@@ -2555,7 +2555,7 @@ _gostring_ _wrap_vRNG32_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-bool _wrap_vRNG32_deserialize_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+bool _wrap_vRNG32_deserialize_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -2578,7 +2578,7 @@ bool _wrap_vRNG32_deserialize_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swi
 }
 
 
-_gostring_ _wrap_vRNG32_print_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+_gostring_ _wrap_vRNG32_print_state_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -2592,7 +2592,7 @@ _gostring_ _wrap_vRNG32_print_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG32
 }
 
 
-void _wrap_vRNG32_walk_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_vRNG32_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -2605,7 +2605,7 @@ void _wrap_vRNG32_walk_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig
 }
 
 
-intgo _wrap_vRNG32_raw32_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+intgo _wrap_vRNG32_raw32_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint32 result;
   intgo _swig_go_result;
@@ -2619,7 +2619,7 @@ intgo _wrap_vRNG32_raw32_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_
 }
 
 
-intgo _wrap_vRNG32_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_vRNG32_randi__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -2635,7 +2635,7 @@ intgo _wrap_vRNG32_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_
 }
 
 
-intgo _wrap_vRNG32_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_vRNG32_randi__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -2653,7 +2653,7 @@ intgo _wrap_vRNG32_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_
 }
 
 
-intgo _wrap_vRNG32_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_vRNG32_randi_fast__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -2669,7 +2669,7 @@ intgo _wrap_vRNG32_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-intgo _wrap_vRNG32_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_vRNG32_randi_fast__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -2687,7 +2687,7 @@ intgo _wrap_vRNG32_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-long long _wrap_vRNG32_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
+long long _wrap_vRNG32_randli__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 result;
@@ -2703,7 +2703,7 @@ long long _wrap_vRNG32_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-long long _wrap_vRNG32_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+long long _wrap_vRNG32_randli__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -2721,7 +2721,7 @@ long long _wrap_vRNG32_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-float _wrap_vRNG32_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+float _wrap_vRNG32_randf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   float result;
   float _swig_go_result;
@@ -2735,7 +2735,7 @@ float _wrap_vRNG32_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_
 }
 
 
-float _wrap_vRNG32_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, float _swig_go_1) {
+float _wrap_vRNG32_randf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, float _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   float arg2 ;
   float result;
@@ -2751,7 +2751,7 @@ float _wrap_vRNG32_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_
 }
 
 
-float _wrap_vRNG32_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+float _wrap_vRNG32_randf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -2769,7 +2769,7 @@ float _wrap_vRNG32_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_
 }
 
 
-double _wrap_vRNG32_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+double _wrap_vRNG32_randlf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   double result;
   double _swig_go_result;
@@ -2783,7 +2783,7 @@ double _wrap_vRNG32_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 
 }
 
 
-double _wrap_vRNG32_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, double _swig_go_1) {
+double _wrap_vRNG32_randlf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, double _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   double arg2 ;
   double result;
@@ -2799,7 +2799,7 @@ double _wrap_vRNG32_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 
 }
 
 
-double _wrap_vRNG32_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_vRNG32_randlf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -2817,7 +2817,7 @@ double _wrap_vRNG32_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 
 }
 
 
-double _wrap_vRNG32_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+double _wrap_vRNG32_gaussian__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   double result;
   double _swig_go_result;
@@ -2831,7 +2831,7 @@ double _wrap_vRNG32_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG3
 }
 
 
-double _wrap_vRNG32_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_vRNG32_gaussian__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -2849,7 +2849,7 @@ double _wrap_vRNG32_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG3
 }
 
 
-long long _wrap_vRNG32_get_flags_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+long long _wrap_vRNG32_get_flags_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -2863,7 +2863,7 @@ long long _wrap_vRNG32_get_flags_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_
 }
 
 
-_gostring_ _wrap_vRNG32_get_name_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+_gostring_ _wrap_vRNG32_get_name_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -2877,7 +2877,7 @@ _gostring_ _wrap_vRNG32_get_name_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_
 }
 
 
-void _wrap_vRNG32_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG32_seek_forward128_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -2892,7 +2892,7 @@ void _wrap_vRNG32_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *
 }
 
 
-void _wrap_vRNG32_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG32_seek_backward128_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -2907,7 +2907,7 @@ void _wrap_vRNG32_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 
 }
 
 
-void _wrap_vRNG32_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG32_seek_forward_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -2920,7 +2920,7 @@ void _wrap_vRNG32_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_sw
 }
 
 
-void _wrap_vRNG32_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG32_seek_backward_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -2933,7 +2933,7 @@ void _wrap_vRNG32_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_s
 }
 
 
-void _wrap_vRNG32_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+void _wrap_vRNG32_reset_entropy_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG32 **)&_swig_go_0; 
@@ -2944,7 +2944,7 @@ void _wrap_vRNG32_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_s
 }
 
 
-void _wrap_vRNG32_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, char _swig_go_1) {
+void _wrap_vRNG32_add_entropy8_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, char _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint8 arg2 ;
   
@@ -2957,7 +2957,7 @@ void _wrap_vRNG32_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_sw
 }
 
 
-void _wrap_vRNG32_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, short _swig_go_1) {
+void _wrap_vRNG32_add_entropy16_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, short _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint16 arg2 ;
   
@@ -2970,7 +2970,7 @@ void _wrap_vRNG32_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_s
 }
 
 
-void _wrap_vRNG32_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_vRNG32_add_entropy32_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint32 arg2 ;
   
@@ -2983,7 +2983,7 @@ void _wrap_vRNG32_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_s
 }
 
 
-void _wrap_vRNG32_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG32_add_entropy64_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -2996,7 +2996,7 @@ void _wrap_vRNG32_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_s
 }
 
 
-void _wrap_vRNG32_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG32_add_entropy_N_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   void *arg2 = (void *) 0 ;
   size_t arg3 ;
@@ -3011,7 +3011,7 @@ void _wrap_vRNG32_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_s
 }
 
 
-bool _wrap_vRNG32_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_vRNG32_add_entropy_automatically__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   int arg2 ;
   bool result;
@@ -3027,7 +3027,7 @@ bool _wrap_vRNG32_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRa
 }
 
 
-bool _wrap_vRNG32_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+bool _wrap_vRNG32_add_entropy_automatically__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3041,7 +3041,7 @@ bool _wrap_vRNG32_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRa
 }
 
 
-void _wrap_vRNG32_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_swig_go_0) {
+void _wrap_vRNG32_flush_buffers_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG32 *_swig_go_0) {
   PractRand::RNGs::vRNG32 *arg1 = (PractRand::RNGs::vRNG32 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG32 **)&_swig_go_0; 
@@ -3052,7 +3052,7 @@ void _wrap_vRNG32_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::vRNG32 *_s
 }
 
 
-intgo _wrap_OUTPUT_BITS_vRNG64_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_vRNG64_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3064,7 +3064,7 @@ intgo _wrap_OUTPUT_BITS_vRNG64_rng_ae47b152c742082b() {
 }
 
 
-char _wrap_vRNG64_raw8_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+char _wrap_vRNG64_raw8_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint8 result;
   char _swig_go_result;
@@ -3077,7 +3077,7 @@ char _wrap_vRNG64_raw8_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0)
 }
 
 
-short _wrap_vRNG64_raw16_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+short _wrap_vRNG64_raw16_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint16 result;
   short _swig_go_result;
@@ -3090,7 +3090,7 @@ short _wrap_vRNG64_raw16_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_
 }
 
 
-intgo _wrap_vRNG64_raw32_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+intgo _wrap_vRNG64_raw32_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint32 result;
   intgo _swig_go_result;
@@ -3103,7 +3103,7 @@ intgo _wrap_vRNG64_raw32_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_
 }
 
 
-intgo _wrap_vRNG64_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+intgo _wrap_vRNG64_get_native_output_size_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3116,7 +3116,7 @@ intgo _wrap_vRNG64_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-void _wrap_delete_vRNG64_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+void _wrap_delete_vRNG64_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG64 **)&_swig_go_0; 
@@ -3126,7 +3126,7 @@ void _wrap_delete_vRNG64_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_
 }
 
 
-void _wrap_vRNG64_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG64_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -3139,7 +3139,7 @@ void _wrap_vRNG64_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_sw
 }
 
 
-void _wrap_vRNG64_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
+void _wrap_vRNG64_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::RNGs::vRNG *arg2 = (PractRand::RNGs::vRNG *) 0 ;
   
@@ -3152,7 +3152,7 @@ void _wrap_vRNG64_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_sw
 }
 
 
-void _wrap_vRNG64_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG64_seed_fast_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -3165,7 +3165,7 @@ void _wrap_vRNG64_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_
 }
 
 
-void _wrap_vRNG64_autoseed_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+void _wrap_vRNG64_autoseed_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG64 **)&_swig_go_0; 
@@ -3176,7 +3176,7 @@ void _wrap_vRNG64_autoseed_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_g
 }
 
 
-long long _wrap_vRNG64_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+long long _wrap_vRNG64_serialize__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -3199,7 +3199,7 @@ long long _wrap_vRNG64_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::v
 }
 
 
-_gostring_ _wrap_vRNG64_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, long long *_swig_go_1) {
+_gostring_ _wrap_vRNG64_serialize__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, long long *_swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   size_t *arg2 = (size_t *) 0 ;
   char *result = 0 ;
@@ -3215,7 +3215,7 @@ _gostring_ _wrap_vRNG64_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-bool _wrap_vRNG64_deserialize_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+bool _wrap_vRNG64_deserialize_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -3238,7 +3238,7 @@ bool _wrap_vRNG64_deserialize_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swi
 }
 
 
-_gostring_ _wrap_vRNG64_print_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+_gostring_ _wrap_vRNG64_print_state_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -3252,7 +3252,7 @@ _gostring_ _wrap_vRNG64_print_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG64
 }
 
 
-void _wrap_vRNG64_walk_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_vRNG64_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -3265,7 +3265,7 @@ void _wrap_vRNG64_walk_state_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig
 }
 
 
-long long _wrap_vRNG64_raw64_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+long long _wrap_vRNG64_raw64_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -3279,7 +3279,7 @@ long long _wrap_vRNG64_raw64_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig
 }
 
 
-intgo _wrap_vRNG64_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_vRNG64_randi__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -3295,7 +3295,7 @@ intgo _wrap_vRNG64_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_
 }
 
 
-intgo _wrap_vRNG64_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_vRNG64_randi__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -3313,7 +3313,7 @@ intgo _wrap_vRNG64_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_
 }
 
 
-intgo _wrap_vRNG64_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_vRNG64_randi_fast__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -3329,7 +3329,7 @@ intgo _wrap_vRNG64_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-intgo _wrap_vRNG64_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_vRNG64_randi_fast__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -3347,7 +3347,7 @@ intgo _wrap_vRNG64_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-long long _wrap_vRNG64_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
+long long _wrap_vRNG64_randli__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 result;
@@ -3363,7 +3363,7 @@ long long _wrap_vRNG64_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-long long _wrap_vRNG64_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+long long _wrap_vRNG64_randli__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -3381,7 +3381,7 @@ long long _wrap_vRNG64_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG
 }
 
 
-float _wrap_vRNG64_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+float _wrap_vRNG64_randf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   float result;
   float _swig_go_result;
@@ -3395,7 +3395,7 @@ float _wrap_vRNG64_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_
 }
 
 
-float _wrap_vRNG64_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, float _swig_go_1) {
+float _wrap_vRNG64_randf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, float _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   float arg2 ;
   float result;
@@ -3411,7 +3411,7 @@ float _wrap_vRNG64_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_
 }
 
 
-float _wrap_vRNG64_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+float _wrap_vRNG64_randf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -3429,7 +3429,7 @@ float _wrap_vRNG64_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_
 }
 
 
-double _wrap_vRNG64_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+double _wrap_vRNG64_randlf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   double result;
   double _swig_go_result;
@@ -3443,7 +3443,7 @@ double _wrap_vRNG64_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 
 }
 
 
-double _wrap_vRNG64_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, double _swig_go_1) {
+double _wrap_vRNG64_randlf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, double _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   double arg2 ;
   double result;
@@ -3459,7 +3459,7 @@ double _wrap_vRNG64_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 
 }
 
 
-double _wrap_vRNG64_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_vRNG64_randlf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -3477,7 +3477,7 @@ double _wrap_vRNG64_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 
 }
 
 
-double _wrap_vRNG64_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+double _wrap_vRNG64_gaussian__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   double result;
   double _swig_go_result;
@@ -3491,7 +3491,7 @@ double _wrap_vRNG64_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG6
 }
 
 
-double _wrap_vRNG64_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_vRNG64_gaussian__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -3509,7 +3509,7 @@ double _wrap_vRNG64_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG6
 }
 
 
-long long _wrap_vRNG64_get_flags_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+long long _wrap_vRNG64_get_flags_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -3523,7 +3523,7 @@ long long _wrap_vRNG64_get_flags_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_
 }
 
 
-_gostring_ _wrap_vRNG64_get_name_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+_gostring_ _wrap_vRNG64_get_name_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -3537,7 +3537,7 @@ _gostring_ _wrap_vRNG64_get_name_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_
 }
 
 
-void _wrap_vRNG64_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG64_seek_forward128_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -3552,7 +3552,7 @@ void _wrap_vRNG64_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *
 }
 
 
-void _wrap_vRNG64_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG64_seek_backward128_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -3567,7 +3567,7 @@ void _wrap_vRNG64_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 
 }
 
 
-void _wrap_vRNG64_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG64_seek_forward_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -3580,7 +3580,7 @@ void _wrap_vRNG64_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_sw
 }
 
 
-void _wrap_vRNG64_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG64_seek_backward_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -3593,7 +3593,7 @@ void _wrap_vRNG64_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_s
 }
 
 
-void _wrap_vRNG64_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+void _wrap_vRNG64_reset_entropy_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG64 **)&_swig_go_0; 
@@ -3604,7 +3604,7 @@ void _wrap_vRNG64_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_s
 }
 
 
-void _wrap_vRNG64_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, char _swig_go_1) {
+void _wrap_vRNG64_add_entropy8_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, char _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint8 arg2 ;
   
@@ -3617,7 +3617,7 @@ void _wrap_vRNG64_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_sw
 }
 
 
-void _wrap_vRNG64_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, short _swig_go_1) {
+void _wrap_vRNG64_add_entropy16_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, short _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint16 arg2 ;
   
@@ -3630,7 +3630,7 @@ void _wrap_vRNG64_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_s
 }
 
 
-void _wrap_vRNG64_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_vRNG64_add_entropy32_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint32 arg2 ;
   
@@ -3643,7 +3643,7 @@ void _wrap_vRNG64_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_s
 }
 
 
-void _wrap_vRNG64_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
+void _wrap_vRNG64_add_entropy64_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -3656,7 +3656,7 @@ void _wrap_vRNG64_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_s
 }
 
 
-void _wrap_vRNG64_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
+void _wrap_vRNG64_add_entropy_N_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   void *arg2 = (void *) 0 ;
   size_t arg3 ;
@@ -3671,7 +3671,7 @@ void _wrap_vRNG64_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_s
 }
 
 
-bool _wrap_vRNG64_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_vRNG64_add_entropy_automatically__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   int arg2 ;
   bool result;
@@ -3687,7 +3687,7 @@ bool _wrap_vRNG64_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRa
 }
 
 
-bool _wrap_vRNG64_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+bool _wrap_vRNG64_add_entropy_automatically__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3701,7 +3701,7 @@ bool _wrap_vRNG64_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRa
 }
 
 
-void _wrap_vRNG64_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_swig_go_0) {
+void _wrap_vRNG64_flush_buffers_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG64 *_swig_go_0) {
   PractRand::RNGs::vRNG64 *arg1 = (PractRand::RNGs::vRNG64 *) 0 ;
   
   arg1 = *(PractRand::RNGs::vRNG64 **)&_swig_go_0; 
@@ -3712,7 +3712,7 @@ void _wrap_vRNG64_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::vRNG64 *_s
 }
 
 
-intgo _wrap_NORMAL_1_rng_ae47b152c742082b() {
+intgo _wrap_NORMAL_1_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3724,7 +3724,7 @@ intgo _wrap_NORMAL_1_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_NORMAL_ALL_rng_ae47b152c742082b() {
+intgo _wrap_NORMAL_ALL_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3736,7 +3736,7 @@ intgo _wrap_NORMAL_ALL_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_SUPPORTS_FASTFORWARD_rng_ae47b152c742082b() {
+intgo _wrap_SUPPORTS_FASTFORWARD_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3748,7 +3748,7 @@ intgo _wrap_SUPPORTS_FASTFORWARD_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_SUPPORTS_ENTROPY_ACCUMULATION_rng_ae47b152c742082b() {
+intgo _wrap_SUPPORTS_ENTROPY_ACCUMULATION_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3760,7 +3760,7 @@ intgo _wrap_SUPPORTS_ENTROPY_ACCUMULATION_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_CRYPTOGRAPHIC_SECURITY_rng_ae47b152c742082b() {
+intgo _wrap_CRYPTOGRAPHIC_SECURITY_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3772,7 +3772,7 @@ intgo _wrap_CRYPTOGRAPHIC_SECURITY_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_USES_SPECIFIED_rng_ae47b152c742082b() {
+intgo _wrap_USES_SPECIFIED_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3784,7 +3784,7 @@ intgo _wrap_USES_SPECIFIED_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_USES_MULTIPLICATION_rng_ae47b152c742082b() {
+intgo _wrap_USES_MULTIPLICATION_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3796,7 +3796,7 @@ intgo _wrap_USES_MULTIPLICATION_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_USES_COMPLEX_INSTRUCTIONS_rng_ae47b152c742082b() {
+intgo _wrap_USES_COMPLEX_INSTRUCTIONS_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3808,7 +3808,7 @@ intgo _wrap_USES_COMPLEX_INSTRUCTIONS_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_USES_VARIABLE_SHIFTS_rng_ae47b152c742082b() {
+intgo _wrap_USES_VARIABLE_SHIFTS_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3820,7 +3820,7 @@ intgo _wrap_USES_VARIABLE_SHIFTS_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_USES_INDIRECTION_rng_ae47b152c742082b() {
+intgo _wrap_USES_INDIRECTION_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3832,7 +3832,7 @@ intgo _wrap_USES_INDIRECTION_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_USES_CYCLIC_BUFFER_rng_ae47b152c742082b() {
+intgo _wrap_USES_CYCLIC_BUFFER_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3844,7 +3844,7 @@ intgo _wrap_USES_CYCLIC_BUFFER_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_USES_FLOW_CONTROL_rng_ae47b152c742082b() {
+intgo _wrap_USES_FLOW_CONTROL_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3856,7 +3856,7 @@ intgo _wrap_USES_FLOW_CONTROL_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_USES_BIT_SCANS_rng_ae47b152c742082b() {
+intgo _wrap_USES_BIT_SCANS_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3868,7 +3868,7 @@ intgo _wrap_USES_BIT_SCANS_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_USES_OTHER_WORD_SIZES_rng_ae47b152c742082b() {
+intgo _wrap_USES_OTHER_WORD_SIZES_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3880,7 +3880,7 @@ intgo _wrap_USES_OTHER_WORD_SIZES_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_ENDIAN_SAFE_rng_ae47b152c742082b() {
+intgo _wrap_ENDIAN_SAFE_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3892,7 +3892,7 @@ intgo _wrap_ENDIAN_SAFE_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_IS_BUFFERED_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_IS_BUFFERED_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3904,7 +3904,7 @@ intgo _wrap_OUTPUT_IS_BUFFERED_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_IS_HASHED_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_IS_HASHED_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3916,7 +3916,7 @@ intgo _wrap_OUTPUT_IS_HASHED_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_STATE_UNAVAILABLE_rng_ae47b152c742082b() {
+intgo _wrap_STATE_UNAVAILABLE_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3928,7 +3928,7 @@ intgo _wrap_STATE_UNAVAILABLE_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_SEEDING_UNSUPPORTED_rng_ae47b152c742082b() {
+intgo _wrap_SEEDING_UNSUPPORTED_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3940,7 +3940,7 @@ intgo _wrap_SEEDING_UNSUPPORTED_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_NEEDS_GENERIC_SEEDING_rng_ae47b152c742082b() {
+intgo _wrap_NEEDS_GENERIC_SEEDING_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -3952,7 +3952,7 @@ intgo _wrap_NEEDS_GENERIC_SEEDING_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_delete_StateWalkingObject_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0) {
+void _wrap_delete_StateWalkingObject_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   
   arg1 = *(PractRand::StateWalkingObject **)&_swig_go_0; 
@@ -3962,7 +3962,7 @@ void _wrap_delete_StateWalkingObject_rng_ae47b152c742082b(PractRand::StateWalkin
 }
 
 
-void _wrap_StateWalkingObject_handle__SWIG_0_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, bool *_swig_go_1) {
+void _wrap_StateWalkingObject_handle__SWIG_0_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, bool *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   bool *arg2 = 0 ;
   
@@ -3974,7 +3974,7 @@ void _wrap_StateWalkingObject_handle__SWIG_0_rng_ae47b152c742082b(PractRand::Sta
 }
 
 
-void _wrap_StateWalkingObject_handle__SWIG_1_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint8 *_swig_go_1) {
+void _wrap_StateWalkingObject_handle__SWIG_1_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint8 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Uint8 *arg2 = 0 ;
   
@@ -3986,7 +3986,7 @@ void _wrap_StateWalkingObject_handle__SWIG_1_rng_ae47b152c742082b(PractRand::Sta
 }
 
 
-void _wrap_StateWalkingObject_handle__SWIG_2_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint16 *_swig_go_1) {
+void _wrap_StateWalkingObject_handle__SWIG_2_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint16 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Uint16 *arg2 = 0 ;
   
@@ -3998,7 +3998,7 @@ void _wrap_StateWalkingObject_handle__SWIG_2_rng_ae47b152c742082b(PractRand::Sta
 }
 
 
-void _wrap_StateWalkingObject_handle__SWIG_3_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint32 *_swig_go_1) {
+void _wrap_StateWalkingObject_handle__SWIG_3_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint32 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Uint32 *arg2 = 0 ;
   
@@ -4010,7 +4010,7 @@ void _wrap_StateWalkingObject_handle__SWIG_3_rng_ae47b152c742082b(PractRand::Sta
 }
 
 
-void _wrap_StateWalkingObject_handle__SWIG_4_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint64 *_swig_go_1) {
+void _wrap_StateWalkingObject_handle__SWIG_4_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint64 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Uint64 *arg2 = 0 ;
   
@@ -4022,7 +4022,7 @@ void _wrap_StateWalkingObject_handle__SWIG_4_rng_ae47b152c742082b(PractRand::Sta
 }
 
 
-void _wrap_StateWalkingObject_handle__SWIG_5_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, float *_swig_go_1) {
+void _wrap_StateWalkingObject_handle__SWIG_5_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, float *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   float *arg2 = 0 ;
   
@@ -4034,7 +4034,7 @@ void _wrap_StateWalkingObject_handle__SWIG_5_rng_ae47b152c742082b(PractRand::Sta
 }
 
 
-void _wrap_StateWalkingObject_handle__SWIG_6_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, double *_swig_go_1) {
+void _wrap_StateWalkingObject_handle__SWIG_6_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, double *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   double *arg2 = 0 ;
   
@@ -4046,7 +4046,7 @@ void _wrap_StateWalkingObject_handle__SWIG_6_rng_ae47b152c742082b(PractRand::Sta
 }
 
 
-intgo _wrap_FLAG_READ_ONLY_StateWalkingObject_rng_ae47b152c742082b() {
+intgo _wrap_FLAG_READ_ONLY_StateWalkingObject_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -4058,7 +4058,7 @@ intgo _wrap_FLAG_READ_ONLY_StateWalkingObject_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAG_WRITE_ONLY_StateWalkingObject_rng_ae47b152c742082b() {
+intgo _wrap_FLAG_WRITE_ONLY_StateWalkingObject_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -4070,7 +4070,7 @@ intgo _wrap_FLAG_WRITE_ONLY_StateWalkingObject_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAG_CLUMSY_StateWalkingObject_rng_ae47b152c742082b() {
+intgo _wrap_FLAG_CLUMSY_StateWalkingObject_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -4082,7 +4082,7 @@ intgo _wrap_FLAG_CLUMSY_StateWalkingObject_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAG_SEEDER_StateWalkingObject_rng_ae47b152c742082b() {
+intgo _wrap_FLAG_SEEDER_StateWalkingObject_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -4094,7 +4094,7 @@ intgo _wrap_FLAG_SEEDER_StateWalkingObject_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_StateWalkingObject_get_properties_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0) {
+intgo _wrap_StateWalkingObject_get_properties_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Uint32 result;
   intgo _swig_go_result;
@@ -4107,7 +4107,7 @@ intgo _wrap_StateWalkingObject_get_properties_rng_ae47b152c742082b(PractRand::St
 }
 
 
-bool _wrap_StateWalkingObject_is_read_only_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0) {
+bool _wrap_StateWalkingObject_is_read_only_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -4120,7 +4120,7 @@ bool _wrap_StateWalkingObject_is_read_only_rng_ae47b152c742082b(PractRand::State
 }
 
 
-bool _wrap_StateWalkingObject_is_write_only_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0) {
+bool _wrap_StateWalkingObject_is_write_only_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -4133,7 +4133,7 @@ bool _wrap_StateWalkingObject_is_write_only_rng_ae47b152c742082b(PractRand::Stat
 }
 
 
-bool _wrap_StateWalkingObject_is_clumsy_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0) {
+bool _wrap_StateWalkingObject_is_clumsy_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -4146,7 +4146,7 @@ bool _wrap_StateWalkingObject_is_clumsy_rng_ae47b152c742082b(PractRand::StateWal
 }
 
 
-bool _wrap_StateWalkingObject_is_seeder_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0) {
+bool _wrap_StateWalkingObject_is_seeder_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -4159,7 +4159,7 @@ bool _wrap_StateWalkingObject_is_seeder_rng_ae47b152c742082b(PractRand::StateWal
 }
 
 
-void _wrap_StateWalkingObject_handle__SWIG_7_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint8 *_swig_go_1) {
+void _wrap_StateWalkingObject_handle__SWIG_7_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint8 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Sint8 *arg2 = 0 ;
   
@@ -4171,7 +4171,7 @@ void _wrap_StateWalkingObject_handle__SWIG_7_rng_ae47b152c742082b(PractRand::Sta
 }
 
 
-void _wrap_StateWalkingObject_handle__SWIG_8_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint16 *_swig_go_1) {
+void _wrap_StateWalkingObject_handle__SWIG_8_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint16 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Sint16 *arg2 = 0 ;
   
@@ -4183,7 +4183,7 @@ void _wrap_StateWalkingObject_handle__SWIG_8_rng_ae47b152c742082b(PractRand::Sta
 }
 
 
-void _wrap_StateWalkingObject_handle__SWIG_9_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint32 *_swig_go_1) {
+void _wrap_StateWalkingObject_handle__SWIG_9_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint32 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Sint32 *arg2 = 0 ;
   
@@ -4195,7 +4195,7 @@ void _wrap_StateWalkingObject_handle__SWIG_9_rng_ae47b152c742082b(PractRand::Sta
 }
 
 
-void _wrap_StateWalkingObject_handle__SWIG_10_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint64 *_swig_go_1) {
+void _wrap_StateWalkingObject_handle__SWIG_10_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint64 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Sint64 *arg2 = 0 ;
   
@@ -4207,7 +4207,7 @@ void _wrap_StateWalkingObject_handle__SWIG_10_rng_ae47b152c742082b(PractRand::St
 }
 
 
-PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_0_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint8 *_swig_go_1) {
+PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_0_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint8 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Uint8 *arg2 = 0 ;
   PractRand::StateWalkingObject *result = 0 ;
@@ -4222,7 +4222,7 @@ PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_0_rng_ae
 }
 
 
-PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_1_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint16 *_swig_go_1) {
+PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_1_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint16 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Uint16 *arg2 = 0 ;
   PractRand::StateWalkingObject *result = 0 ;
@@ -4237,7 +4237,7 @@ PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_1_rng_ae
 }
 
 
-PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_2_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint32 *_swig_go_1) {
+PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_2_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint32 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Uint32 *arg2 = 0 ;
   PractRand::StateWalkingObject *result = 0 ;
@@ -4252,7 +4252,7 @@ PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_2_rng_ae
 }
 
 
-PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_3_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint64 *_swig_go_1) {
+PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_3_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Uint64 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Uint64 *arg2 = 0 ;
   PractRand::StateWalkingObject *result = 0 ;
@@ -4267,7 +4267,7 @@ PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_3_rng_ae
 }
 
 
-PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_4_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint8 *_swig_go_1) {
+PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_4_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint8 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Sint8 *arg2 = 0 ;
   PractRand::StateWalkingObject *result = 0 ;
@@ -4282,7 +4282,7 @@ PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_4_rng_ae
 }
 
 
-PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_5_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint16 *_swig_go_1) {
+PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_5_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint16 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Sint16 *arg2 = 0 ;
   PractRand::StateWalkingObject *result = 0 ;
@@ -4297,7 +4297,7 @@ PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_5_rng_ae
 }
 
 
-PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_6_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint32 *_swig_go_1) {
+PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_6_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint32 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Sint32 *arg2 = 0 ;
   PractRand::StateWalkingObject *result = 0 ;
@@ -4312,7 +4312,7 @@ PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_6_rng_ae
 }
 
 
-PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_7_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint64 *_swig_go_1) {
+PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_7_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, PractRand::Sint64 *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   PractRand::Sint64 *arg2 = 0 ;
   PractRand::StateWalkingObject *result = 0 ;
@@ -4327,7 +4327,7 @@ PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_7_rng_ae
 }
 
 
-PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_8_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, float *_swig_go_1) {
+PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_8_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, float *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   float *arg2 = 0 ;
   PractRand::StateWalkingObject *result = 0 ;
@@ -4342,7 +4342,7 @@ PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_8_rng_ae
 }
 
 
-PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_9_rng_ae47b152c742082b(PractRand::StateWalkingObject *_swig_go_0, double *_swig_go_1) {
+PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_9_rng_9d087d9bb75357bd(PractRand::StateWalkingObject *_swig_go_0, double *_swig_go_1) {
   PractRand::StateWalkingObject *arg1 = (PractRand::StateWalkingObject *) 0 ;
   double *arg2 = 0 ;
   PractRand::StateWalkingObject *result = 0 ;
@@ -4357,7 +4357,7 @@ PractRand::StateWalkingObject *_wrap_StateWalkingObject_LeftShift__SWIG_9_rng_ae
 }
 
 
-PractRand::StateWalkingObject *_wrap_vrng_to_rng_seeder_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+PractRand::StateWalkingObject *_wrap_vrng_to_rng_seeder_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::vRNG *arg1 = (PractRand::RNGs::vRNG *) 0 ;
   PractRand::StateWalkingObject *result = 0 ;
   PractRand::StateWalkingObject *_swig_go_result;
@@ -4370,7 +4370,7 @@ PractRand::StateWalkingObject *_wrap_vrng_to_rng_seeder_rng_ae47b152c742082b(Pra
 }
 
 
-PractRand::StateWalkingObject *_wrap_get_autoseeder_rng_ae47b152c742082b(void *_swig_go_0) {
+PractRand::StateWalkingObject *_wrap_get_autoseeder_rng_9d087d9bb75357bd(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   PractRand::StateWalkingObject *result = 0 ;
   PractRand::StateWalkingObject *_swig_go_result;
@@ -4383,7 +4383,7 @@ PractRand::StateWalkingObject *_wrap_get_autoseeder_rng_ae47b152c742082b(void *_
 }
 
 
-intgo _wrap_OUTPUT_TYPE_salsa_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_TYPE_salsa_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -4395,7 +4395,7 @@ intgo _wrap_OUTPUT_TYPE_salsa_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_BITS_salsa_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_salsa_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -4407,7 +4407,7 @@ intgo _wrap_OUTPUT_BITS_salsa_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAGS_salsa_rng_ae47b152c742082b() {
+intgo _wrap_FLAGS_salsa_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -4419,7 +4419,7 @@ intgo _wrap_FLAGS_salsa_rng_ae47b152c742082b() {
 }
 
 
-PractRand::RNGs::Raw::salsa *_wrap_new_salsa_rng_ae47b152c742082b() {
+PractRand::RNGs::Raw::salsa *_wrap_new_salsa_rng_9d087d9bb75357bd() {
   PractRand::RNGs::Raw::salsa *result = 0 ;
   PractRand::RNGs::Raw::salsa *_swig_go_result;
   
@@ -4430,7 +4430,7 @@ PractRand::RNGs::Raw::salsa *_wrap_new_salsa_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_delete_salsa_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0) {
+void _wrap_delete_salsa_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::salsa *_swig_go_0) {
   PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
   
   arg1 = *(PractRand::RNGs::Raw::salsa **)&_swig_go_0; 
@@ -4440,7 +4440,7 @@ void _wrap_delete_salsa_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_
 }
 
 
-intgo _wrap_salsa_raw32_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0) {
+intgo _wrap_salsa_raw32_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::salsa *_swig_go_0) {
   PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
   PractRand::Uint32 result;
   intgo _swig_go_result;
@@ -4453,7 +4453,7 @@ intgo _wrap_salsa_raw32_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_
 }
 
 
-void _wrap_salsa_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0, long long _swig_go_1) {
+void _wrap_salsa_seed_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::salsa *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -4465,7 +4465,7 @@ void _wrap_salsa_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *
 }
 
 
-void _wrap_salsa_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0, intgo *_swig_go_1, bool _swig_go_2) {
+void _wrap_salsa_SeedAndIV_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::salsa *_swig_go_0, intgo *_swig_go_1, bool _swig_go_2) {
   PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
   PractRand::Uint32 *arg2 ;
   bool arg3 ;
@@ -4479,19 +4479,7 @@ void _wrap_salsa_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *
 }
 
 
-void _wrap_salsa_seed__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0, intgo *_swig_go_1) {
-  PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
-  PractRand::Uint32 *arg2 ;
-  
-  arg1 = *(PractRand::RNGs::Raw::salsa **)&_swig_go_0; 
-  arg2 = *(PractRand::Uint32 **)&_swig_go_1; 
-  
-  (arg1)->seed((PractRand::Uint32 const (*))arg2);
-  
-}
-
-
-void _wrap_salsa_seed_short__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0, intgo *_swig_go_1, bool _swig_go_2) {
+void _wrap_salsa_seed_short__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::salsa *_swig_go_0, intgo *_swig_go_1, bool _swig_go_2) {
   PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
   PractRand::Uint32 *arg2 ;
   bool arg3 ;
@@ -4505,7 +4493,7 @@ void _wrap_salsa_seed_short__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::s
 }
 
 
-void _wrap_salsa_seed_short__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_salsa_seed_short__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::salsa *_swig_go_0, intgo *_swig_go_1) {
   PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
   PractRand::Uint32 *arg2 ;
   
@@ -4517,7 +4505,7 @@ void _wrap_salsa_seed_short__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::s
 }
 
 
-void _wrap_salsa_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_salsa_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::salsa *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -4529,7 +4517,7 @@ void _wrap_salsa_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_s
 }
 
 
-void _wrap_salsa_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_salsa_seek_forward_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::salsa *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -4543,7 +4531,7 @@ void _wrap_salsa_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *
 }
 
 
-void _wrap_salsa_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_salsa_seek_backward_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::salsa *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -4557,7 +4545,7 @@ void _wrap_salsa_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa 
 }
 
 
-void _wrap_salsa_set_rounds_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0, intgo _swig_go_1) {
+void _wrap_salsa_set_rounds_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::salsa *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
   int arg2 ;
   
@@ -4569,7 +4557,7 @@ void _wrap_salsa_set_rounds_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_s
 }
 
 
-intgo _wrap_salsa_get_rounds_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_swig_go_0) {
+intgo _wrap_salsa_get_rounds_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::salsa *_swig_go_0) {
   PractRand::RNGs::Raw::salsa *arg1 = (PractRand::RNGs::Raw::salsa *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4582,13 +4570,13 @@ intgo _wrap_salsa_get_rounds_rng_ae47b152c742082b(PractRand::RNGs::Raw::salsa *_
 }
 
 
-void _wrap_salsa_self_test_rng_ae47b152c742082b() {
+void _wrap_salsa_self_test_rng_9d087d9bb75357bd() {
   PractRand::RNGs::Raw::salsa::self_test();
   
 }
 
 
-intgo _wrap_OUTPUT_TYPE_PolymorphicSalsa_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_TYPE_PolymorphicSalsa_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -4600,7 +4588,7 @@ intgo _wrap_OUTPUT_TYPE_PolymorphicSalsa_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_BITS_PolymorphicSalsa_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_PolymorphicSalsa_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -4612,7 +4600,7 @@ intgo _wrap_OUTPUT_BITS_PolymorphicSalsa_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAGS_PolymorphicSalsa_rng_ae47b152c742082b() {
+intgo _wrap_FLAGS_PolymorphicSalsa_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -4624,7 +4612,7 @@ intgo _wrap_FLAGS_PolymorphicSalsa_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_PolymorphicSalsa_implementation_set_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, PractRand::RNGs::Raw::salsa *_swig_go_1) {
+void _wrap_PolymorphicSalsa_implementation_set_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, PractRand::RNGs::Raw::salsa *_swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::RNGs::Raw::salsa *arg2 = (PractRand::RNGs::Raw::salsa *) 0 ;
   
@@ -4636,7 +4624,7 @@ void _wrap_PolymorphicSalsa_implementation_set_rng_ae47b152c742082b(PractRand::R
 }
 
 
-PractRand::RNGs::Raw::salsa *_wrap_PolymorphicSalsa_implementation_get_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+PractRand::RNGs::Raw::salsa *_wrap_PolymorphicSalsa_implementation_get_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::RNGs::Raw::salsa *result = 0 ;
   PractRand::RNGs::Raw::salsa *_swig_go_result;
@@ -4649,7 +4637,7 @@ PractRand::RNGs::Raw::salsa *_wrap_PolymorphicSalsa_implementation_get_rng_ae47b
 }
 
 
-PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromUInt64_rng_ae47b152c742082b(long long _swig_go_0) {
+PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromUInt64_rng_9d087d9bb75357bd(long long _swig_go_0) {
   PractRand::Uint64 arg1 ;
   PractRand::RNGs::Polymorphic::salsa *result = 0 ;
   PractRand::RNGs::Polymorphic::salsa *_swig_go_result;
@@ -4662,7 +4650,7 @@ PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromUInt64_rng_ae
 }
 
 
-PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromRNG_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromRNG_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::Polymorphic::vRNG *arg1 = (PractRand::RNGs::Polymorphic::vRNG *) 0 ;
   PractRand::RNGs::Polymorphic::salsa *result = 0 ;
   PractRand::RNGs::Polymorphic::salsa *_swig_go_result;
@@ -4675,7 +4663,7 @@ PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromRNG_rng_ae47b
 }
 
 
-PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromAuto_rng_ae47b152c742082b(PractRand::SEED_AUTO_TYPE *_swig_go_0) {
+PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromAuto_rng_9d087d9bb75357bd(PractRand::SEED_AUTO_TYPE *_swig_go_0) {
   PractRand::SEED_AUTO_TYPE arg1 ;
   PractRand::SEED_AUTO_TYPE *argp1 ;
   PractRand::RNGs::Polymorphic::salsa *result = 0 ;
@@ -4695,7 +4683,7 @@ PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromAuto_rng_ae47
 }
 
 
-PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromNone_rng_ae47b152c742082b(PractRand::SEED_NONE_TYPE *_swig_go_0) {
+PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromNone_rng_9d087d9bb75357bd(PractRand::SEED_NONE_TYPE *_swig_go_0) {
   PractRand::SEED_NONE_TYPE arg1 ;
   PractRand::SEED_NONE_TYPE *argp1 ;
   PractRand::RNGs::Polymorphic::salsa *result = 0 ;
@@ -4715,7 +4703,7 @@ PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromNone_rng_ae47
 }
 
 
-char _wrap_PolymorphicSalsa_raw8_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+char _wrap_PolymorphicSalsa_raw8_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint8 result;
   char _swig_go_result;
@@ -4728,7 +4716,7 @@ char _wrap_PolymorphicSalsa_raw8_rng_ae47b152c742082b(PractRand::RNGs::Polymorph
 }
 
 
-short _wrap_PolymorphicSalsa_raw16_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+short _wrap_PolymorphicSalsa_raw16_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint16 result;
   short _swig_go_result;
@@ -4741,7 +4729,7 @@ short _wrap_PolymorphicSalsa_raw16_rng_ae47b152c742082b(PractRand::RNGs::Polymor
 }
 
 
-intgo _wrap_PolymorphicSalsa_raw32_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+intgo _wrap_PolymorphicSalsa_raw32_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint32 result;
   intgo _swig_go_result;
@@ -4754,7 +4742,7 @@ intgo _wrap_PolymorphicSalsa_raw32_rng_ae47b152c742082b(PractRand::RNGs::Polymor
 }
 
 
-long long _wrap_PolymorphicSalsa_raw64_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+long long _wrap_PolymorphicSalsa_raw64_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -4767,7 +4755,7 @@ long long _wrap_PolymorphicSalsa_raw64_rng_ae47b152c742082b(PractRand::RNGs::Pol
 }
 
 
-void _wrap_PolymorphicSalsa_seed_SWIG_0_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
+void _wrap_PolymorphicSalsa_seed__SWIG_0_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -4779,7 +4767,7 @@ void _wrap_PolymorphicSalsa_seed_SWIG_0_0_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-void _wrap_PolymorphicSalsa_seed_SWIG_0_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
+void _wrap_PolymorphicSalsa_seed__SWIG_0_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::RNGs::vRNG *arg2 = (PractRand::RNGs::vRNG *) 0 ;
   
@@ -4791,7 +4779,7 @@ void _wrap_PolymorphicSalsa_seed_SWIG_0_1_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-long long _wrap_PolymorphicSalsa_get_flags_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+long long _wrap_PolymorphicSalsa_get_flags_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -4804,7 +4792,7 @@ long long _wrap_PolymorphicSalsa_get_flags_rng_ae47b152c742082b(PractRand::RNGs:
 }
 
 
-_gostring_ _wrap_PolymorphicSalsa_get_name_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+_gostring_ _wrap_PolymorphicSalsa_get_name_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -4817,7 +4805,7 @@ _gostring_ _wrap_PolymorphicSalsa_get_name_rng_ae47b152c742082b(PractRand::RNGs:
 }
 
 
-void _wrap_PolymorphicSalsa_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_PolymorphicSalsa_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -4829,7 +4817,7 @@ void _wrap_PolymorphicSalsa_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Pol
 }
 
 
-PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromSeedAndIV_rng_ae47b152c742082b(intgo *_swig_go_0, bool _swig_go_1) {
+PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromSeedAndIV_rng_9d087d9bb75357bd(intgo *_swig_go_0, bool _swig_go_1) {
   PractRand::Uint32 *arg1 ;
   bool arg2 ;
   PractRand::RNGs::Polymorphic::salsa *result = 0 ;
@@ -4844,7 +4832,19 @@ PractRand::RNGs::Polymorphic::salsa *_wrap_new_PolymorphicSalsaFromSeedAndIV_rng
 }
 
 
-void _wrap_PolymorphicSalsa_SeedAndIV_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo *_swig_go_1, bool _swig_go_2) {
+void _wrap_PolymorphicSalsa_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
+  PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
+  PractRand::Uint64 arg2 ;
+  
+  arg1 = *(PractRand::RNGs::Polymorphic::salsa **)&_swig_go_0; 
+  arg2 = (PractRand::Uint64)_swig_go_1; 
+  
+  (arg1)->seed(arg2);
+  
+}
+
+
+void _wrap_PolymorphicSalsa_SeedAndIV_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo *_swig_go_1, bool _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint32 *arg2 ;
   bool arg3 ;
@@ -4858,7 +4858,7 @@ void _wrap_PolymorphicSalsa_SeedAndIV_rng_ae47b152c742082b(PractRand::RNGs::Poly
 }
 
 
-void _wrap_PolymorphicSalsa_seed_short__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo *_swig_go_1, bool _swig_go_2) {
+void _wrap_PolymorphicSalsa_seed_short__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo *_swig_go_1, bool _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint32 *arg2 ;
   bool arg3 ;
@@ -4872,7 +4872,7 @@ void _wrap_PolymorphicSalsa_seed_short__SWIG_0_rng_ae47b152c742082b(PractRand::R
 }
 
 
-void _wrap_PolymorphicSalsa_seed_short__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_PolymorphicSalsa_seed_short__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo *_swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint32 *arg2 ;
   
@@ -4884,7 +4884,7 @@ void _wrap_PolymorphicSalsa_seed_short__SWIG_1_rng_ae47b152c742082b(PractRand::R
 }
 
 
-void _wrap_PolymorphicSalsa_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_PolymorphicSalsa_seek_forward128_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -4898,7 +4898,7 @@ void _wrap_PolymorphicSalsa_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs
 }
 
 
-void _wrap_PolymorphicSalsa_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_PolymorphicSalsa_seek_backward128_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -4912,7 +4912,7 @@ void _wrap_PolymorphicSalsa_seek_backward128_rng_ae47b152c742082b(PractRand::RNG
 }
 
 
-void _wrap_PolymorphicSalsa_set_rounds_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1) {
+void _wrap_PolymorphicSalsa_set_rounds_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   int arg2 ;
   
@@ -4924,7 +4924,7 @@ void _wrap_PolymorphicSalsa_set_rounds_rng_ae47b152c742082b(PractRand::RNGs::Pol
 }
 
 
-intgo _wrap_PolymorphicSalsa_get_rounds_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+intgo _wrap_PolymorphicSalsa_get_rounds_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4937,7 +4937,7 @@ intgo _wrap_PolymorphicSalsa_get_rounds_rng_ae47b152c742082b(PractRand::RNGs::Po
 }
 
 
-void _wrap_delete_PolymorphicSalsa_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+void _wrap_delete_PolymorphicSalsa_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   
   arg1 = *(PractRand::RNGs::Polymorphic::salsa **)&_swig_go_0; 
@@ -4947,7 +4947,7 @@ void _wrap_delete_PolymorphicSalsa_rng_ae47b152c742082b(PractRand::RNGs::Polymor
 }
 
 
-intgo _wrap_PolymorphicSalsa_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+intgo _wrap_PolymorphicSalsa_get_native_output_size_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -4961,7 +4961,7 @@ intgo _wrap_PolymorphicSalsa_get_native_output_size_rng_ae47b152c742082b(PractRa
 }
 
 
-void _wrap_PolymorphicSalsa_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
+void _wrap_PolymorphicSalsa_seed_fast_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -4975,7 +4975,7 @@ void _wrap_PolymorphicSalsa_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::Poly
 }
 
 
-void _wrap_PolymorphicSalsa_autoseed_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+void _wrap_PolymorphicSalsa_autoseed_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   
   arg1 = *(PractRand::RNGs::Polymorphic::salsa **)&_swig_go_0; 
@@ -4987,7 +4987,7 @@ void _wrap_PolymorphicSalsa_autoseed_rng_ae47b152c742082b(PractRand::RNGs::Polym
 }
 
 
-long long _wrap_PolymorphicSalsa_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+long long _wrap_PolymorphicSalsa_serialize__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -5011,7 +5011,7 @@ long long _wrap_PolymorphicSalsa_serialize__SWIG_0_rng_ae47b152c742082b(PractRan
 }
 
 
-_gostring_ _wrap_PolymorphicSalsa_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long *_swig_go_1) {
+_gostring_ _wrap_PolymorphicSalsa_serialize__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long *_swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   size_t *arg2 = (size_t *) 0 ;
   char *result = 0 ;
@@ -5028,7 +5028,7 @@ _gostring_ _wrap_PolymorphicSalsa_serialize__SWIG_1_rng_ae47b152c742082b(PractRa
 }
 
 
-bool _wrap_PolymorphicSalsa_deserialize_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+bool _wrap_PolymorphicSalsa_deserialize_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -5052,7 +5052,7 @@ bool _wrap_PolymorphicSalsa_deserialize_rng_ae47b152c742082b(PractRand::RNGs::Po
 }
 
 
-_gostring_ _wrap_PolymorphicSalsa_print_state_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+_gostring_ _wrap_PolymorphicSalsa_print_state_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -5067,7 +5067,7 @@ _gostring_ _wrap_PolymorphicSalsa_print_state_rng_ae47b152c742082b(PractRand::RN
 }
 
 
-intgo _wrap_PolymorphicSalsa_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_PolymorphicSalsa_randi__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -5084,7 +5084,7 @@ intgo _wrap_PolymorphicSalsa_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs:
 }
 
 
-intgo _wrap_PolymorphicSalsa_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_PolymorphicSalsa_randi__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -5103,7 +5103,7 @@ intgo _wrap_PolymorphicSalsa_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs:
 }
 
 
-intgo _wrap_PolymorphicSalsa_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_PolymorphicSalsa_randi_fast__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -5120,7 +5120,7 @@ intgo _wrap_PolymorphicSalsa_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::
 }
 
 
-intgo _wrap_PolymorphicSalsa_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_PolymorphicSalsa_randi_fast__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -5139,7 +5139,7 @@ intgo _wrap_PolymorphicSalsa_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::
 }
 
 
-long long _wrap_PolymorphicSalsa_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
+long long _wrap_PolymorphicSalsa_randli__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 result;
@@ -5156,7 +5156,7 @@ long long _wrap_PolymorphicSalsa_randli__SWIG_0_rng_ae47b152c742082b(PractRand::
 }
 
 
-long long _wrap_PolymorphicSalsa_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+long long _wrap_PolymorphicSalsa_randli__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -5175,7 +5175,7 @@ long long _wrap_PolymorphicSalsa_randli__SWIG_1_rng_ae47b152c742082b(PractRand::
 }
 
 
-float _wrap_PolymorphicSalsa_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+float _wrap_PolymorphicSalsa_randf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   float result;
   float _swig_go_result;
@@ -5190,7 +5190,7 @@ float _wrap_PolymorphicSalsa_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs:
 }
 
 
-float _wrap_PolymorphicSalsa_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, float _swig_go_1) {
+float _wrap_PolymorphicSalsa_randf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, float _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   float arg2 ;
   float result;
@@ -5207,7 +5207,7 @@ float _wrap_PolymorphicSalsa_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs:
 }
 
 
-float _wrap_PolymorphicSalsa_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+float _wrap_PolymorphicSalsa_randf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -5226,7 +5226,7 @@ float _wrap_PolymorphicSalsa_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs:
 }
 
 
-double _wrap_PolymorphicSalsa_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+double _wrap_PolymorphicSalsa_randlf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   double result;
   double _swig_go_result;
@@ -5241,7 +5241,7 @@ double _wrap_PolymorphicSalsa_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNG
 }
 
 
-double _wrap_PolymorphicSalsa_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, double _swig_go_1) {
+double _wrap_PolymorphicSalsa_randlf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, double _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   double arg2 ;
   double result;
@@ -5258,7 +5258,7 @@ double _wrap_PolymorphicSalsa_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNG
 }
 
 
-double _wrap_PolymorphicSalsa_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_PolymorphicSalsa_randlf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -5277,7 +5277,7 @@ double _wrap_PolymorphicSalsa_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNG
 }
 
 
-double _wrap_PolymorphicSalsa_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+double _wrap_PolymorphicSalsa_gaussian__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   double result;
   double _swig_go_result;
@@ -5292,7 +5292,7 @@ double _wrap_PolymorphicSalsa_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::R
 }
 
 
-double _wrap_PolymorphicSalsa_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_PolymorphicSalsa_gaussian__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -5311,7 +5311,7 @@ double _wrap_PolymorphicSalsa_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::R
 }
 
 
-void _wrap_PolymorphicSalsa_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
+void _wrap_PolymorphicSalsa_seek_forward_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -5325,7 +5325,7 @@ void _wrap_PolymorphicSalsa_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::P
 }
 
 
-void _wrap_PolymorphicSalsa_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
+void _wrap_PolymorphicSalsa_seek_backward_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -5339,7 +5339,7 @@ void _wrap_PolymorphicSalsa_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-void _wrap_PolymorphicSalsa_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+void _wrap_PolymorphicSalsa_reset_entropy_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   
   arg1 = *(PractRand::RNGs::Polymorphic::salsa **)&_swig_go_0; 
@@ -5351,7 +5351,7 @@ void _wrap_PolymorphicSalsa_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-void _wrap_PolymorphicSalsa_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, char _swig_go_1) {
+void _wrap_PolymorphicSalsa_add_entropy8_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, char _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint8 arg2 ;
   
@@ -5365,7 +5365,7 @@ void _wrap_PolymorphicSalsa_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::P
 }
 
 
-void _wrap_PolymorphicSalsa_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, short _swig_go_1) {
+void _wrap_PolymorphicSalsa_add_entropy16_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, short _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint16 arg2 ;
   
@@ -5379,7 +5379,7 @@ void _wrap_PolymorphicSalsa_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-void _wrap_PolymorphicSalsa_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1) {
+void _wrap_PolymorphicSalsa_add_entropy32_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint32 arg2 ;
   
@@ -5393,7 +5393,7 @@ void _wrap_PolymorphicSalsa_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-void _wrap_PolymorphicSalsa_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
+void _wrap_PolymorphicSalsa_add_entropy64_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -5407,7 +5407,7 @@ void _wrap_PolymorphicSalsa_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-void _wrap_PolymorphicSalsa_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
+void _wrap_PolymorphicSalsa_add_entropy_N_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   void *arg2 = (void *) 0 ;
   size_t arg3 ;
@@ -5423,7 +5423,7 @@ void _wrap_PolymorphicSalsa_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-bool _wrap_PolymorphicSalsa_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_PolymorphicSalsa_add_entropy_automatically__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   int arg2 ;
   bool result;
@@ -5440,7 +5440,7 @@ bool _wrap_PolymorphicSalsa_add_entropy_automatically__SWIG_0_rng_ae47b152c74208
 }
 
 
-bool _wrap_PolymorphicSalsa_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+bool _wrap_PolymorphicSalsa_add_entropy_automatically__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -5455,7 +5455,7 @@ bool _wrap_PolymorphicSalsa_add_entropy_automatically__SWIG_1_rng_ae47b152c74208
 }
 
 
-void _wrap_PolymorphicSalsa_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
+void _wrap_PolymorphicSalsa_flush_buffers_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::salsa *_swig_go_0) {
   PractRand::RNGs::Polymorphic::salsa *arg1 = (PractRand::RNGs::Polymorphic::salsa *) 0 ;
   
   arg1 = *(PractRand::RNGs::Polymorphic::salsa **)&_swig_go_0; 
@@ -5467,7 +5467,7 @@ void _wrap_PolymorphicSalsa_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-intgo _wrap_OUTPUT_TYPE_sfc16_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_TYPE_sfc16_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5479,7 +5479,7 @@ intgo _wrap_OUTPUT_TYPE_sfc16_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_BITS_sfc16_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_sfc16_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5491,7 +5491,7 @@ intgo _wrap_OUTPUT_BITS_sfc16_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAGS_sfc16_rng_ae47b152c742082b() {
+intgo _wrap_FLAGS_sfc16_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5503,7 +5503,7 @@ intgo _wrap_FLAGS_sfc16_rng_ae47b152c742082b() {
 }
 
 
-short _wrap_sfc16_raw16_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *_swig_go_0) {
+short _wrap_sfc16_raw16_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc16 *_swig_go_0) {
   PractRand::RNGs::Raw::sfc16 *arg1 = (PractRand::RNGs::Raw::sfc16 *) 0 ;
   PractRand::Uint16 result;
   short _swig_go_result;
@@ -5516,7 +5516,7 @@ short _wrap_sfc16_raw16_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *_swig_
 }
 
 
-void _wrap_sfc16_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *_swig_go_0, long long _swig_go_1) {
+void _wrap_sfc16_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc16 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::sfc16 *arg1 = (PractRand::RNGs::Raw::sfc16 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -5528,7 +5528,7 @@ void _wrap_sfc16_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *
 }
 
 
-void _wrap_sfc16_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *_swig_go_0, long long _swig_go_1) {
+void _wrap_sfc16_seed_fast_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc16 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::sfc16 *arg1 = (PractRand::RNGs::Raw::sfc16 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -5540,7 +5540,7 @@ void _wrap_sfc16_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *_sw
 }
 
 
-void _wrap_sfc16_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *_swig_go_0, short _swig_go_1, short _swig_go_2, short _swig_go_3) {
+void _wrap_sfc16_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc16 *_swig_go_0, short _swig_go_1, short _swig_go_2, short _swig_go_3) {
   PractRand::RNGs::Raw::sfc16 *arg1 = (PractRand::RNGs::Raw::sfc16 *) 0 ;
   PractRand::Uint16 arg2 ;
   PractRand::Uint16 arg3 ;
@@ -5556,7 +5556,7 @@ void _wrap_sfc16_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *
 }
 
 
-void _wrap_sfc16_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_sfc16_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc16 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::Raw::sfc16 *arg1 = (PractRand::RNGs::Raw::sfc16 *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -5568,7 +5568,7 @@ void _wrap_sfc16_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *_s
 }
 
 
-PractRand::RNGs::Raw::sfc16 *_wrap_new_sfc16_rng_ae47b152c742082b() {
+PractRand::RNGs::Raw::sfc16 *_wrap_new_sfc16_rng_9d087d9bb75357bd() {
   PractRand::RNGs::Raw::sfc16 *result = 0 ;
   PractRand::RNGs::Raw::sfc16 *_swig_go_result;
   
@@ -5579,7 +5579,7 @@ PractRand::RNGs::Raw::sfc16 *_wrap_new_sfc16_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_delete_sfc16_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *_swig_go_0) {
+void _wrap_delete_sfc16_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc16 *_swig_go_0) {
   PractRand::RNGs::Raw::sfc16 *arg1 = (PractRand::RNGs::Raw::sfc16 *) 0 ;
   
   arg1 = *(PractRand::RNGs::Raw::sfc16 **)&_swig_go_0; 
@@ -5589,7 +5589,7 @@ void _wrap_delete_sfc16_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc16 *_swig_
 }
 
 
-intgo _wrap_OUTPUT_TYPE_sfc32_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_TYPE_sfc32_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5601,7 +5601,7 @@ intgo _wrap_OUTPUT_TYPE_sfc32_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_BITS_sfc32_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_sfc32_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5613,7 +5613,7 @@ intgo _wrap_OUTPUT_BITS_sfc32_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAGS_sfc32_rng_ae47b152c742082b() {
+intgo _wrap_FLAGS_sfc32_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5625,7 +5625,7 @@ intgo _wrap_FLAGS_sfc32_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_sfc32_raw32_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *_swig_go_0) {
+intgo _wrap_sfc32_raw32_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc32 *_swig_go_0) {
   PractRand::RNGs::Raw::sfc32 *arg1 = (PractRand::RNGs::Raw::sfc32 *) 0 ;
   PractRand::Uint32 result;
   intgo _swig_go_result;
@@ -5638,7 +5638,7 @@ intgo _wrap_sfc32_raw32_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *_swig_
 }
 
 
-void _wrap_sfc32_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *_swig_go_0, long long _swig_go_1) {
+void _wrap_sfc32_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc32 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::sfc32 *arg1 = (PractRand::RNGs::Raw::sfc32 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -5650,7 +5650,7 @@ void _wrap_sfc32_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *
 }
 
 
-void _wrap_sfc32_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *_swig_go_0, long long _swig_go_1) {
+void _wrap_sfc32_seed_fast_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc32 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::sfc32 *arg1 = (PractRand::RNGs::Raw::sfc32 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -5662,7 +5662,7 @@ void _wrap_sfc32_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *_sw
 }
 
 
-void _wrap_sfc32_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+void _wrap_sfc32_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc32 *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   PractRand::RNGs::Raw::sfc32 *arg1 = (PractRand::RNGs::Raw::sfc32 *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -5678,7 +5678,7 @@ void _wrap_sfc32_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *
 }
 
 
-void _wrap_sfc32_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_sfc32_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc32 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::Raw::sfc32 *arg1 = (PractRand::RNGs::Raw::sfc32 *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -5690,7 +5690,7 @@ void _wrap_sfc32_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *_s
 }
 
 
-PractRand::RNGs::Raw::sfc32 *_wrap_new_sfc32_rng_ae47b152c742082b() {
+PractRand::RNGs::Raw::sfc32 *_wrap_new_sfc32_rng_9d087d9bb75357bd() {
   PractRand::RNGs::Raw::sfc32 *result = 0 ;
   PractRand::RNGs::Raw::sfc32 *_swig_go_result;
   
@@ -5701,7 +5701,7 @@ PractRand::RNGs::Raw::sfc32 *_wrap_new_sfc32_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_delete_sfc32_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *_swig_go_0) {
+void _wrap_delete_sfc32_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc32 *_swig_go_0) {
   PractRand::RNGs::Raw::sfc32 *arg1 = (PractRand::RNGs::Raw::sfc32 *) 0 ;
   
   arg1 = *(PractRand::RNGs::Raw::sfc32 **)&_swig_go_0; 
@@ -5711,7 +5711,7 @@ void _wrap_delete_sfc32_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc32 *_swig_
 }
 
 
-intgo _wrap_OUTPUT_TYPE_sfc64_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_TYPE_sfc64_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5723,7 +5723,7 @@ intgo _wrap_OUTPUT_TYPE_sfc64_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_BITS_sfc64_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_sfc64_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5735,7 +5735,7 @@ intgo _wrap_OUTPUT_BITS_sfc64_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAGS_sfc64_rng_ae47b152c742082b() {
+intgo _wrap_FLAGS_sfc64_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5747,7 +5747,7 @@ intgo _wrap_FLAGS_sfc64_rng_ae47b152c742082b() {
 }
 
 
-long long _wrap_sfc64_raw64_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *_swig_go_0) {
+long long _wrap_sfc64_raw64_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc64 *_swig_go_0) {
   PractRand::RNGs::Raw::sfc64 *arg1 = (PractRand::RNGs::Raw::sfc64 *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -5760,7 +5760,7 @@ long long _wrap_sfc64_raw64_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *_s
 }
 
 
-void _wrap_sfc64_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *_swig_go_0, long long _swig_go_1) {
+void _wrap_sfc64_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc64 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::sfc64 *arg1 = (PractRand::RNGs::Raw::sfc64 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -5772,7 +5772,7 @@ void _wrap_sfc64_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *
 }
 
 
-void _wrap_sfc64_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *_swig_go_0, long long _swig_go_1) {
+void _wrap_sfc64_seed_fast_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc64 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::sfc64 *arg1 = (PractRand::RNGs::Raw::sfc64 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -5784,7 +5784,7 @@ void _wrap_sfc64_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *_sw
 }
 
 
-void _wrap_sfc64_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2, long long _swig_go_3) {
+void _wrap_sfc64_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2, long long _swig_go_3) {
   PractRand::RNGs::Raw::sfc64 *arg1 = (PractRand::RNGs::Raw::sfc64 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -5800,7 +5800,7 @@ void _wrap_sfc64_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *
 }
 
 
-void _wrap_sfc64_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_sfc64_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc64 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::Raw::sfc64 *arg1 = (PractRand::RNGs::Raw::sfc64 *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -5812,7 +5812,7 @@ void _wrap_sfc64_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *_s
 }
 
 
-PractRand::RNGs::Raw::sfc64 *_wrap_new_sfc64_rng_ae47b152c742082b() {
+PractRand::RNGs::Raw::sfc64 *_wrap_new_sfc64_rng_9d087d9bb75357bd() {
   PractRand::RNGs::Raw::sfc64 *result = 0 ;
   PractRand::RNGs::Raw::sfc64 *_swig_go_result;
   
@@ -5823,7 +5823,7 @@ PractRand::RNGs::Raw::sfc64 *_wrap_new_sfc64_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_delete_sfc64_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *_swig_go_0) {
+void _wrap_delete_sfc64_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::sfc64 *_swig_go_0) {
   PractRand::RNGs::Raw::sfc64 *arg1 = (PractRand::RNGs::Raw::sfc64 *) 0 ;
   
   arg1 = *(PractRand::RNGs::Raw::sfc64 **)&_swig_go_0; 
@@ -5833,7 +5833,7 @@ void _wrap_delete_sfc64_rng_ae47b152c742082b(PractRand::RNGs::Raw::sfc64 *_swig_
 }
 
 
-intgo _wrap_OUTPUT_TYPE_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_TYPE_PolymorphicSha2Pooled_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5845,7 +5845,7 @@ intgo _wrap_OUTPUT_TYPE_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_BITS_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_PolymorphicSha2Pooled_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5857,7 +5857,7 @@ intgo _wrap_OUTPUT_BITS_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAGS_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
+intgo _wrap_FLAGS_PolymorphicSha2Pooled_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5869,7 +5869,7 @@ intgo _wrap_FLAGS_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_STATE_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
+intgo _wrap_STATE_SIZE_PolymorphicSha2Pooled_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5881,7 +5881,7 @@ intgo _wrap_STATE_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_INPUT_BUFFER_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
+intgo _wrap_INPUT_BUFFER_SIZE_PolymorphicSha2Pooled_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5893,7 +5893,7 @@ intgo _wrap_INPUT_BUFFER_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_BUFFER_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BUFFER_SIZE_PolymorphicSha2Pooled_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -5905,7 +5905,7 @@ intgo _wrap_OUTPUT_BUFFER_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_PolymorphicSha2Pooled_state_set_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, char *_swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_state_set_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, char *_swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint8 *arg2 ;
   
@@ -5921,7 +5921,7 @@ void _wrap_PolymorphicSha2Pooled_state_set_rng_ae47b152c742082b(PractRand::RNGs:
 }
 
 
-char *_wrap_PolymorphicSha2Pooled_state_get_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+char *_wrap_PolymorphicSha2Pooled_state_get_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint8 *result = 0 ;
   char *_swig_go_result;
@@ -5934,7 +5934,7 @@ char *_wrap_PolymorphicSha2Pooled_state_get_rng_ae47b152c742082b(PractRand::RNGs
 }
 
 
-void _wrap_PolymorphicSha2Pooled_input_buffer_set_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, char *_swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_input_buffer_set_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, char *_swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint8 *arg2 ;
   
@@ -5950,7 +5950,7 @@ void _wrap_PolymorphicSha2Pooled_input_buffer_set_rng_ae47b152c742082b(PractRand
 }
 
 
-char *_wrap_PolymorphicSha2Pooled_input_buffer_get_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+char *_wrap_PolymorphicSha2Pooled_input_buffer_get_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint8 *result = 0 ;
   char *_swig_go_result;
@@ -5963,7 +5963,7 @@ char *_wrap_PolymorphicSha2Pooled_input_buffer_get_rng_ae47b152c742082b(PractRan
 }
 
 
-void _wrap_PolymorphicSha2Pooled_output_buffer_set_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, char *_swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_output_buffer_set_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, char *_swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint8 *arg2 ;
   
@@ -5979,7 +5979,7 @@ void _wrap_PolymorphicSha2Pooled_output_buffer_set_rng_ae47b152c742082b(PractRan
 }
 
 
-char *_wrap_PolymorphicSha2Pooled_output_buffer_get_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+char *_wrap_PolymorphicSha2Pooled_output_buffer_get_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint8 *result = 0 ;
   char *_swig_go_result;
@@ -5992,7 +5992,7 @@ char *_wrap_PolymorphicSha2Pooled_output_buffer_get_rng_ae47b152c742082b(PractRa
 }
 
 
-void _wrap_PolymorphicSha2Pooled_input_buffer_left_set_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, short _swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_input_buffer_left_set_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, short _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint16 arg2 ;
   
@@ -6004,7 +6004,7 @@ void _wrap_PolymorphicSha2Pooled_input_buffer_left_set_rng_ae47b152c742082b(Prac
 }
 
 
-short _wrap_PolymorphicSha2Pooled_input_buffer_left_get_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+short _wrap_PolymorphicSha2Pooled_input_buffer_left_get_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint16 result;
   short _swig_go_result;
@@ -6017,7 +6017,7 @@ short _wrap_PolymorphicSha2Pooled_input_buffer_left_get_rng_ae47b152c742082b(Pra
 }
 
 
-void _wrap_PolymorphicSha2Pooled_output_buffer_left_set_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, short _swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_output_buffer_left_set_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, short _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint16 arg2 ;
   
@@ -6029,7 +6029,7 @@ void _wrap_PolymorphicSha2Pooled_output_buffer_left_set_rng_ae47b152c742082b(Pra
 }
 
 
-short _wrap_PolymorphicSha2Pooled_output_buffer_left_get_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+short _wrap_PolymorphicSha2Pooled_output_buffer_left_get_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint16 result;
   short _swig_go_result;
@@ -6042,7 +6042,7 @@ short _wrap_PolymorphicSha2Pooled_output_buffer_left_get_rng_ae47b152c742082b(Pr
 }
 
 
-void _wrap_PolymorphicSha2Pooled_state_phase_set_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, short _swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_state_phase_set_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, short _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint16 arg2 ;
   
@@ -6054,7 +6054,7 @@ void _wrap_PolymorphicSha2Pooled_state_phase_set_rng_ae47b152c742082b(PractRand:
 }
 
 
-short _wrap_PolymorphicSha2Pooled_state_phase_get_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+short _wrap_PolymorphicSha2Pooled_state_phase_get_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint16 result;
   short _swig_go_result;
@@ -6067,7 +6067,7 @@ short _wrap_PolymorphicSha2Pooled_state_phase_get_rng_ae47b152c742082b(PractRand
 }
 
 
-PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFromUInt64_rng_ae47b152c742082b(long long _swig_go_0) {
+PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFromUInt64_rng_9d087d9bb75357bd(long long _swig_go_0) {
   PractRand::Uint64 arg1 ;
   PractRand::RNGs::Polymorphic::sha2_based_pool *result = 0 ;
   PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_result;
@@ -6080,7 +6080,7 @@ PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFr
 }
 
 
-PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFromRNG_rng_ae47b152c742082b(PractRand::RNGs::vRNG *_swig_go_0) {
+PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFromRNG_rng_9d087d9bb75357bd(PractRand::RNGs::vRNG *_swig_go_0) {
   PractRand::RNGs::Polymorphic::vRNG *arg1 = (PractRand::RNGs::Polymorphic::vRNG *) 0 ;
   PractRand::RNGs::Polymorphic::sha2_based_pool *result = 0 ;
   PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_result;
@@ -6093,7 +6093,7 @@ PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFr
 }
 
 
-PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFromAuto_rng_ae47b152c742082b(PractRand::SEED_AUTO_TYPE *_swig_go_0) {
+PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFromAuto_rng_9d087d9bb75357bd(PractRand::SEED_AUTO_TYPE *_swig_go_0) {
   PractRand::SEED_AUTO_TYPE arg1 ;
   PractRand::SEED_AUTO_TYPE *argp1 ;
   PractRand::RNGs::Polymorphic::sha2_based_pool *result = 0 ;
@@ -6113,7 +6113,7 @@ PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFr
 }
 
 
-PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFromNone_rng_ae47b152c742082b(PractRand::SEED_NONE_TYPE *_swig_go_0) {
+PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFromNone_rng_9d087d9bb75357bd(PractRand::SEED_NONE_TYPE *_swig_go_0) {
   PractRand::SEED_NONE_TYPE arg1 ;
   PractRand::SEED_NONE_TYPE *argp1 ;
   PractRand::RNGs::Polymorphic::sha2_based_pool *result = 0 ;
@@ -6133,7 +6133,7 @@ PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2PooledFr
 }
 
 
-PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2Pooled_rng_ae47b152c742082b() {
+PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2Pooled_rng_9d087d9bb75357bd() {
   PractRand::RNGs::Polymorphic::sha2_based_pool *result = 0 ;
   PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_result;
   
@@ -6144,7 +6144,7 @@ PractRand::RNGs::Polymorphic::sha2_based_pool *_wrap_new_PolymorphicSha2Pooled_r
 }
 
 
-void _wrap_delete_PolymorphicSha2Pooled_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+void _wrap_delete_PolymorphicSha2Pooled_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   
   arg1 = *(PractRand::RNGs::Polymorphic::sha2_based_pool **)&_swig_go_0; 
@@ -6154,7 +6154,7 @@ void _wrap_delete_PolymorphicSha2Pooled_rng_ae47b152c742082b(PractRand::RNGs::Po
 }
 
 
-_gostring_ _wrap_PolymorphicSha2Pooled_get_name_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+_gostring_ _wrap_PolymorphicSha2Pooled_get_name_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -6167,7 +6167,7 @@ _gostring_ _wrap_PolymorphicSha2Pooled_get_name_rng_ae47b152c742082b(PractRand::
 }
 
 
-long long _wrap_PolymorphicSha2Pooled_get_flags_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+long long _wrap_PolymorphicSha2Pooled_get_flags_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -6180,7 +6180,7 @@ long long _wrap_PolymorphicSha2Pooled_get_flags_rng_ae47b152c742082b(PractRand::
 }
 
 
-char _wrap_PolymorphicSha2Pooled_raw8_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+char _wrap_PolymorphicSha2Pooled_raw8_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint8 result;
   char _swig_go_result;
@@ -6193,7 +6193,7 @@ char _wrap_PolymorphicSha2Pooled_raw8_rng_ae47b152c742082b(PractRand::RNGs::Poly
 }
 
 
-void _wrap_PolymorphicSha2Pooled_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -6205,7 +6205,7 @@ void _wrap_PolymorphicSha2Pooled_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RN
 }
 
 
-void _wrap_PolymorphicSha2Pooled_reset_state_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+void _wrap_PolymorphicSha2Pooled_reset_state_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   
   arg1 = *(PractRand::RNGs::Polymorphic::sha2_based_pool **)&_swig_go_0; 
@@ -6215,7 +6215,7 @@ void _wrap_PolymorphicSha2Pooled_reset_state_rng_ae47b152c742082b(PractRand::RNG
 }
 
 
-void _wrap_PolymorphicSha2Pooled_seed__SWIG_1_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_seed__SWIG_1_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::RNGs::vRNG *arg2 = (PractRand::RNGs::vRNG *) 0 ;
   
@@ -6227,7 +6227,7 @@ void _wrap_PolymorphicSha2Pooled_seed__SWIG_1_0_rng_ae47b152c742082b(PractRand::
 }
 
 
-void _wrap_PolymorphicSha2Pooled_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -6239,7 +6239,7 @@ void _wrap_PolymorphicSha2Pooled_walk_state_rng_ae47b152c742082b(PractRand::RNGs
 }
 
 
-void _wrap_PolymorphicSha2Pooled_reset_entropy_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+void _wrap_PolymorphicSha2Pooled_reset_entropy_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   
   arg1 = *(PractRand::RNGs::Polymorphic::sha2_based_pool **)&_swig_go_0; 
@@ -6249,7 +6249,7 @@ void _wrap_PolymorphicSha2Pooled_reset_entropy_rng_ae47b152c742082b(PractRand::R
 }
 
 
-void _wrap_PolymorphicSha2Pooled_add_entropy8_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, char _swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_add_entropy8_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, char _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint8 arg2 ;
   
@@ -6261,7 +6261,7 @@ void _wrap_PolymorphicSha2Pooled_add_entropy8_rng_ae47b152c742082b(PractRand::RN
 }
 
 
-void _wrap_PolymorphicSha2Pooled_add_entropy16_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, short _swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_add_entropy16_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, short _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint16 arg2 ;
   
@@ -6273,7 +6273,7 @@ void _wrap_PolymorphicSha2Pooled_add_entropy16_rng_ae47b152c742082b(PractRand::R
 }
 
 
-void _wrap_PolymorphicSha2Pooled_add_entropy32_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_add_entropy32_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint32 arg2 ;
   
@@ -6285,7 +6285,7 @@ void _wrap_PolymorphicSha2Pooled_add_entropy32_rng_ae47b152c742082b(PractRand::R
 }
 
 
-void _wrap_PolymorphicSha2Pooled_add_entropy64_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_add_entropy64_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -6297,7 +6297,7 @@ void _wrap_PolymorphicSha2Pooled_add_entropy64_rng_ae47b152c742082b(PractRand::R
 }
 
 
-void _wrap_PolymorphicSha2Pooled_flush_buffers_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+void _wrap_PolymorphicSha2Pooled_flush_buffers_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   
   arg1 = *(PractRand::RNGs::Polymorphic::sha2_based_pool **)&_swig_go_0; 
@@ -6307,7 +6307,7 @@ void _wrap_PolymorphicSha2Pooled_flush_buffers_rng_ae47b152c742082b(PractRand::R
 }
 
 
-short _wrap_PolymorphicSha2Pooled_raw16_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+short _wrap_PolymorphicSha2Pooled_raw16_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint16 result;
   short _swig_go_result;
@@ -6321,7 +6321,7 @@ short _wrap_PolymorphicSha2Pooled_raw16_rng_ae47b152c742082b(PractRand::RNGs::Po
 }
 
 
-intgo _wrap_PolymorphicSha2Pooled_raw32_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+intgo _wrap_PolymorphicSha2Pooled_raw32_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint32 result;
   intgo _swig_go_result;
@@ -6335,7 +6335,7 @@ intgo _wrap_PolymorphicSha2Pooled_raw32_rng_ae47b152c742082b(PractRand::RNGs::Po
 }
 
 
-long long _wrap_PolymorphicSha2Pooled_raw64_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+long long _wrap_PolymorphicSha2Pooled_raw64_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -6349,7 +6349,7 @@ long long _wrap_PolymorphicSha2Pooled_raw64_rng_ae47b152c742082b(PractRand::RNGs
 }
 
 
-intgo _wrap_PolymorphicSha2Pooled_get_native_output_size_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+intgo _wrap_PolymorphicSha2Pooled_get_native_output_size_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -6363,7 +6363,7 @@ intgo _wrap_PolymorphicSha2Pooled_get_native_output_size_rng_ae47b152c742082b(Pr
 }
 
 
-void _wrap_PolymorphicSha2Pooled_seed_fast_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_seed_fast_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -6377,7 +6377,7 @@ void _wrap_PolymorphicSha2Pooled_seed_fast_rng_ae47b152c742082b(PractRand::RNGs:
 }
 
 
-void _wrap_PolymorphicSha2Pooled_autoseed_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+void _wrap_PolymorphicSha2Pooled_autoseed_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   
   arg1 = *(PractRand::RNGs::Polymorphic::sha2_based_pool **)&_swig_go_0; 
@@ -6389,7 +6389,7 @@ void _wrap_PolymorphicSha2Pooled_autoseed_rng_ae47b152c742082b(PractRand::RNGs::
 }
 
 
-long long _wrap_PolymorphicSha2Pooled_serialize__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+long long _wrap_PolymorphicSha2Pooled_serialize__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -6413,7 +6413,7 @@ long long _wrap_PolymorphicSha2Pooled_serialize__SWIG_0_rng_ae47b152c742082b(Pra
 }
 
 
-_gostring_ _wrap_PolymorphicSha2Pooled_serialize__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long *_swig_go_1) {
+_gostring_ _wrap_PolymorphicSha2Pooled_serialize__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long *_swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   size_t *arg2 = (size_t *) 0 ;
   char *result = 0 ;
@@ -6430,7 +6430,7 @@ _gostring_ _wrap_PolymorphicSha2Pooled_serialize__SWIG_1_rng_ae47b152c742082b(Pr
 }
 
 
-bool _wrap_PolymorphicSha2Pooled_deserialize_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
+bool _wrap_PolymorphicSha2Pooled_deserialize_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   char *arg2 = (char *) 0 ;
   long arg3 ;
@@ -6454,7 +6454,7 @@ bool _wrap_PolymorphicSha2Pooled_deserialize_rng_ae47b152c742082b(PractRand::RNG
 }
 
 
-_gostring_ _wrap_PolymorphicSha2Pooled_print_state_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+_gostring_ _wrap_PolymorphicSha2Pooled_print_state_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -6469,7 +6469,7 @@ _gostring_ _wrap_PolymorphicSha2Pooled_print_state_rng_ae47b152c742082b(PractRan
 }
 
 
-intgo _wrap_PolymorphicSha2Pooled_randi__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_PolymorphicSha2Pooled_randi__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -6486,7 +6486,7 @@ intgo _wrap_PolymorphicSha2Pooled_randi__SWIG_0_rng_ae47b152c742082b(PractRand::
 }
 
 
-intgo _wrap_PolymorphicSha2Pooled_randi__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_PolymorphicSha2Pooled_randi__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -6505,7 +6505,7 @@ intgo _wrap_PolymorphicSha2Pooled_randi__SWIG_1_rng_ae47b152c742082b(PractRand::
 }
 
 
-intgo _wrap_PolymorphicSha2Pooled_randi_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_PolymorphicSha2Pooled_randi_fast__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 result;
@@ -6522,7 +6522,7 @@ intgo _wrap_PolymorphicSha2Pooled_randi_fast__SWIG_0_rng_ae47b152c742082b(PractR
 }
 
 
-intgo _wrap_PolymorphicSha2Pooled_randi_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_PolymorphicSha2Pooled_randi_fast__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint32 arg2 ;
   PractRand::Uint32 arg3 ;
@@ -6541,7 +6541,7 @@ intgo _wrap_PolymorphicSha2Pooled_randi_fast__SWIG_1_rng_ae47b152c742082b(PractR
 }
 
 
-long long _wrap_PolymorphicSha2Pooled_randli__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
+long long _wrap_PolymorphicSha2Pooled_randli__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 result;
@@ -6558,7 +6558,7 @@ long long _wrap_PolymorphicSha2Pooled_randli__SWIG_0_rng_ae47b152c742082b(PractR
 }
 
 
-long long _wrap_PolymorphicSha2Pooled_randli__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+long long _wrap_PolymorphicSha2Pooled_randli__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -6577,7 +6577,7 @@ long long _wrap_PolymorphicSha2Pooled_randli__SWIG_1_rng_ae47b152c742082b(PractR
 }
 
 
-float _wrap_PolymorphicSha2Pooled_randf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+float _wrap_PolymorphicSha2Pooled_randf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   float result;
   float _swig_go_result;
@@ -6592,7 +6592,7 @@ float _wrap_PolymorphicSha2Pooled_randf__SWIG_0_rng_ae47b152c742082b(PractRand::
 }
 
 
-float _wrap_PolymorphicSha2Pooled_randf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, float _swig_go_1) {
+float _wrap_PolymorphicSha2Pooled_randf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, float _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   float arg2 ;
   float result;
@@ -6609,7 +6609,7 @@ float _wrap_PolymorphicSha2Pooled_randf__SWIG_1_rng_ae47b152c742082b(PractRand::
 }
 
 
-float _wrap_PolymorphicSha2Pooled_randf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+float _wrap_PolymorphicSha2Pooled_randf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -6628,7 +6628,7 @@ float _wrap_PolymorphicSha2Pooled_randf__SWIG_2_rng_ae47b152c742082b(PractRand::
 }
 
 
-double _wrap_PolymorphicSha2Pooled_randlf__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+double _wrap_PolymorphicSha2Pooled_randlf__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   double result;
   double _swig_go_result;
@@ -6643,7 +6643,7 @@ double _wrap_PolymorphicSha2Pooled_randlf__SWIG_0_rng_ae47b152c742082b(PractRand
 }
 
 
-double _wrap_PolymorphicSha2Pooled_randlf__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, double _swig_go_1) {
+double _wrap_PolymorphicSha2Pooled_randlf__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, double _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   double arg2 ;
   double result;
@@ -6660,7 +6660,7 @@ double _wrap_PolymorphicSha2Pooled_randlf__SWIG_1_rng_ae47b152c742082b(PractRand
 }
 
 
-double _wrap_PolymorphicSha2Pooled_randlf__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_PolymorphicSha2Pooled_randlf__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -6679,7 +6679,7 @@ double _wrap_PolymorphicSha2Pooled_randlf__SWIG_2_rng_ae47b152c742082b(PractRand
 }
 
 
-double _wrap_PolymorphicSha2Pooled_gaussian__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+double _wrap_PolymorphicSha2Pooled_gaussian__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   double result;
   double _swig_go_result;
@@ -6694,7 +6694,7 @@ double _wrap_PolymorphicSha2Pooled_gaussian__SWIG_0_rng_ae47b152c742082b(PractRa
 }
 
 
-double _wrap_PolymorphicSha2Pooled_gaussian__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, double _swig_go_1, double _swig_go_2) {
+double _wrap_PolymorphicSha2Pooled_gaussian__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, double _swig_go_1, double _swig_go_2) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   double arg2 ;
   double arg3 ;
@@ -6713,7 +6713,7 @@ double _wrap_PolymorphicSha2Pooled_gaussian__SWIG_1_rng_ae47b152c742082b(PractRa
 }
 
 
-void _wrap_PolymorphicSha2Pooled_seek_forward128_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_PolymorphicSha2Pooled_seek_forward128_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -6729,7 +6729,7 @@ void _wrap_PolymorphicSha2Pooled_seek_forward128_rng_ae47b152c742082b(PractRand:
 }
 
 
-void _wrap_PolymorphicSha2Pooled_seek_backward128_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_PolymorphicSha2Pooled_seek_backward128_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -6745,7 +6745,7 @@ void _wrap_PolymorphicSha2Pooled_seek_backward128_rng_ae47b152c742082b(PractRand
 }
 
 
-void _wrap_PolymorphicSha2Pooled_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_seek_forward_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -6759,7 +6759,7 @@ void _wrap_PolymorphicSha2Pooled_seek_forward_rng_ae47b152c742082b(PractRand::RN
 }
 
 
-void _wrap_PolymorphicSha2Pooled_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
+void _wrap_PolymorphicSha2Pooled_seek_backward_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -6773,7 +6773,7 @@ void _wrap_PolymorphicSha2Pooled_seek_backward_rng_ae47b152c742082b(PractRand::R
 }
 
 
-void _wrap_PolymorphicSha2Pooled_add_entropy_N_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
+void _wrap_PolymorphicSha2Pooled_add_entropy_N_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   void *arg2 = (void *) 0 ;
   size_t arg3 ;
@@ -6789,7 +6789,7 @@ void _wrap_PolymorphicSha2Pooled_add_entropy_N_rng_ae47b152c742082b(PractRand::R
 }
 
 
-bool _wrap_PolymorphicSha2Pooled_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_PolymorphicSha2Pooled_add_entropy_automatically__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0, intgo _swig_go_1) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   int arg2 ;
   bool result;
@@ -6806,7 +6806,7 @@ bool _wrap_PolymorphicSha2Pooled_add_entropy_automatically__SWIG_0_rng_ae47b152c
 }
 
 
-bool _wrap_PolymorphicSha2Pooled_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
+bool _wrap_PolymorphicSha2Pooled_add_entropy_automatically__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Polymorphic::sha2_based_pool *_swig_go_0) {
   PractRand::RNGs::Polymorphic::sha2_based_pool *arg1 = (PractRand::RNGs::Polymorphic::sha2_based_pool *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -6821,7 +6821,7 @@ bool _wrap_PolymorphicSha2Pooled_add_entropy_automatically__SWIG_1_rng_ae47b152c
 }
 
 
-intgo _wrap_OUTPUT_TYPE_trivium_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_TYPE_trivium_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -6833,7 +6833,7 @@ intgo _wrap_OUTPUT_TYPE_trivium_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_BITS_trivium_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_trivium_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -6845,7 +6845,7 @@ intgo _wrap_OUTPUT_BITS_trivium_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAGS_trivium_rng_ae47b152c742082b() {
+intgo _wrap_FLAGS_trivium_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -6857,7 +6857,7 @@ intgo _wrap_FLAGS_trivium_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_delete_trivium_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivium *_swig_go_0) {
+void _wrap_delete_trivium_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::trivium *_swig_go_0) {
   PractRand::RNGs::Raw::trivium *arg1 = (PractRand::RNGs::Raw::trivium *) 0 ;
   
   arg1 = *(PractRand::RNGs::Raw::trivium **)&_swig_go_0; 
@@ -6867,7 +6867,7 @@ void _wrap_delete_trivium_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivium *_s
 }
 
 
-long long _wrap_trivium_raw64_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivium *_swig_go_0) {
+long long _wrap_trivium_raw64_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::trivium *_swig_go_0) {
   PractRand::RNGs::Raw::trivium *arg1 = (PractRand::RNGs::Raw::trivium *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -6880,7 +6880,7 @@ long long _wrap_trivium_raw64_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivium
 }
 
 
-void _wrap_trivium_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivium *_swig_go_0, char *_swig_go_1, intgo _swig_go_2) {
+void _wrap_trivium_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::trivium *_swig_go_0, char *_swig_go_1, intgo _swig_go_2) {
   PractRand::RNGs::Raw::trivium *arg1 = (PractRand::RNGs::Raw::trivium *) 0 ;
   PractRand::Uint8 *arg2 = (PractRand::Uint8 *) 0 ;
   int arg3 ;
@@ -6894,7 +6894,7 @@ void _wrap_trivium_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivi
 }
 
 
-void _wrap_trivium_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivium *_swig_go_0, long long _swig_go_1) {
+void _wrap_trivium_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::trivium *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::trivium *arg1 = (PractRand::RNGs::Raw::trivium *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -6906,7 +6906,7 @@ void _wrap_trivium_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivi
 }
 
 
-void _wrap_trivium_seed_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivium *_swig_go_0, long long _swig_go_1, long long _swig_go_2, intgo _swig_go_3) {
+void _wrap_trivium_seed_fast__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::trivium *_swig_go_0, long long _swig_go_1, long long _swig_go_2, intgo _swig_go_3) {
   PractRand::RNGs::Raw::trivium *arg1 = (PractRand::RNGs::Raw::trivium *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -6922,7 +6922,7 @@ void _wrap_trivium_seed_fast__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::
 }
 
 
-void _wrap_trivium_seed_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivium *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_trivium_seed_fast__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::trivium *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Raw::trivium *arg1 = (PractRand::RNGs::Raw::trivium *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -6936,7 +6936,7 @@ void _wrap_trivium_seed_fast__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::
 }
 
 
-void _wrap_trivium_seed__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivium *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
+void _wrap_trivium_seed__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::trivium *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
   PractRand::RNGs::Raw::trivium *arg1 = (PractRand::RNGs::Raw::trivium *) 0 ;
   PractRand::RNGs::vRNG *arg2 = (PractRand::RNGs::vRNG *) 0 ;
   
@@ -6948,7 +6948,7 @@ void _wrap_trivium_seed__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivi
 }
 
 
-void _wrap_trivium_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivium *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_trivium_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::trivium *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::Raw::trivium *arg1 = (PractRand::RNGs::Raw::trivium *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -6960,13 +6960,13 @@ void _wrap_trivium_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::trivium
 }
 
 
-void _wrap_trivium_self_test_rng_ae47b152c742082b() {
+void _wrap_trivium_self_test_rng_9d087d9bb75357bd() {
   PractRand::RNGs::Raw::trivium::self_test();
   
 }
 
 
-PractRand::RNGs::Raw::trivium *_wrap_new_trivium_rng_ae47b152c742082b() {
+PractRand::RNGs::Raw::trivium *_wrap_new_trivium_rng_9d087d9bb75357bd() {
   PractRand::RNGs::Raw::trivium *result = 0 ;
   PractRand::RNGs::Raw::trivium *_swig_go_result;
   
@@ -6977,7 +6977,7 @@ PractRand::RNGs::Raw::trivium *_wrap_new_trivium_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_TYPE_xsm32_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_TYPE_xsm32_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -6989,7 +6989,7 @@ intgo _wrap_OUTPUT_TYPE_xsm32_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_BITS_xsm32_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_xsm32_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -7001,7 +7001,7 @@ intgo _wrap_OUTPUT_BITS_xsm32_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAGS_xsm32_rng_ae47b152c742082b() {
+intgo _wrap_FLAGS_xsm32_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -7013,7 +7013,7 @@ intgo _wrap_FLAGS_xsm32_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_xsm32_raw32_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *_swig_go_0) {
+intgo _wrap_xsm32_raw32_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm32 *_swig_go_0) {
   PractRand::RNGs::Raw::xsm32 *arg1 = (PractRand::RNGs::Raw::xsm32 *) 0 ;
   PractRand::Uint32 result;
   intgo _swig_go_result;
@@ -7026,7 +7026,7 @@ intgo _wrap_xsm32_raw32_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *_swig_
 }
 
 
-void _wrap_xsm32_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *_swig_go_0, long long _swig_go_1) {
+void _wrap_xsm32_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm32 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::xsm32 *arg1 = (PractRand::RNGs::Raw::xsm32 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -7038,7 +7038,7 @@ void _wrap_xsm32_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *
 }
 
 
-void _wrap_xsm32_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
+void _wrap_xsm32_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm32 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
   PractRand::RNGs::Raw::xsm32 *arg1 = (PractRand::RNGs::Raw::xsm32 *) 0 ;
   PractRand::RNGs::vRNG *arg2 = (PractRand::RNGs::vRNG *) 0 ;
   
@@ -7050,7 +7050,7 @@ void _wrap_xsm32_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *
 }
 
 
-void _wrap_xsm32_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_xsm32_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm32 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::Raw::xsm32 *arg1 = (PractRand::RNGs::Raw::xsm32 *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -7062,7 +7062,7 @@ void _wrap_xsm32_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *_s
 }
 
 
-void _wrap_xsm32_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *_swig_go_0, long long _swig_go_1) {
+void _wrap_xsm32_seek_forward_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm32 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::xsm32 *arg1 = (PractRand::RNGs::Raw::xsm32 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -7074,7 +7074,7 @@ void _wrap_xsm32_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *
 }
 
 
-void _wrap_xsm32_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *_swig_go_0, long long _swig_go_1) {
+void _wrap_xsm32_seek_backward_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm32 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::xsm32 *arg1 = (PractRand::RNGs::Raw::xsm32 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -7086,7 +7086,7 @@ void _wrap_xsm32_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 
 }
 
 
-PractRand::RNGs::Raw::xsm32 *_wrap_new_xsm32_rng_ae47b152c742082b() {
+PractRand::RNGs::Raw::xsm32 *_wrap_new_xsm32_rng_9d087d9bb75357bd() {
   PractRand::RNGs::Raw::xsm32 *result = 0 ;
   PractRand::RNGs::Raw::xsm32 *_swig_go_result;
   
@@ -7097,7 +7097,7 @@ PractRand::RNGs::Raw::xsm32 *_wrap_new_xsm32_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_delete_xsm32_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *_swig_go_0) {
+void _wrap_delete_xsm32_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm32 *_swig_go_0) {
   PractRand::RNGs::Raw::xsm32 *arg1 = (PractRand::RNGs::Raw::xsm32 *) 0 ;
   
   arg1 = *(PractRand::RNGs::Raw::xsm32 **)&_swig_go_0; 
@@ -7107,7 +7107,7 @@ void _wrap_delete_xsm32_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm32 *_swig_
 }
 
 
-intgo _wrap_OUTPUT_TYPE_xsm64_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_TYPE_xsm64_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -7119,7 +7119,7 @@ intgo _wrap_OUTPUT_TYPE_xsm64_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_OUTPUT_BITS_xsm64_rng_ae47b152c742082b() {
+intgo _wrap_OUTPUT_BITS_xsm64_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -7131,7 +7131,7 @@ intgo _wrap_OUTPUT_BITS_xsm64_rng_ae47b152c742082b() {
 }
 
 
-intgo _wrap_FLAGS_xsm64_rng_ae47b152c742082b() {
+intgo _wrap_FLAGS_xsm64_rng_9d087d9bb75357bd() {
   int result;
   intgo _swig_go_result;
   
@@ -7143,7 +7143,7 @@ intgo _wrap_FLAGS_xsm64_rng_ae47b152c742082b() {
 }
 
 
-long long _wrap_xsm64_raw64_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *_swig_go_0) {
+long long _wrap_xsm64_raw64_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm64 *_swig_go_0) {
   PractRand::RNGs::Raw::xsm64 *arg1 = (PractRand::RNGs::Raw::xsm64 *) 0 ;
   PractRand::Uint64 result;
   long long _swig_go_result;
@@ -7156,7 +7156,7 @@ long long _wrap_xsm64_raw64_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *_s
 }
 
 
-void _wrap_xsm64_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *_swig_go_0, long long _swig_go_1) {
+void _wrap_xsm64_seed__SWIG_0_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm64 *_swig_go_0, long long _swig_go_1) {
   PractRand::RNGs::Raw::xsm64 *arg1 = (PractRand::RNGs::Raw::xsm64 *) 0 ;
   PractRand::Uint64 arg2 ;
   
@@ -7168,7 +7168,7 @@ void _wrap_xsm64_seed__SWIG_0_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *
 }
 
 
-void _wrap_xsm64_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_xsm64_seed__SWIG_1_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Raw::xsm64 *arg1 = (PractRand::RNGs::Raw::xsm64 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -7182,7 +7182,7 @@ void _wrap_xsm64_seed__SWIG_1_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *
 }
 
 
-void _wrap_xsm64_seed__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
+void _wrap_xsm64_seed__SWIG_2_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm64 *_swig_go_0, PractRand::RNGs::vRNG *_swig_go_1) {
   PractRand::RNGs::Raw::xsm64 *arg1 = (PractRand::RNGs::Raw::xsm64 *) 0 ;
   PractRand::RNGs::vRNG *arg2 = (PractRand::RNGs::vRNG *) 0 ;
   
@@ -7194,7 +7194,7 @@ void _wrap_xsm64_seed__SWIG_2_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *
 }
 
 
-void _wrap_xsm64_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
+void _wrap_xsm64_walk_state_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm64 *_swig_go_0, PractRand::StateWalkingObject *_swig_go_1) {
   PractRand::RNGs::Raw::xsm64 *arg1 = (PractRand::RNGs::Raw::xsm64 *) 0 ;
   PractRand::StateWalkingObject *arg2 = (PractRand::StateWalkingObject *) 0 ;
   
@@ -7206,7 +7206,7 @@ void _wrap_xsm64_walk_state_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *_s
 }
 
 
-void _wrap_xsm64_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_xsm64_seek_forward_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Raw::xsm64 *arg1 = (PractRand::RNGs::Raw::xsm64 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -7220,7 +7220,7 @@ void _wrap_xsm64_seek_forward_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *
 }
 
 
-void _wrap_xsm64_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_xsm64_seek_backward_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm64 *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   PractRand::RNGs::Raw::xsm64 *arg1 = (PractRand::RNGs::Raw::xsm64 *) 0 ;
   PractRand::Uint64 arg2 ;
   PractRand::Uint64 arg3 ;
@@ -7234,7 +7234,7 @@ void _wrap_xsm64_seek_backward_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 
 }
 
 
-PractRand::RNGs::Raw::xsm64 *_wrap_new_xsm64_rng_ae47b152c742082b() {
+PractRand::RNGs::Raw::xsm64 *_wrap_new_xsm64_rng_9d087d9bb75357bd() {
   PractRand::RNGs::Raw::xsm64 *result = 0 ;
   PractRand::RNGs::Raw::xsm64 *_swig_go_result;
   
@@ -7245,7 +7245,7 @@ PractRand::RNGs::Raw::xsm64 *_wrap_new_xsm64_rng_ae47b152c742082b() {
 }
 
 
-void _wrap_delete_xsm64_rng_ae47b152c742082b(PractRand::RNGs::Raw::xsm64 *_swig_go_0) {
+void _wrap_delete_xsm64_rng_9d087d9bb75357bd(PractRand::RNGs::Raw::xsm64 *_swig_go_0) {
   PractRand::RNGs::Raw::xsm64 *arg1 = (PractRand::RNGs::Raw::xsm64 *) 0 ;
   
   arg1 = *(PractRand::RNGs::Raw::xsm64 **)&_swig_go_0; 

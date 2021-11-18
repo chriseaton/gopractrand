@@ -33,7 +33,7 @@ namespace PractRand {
 					return _refill_and_raw32();
 				}
 				void seed(Uint64 s);
-				void seed( const Uint32 seed_and_iv[10], bool extend_cycle_ = false );
+				void seed(const Uint32 seed_and_iv[10], bool extend_cycle_ = false);
 				void seed_short( const Uint32 seed_and_iv[6], bool extend_cycle_ = false );
 				void walk_state(StateWalkingObject *walker);
 				void seek_forward (Uint64 how_far_low, Uint64 how_far_high);
