@@ -4,3 +4,4 @@ out/
 practrand/practrand.go
 practrand/practrand_gc.c
 .vscode
+gopractrand
