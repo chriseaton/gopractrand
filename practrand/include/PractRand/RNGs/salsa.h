@@ -54,21 +54,8 @@ namespace PractRand {
 
 		namespace Polymorphic {
 			class salsa : public vRNG32 {
-                public:
-                    enum {OUTPUT_TYPE = OUTPUT_TYPES::NORMAL_ALL,OUTPUT_BITS = Raw::salsa::OUTPUT_BITS,FLAGS = Raw::salsa::FLAGS};
-                    Raw:: salsa implementation;
-                    salsa (Uint64 s) {seed(s);}
-                    salsa (vRNG *seeder) {seed(seeder);}
-                    salsa (SEED_AUTO_TYPE ) {autoseed();}
-                    salsa (SEED_NONE_TYPE ) {}
-                    Uint8  raw8 ();
-                    Uint16 raw16();
-                    Uint32 raw32();
-                    Uint64 raw64();
-                    using vRNG::seed;
-                    Uint64 get_flags() const;
-                    std::string get_name() const;
-                    void walk_state(StateWalkingObject *walker);
+                
+				PRACTRAND__POLYMORPHIC_RNG_BASICS_H(salsa)
 				salsa(Uint32 seed_and_iv[10], bool extend_cycle_ = false) {seed(seed_and_iv, extend_cycle_);}
 				void seed(Uint64 s);
 				void seed(Uint32 seed_and_iv[10], bool extend_cycle_ = false);
@@ -84,8 +71,6 @@ namespace PractRand {
 				int get_rounds() const;
 			};
 		}
-		namespace LightWeight {
-            typedef PractRand::RNGs::Adaptors::RAW_TO_LIGHT_WEIGHT_RNG<PractRand::RNGs::Raw::salsa > salsa;
-        }
+		PRACTRAND__LIGHT_WEIGHT_RNG(salsa)
 	}
 }

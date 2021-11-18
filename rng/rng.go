@@ -31,68 +31,645 @@ typedef struct { char *p; intgo n; } _gostring_;
 typedef struct { void* array; intgo len; intgo cap; } _goslice_;
 
 
-extern void _wrap_Swig_free_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_rng_bfbcb6a9797b2cf1(swig_intgo arg1);
-extern void _wrap_delete_StateWalkingObject_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern void _wrap_StateWalkingObject_handle__SWIG_0_rng_bfbcb6a9797b2cf1(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_1_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_2_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_3_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_4_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_5_rng_bfbcb6a9797b2cf1(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_6_rng_bfbcb6a9797b2cf1(uintptr_t arg1, swig_voidp arg2);
-extern swig_intgo _wrap_FLAG_READ_ONLY_StateWalkingObject_rng_bfbcb6a9797b2cf1(void);
-extern swig_intgo _wrap_FLAG_WRITE_ONLY_StateWalkingObject_rng_bfbcb6a9797b2cf1(void);
-extern swig_intgo _wrap_FLAG_CLUMSY_StateWalkingObject_rng_bfbcb6a9797b2cf1(void);
-extern swig_intgo _wrap_FLAG_SEEDER_StateWalkingObject_rng_bfbcb6a9797b2cf1(void);
-extern uintptr_t _wrap_StateWalkingObject_get_properties_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern _Bool _wrap_StateWalkingObject_is_read_only_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern _Bool _wrap_StateWalkingObject_is_write_only_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern _Bool _wrap_StateWalkingObject_is_clumsy_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern _Bool _wrap_StateWalkingObject_is_seeder_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern void _wrap_StateWalkingObject_handle__SWIG_7_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_8_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_9_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_10_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_0_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_1_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_2_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_3_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_4_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_5_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_6_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_7_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_8_rng_bfbcb6a9797b2cf1(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_9_rng_bfbcb6a9797b2cf1(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_vrng_to_rng_seeder_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern uintptr_t _wrap_get_autoseeder_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern swig_intgo _wrap_OUTPUT_TYPE_salsa_rng_bfbcb6a9797b2cf1(void);
-extern swig_intgo _wrap_OUTPUT_BITS_salsa_rng_bfbcb6a9797b2cf1(void);
-extern swig_intgo _wrap_FLAGS_salsa_rng_bfbcb6a9797b2cf1(void);
-extern uintptr_t _wrap_new_salsa_rng_bfbcb6a9797b2cf1(void);
-extern void _wrap_delete_salsa_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern uintptr_t _wrap_salsa_raw32_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern void _wrap_salsa_seed__SWIG_0_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_salsa_seed__SWIG_1_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2, _Bool arg3);
-extern void _wrap_salsa_seed__SWIG_2_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_salsa_seed_short__SWIG_0_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2, _Bool arg3);
-extern void _wrap_salsa_seed_short__SWIG_1_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_salsa_walk_state_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_salsa_seek_forward_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_salsa_seek_backward_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_salsa_set_rounds_rng_bfbcb6a9797b2cf1(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_salsa_get_rounds_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern void _wrap_salsa_self_test_rng_bfbcb6a9797b2cf1(void);
-extern swig_intgo _wrap_OUTPUT_TYPE_sfc16_rng_bfbcb6a9797b2cf1(void);
-extern swig_intgo _wrap_OUTPUT_BITS_sfc16_rng_bfbcb6a9797b2cf1(void);
-extern swig_intgo _wrap_FLAGS_sfc16_rng_bfbcb6a9797b2cf1(void);
-extern uintptr_t _wrap_sfc16_raw16_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
-extern void _wrap_sfc16_seed__SWIG_0_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfc16_seed_fast_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfc16_seed__SWIG_1_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern void _wrap_sfc16_walk_state_rng_bfbcb6a9797b2cf1(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_sfc16_rng_bfbcb6a9797b2cf1(void);
-extern void _wrap_delete_sfc16_rng_bfbcb6a9797b2cf1(uintptr_t arg1);
+typedef _gostring_ swig_type_1;
+typedef _gostring_ swig_type_2;
+typedef _gostring_ swig_type_3;
+typedef void* swig_type_4;
+typedef long long swig_type_5;
+typedef long long swig_type_6;
+typedef long long swig_type_7;
+typedef _gostring_ swig_type_8;
+typedef long long swig_type_9;
+typedef _gostring_ swig_type_10;
+typedef _gostring_ swig_type_11;
+typedef long long swig_type_12;
+typedef _gostring_ swig_type_13;
+typedef long long swig_type_14;
+typedef long long swig_type_15;
+typedef long long swig_type_16;
+typedef long long swig_type_17;
+typedef long long swig_type_18;
+typedef long long swig_type_19;
+typedef long long swig_type_20;
+typedef _gostring_ swig_type_21;
+typedef long long swig_type_22;
+typedef long long swig_type_23;
+typedef long long swig_type_24;
+typedef long long swig_type_25;
+typedef long long swig_type_26;
+typedef long long swig_type_27;
+typedef long long swig_type_28;
+typedef long long swig_type_29;
+typedef long long swig_type_30;
+typedef long long swig_type_31;
+typedef long long swig_type_32;
+typedef long long swig_type_33;
+typedef _gostring_ swig_type_34;
+typedef long long swig_type_35;
+typedef _gostring_ swig_type_36;
+typedef _gostring_ swig_type_37;
+typedef long long swig_type_38;
+typedef _gostring_ swig_type_39;
+typedef long long swig_type_40;
+typedef long long swig_type_41;
+typedef long long swig_type_42;
+typedef long long swig_type_43;
+typedef long long swig_type_44;
+typedef long long swig_type_45;
+typedef _gostring_ swig_type_46;
+typedef long long swig_type_47;
+typedef long long swig_type_48;
+typedef long long swig_type_49;
+typedef long long swig_type_50;
+typedef long long swig_type_51;
+typedef long long swig_type_52;
+typedef long long swig_type_53;
+typedef long long swig_type_54;
+typedef long long swig_type_55;
+typedef long long swig_type_56;
+typedef _gostring_ swig_type_57;
+typedef _gostring_ swig_type_58;
+typedef long long swig_type_59;
+typedef long long swig_type_60;
+typedef long long swig_type_61;
+typedef _gostring_ swig_type_62;
+typedef long long swig_type_63;
+typedef long long swig_type_64;
+typedef _gostring_ swig_type_65;
+typedef _gostring_ swig_type_66;
+typedef long long swig_type_67;
+typedef long long swig_type_68;
+typedef long long swig_type_69;
+typedef _gostring_ swig_type_70;
+typedef long long swig_type_71;
+typedef _gostring_ swig_type_72;
+typedef _gostring_ swig_type_73;
+typedef long long swig_type_74;
+typedef long long swig_type_75;
+typedef long long swig_type_76;
+typedef long long swig_type_77;
+typedef _gostring_ swig_type_78;
+typedef long long swig_type_79;
+typedef long long swig_type_80;
+typedef long long swig_type_81;
+typedef long long swig_type_82;
+typedef long long swig_type_83;
+typedef long long swig_type_84;
+typedef long long swig_type_85;
+typedef long long swig_type_86;
+typedef long long swig_type_87;
+typedef _gostring_ swig_type_88;
+typedef long long swig_type_89;
+typedef long long swig_type_90;
+typedef long long swig_type_91;
+typedef long long swig_type_92;
+typedef long long swig_type_93;
+typedef _gostring_ swig_type_94;
+typedef _gostring_ swig_type_95;
+typedef long long swig_type_96;
+typedef long long swig_type_97;
+typedef long long swig_type_98;
+typedef long long swig_type_99;
+typedef long long swig_type_100;
+typedef long long swig_type_101;
+typedef long long swig_type_102;
+typedef long long swig_type_103;
+typedef long long swig_type_104;
+typedef long long swig_type_105;
+typedef long long swig_type_106;
+typedef long long swig_type_107;
+typedef long long swig_type_108;
+typedef _gostring_ swig_type_109;
+typedef long long swig_type_110;
+typedef long long swig_type_111;
+typedef long long swig_type_112;
+typedef long long swig_type_113;
+typedef long long swig_type_114;
+typedef _gostring_ swig_type_115;
+typedef _gostring_ swig_type_116;
+typedef long long swig_type_117;
+typedef long long swig_type_118;
+typedef long long swig_type_119;
+typedef long long swig_type_120;
+typedef long long swig_type_121;
+typedef long long swig_type_122;
+typedef long long swig_type_123;
+typedef long long swig_type_124;
+typedef long long swig_type_125;
+typedef long long swig_type_126;
+typedef long long swig_type_127;
+typedef long long swig_type_128;
+typedef long long swig_type_129;
+typedef long long swig_type_130;
+typedef long long swig_type_131;
+typedef long long swig_type_132;
+typedef long long swig_type_133;
+typedef long long swig_type_134;
+typedef long long swig_type_135;
+extern void _wrap_Swig_free_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_rng_ae47b152c742082b(swig_intgo arg1);
+extern void _wrap_version_str_set_rng_ae47b152c742082b(swig_type_1 arg1);
+extern swig_type_2 _wrap_version_str_get_rng_ae47b152c742082b(void);
+extern _Bool _wrap_initialize_PractRand_rng_ae47b152c742082b(void);
+extern void _wrap_self_test_PractRand_rng_ae47b152c742082b(void);
+extern void _wrap_issue_error__SWIG_0_rng_ae47b152c742082b(swig_type_3 arg1);
+extern void _wrap_issue_error__SWIG_1_rng_ae47b152c742082b(void);
+extern void _wrap_hook_error_handler_rng_ae47b152c742082b(swig_type_4 arg1);
+extern uintptr_t _wrap_new_SEED_AUTO_TYPE_rng_ae47b152c742082b(void);
+extern void _wrap_delete_SEED_AUTO_TYPE_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_new_SEED_NONE_TYPE_rng_ae47b152c742082b(void);
+extern void _wrap_delete_SEED_NONE_TYPE_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_SEED_AUTO_set_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_SEED_AUTO_get_rng_ae47b152c742082b(void);
+extern void _wrap_SEED_NONE_set_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_SEED_NONE_get_rng_ae47b152c742082b(void);
+extern void _wrap_delete_vRNG_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_vRNG_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_5 arg2);
+extern void _wrap_vRNG_seed_fast_rng_ae47b152c742082b(uintptr_t arg1, swig_type_6 arg2);
+extern void _wrap_vRNG_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_vRNG_autoseed_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_type_7 _wrap_vRNG_serialize__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_8 arg2, swig_type_9 arg3);
+extern swig_type_10 _wrap_vRNG_serialize__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern _Bool _wrap_vRNG_deserialize_rng_ae47b152c742082b(uintptr_t arg1, swig_type_11 arg2, swig_type_12 arg3);
+extern swig_type_13 _wrap_vRNG_print_state_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_vRNG_walk_state_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern char _wrap_vRNG_raw8_rng_ae47b152c742082b(uintptr_t arg1);
+extern short _wrap_vRNG_raw16_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG_raw32_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_type_14 _wrap_vRNG_raw64_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG_randi__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_vRNG_randi__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern swig_intgo _wrap_vRNG_randi_fast__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_vRNG_randi_fast__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern swig_type_15 _wrap_vRNG_randli__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_16 arg2);
+extern swig_type_17 _wrap_vRNG_randli__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_type_18 arg2, swig_type_19 arg3);
+extern float _wrap_vRNG_randf__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1);
+extern float _wrap_vRNG_randf__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, float arg2);
+extern float _wrap_vRNG_randf__SWIG_2_rng_ae47b152c742082b(uintptr_t arg1, float arg2, float arg3);
+extern double _wrap_vRNG_randlf__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1);
+extern double _wrap_vRNG_randlf__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, double arg2);
+extern double _wrap_vRNG_randlf__SWIG_2_rng_ae47b152c742082b(uintptr_t arg1, double arg2, double arg3);
+extern double _wrap_vRNG_gaussian__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1);
+extern double _wrap_vRNG_gaussian__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, double arg2, double arg3);
+extern swig_type_20 _wrap_vRNG_get_flags_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_type_21 _wrap_vRNG_get_name_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG_get_native_output_size_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_vRNG_seek_forward128_rng_ae47b152c742082b(uintptr_t arg1, swig_type_22 arg2, swig_type_23 arg3);
+extern void _wrap_vRNG_seek_backward128_rng_ae47b152c742082b(uintptr_t arg1, swig_type_24 arg2, swig_type_25 arg3);
+extern void _wrap_vRNG_seek_forward_rng_ae47b152c742082b(uintptr_t arg1, swig_type_26 arg2);
+extern void _wrap_vRNG_seek_backward_rng_ae47b152c742082b(uintptr_t arg1, swig_type_27 arg2);
+extern void _wrap_vRNG_reset_entropy_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_vRNG_add_entropy8_rng_ae47b152c742082b(uintptr_t arg1, char arg2);
+extern void _wrap_vRNG_add_entropy16_rng_ae47b152c742082b(uintptr_t arg1, short arg2);
+extern void _wrap_vRNG_add_entropy32_rng_ae47b152c742082b(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_vRNG_add_entropy64_rng_ae47b152c742082b(uintptr_t arg1, swig_type_28 arg2);
+extern void _wrap_vRNG_add_entropy_N_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2, swig_type_29 arg3);
+extern _Bool _wrap_vRNG_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_intgo arg2);
+extern _Bool _wrap_vRNG_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_vRNG_flush_buffers_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_OUTPUT_BITS_vRNG8_rng_ae47b152c742082b(void);
+extern short _wrap_vRNG8_raw16_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG8_raw32_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_type_30 _wrap_vRNG8_raw64_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG8_get_native_output_size_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_delete_vRNG8_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_vRNG8_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_31 arg1);
+extern void _wrap_vRNG8_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1);
+extern void _wrap_vRNG8_seed_fast_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_32 arg1);
+extern void _wrap_vRNG8_autoseed_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_type_33 _wrap_vRNG8_serialize__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_34 arg1, swig_type_35 arg2);
+extern swig_type_36 _wrap_vRNG8_serialize__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_voidp arg1);
+extern _Bool _wrap_vRNG8_deserialize_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_37 arg1, swig_type_38 arg2);
+extern swig_type_39 _wrap_vRNG8_print_state_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG8_walk_state_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1);
+extern char _wrap_vRNG8_raw8_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_vRNG8_randi__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_vRNG8_randi__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_vRNG8_randi_fast__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_vRNG8_randi_fast__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_40 _wrap_vRNG8_randli__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_41 arg1);
+extern swig_type_42 _wrap_vRNG8_randli__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_43 arg1, swig_type_44 arg2);
+extern float _wrap_vRNG8_randf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern float _wrap_vRNG8_randf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1);
+extern float _wrap_vRNG8_randf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_vRNG8_randlf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_vRNG8_randlf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1);
+extern double _wrap_vRNG8_randlf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_vRNG8_gaussian__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_vRNG8_gaussian__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern swig_type_45 _wrap_vRNG8_get_flags_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_type_46 _wrap_vRNG8_get_name_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG8_seek_forward128_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_47 arg1, swig_type_48 arg2);
+extern void _wrap_vRNG8_seek_backward128_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_49 arg1, swig_type_50 arg2);
+extern void _wrap_vRNG8_seek_forward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_51 arg1);
+extern void _wrap_vRNG8_seek_backward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_52 arg1);
+extern void _wrap_vRNG8_reset_entropy_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG8_add_entropy8_rng_ae47b152c742082b(uintptr_t _swig_base, char arg1);
+extern void _wrap_vRNG8_add_entropy16_rng_ae47b152c742082b(uintptr_t _swig_base, short arg1);
+extern void _wrap_vRNG8_add_entropy32_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG8_add_entropy64_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_53 arg1);
+extern void _wrap_vRNG8_add_entropy_N_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1, swig_type_54 arg2);
+extern _Bool _wrap_vRNG8_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern _Bool _wrap_vRNG8_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG8_flush_buffers_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_BITS_vRNG16_rng_ae47b152c742082b(void);
+extern char _wrap_vRNG16_raw8_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG16_raw32_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_type_55 _wrap_vRNG16_raw64_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG16_get_native_output_size_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_delete_vRNG16_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_vRNG16_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_31 arg1);
+extern void _wrap_vRNG16_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1);
+extern void _wrap_vRNG16_seed_fast_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_32 arg1);
+extern void _wrap_vRNG16_autoseed_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_type_56 _wrap_vRNG16_serialize__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_34 arg1, swig_type_35 arg2);
+extern swig_type_57 _wrap_vRNG16_serialize__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_voidp arg1);
+extern _Bool _wrap_vRNG16_deserialize_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_37 arg1, swig_type_38 arg2);
+extern swig_type_58 _wrap_vRNG16_print_state_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG16_walk_state_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1);
+extern short _wrap_vRNG16_raw16_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_vRNG16_randi__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_vRNG16_randi__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_vRNG16_randi_fast__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_vRNG16_randi_fast__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_59 _wrap_vRNG16_randli__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_41 arg1);
+extern swig_type_60 _wrap_vRNG16_randli__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_43 arg1, swig_type_44 arg2);
+extern float _wrap_vRNG16_randf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern float _wrap_vRNG16_randf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1);
+extern float _wrap_vRNG16_randf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_vRNG16_randlf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_vRNG16_randlf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1);
+extern double _wrap_vRNG16_randlf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_vRNG16_gaussian__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_vRNG16_gaussian__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern swig_type_61 _wrap_vRNG16_get_flags_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_type_62 _wrap_vRNG16_get_name_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG16_seek_forward128_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_47 arg1, swig_type_48 arg2);
+extern void _wrap_vRNG16_seek_backward128_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_49 arg1, swig_type_50 arg2);
+extern void _wrap_vRNG16_seek_forward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_51 arg1);
+extern void _wrap_vRNG16_seek_backward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_52 arg1);
+extern void _wrap_vRNG16_reset_entropy_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG16_add_entropy8_rng_ae47b152c742082b(uintptr_t _swig_base, char arg1);
+extern void _wrap_vRNG16_add_entropy16_rng_ae47b152c742082b(uintptr_t _swig_base, short arg1);
+extern void _wrap_vRNG16_add_entropy32_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG16_add_entropy64_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_53 arg1);
+extern void _wrap_vRNG16_add_entropy_N_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1, swig_type_54 arg2);
+extern _Bool _wrap_vRNG16_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern _Bool _wrap_vRNG16_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG16_flush_buffers_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_BITS_vRNG32_rng_ae47b152c742082b(void);
+extern char _wrap_vRNG32_raw8_rng_ae47b152c742082b(uintptr_t arg1);
+extern short _wrap_vRNG32_raw16_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_type_63 _wrap_vRNG32_raw64_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG32_get_native_output_size_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_delete_vRNG32_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_vRNG32_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_31 arg1);
+extern void _wrap_vRNG32_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1);
+extern void _wrap_vRNG32_seed_fast_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_32 arg1);
+extern void _wrap_vRNG32_autoseed_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_type_64 _wrap_vRNG32_serialize__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_34 arg1, swig_type_35 arg2);
+extern swig_type_65 _wrap_vRNG32_serialize__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_voidp arg1);
+extern _Bool _wrap_vRNG32_deserialize_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_37 arg1, swig_type_38 arg2);
+extern swig_type_66 _wrap_vRNG32_print_state_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG32_walk_state_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1);
+extern swig_intgo _wrap_vRNG32_raw32_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_vRNG32_randi__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_vRNG32_randi__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_vRNG32_randi_fast__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_vRNG32_randi_fast__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_67 _wrap_vRNG32_randli__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_41 arg1);
+extern swig_type_68 _wrap_vRNG32_randli__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_43 arg1, swig_type_44 arg2);
+extern float _wrap_vRNG32_randf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern float _wrap_vRNG32_randf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1);
+extern float _wrap_vRNG32_randf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_vRNG32_randlf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_vRNG32_randlf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1);
+extern double _wrap_vRNG32_randlf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_vRNG32_gaussian__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_vRNG32_gaussian__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern swig_type_69 _wrap_vRNG32_get_flags_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_type_70 _wrap_vRNG32_get_name_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG32_seek_forward128_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_47 arg1, swig_type_48 arg2);
+extern void _wrap_vRNG32_seek_backward128_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_49 arg1, swig_type_50 arg2);
+extern void _wrap_vRNG32_seek_forward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_51 arg1);
+extern void _wrap_vRNG32_seek_backward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_52 arg1);
+extern void _wrap_vRNG32_reset_entropy_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG32_add_entropy8_rng_ae47b152c742082b(uintptr_t _swig_base, char arg1);
+extern void _wrap_vRNG32_add_entropy16_rng_ae47b152c742082b(uintptr_t _swig_base, short arg1);
+extern void _wrap_vRNG32_add_entropy32_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG32_add_entropy64_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_53 arg1);
+extern void _wrap_vRNG32_add_entropy_N_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1, swig_type_54 arg2);
+extern _Bool _wrap_vRNG32_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern _Bool _wrap_vRNG32_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG32_flush_buffers_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_BITS_vRNG64_rng_ae47b152c742082b(void);
+extern char _wrap_vRNG64_raw8_rng_ae47b152c742082b(uintptr_t arg1);
+extern short _wrap_vRNG64_raw16_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG64_raw32_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG64_get_native_output_size_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_delete_vRNG64_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_vRNG64_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_31 arg1);
+extern void _wrap_vRNG64_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1);
+extern void _wrap_vRNG64_seed_fast_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_32 arg1);
+extern void _wrap_vRNG64_autoseed_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_type_71 _wrap_vRNG64_serialize__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_34 arg1, swig_type_35 arg2);
+extern swig_type_72 _wrap_vRNG64_serialize__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_voidp arg1);
+extern _Bool _wrap_vRNG64_deserialize_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_37 arg1, swig_type_38 arg2);
+extern swig_type_73 _wrap_vRNG64_print_state_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG64_walk_state_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1);
+extern swig_type_74 _wrap_vRNG64_raw64_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_vRNG64_randi__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_vRNG64_randi__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_vRNG64_randi_fast__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_vRNG64_randi_fast__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_75 _wrap_vRNG64_randli__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_41 arg1);
+extern swig_type_76 _wrap_vRNG64_randli__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_43 arg1, swig_type_44 arg2);
+extern float _wrap_vRNG64_randf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern float _wrap_vRNG64_randf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1);
+extern float _wrap_vRNG64_randf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_vRNG64_randlf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_vRNG64_randlf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1);
+extern double _wrap_vRNG64_randlf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_vRNG64_gaussian__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_vRNG64_gaussian__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern swig_type_77 _wrap_vRNG64_get_flags_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_type_78 _wrap_vRNG64_get_name_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG64_seek_forward128_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_47 arg1, swig_type_48 arg2);
+extern void _wrap_vRNG64_seek_backward128_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_49 arg1, swig_type_50 arg2);
+extern void _wrap_vRNG64_seek_forward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_51 arg1);
+extern void _wrap_vRNG64_seek_backward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_52 arg1);
+extern void _wrap_vRNG64_reset_entropy_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG64_add_entropy8_rng_ae47b152c742082b(uintptr_t _swig_base, char arg1);
+extern void _wrap_vRNG64_add_entropy16_rng_ae47b152c742082b(uintptr_t _swig_base, short arg1);
+extern void _wrap_vRNG64_add_entropy32_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG64_add_entropy64_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_53 arg1);
+extern void _wrap_vRNG64_add_entropy_N_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1, swig_type_54 arg2);
+extern _Bool _wrap_vRNG64_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern _Bool _wrap_vRNG64_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_vRNG64_flush_buffers_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_NORMAL_1_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_NORMAL_ALL_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_SUPPORTS_FASTFORWARD_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_SUPPORTS_ENTROPY_ACCUMULATION_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_CRYPTOGRAPHIC_SECURITY_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_USES_SPECIFIED_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_USES_MULTIPLICATION_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_USES_COMPLEX_INSTRUCTIONS_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_USES_VARIABLE_SHIFTS_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_USES_INDIRECTION_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_USES_CYCLIC_BUFFER_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_USES_FLOW_CONTROL_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_USES_BIT_SCANS_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_USES_OTHER_WORD_SIZES_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_ENDIAN_SAFE_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_IS_BUFFERED_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_IS_HASHED_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_STATE_UNAVAILABLE_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_SEEDING_UNSUPPORTED_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_NEEDS_GENERIC_SEEDING_rng_ae47b152c742082b(void);
+extern void _wrap_delete_StateWalkingObject_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_StateWalkingObject_handle__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_2_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_3_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_4_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_5_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_6_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern swig_intgo _wrap_FLAG_READ_ONLY_StateWalkingObject_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAG_WRITE_ONLY_StateWalkingObject_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAG_CLUMSY_StateWalkingObject_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAG_SEEDER_StateWalkingObject_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_StateWalkingObject_get_properties_rng_ae47b152c742082b(uintptr_t arg1);
+extern _Bool _wrap_StateWalkingObject_is_read_only_rng_ae47b152c742082b(uintptr_t arg1);
+extern _Bool _wrap_StateWalkingObject_is_write_only_rng_ae47b152c742082b(uintptr_t arg1);
+extern _Bool _wrap_StateWalkingObject_is_clumsy_rng_ae47b152c742082b(uintptr_t arg1);
+extern _Bool _wrap_StateWalkingObject_is_seeder_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_StateWalkingObject_handle__SWIG_7_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_8_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_9_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_10_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_2_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_3_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_4_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_5_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_6_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_7_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_8_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShift__SWIG_9_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_vrng_to_rng_seeder_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_get_autoseeder_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_OUTPUT_TYPE_salsa_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_BITS_salsa_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAGS_salsa_rng_ae47b152c742082b(void);
+extern uintptr_t _wrap_new_salsa_rng_ae47b152c742082b(void);
+extern void _wrap_delete_salsa_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_salsa_raw32_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_salsa_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_79 arg2);
+extern void _wrap_salsa_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_salsa_seed__SWIG_2_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_salsa_seed_short__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_salsa_seed_short__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_salsa_walk_state_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_salsa_seek_forward_rng_ae47b152c742082b(uintptr_t arg1, swig_type_80 arg2, swig_type_81 arg3);
+extern void _wrap_salsa_seek_backward_rng_ae47b152c742082b(uintptr_t arg1, swig_type_82 arg2, swig_type_83 arg3);
+extern void _wrap_salsa_set_rounds_rng_ae47b152c742082b(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_salsa_get_rounds_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_salsa_self_test_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_TYPE_PolymorphicSalsa_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_BITS_PolymorphicSalsa_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAGS_PolymorphicSalsa_rng_ae47b152c742082b(void);
+extern void _wrap_PolymorphicSalsa_implementation_set_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_PolymorphicSalsa_implementation_get_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_new_PolymorphicSalsaFromUInt64_rng_ae47b152c742082b(swig_type_84 arg1);
+extern uintptr_t _wrap_new_PolymorphicSalsaFromRNG_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_new_PolymorphicSalsaFromAuto_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_new_PolymorphicSalsaFromNone_rng_ae47b152c742082b(uintptr_t arg1);
+extern char _wrap_PolymorphicSalsa_raw8_rng_ae47b152c742082b(uintptr_t arg1);
+extern short _wrap_PolymorphicSalsa_raw16_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_PolymorphicSalsa_raw32_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_type_85 _wrap_PolymorphicSalsa_raw64_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_PolymorphicSalsa_seed_SWIG_0_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_86 arg2);
+extern void _wrap_PolymorphicSalsa_seed_SWIG_0_1_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern swig_type_87 _wrap_PolymorphicSalsa_get_flags_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_type_88 _wrap_PolymorphicSalsa_get_name_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_PolymorphicSalsa_walk_state_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_PolymorphicSalsaFromSeedAndIV_rng_ae47b152c742082b(swig_voidp arg1, _Bool arg2);
+extern void _wrap_PolymorphicSalsa_SeedAndIV_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_PolymorphicSalsa_seed_short__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_PolymorphicSalsa_seed_short__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_PolymorphicSalsa_seek_forward128_rng_ae47b152c742082b(uintptr_t arg1, swig_type_89 arg2, swig_type_90 arg3);
+extern void _wrap_PolymorphicSalsa_seek_backward128_rng_ae47b152c742082b(uintptr_t arg1, swig_type_91 arg2, swig_type_92 arg3);
+extern void _wrap_PolymorphicSalsa_set_rounds_rng_ae47b152c742082b(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_PolymorphicSalsa_get_rounds_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_delete_PolymorphicSalsa_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_PolymorphicSalsa_get_native_output_size_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_PolymorphicSalsa_seed_fast_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_32 arg1);
+extern void _wrap_PolymorphicSalsa_autoseed_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_type_93 _wrap_PolymorphicSalsa_serialize__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_34 arg1, swig_type_35 arg2);
+extern swig_type_94 _wrap_PolymorphicSalsa_serialize__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_voidp arg1);
+extern _Bool _wrap_PolymorphicSalsa_deserialize_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_37 arg1, swig_type_38 arg2);
+extern swig_type_95 _wrap_PolymorphicSalsa_print_state_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_PolymorphicSalsa_randi__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_PolymorphicSalsa_randi__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_PolymorphicSalsa_randi_fast__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_PolymorphicSalsa_randi_fast__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_96 _wrap_PolymorphicSalsa_randli__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_41 arg1);
+extern swig_type_97 _wrap_PolymorphicSalsa_randli__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_43 arg1, swig_type_44 arg2);
+extern float _wrap_PolymorphicSalsa_randf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern float _wrap_PolymorphicSalsa_randf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1);
+extern float _wrap_PolymorphicSalsa_randf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_PolymorphicSalsa_randlf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_PolymorphicSalsa_randlf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1);
+extern double _wrap_PolymorphicSalsa_randlf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_PolymorphicSalsa_gaussian__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_PolymorphicSalsa_gaussian__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern void _wrap_PolymorphicSalsa_seek_forward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_51 arg1);
+extern void _wrap_PolymorphicSalsa_seek_backward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_52 arg1);
+extern void _wrap_PolymorphicSalsa_reset_entropy_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_PolymorphicSalsa_add_entropy8_rng_ae47b152c742082b(uintptr_t _swig_base, char arg1);
+extern void _wrap_PolymorphicSalsa_add_entropy16_rng_ae47b152c742082b(uintptr_t _swig_base, short arg1);
+extern void _wrap_PolymorphicSalsa_add_entropy32_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_PolymorphicSalsa_add_entropy64_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_53 arg1);
+extern void _wrap_PolymorphicSalsa_add_entropy_N_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1, swig_type_54 arg2);
+extern _Bool _wrap_PolymorphicSalsa_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern _Bool _wrap_PolymorphicSalsa_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_PolymorphicSalsa_flush_buffers_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_TYPE_sfc16_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_BITS_sfc16_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAGS_sfc16_rng_ae47b152c742082b(void);
+extern short _wrap_sfc16_raw16_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_sfc16_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_98 arg2);
+extern void _wrap_sfc16_seed_fast_rng_ae47b152c742082b(uintptr_t arg1, swig_type_99 arg2);
+extern void _wrap_sfc16_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, short arg2, short arg3, short arg4);
+extern void _wrap_sfc16_walk_state_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_sfc16_rng_ae47b152c742082b(void);
+extern void _wrap_delete_sfc16_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_OUTPUT_TYPE_sfc32_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_BITS_sfc32_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAGS_sfc32_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_sfc32_raw32_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_sfc32_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_100 arg2);
+extern void _wrap_sfc32_seed_fast_rng_ae47b152c742082b(uintptr_t arg1, swig_type_101 arg2);
+extern void _wrap_sfc32_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4);
+extern void _wrap_sfc32_walk_state_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_sfc32_rng_ae47b152c742082b(void);
+extern void _wrap_delete_sfc32_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_OUTPUT_TYPE_sfc64_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_BITS_sfc64_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAGS_sfc64_rng_ae47b152c742082b(void);
+extern swig_type_102 _wrap_sfc64_raw64_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_sfc64_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_103 arg2);
+extern void _wrap_sfc64_seed_fast_rng_ae47b152c742082b(uintptr_t arg1, swig_type_104 arg2);
+extern void _wrap_sfc64_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_type_105 arg2, swig_type_106 arg3, swig_type_107 arg4);
+extern void _wrap_sfc64_walk_state_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_sfc64_rng_ae47b152c742082b(void);
+extern void _wrap_delete_sfc64_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_OUTPUT_TYPE_PolymorphicSha2Pooled_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_BITS_PolymorphicSha2Pooled_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAGS_PolymorphicSha2Pooled_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_STATE_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_INPUT_BUFFER_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_BUFFER_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b(void);
+extern void _wrap_PolymorphicSha2Pooled_state_set_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_PolymorphicSha2Pooled_state_get_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_PolymorphicSha2Pooled_input_buffer_set_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_PolymorphicSha2Pooled_input_buffer_get_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_PolymorphicSha2Pooled_output_buffer_set_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_PolymorphicSha2Pooled_output_buffer_get_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_PolymorphicSha2Pooled_input_buffer_left_set_rng_ae47b152c742082b(uintptr_t arg1, short arg2);
+extern short _wrap_PolymorphicSha2Pooled_input_buffer_left_get_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_PolymorphicSha2Pooled_output_buffer_left_set_rng_ae47b152c742082b(uintptr_t arg1, short arg2);
+extern short _wrap_PolymorphicSha2Pooled_output_buffer_left_get_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_PolymorphicSha2Pooled_state_phase_set_rng_ae47b152c742082b(uintptr_t arg1, short arg2);
+extern short _wrap_PolymorphicSha2Pooled_state_phase_get_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_new_PolymorphicSha2PooledFromUInt64_rng_ae47b152c742082b(swig_type_108 arg1);
+extern uintptr_t _wrap_new_PolymorphicSha2PooledFromRNG_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_new_PolymorphicSha2PooledFromAuto_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_new_PolymorphicSha2PooledFromNone_rng_ae47b152c742082b(uintptr_t arg1);
+extern uintptr_t _wrap_new_PolymorphicSha2Pooled_rng_ae47b152c742082b(void);
+extern void _wrap_delete_PolymorphicSha2Pooled_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_type_109 _wrap_PolymorphicSha2Pooled_get_name_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_type_110 _wrap_PolymorphicSha2Pooled_get_flags_rng_ae47b152c742082b(uintptr_t arg1);
+extern char _wrap_PolymorphicSha2Pooled_raw8_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_PolymorphicSha2Pooled_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_111 arg2);
+extern void _wrap_PolymorphicSha2Pooled_reset_state_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_PolymorphicSha2Pooled_seed__SWIG_1_0_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_PolymorphicSha2Pooled_walk_state_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_PolymorphicSha2Pooled_reset_entropy_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_PolymorphicSha2Pooled_add_entropy8_rng_ae47b152c742082b(uintptr_t arg1, char arg2);
+extern void _wrap_PolymorphicSha2Pooled_add_entropy16_rng_ae47b152c742082b(uintptr_t arg1, short arg2);
+extern void _wrap_PolymorphicSha2Pooled_add_entropy32_rng_ae47b152c742082b(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_PolymorphicSha2Pooled_add_entropy64_rng_ae47b152c742082b(uintptr_t arg1, swig_type_112 arg2);
+extern void _wrap_PolymorphicSha2Pooled_flush_buffers_rng_ae47b152c742082b(uintptr_t arg1);
+extern short _wrap_PolymorphicSha2Pooled_raw16_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_PolymorphicSha2Pooled_raw32_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_type_113 _wrap_PolymorphicSha2Pooled_raw64_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_PolymorphicSha2Pooled_get_native_output_size_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern void _wrap_PolymorphicSha2Pooled_seed_fast_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_32 arg1);
+extern void _wrap_PolymorphicSha2Pooled_autoseed_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_type_114 _wrap_PolymorphicSha2Pooled_serialize__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_34 arg1, swig_type_35 arg2);
+extern swig_type_115 _wrap_PolymorphicSha2Pooled_serialize__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_voidp arg1);
+extern _Bool _wrap_PolymorphicSha2Pooled_deserialize_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_37 arg1, swig_type_38 arg2);
+extern swig_type_116 _wrap_PolymorphicSha2Pooled_print_state_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_PolymorphicSha2Pooled_randi__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_PolymorphicSha2Pooled_randi__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_PolymorphicSha2Pooled_randi_fast__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_PolymorphicSha2Pooled_randi_fast__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_117 _wrap_PolymorphicSha2Pooled_randli__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_41 arg1);
+extern swig_type_118 _wrap_PolymorphicSha2Pooled_randli__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_43 arg1, swig_type_44 arg2);
+extern float _wrap_PolymorphicSha2Pooled_randf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern float _wrap_PolymorphicSha2Pooled_randf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1);
+extern float _wrap_PolymorphicSha2Pooled_randf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_PolymorphicSha2Pooled_randlf__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_PolymorphicSha2Pooled_randlf__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1);
+extern double _wrap_PolymorphicSha2Pooled_randlf__SWIG_2_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_PolymorphicSha2Pooled_gaussian__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern double _wrap_PolymorphicSha2Pooled_gaussian__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base, double arg1, double arg2);
+extern void _wrap_PolymorphicSha2Pooled_seek_forward128_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_47 arg1, swig_type_48 arg2);
+extern void _wrap_PolymorphicSha2Pooled_seek_backward128_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_49 arg1, swig_type_50 arg2);
+extern void _wrap_PolymorphicSha2Pooled_seek_forward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_51 arg1);
+extern void _wrap_PolymorphicSha2Pooled_seek_backward_rng_ae47b152c742082b(uintptr_t _swig_base, swig_type_52 arg1);
+extern void _wrap_PolymorphicSha2Pooled_add_entropy_N_rng_ae47b152c742082b(uintptr_t _swig_base, uintptr_t arg1, swig_type_54 arg2);
+extern _Bool _wrap_PolymorphicSha2Pooled_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(uintptr_t _swig_base, swig_intgo arg1);
+extern _Bool _wrap_PolymorphicSha2Pooled_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_TYPE_trivium_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_BITS_trivium_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAGS_trivium_rng_ae47b152c742082b(void);
+extern void _wrap_delete_trivium_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_type_119 _wrap_trivium_raw64_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_trivium_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3);
+extern void _wrap_trivium_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_type_120 arg2);
+extern void _wrap_trivium_seed_fast__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_121 arg2, swig_type_122 arg3, swig_intgo arg4);
+extern void _wrap_trivium_seed_fast__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_type_123 arg2, swig_type_124 arg3);
+extern void _wrap_trivium_seed__SWIG_2_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_trivium_walk_state_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_trivium_self_test_rng_ae47b152c742082b(void);
+extern uintptr_t _wrap_new_trivium_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_TYPE_xsm32_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_BITS_xsm32_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAGS_xsm32_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_xsm32_raw32_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_xsm32_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_125 arg2);
+extern void _wrap_xsm32_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_xsm32_walk_state_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_xsm32_seek_forward_rng_ae47b152c742082b(uintptr_t arg1, swig_type_126 arg2);
+extern void _wrap_xsm32_seek_backward_rng_ae47b152c742082b(uintptr_t arg1, swig_type_127 arg2);
+extern uintptr_t _wrap_new_xsm32_rng_ae47b152c742082b(void);
+extern void _wrap_delete_xsm32_rng_ae47b152c742082b(uintptr_t arg1);
+extern swig_intgo _wrap_OUTPUT_TYPE_xsm64_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_OUTPUT_BITS_xsm64_rng_ae47b152c742082b(void);
+extern swig_intgo _wrap_FLAGS_xsm64_rng_ae47b152c742082b(void);
+extern swig_type_128 _wrap_xsm64_raw64_rng_ae47b152c742082b(uintptr_t arg1);
+extern void _wrap_xsm64_seed__SWIG_0_rng_ae47b152c742082b(uintptr_t arg1, swig_type_129 arg2);
+extern void _wrap_xsm64_seed__SWIG_1_rng_ae47b152c742082b(uintptr_t arg1, swig_type_130 arg2, swig_type_131 arg3);
+extern void _wrap_xsm64_seed__SWIG_2_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_xsm64_walk_state_rng_ae47b152c742082b(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_xsm64_seek_forward_rng_ae47b152c742082b(uintptr_t arg1, swig_type_132 arg2, swig_type_133 arg3);
+extern void _wrap_xsm64_seek_backward_rng_ae47b152c742082b(uintptr_t arg1, swig_type_134 arg2, swig_type_135 arg3);
+extern uintptr_t _wrap_new_xsm64_rng_ae47b152c742082b(void);
+extern void _wrap_delete_xsm64_rng_ae47b152c742082b(uintptr_t arg1);
 #undef intgo
 */
 import "C"
@@ -116,18 +693,2629 @@ type _swig_memberptr *byte
 
 type _ sync.Mutex
 
+
+type swig_gostring struct { p uintptr; n int }
+func swigCopyString(s string) string {
+  p := *(*swig_gostring)(unsafe.Pointer(&s))
+  r := string((*[0x7fffffff]byte)(unsafe.Pointer(p.p))[:p.n])
+  Swig_free(p.p)
+  return r
+}
+
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_rng_bfbcb6a9797b2cf1(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_rng_ae47b152c742082b(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
+func SetVersion_str(arg1 string) {
+	_swig_i_0 := arg1
+	C._wrap_version_str_set_rng_ae47b152c742082b(*(*C.swig_type_1)(unsafe.Pointer(&_swig_i_0)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+}
+
+func GetVersion_str() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_version_str_get_rng_ae47b152c742082b()
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func Initialize_PractRand() (_swig_ret bool) {
+	var swig_r bool
+	swig_r = (bool)(C._wrap_initialize_PractRand_rng_ae47b152c742082b())
+	return swig_r
+}
+
+func Self_test_PractRand() {
+	C._wrap_self_test_PractRand_rng_ae47b152c742082b()
+}
+
+func Issue_error__SWIG_0(arg1 string) {
+	_swig_i_0 := arg1
+	C._wrap_issue_error__SWIG_0_rng_ae47b152c742082b(*(*C.swig_type_3)(unsafe.Pointer(&_swig_i_0)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+}
+
+func Issue_error__SWIG_1() {
+	C._wrap_issue_error__SWIG_1_rng_ae47b152c742082b()
+}
+
+func Issue_error(a ...interface{}) {
+	argc := len(a)
+	if argc == 0 {
+		Issue_error__SWIG_1()
+		return
+	}
+	if argc == 1 {
+		Issue_error__SWIG_0(a[0].(string))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func Hook_error_handler(arg1 _swig_fnptr) {
+	_swig_i_0 := arg1
+	C._wrap_hook_error_handler_rng_ae47b152c742082b(C.swig_type_4(_swig_i_0))
+}
+
+type SwigcptrSEED_AUTO_TYPE uintptr
+
+func (p SwigcptrSEED_AUTO_TYPE) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrSEED_AUTO_TYPE) SwigIsSEED_AUTO_TYPE() {
+}
+
+func NewSEED_AUTO_TYPE() (_swig_ret SEED_AUTO_TYPE) {
+	var swig_r SEED_AUTO_TYPE
+	swig_r = (SEED_AUTO_TYPE)(SwigcptrSEED_AUTO_TYPE(C._wrap_new_SEED_AUTO_TYPE_rng_ae47b152c742082b()))
+	return swig_r
+}
+
+func DeleteSEED_AUTO_TYPE(arg1 SEED_AUTO_TYPE) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_SEED_AUTO_TYPE_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+type SEED_AUTO_TYPE interface {
+	Swigcptr() uintptr
+	SwigIsSEED_AUTO_TYPE()
+}
+
+type SwigcptrSEED_NONE_TYPE uintptr
+
+func (p SwigcptrSEED_NONE_TYPE) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrSEED_NONE_TYPE) SwigIsSEED_NONE_TYPE() {
+}
+
+func NewSEED_NONE_TYPE() (_swig_ret SEED_NONE_TYPE) {
+	var swig_r SEED_NONE_TYPE
+	swig_r = (SEED_NONE_TYPE)(SwigcptrSEED_NONE_TYPE(C._wrap_new_SEED_NONE_TYPE_rng_ae47b152c742082b()))
+	return swig_r
+}
+
+func DeleteSEED_NONE_TYPE(arg1 SEED_NONE_TYPE) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_SEED_NONE_TYPE_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+type SEED_NONE_TYPE interface {
+	Swigcptr() uintptr
+	SwigIsSEED_NONE_TYPE()
+}
+
+func SetSEED_AUTO(arg1 SEED_AUTO_TYPE) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SEED_AUTO_set_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func GetSEED_AUTO() (_swig_ret SEED_AUTO_TYPE) {
+	var swig_r SEED_AUTO_TYPE
+	swig_r = (SEED_AUTO_TYPE)(SwigcptrSEED_AUTO_TYPE(C._wrap_SEED_AUTO_get_rng_ae47b152c742082b()))
+	return swig_r
+}
+
+func SetSEED_NONE(arg1 SEED_NONE_TYPE) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_SEED_NONE_set_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func GetSEED_NONE() (_swig_ret SEED_NONE_TYPE) {
+	var swig_r SEED_NONE_TYPE
+	swig_r = (SEED_NONE_TYPE)(SwigcptrSEED_NONE_TYPE(C._wrap_SEED_NONE_get_rng_ae47b152c742082b()))
+	return swig_r
+}
+
+type SwigcptrVRNG uintptr
+
+func (p SwigcptrVRNG) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrVRNG) SwigIsVRNG() {
+}
+
+func DeleteVRNG(arg1 VRNG) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_vRNG_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrVRNG) Seed__SWIG_0(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_5(_swig_i_1))
+}
+
+func (arg1 SwigcptrVRNG) Seed_fast(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG_seed_fast_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_6(_swig_i_1))
+}
+
+func (arg1 SwigcptrVRNG) Seed__SWIG_1(arg2 VRNG) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_vRNG_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (p SwigcptrVRNG) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		if _, ok := a[0].(SwigcptrVRNG); !ok {
+			goto check_1
+		}
+		p.Seed__SWIG_1(a[0].(VRNG))
+		return
+	}
+check_1:
+	if argc == 1 {
+		p.Seed__SWIG_0(a[0].(uint64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrVRNG) Autoseed() {
+	_swig_i_0 := arg1
+	C._wrap_vRNG_autoseed_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrVRNG) Serialize__SWIG_0(arg2 string, arg3 int64) (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	swig_r = (int64)(C._wrap_vRNG_serialize__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), *(*C.swig_type_8)(unsafe.Pointer(&_swig_i_1)), C.swig_type_9(_swig_i_2)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Serialize__SWIG_1(arg2 *int64) (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r_p := C._wrap_vRNG_serialize__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (p SwigcptrVRNG) Serialize(a ...interface{}) interface{} {
+	argc := len(a)
+	if argc == 1 {
+		return p.Serialize__SWIG_1(a[0].(*int64))
+	}
+	if argc == 2 {
+		return p.Serialize__SWIG_0(a[0].(string), a[1].(int64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrVRNG) Deserialize(arg2 string, arg3 int64) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	swig_r = (bool)(C._wrap_vRNG_deserialize_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), *(*C.swig_type_11)(unsafe.Pointer(&_swig_i_1)), C.swig_type_12(_swig_i_2)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg2
+	}
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Print_state() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_vRNG_print_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrVRNG) Walk_state(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_vRNG_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrVRNG) Raw8() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_vRNG_raw8_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Raw16() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_vRNG_raw16_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG_raw32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_vRNG_raw64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Randi__SWIG_0(arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_vRNG_randi__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Randi__SWIG_1(arg2 uint, arg3 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	swig_r = (uint)(C._wrap_vRNG_randi__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG) Randi(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrVRNG) Randi_fast__SWIG_0(arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_vRNG_randi_fast__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Randi_fast__SWIG_1(arg2 uint, arg3 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	swig_r = (uint)(C._wrap_vRNG_randi_fast__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG) Randi_fast(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi_fast__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi_fast__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrVRNG) Randli__SWIG_0(arg2 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint64)(C._wrap_vRNG_randli__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_16(_swig_i_1)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Randli__SWIG_1(arg2 uint64, arg3 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	swig_r = (uint64)(C._wrap_vRNG_randli__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_18(_swig_i_1), C.swig_type_19(_swig_i_2)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG) Randli(a ...interface{}) uint64 {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randli__SWIG_0(a[0].(uint64))
+	}
+	if argc == 2 {
+		return p.Randli__SWIG_1(a[0].(uint64), a[1].(uint64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrVRNG) Randf__SWIG_0() (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_vRNG_randf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Randf__SWIG_1(arg2 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float32)(C._wrap_vRNG_randf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.float(_swig_i_1)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Randf__SWIG_2(arg2 float32, arg3 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	swig_r = (float32)(C._wrap_vRNG_randf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG) Randf(a ...interface{}) float32 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randf__SWIG_1(a[0].(float32))
+	}
+	if argc == 2 {
+		return p.Randf__SWIG_2(a[0].(float32), a[1].(float32))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrVRNG) Randlf__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_vRNG_randlf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Randlf__SWIG_1(arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_vRNG_randlf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Randlf__SWIG_2(arg2 float64, arg3 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	swig_r = (float64)(C._wrap_vRNG_randlf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG) Randlf(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randlf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randlf__SWIG_1(a[0].(float64))
+	}
+	if argc == 2 {
+		return p.Randlf__SWIG_2(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrVRNG) Gaussian__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_vRNG_gaussian__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Gaussian__SWIG_1(arg2 float64, arg3 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	swig_r = (float64)(C._wrap_vRNG_gaussian__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG) Gaussian(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Gaussian__SWIG_0()
+	}
+	if argc == 2 {
+		return p.Gaussian__SWIG_1(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrVRNG) Get_flags() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_vRNG_get_flags_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Get_name() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_vRNG_get_name_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrVRNG) Get_native_output_size() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_vRNG_get_native_output_size_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Seek_forward128(arg2 uint64, arg3 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_vRNG_seek_forward128_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_22(_swig_i_1), C.swig_type_23(_swig_i_2))
+}
+
+func (arg1 SwigcptrVRNG) Seek_backward128(arg2 uint64, arg3 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_vRNG_seek_backward128_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_24(_swig_i_1), C.swig_type_25(_swig_i_2))
+}
+
+func (arg1 SwigcptrVRNG) Seek_forward(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG_seek_forward_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_26(_swig_i_1))
+}
+
+func (arg1 SwigcptrVRNG) Seek_backward(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG_seek_backward_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_27(_swig_i_1))
+}
+
+func (arg1 SwigcptrVRNG) Reset_entropy() {
+	_swig_i_0 := arg1
+	C._wrap_vRNG_reset_entropy_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrVRNG) Add_entropy8(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG_add_entropy8_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrVRNG) Add_entropy16(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG_add_entropy16_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrVRNG) Add_entropy32(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG_add_entropy32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrVRNG) Add_entropy64(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG_add_entropy64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_28(_swig_i_1))
+}
+
+func (arg1 SwigcptrVRNG) Add_entropy_N(arg2 uintptr, arg3 int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_vRNG_add_entropy_N_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_29(_swig_i_2))
+}
+
+func (arg1 SwigcptrVRNG) Add_entropy_automatically__SWIG_0(arg2 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_vRNG_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG) Add_entropy_automatically__SWIG_1() (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_vRNG_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG) Add_entropy_automatically(a ...interface{}) bool {
+	argc := len(a)
+	if argc == 0 {
+		return p.Add_entropy_automatically__SWIG_1()
+	}
+	if argc == 1 {
+		return p.Add_entropy_automatically__SWIG_0(a[0].(int))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrVRNG) Flush_buffers() {
+	_swig_i_0 := arg1
+	C._wrap_vRNG_flush_buffers_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+type VRNG interface {
+	Swigcptr() uintptr
+	SwigIsVRNG()
+	Seed_fast(arg2 uint64)
+	Seed(a ...interface{})
+	Autoseed()
+	Serialize(a ...interface{}) interface{}
+	Deserialize(arg2 string, arg3 int64) (_swig_ret bool)
+	Print_state() (_swig_ret string)
+	Walk_state(arg2 StateWalkingObject)
+	Raw8() (_swig_ret byte)
+	Raw16() (_swig_ret uint16)
+	Raw32() (_swig_ret uint)
+	Raw64() (_swig_ret uint64)
+	Randi(a ...interface{}) uint
+	Randi_fast(a ...interface{}) uint
+	Randli(a ...interface{}) uint64
+	Randf(a ...interface{}) float32
+	Randlf(a ...interface{}) float64
+	Gaussian(a ...interface{}) float64
+	Get_flags() (_swig_ret uint64)
+	Get_name() (_swig_ret string)
+	Get_native_output_size() (_swig_ret int)
+	Seek_forward128(arg2 uint64, arg3 uint64)
+	Seek_backward128(arg2 uint64, arg3 uint64)
+	Seek_forward(arg2 uint64)
+	Seek_backward(arg2 uint64)
+	Reset_entropy()
+	Add_entropy8(arg2 byte)
+	Add_entropy16(arg2 uint16)
+	Add_entropy32(arg2 uint)
+	Add_entropy64(arg2 uint64)
+	Add_entropy_N(arg2 uintptr, arg3 int64)
+	Add_entropy_automatically(a ...interface{}) bool
+	Flush_buffers()
+}
+
+type SwigcptrVRNG8 uintptr
+
+func (p SwigcptrVRNG8) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrVRNG8) SwigIsVRNG8() {
+}
+
+func _swig_getvRNG8_OUTPUT_BITS_vRNG8() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG8_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var VRNG8OUTPUT_BITS int = _swig_getvRNG8_OUTPUT_BITS_vRNG8()
+func (arg1 SwigcptrVRNG8) Raw16() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_vRNG8_raw16_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG8) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG8_raw32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG8) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_vRNG8_raw64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG8) Get_native_output_size() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_vRNG8_get_native_output_size_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func DeleteVRNG8(arg1 VRNG8) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_vRNG8_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG8) Seed__SWIG_0(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG8_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_31(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG8) Seed__SWIG_1(arg1 VRNG) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_vRNG8_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (p SwigcptrVRNG8) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		if _, ok := a[0].(SwigcptrVRNG); !ok {
+			goto check_1
+		}
+		p.Seed__SWIG_1(a[0].(VRNG))
+		return
+	}
+check_1:
+	if argc == 1 {
+		p.Seed__SWIG_0(a[0].(uint64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG8) Seed_fast(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG8_seed_fast_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_32(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG8) Autoseed() {
+	C._wrap_vRNG8_autoseed_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrVRNG8) Serialize__SWIG_0(arg1 string, arg2 int64) (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (int64)(C._wrap_vRNG8_serialize__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_0)), C.swig_type_35(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Serialize__SWIG_1(arg1 *int64) (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_vRNG8_serialize__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_voidp(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (p SwigcptrVRNG8) Serialize(a ...interface{}) interface{} {
+	argc := len(a)
+	if argc == 1 {
+		return p.Serialize__SWIG_1(a[0].(*int64))
+	}
+	if argc == 2 {
+		return p.Serialize__SWIG_0(a[0].(string), a[1].(int64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG8) Deserialize(arg1 string, arg2 int64) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_vRNG8_deserialize_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_0)), C.swig_type_38(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Print_state() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_vRNG8_print_state_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrVRNG8) Walk_state(arg1 StateWalkingObject) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_vRNG8_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG8) Raw8() (_swig_ret byte) {
+	var swig_r byte
+	swig_r = (byte)(C._wrap_vRNG8_raw8_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Randi__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG8_randi__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Randi__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_vRNG8_randi__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG8) Randi(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG8) Randi_fast__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG8_randi_fast__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Randi_fast__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_vRNG8_randi_fast__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG8) Randi_fast(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi_fast__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi_fast__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG8) Randli__SWIG_0(arg1 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_vRNG8_randli__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Randli__SWIG_1(arg1 uint64, arg2 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint64)(C._wrap_vRNG8_randli__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0), C.swig_type_44(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG8) Randli(a ...interface{}) uint64 {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randli__SWIG_0(a[0].(uint64))
+	}
+	if argc == 2 {
+		return p.Randli__SWIG_1(a[0].(uint64), a[1].(uint64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG8) Randf__SWIG_0() (_swig_ret float32) {
+	var swig_r float32
+	swig_r = (float32)(C._wrap_vRNG8_randf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Randf__SWIG_1(arg1 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_vRNG8_randf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Randf__SWIG_2(arg1 float32, arg2 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float32)(C._wrap_vRNG8_randf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG8) Randf(a ...interface{}) float32 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randf__SWIG_1(a[0].(float32))
+	}
+	if argc == 2 {
+		return p.Randf__SWIG_2(a[0].(float32), a[1].(float32))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG8) Randlf__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_vRNG8_randlf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Randlf__SWIG_1(arg1 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_vRNG8_randlf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Randlf__SWIG_2(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_vRNG8_randlf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG8) Randlf(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randlf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randlf__SWIG_1(a[0].(float64))
+	}
+	if argc == 2 {
+		return p.Randlf__SWIG_2(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG8) Gaussian__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_vRNG8_gaussian__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Gaussian__SWIG_1(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_vRNG8_gaussian__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG8) Gaussian(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Gaussian__SWIG_0()
+	}
+	if argc == 2 {
+		return p.Gaussian__SWIG_1(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG8) Get_flags() (_swig_ret uint64) {
+	var swig_r uint64
+	swig_r = (uint64)(C._wrap_vRNG8_get_flags_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Get_name() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_vRNG8_get_name_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrVRNG8) Seek_forward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG8_seek_forward128_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_47(_swig_i_0), C.swig_type_48(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG8) Seek_backward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG8_seek_backward128_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_49(_swig_i_0), C.swig_type_50(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG8) Seek_forward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG8_seek_forward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_51(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG8) Seek_backward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG8_seek_backward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_52(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG8) Reset_entropy() {
+	C._wrap_vRNG8_reset_entropy_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrVRNG8) Add_entropy8(arg1 byte) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG8_add_entropy8_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG8) Add_entropy16(arg1 uint16) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG8_add_entropy16_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG8) Add_entropy32(arg1 uint) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG8_add_entropy32_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG8) Add_entropy64(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG8_add_entropy64_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_53(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG8) Add_entropy_N(arg1 uintptr, arg2 int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG8_add_entropy_N_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_54(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG8) Add_entropy_automatically__SWIG_0(arg1 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_vRNG8_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG8) Add_entropy_automatically__SWIG_1() (_swig_ret bool) {
+	var swig_r bool
+	swig_r = (bool)(C._wrap_vRNG8_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG8) Add_entropy_automatically(a ...interface{}) bool {
+	argc := len(a)
+	if argc == 0 {
+		return p.Add_entropy_automatically__SWIG_1()
+	}
+	if argc == 1 {
+		return p.Add_entropy_automatically__SWIG_0(a[0].(int))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG8) Flush_buffers() {
+	C._wrap_vRNG8_flush_buffers_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (p SwigcptrVRNG8) SwigIsVRNG() {
+}
+
+func (p SwigcptrVRNG8) SwigGetVRNG() VRNG {
+	return SwigcptrVRNG(p.Swigcptr())
+}
+
+type VRNG8 interface {
+	Swigcptr() uintptr
+	SwigIsVRNG8()
+	Raw16() (_swig_ret uint16)
+	Raw32() (_swig_ret uint)
+	Raw64() (_swig_ret uint64)
+	Get_native_output_size() (_swig_ret int)
+	Seed(a ...interface{})
+	Seed_fast(arg1 uint64)
+	Autoseed()
+	Serialize(a ...interface{}) interface{}
+	Deserialize(arg1 string, arg2 int64) (_swig_ret bool)
+	Print_state() (_swig_ret string)
+	Walk_state(arg1 StateWalkingObject)
+	Raw8() (_swig_ret byte)
+	Randi(a ...interface{}) uint
+	Randi_fast(a ...interface{}) uint
+	Randli(a ...interface{}) uint64
+	Randf(a ...interface{}) float32
+	Randlf(a ...interface{}) float64
+	Gaussian(a ...interface{}) float64
+	Get_flags() (_swig_ret uint64)
+	Get_name() (_swig_ret string)
+	Seek_forward128(arg1 uint64, arg2 uint64)
+	Seek_backward128(arg1 uint64, arg2 uint64)
+	Seek_forward(arg1 uint64)
+	Seek_backward(arg1 uint64)
+	Reset_entropy()
+	Add_entropy8(arg1 byte)
+	Add_entropy16(arg1 uint16)
+	Add_entropy32(arg1 uint)
+	Add_entropy64(arg1 uint64)
+	Add_entropy_N(arg1 uintptr, arg2 int64)
+	Add_entropy_automatically(a ...interface{}) bool
+	Flush_buffers()
+	SwigIsVRNG()
+	SwigGetVRNG() VRNG
+}
+
+type SwigcptrVRNG16 uintptr
+
+func (p SwigcptrVRNG16) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrVRNG16) SwigIsVRNG16() {
+}
+
+func _swig_getvRNG16_OUTPUT_BITS_vRNG16() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG16_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var VRNG16OUTPUT_BITS int = _swig_getvRNG16_OUTPUT_BITS_vRNG16()
+func (arg1 SwigcptrVRNG16) Raw8() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_vRNG16_raw8_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG16) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG16_raw32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG16) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_vRNG16_raw64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG16) Get_native_output_size() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_vRNG16_get_native_output_size_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func DeleteVRNG16(arg1 VRNG16) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_vRNG16_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG16) Seed__SWIG_0(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG16_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_31(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG16) Seed__SWIG_1(arg1 VRNG) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_vRNG16_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (p SwigcptrVRNG16) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		if _, ok := a[0].(SwigcptrVRNG); !ok {
+			goto check_1
+		}
+		p.Seed__SWIG_1(a[0].(VRNG))
+		return
+	}
+check_1:
+	if argc == 1 {
+		p.Seed__SWIG_0(a[0].(uint64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG16) Seed_fast(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG16_seed_fast_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_32(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG16) Autoseed() {
+	C._wrap_vRNG16_autoseed_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrVRNG16) Serialize__SWIG_0(arg1 string, arg2 int64) (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (int64)(C._wrap_vRNG16_serialize__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_0)), C.swig_type_35(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Serialize__SWIG_1(arg1 *int64) (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_vRNG16_serialize__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_voidp(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (p SwigcptrVRNG16) Serialize(a ...interface{}) interface{} {
+	argc := len(a)
+	if argc == 1 {
+		return p.Serialize__SWIG_1(a[0].(*int64))
+	}
+	if argc == 2 {
+		return p.Serialize__SWIG_0(a[0].(string), a[1].(int64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG16) Deserialize(arg1 string, arg2 int64) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_vRNG16_deserialize_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_0)), C.swig_type_38(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Print_state() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_vRNG16_print_state_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrVRNG16) Walk_state(arg1 StateWalkingObject) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_vRNG16_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG16) Raw16() (_swig_ret uint16) {
+	var swig_r uint16
+	swig_r = (uint16)(C._wrap_vRNG16_raw16_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Randi__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG16_randi__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Randi__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_vRNG16_randi__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG16) Randi(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG16) Randi_fast__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG16_randi_fast__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Randi_fast__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_vRNG16_randi_fast__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG16) Randi_fast(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi_fast__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi_fast__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG16) Randli__SWIG_0(arg1 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_vRNG16_randli__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Randli__SWIG_1(arg1 uint64, arg2 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint64)(C._wrap_vRNG16_randli__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0), C.swig_type_44(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG16) Randli(a ...interface{}) uint64 {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randli__SWIG_0(a[0].(uint64))
+	}
+	if argc == 2 {
+		return p.Randli__SWIG_1(a[0].(uint64), a[1].(uint64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG16) Randf__SWIG_0() (_swig_ret float32) {
+	var swig_r float32
+	swig_r = (float32)(C._wrap_vRNG16_randf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Randf__SWIG_1(arg1 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_vRNG16_randf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Randf__SWIG_2(arg1 float32, arg2 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float32)(C._wrap_vRNG16_randf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG16) Randf(a ...interface{}) float32 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randf__SWIG_1(a[0].(float32))
+	}
+	if argc == 2 {
+		return p.Randf__SWIG_2(a[0].(float32), a[1].(float32))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG16) Randlf__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_vRNG16_randlf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Randlf__SWIG_1(arg1 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_vRNG16_randlf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Randlf__SWIG_2(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_vRNG16_randlf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG16) Randlf(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randlf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randlf__SWIG_1(a[0].(float64))
+	}
+	if argc == 2 {
+		return p.Randlf__SWIG_2(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG16) Gaussian__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_vRNG16_gaussian__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Gaussian__SWIG_1(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_vRNG16_gaussian__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG16) Gaussian(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Gaussian__SWIG_0()
+	}
+	if argc == 2 {
+		return p.Gaussian__SWIG_1(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG16) Get_flags() (_swig_ret uint64) {
+	var swig_r uint64
+	swig_r = (uint64)(C._wrap_vRNG16_get_flags_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Get_name() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_vRNG16_get_name_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrVRNG16) Seek_forward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG16_seek_forward128_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_47(_swig_i_0), C.swig_type_48(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG16) Seek_backward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG16_seek_backward128_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_49(_swig_i_0), C.swig_type_50(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG16) Seek_forward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG16_seek_forward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_51(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG16) Seek_backward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG16_seek_backward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_52(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG16) Reset_entropy() {
+	C._wrap_vRNG16_reset_entropy_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrVRNG16) Add_entropy8(arg1 byte) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG16_add_entropy8_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG16) Add_entropy16(arg1 uint16) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG16_add_entropy16_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG16) Add_entropy32(arg1 uint) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG16_add_entropy32_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG16) Add_entropy64(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG16_add_entropy64_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_53(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG16) Add_entropy_N(arg1 uintptr, arg2 int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG16_add_entropy_N_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_54(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG16) Add_entropy_automatically__SWIG_0(arg1 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_vRNG16_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG16) Add_entropy_automatically__SWIG_1() (_swig_ret bool) {
+	var swig_r bool
+	swig_r = (bool)(C._wrap_vRNG16_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG16) Add_entropy_automatically(a ...interface{}) bool {
+	argc := len(a)
+	if argc == 0 {
+		return p.Add_entropy_automatically__SWIG_1()
+	}
+	if argc == 1 {
+		return p.Add_entropy_automatically__SWIG_0(a[0].(int))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG16) Flush_buffers() {
+	C._wrap_vRNG16_flush_buffers_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (p SwigcptrVRNG16) SwigIsVRNG() {
+}
+
+func (p SwigcptrVRNG16) SwigGetVRNG() VRNG {
+	return SwigcptrVRNG(p.Swigcptr())
+}
+
+type VRNG16 interface {
+	Swigcptr() uintptr
+	SwigIsVRNG16()
+	Raw8() (_swig_ret byte)
+	Raw32() (_swig_ret uint)
+	Raw64() (_swig_ret uint64)
+	Get_native_output_size() (_swig_ret int)
+	Seed(a ...interface{})
+	Seed_fast(arg1 uint64)
+	Autoseed()
+	Serialize(a ...interface{}) interface{}
+	Deserialize(arg1 string, arg2 int64) (_swig_ret bool)
+	Print_state() (_swig_ret string)
+	Walk_state(arg1 StateWalkingObject)
+	Raw16() (_swig_ret uint16)
+	Randi(a ...interface{}) uint
+	Randi_fast(a ...interface{}) uint
+	Randli(a ...interface{}) uint64
+	Randf(a ...interface{}) float32
+	Randlf(a ...interface{}) float64
+	Gaussian(a ...interface{}) float64
+	Get_flags() (_swig_ret uint64)
+	Get_name() (_swig_ret string)
+	Seek_forward128(arg1 uint64, arg2 uint64)
+	Seek_backward128(arg1 uint64, arg2 uint64)
+	Seek_forward(arg1 uint64)
+	Seek_backward(arg1 uint64)
+	Reset_entropy()
+	Add_entropy8(arg1 byte)
+	Add_entropy16(arg1 uint16)
+	Add_entropy32(arg1 uint)
+	Add_entropy64(arg1 uint64)
+	Add_entropy_N(arg1 uintptr, arg2 int64)
+	Add_entropy_automatically(a ...interface{}) bool
+	Flush_buffers()
+	SwigIsVRNG()
+	SwigGetVRNG() VRNG
+}
+
+type SwigcptrVRNG32 uintptr
+
+func (p SwigcptrVRNG32) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrVRNG32) SwigIsVRNG32() {
+}
+
+func _swig_getvRNG32_OUTPUT_BITS_vRNG32() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG32_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var VRNG32OUTPUT_BITS int = _swig_getvRNG32_OUTPUT_BITS_vRNG32()
+func (arg1 SwigcptrVRNG32) Raw8() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_vRNG32_raw8_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG32) Raw16() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_vRNG32_raw16_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG32) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_vRNG32_raw64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG32) Get_native_output_size() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_vRNG32_get_native_output_size_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func DeleteVRNG32(arg1 VRNG32) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_vRNG32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG32) Seed__SWIG_0(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG32_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_31(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG32) Seed__SWIG_1(arg1 VRNG) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_vRNG32_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (p SwigcptrVRNG32) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		if _, ok := a[0].(SwigcptrVRNG); !ok {
+			goto check_1
+		}
+		p.Seed__SWIG_1(a[0].(VRNG))
+		return
+	}
+check_1:
+	if argc == 1 {
+		p.Seed__SWIG_0(a[0].(uint64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG32) Seed_fast(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG32_seed_fast_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_32(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG32) Autoseed() {
+	C._wrap_vRNG32_autoseed_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrVRNG32) Serialize__SWIG_0(arg1 string, arg2 int64) (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (int64)(C._wrap_vRNG32_serialize__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_0)), C.swig_type_35(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Serialize__SWIG_1(arg1 *int64) (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_vRNG32_serialize__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_voidp(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (p SwigcptrVRNG32) Serialize(a ...interface{}) interface{} {
+	argc := len(a)
+	if argc == 1 {
+		return p.Serialize__SWIG_1(a[0].(*int64))
+	}
+	if argc == 2 {
+		return p.Serialize__SWIG_0(a[0].(string), a[1].(int64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG32) Deserialize(arg1 string, arg2 int64) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_vRNG32_deserialize_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_0)), C.swig_type_38(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Print_state() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_vRNG32_print_state_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrVRNG32) Walk_state(arg1 StateWalkingObject) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_vRNG32_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG32) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	swig_r = (uint)(C._wrap_vRNG32_raw32_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Randi__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG32_randi__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Randi__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_vRNG32_randi__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG32) Randi(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG32) Randi_fast__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG32_randi_fast__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Randi_fast__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_vRNG32_randi_fast__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG32) Randi_fast(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi_fast__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi_fast__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG32) Randli__SWIG_0(arg1 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_vRNG32_randli__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Randli__SWIG_1(arg1 uint64, arg2 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint64)(C._wrap_vRNG32_randli__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0), C.swig_type_44(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG32) Randli(a ...interface{}) uint64 {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randli__SWIG_0(a[0].(uint64))
+	}
+	if argc == 2 {
+		return p.Randli__SWIG_1(a[0].(uint64), a[1].(uint64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG32) Randf__SWIG_0() (_swig_ret float32) {
+	var swig_r float32
+	swig_r = (float32)(C._wrap_vRNG32_randf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Randf__SWIG_1(arg1 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_vRNG32_randf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Randf__SWIG_2(arg1 float32, arg2 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float32)(C._wrap_vRNG32_randf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG32) Randf(a ...interface{}) float32 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randf__SWIG_1(a[0].(float32))
+	}
+	if argc == 2 {
+		return p.Randf__SWIG_2(a[0].(float32), a[1].(float32))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG32) Randlf__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_vRNG32_randlf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Randlf__SWIG_1(arg1 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_vRNG32_randlf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Randlf__SWIG_2(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_vRNG32_randlf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG32) Randlf(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randlf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randlf__SWIG_1(a[0].(float64))
+	}
+	if argc == 2 {
+		return p.Randlf__SWIG_2(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG32) Gaussian__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_vRNG32_gaussian__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Gaussian__SWIG_1(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_vRNG32_gaussian__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG32) Gaussian(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Gaussian__SWIG_0()
+	}
+	if argc == 2 {
+		return p.Gaussian__SWIG_1(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG32) Get_flags() (_swig_ret uint64) {
+	var swig_r uint64
+	swig_r = (uint64)(C._wrap_vRNG32_get_flags_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Get_name() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_vRNG32_get_name_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrVRNG32) Seek_forward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG32_seek_forward128_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_47(_swig_i_0), C.swig_type_48(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG32) Seek_backward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG32_seek_backward128_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_49(_swig_i_0), C.swig_type_50(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG32) Seek_forward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG32_seek_forward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_51(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG32) Seek_backward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG32_seek_backward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_52(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG32) Reset_entropy() {
+	C._wrap_vRNG32_reset_entropy_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrVRNG32) Add_entropy8(arg1 byte) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG32_add_entropy8_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG32) Add_entropy16(arg1 uint16) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG32_add_entropy16_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG32) Add_entropy32(arg1 uint) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG32_add_entropy32_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG32) Add_entropy64(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG32_add_entropy64_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_53(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG32) Add_entropy_N(arg1 uintptr, arg2 int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG32_add_entropy_N_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_54(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG32) Add_entropy_automatically__SWIG_0(arg1 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_vRNG32_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG32) Add_entropy_automatically__SWIG_1() (_swig_ret bool) {
+	var swig_r bool
+	swig_r = (bool)(C._wrap_vRNG32_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG32) Add_entropy_automatically(a ...interface{}) bool {
+	argc := len(a)
+	if argc == 0 {
+		return p.Add_entropy_automatically__SWIG_1()
+	}
+	if argc == 1 {
+		return p.Add_entropy_automatically__SWIG_0(a[0].(int))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG32) Flush_buffers() {
+	C._wrap_vRNG32_flush_buffers_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (p SwigcptrVRNG32) SwigIsVRNG() {
+}
+
+func (p SwigcptrVRNG32) SwigGetVRNG() VRNG {
+	return SwigcptrVRNG(p.Swigcptr())
+}
+
+type VRNG32 interface {
+	Swigcptr() uintptr
+	SwigIsVRNG32()
+	Raw8() (_swig_ret byte)
+	Raw16() (_swig_ret uint16)
+	Raw64() (_swig_ret uint64)
+	Get_native_output_size() (_swig_ret int)
+	Seed(a ...interface{})
+	Seed_fast(arg1 uint64)
+	Autoseed()
+	Serialize(a ...interface{}) interface{}
+	Deserialize(arg1 string, arg2 int64) (_swig_ret bool)
+	Print_state() (_swig_ret string)
+	Walk_state(arg1 StateWalkingObject)
+	Raw32() (_swig_ret uint)
+	Randi(a ...interface{}) uint
+	Randi_fast(a ...interface{}) uint
+	Randli(a ...interface{}) uint64
+	Randf(a ...interface{}) float32
+	Randlf(a ...interface{}) float64
+	Gaussian(a ...interface{}) float64
+	Get_flags() (_swig_ret uint64)
+	Get_name() (_swig_ret string)
+	Seek_forward128(arg1 uint64, arg2 uint64)
+	Seek_backward128(arg1 uint64, arg2 uint64)
+	Seek_forward(arg1 uint64)
+	Seek_backward(arg1 uint64)
+	Reset_entropy()
+	Add_entropy8(arg1 byte)
+	Add_entropy16(arg1 uint16)
+	Add_entropy32(arg1 uint)
+	Add_entropy64(arg1 uint64)
+	Add_entropy_N(arg1 uintptr, arg2 int64)
+	Add_entropy_automatically(a ...interface{}) bool
+	Flush_buffers()
+	SwigIsVRNG()
+	SwigGetVRNG() VRNG
+}
+
+type SwigcptrVRNG64 uintptr
+
+func (p SwigcptrVRNG64) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrVRNG64) SwigIsVRNG64() {
+}
+
+func _swig_getvRNG64_OUTPUT_BITS_vRNG64() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG64_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var VRNG64OUTPUT_BITS int = _swig_getvRNG64_OUTPUT_BITS_vRNG64()
+func (arg1 SwigcptrVRNG64) Raw8() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_vRNG64_raw8_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG64) Raw16() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_vRNG64_raw16_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG64) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG64_raw32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrVRNG64) Get_native_output_size() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_vRNG64_get_native_output_size_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func DeleteVRNG64(arg1 VRNG64) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_vRNG64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG64) Seed__SWIG_0(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG64_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_31(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG64) Seed__SWIG_1(arg1 VRNG) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_vRNG64_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (p SwigcptrVRNG64) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		if _, ok := a[0].(SwigcptrVRNG); !ok {
+			goto check_1
+		}
+		p.Seed__SWIG_1(a[0].(VRNG))
+		return
+	}
+check_1:
+	if argc == 1 {
+		p.Seed__SWIG_0(a[0].(uint64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG64) Seed_fast(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG64_seed_fast_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_32(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG64) Autoseed() {
+	C._wrap_vRNG64_autoseed_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrVRNG64) Serialize__SWIG_0(arg1 string, arg2 int64) (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (int64)(C._wrap_vRNG64_serialize__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_0)), C.swig_type_35(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Serialize__SWIG_1(arg1 *int64) (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_vRNG64_serialize__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_voidp(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (p SwigcptrVRNG64) Serialize(a ...interface{}) interface{} {
+	argc := len(a)
+	if argc == 1 {
+		return p.Serialize__SWIG_1(a[0].(*int64))
+	}
+	if argc == 2 {
+		return p.Serialize__SWIG_0(a[0].(string), a[1].(int64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG64) Deserialize(arg1 string, arg2 int64) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_vRNG64_deserialize_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_0)), C.swig_type_38(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Print_state() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_vRNG64_print_state_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrVRNG64) Walk_state(arg1 StateWalkingObject) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_vRNG64_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG64) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	swig_r = (uint64)(C._wrap_vRNG64_raw64_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Randi__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG64_randi__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Randi__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_vRNG64_randi__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG64) Randi(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG64) Randi_fast__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_vRNG64_randi_fast__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Randi_fast__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_vRNG64_randi_fast__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG64) Randi_fast(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi_fast__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi_fast__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG64) Randli__SWIG_0(arg1 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_vRNG64_randli__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Randli__SWIG_1(arg1 uint64, arg2 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint64)(C._wrap_vRNG64_randli__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0), C.swig_type_44(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG64) Randli(a ...interface{}) uint64 {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randli__SWIG_0(a[0].(uint64))
+	}
+	if argc == 2 {
+		return p.Randli__SWIG_1(a[0].(uint64), a[1].(uint64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG64) Randf__SWIG_0() (_swig_ret float32) {
+	var swig_r float32
+	swig_r = (float32)(C._wrap_vRNG64_randf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Randf__SWIG_1(arg1 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_vRNG64_randf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Randf__SWIG_2(arg1 float32, arg2 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float32)(C._wrap_vRNG64_randf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG64) Randf(a ...interface{}) float32 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randf__SWIG_1(a[0].(float32))
+	}
+	if argc == 2 {
+		return p.Randf__SWIG_2(a[0].(float32), a[1].(float32))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG64) Randlf__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_vRNG64_randlf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Randlf__SWIG_1(arg1 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_vRNG64_randlf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Randlf__SWIG_2(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_vRNG64_randlf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG64) Randlf(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randlf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randlf__SWIG_1(a[0].(float64))
+	}
+	if argc == 2 {
+		return p.Randlf__SWIG_2(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG64) Gaussian__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_vRNG64_gaussian__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Gaussian__SWIG_1(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_vRNG64_gaussian__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG64) Gaussian(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Gaussian__SWIG_0()
+	}
+	if argc == 2 {
+		return p.Gaussian__SWIG_1(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG64) Get_flags() (_swig_ret uint64) {
+	var swig_r uint64
+	swig_r = (uint64)(C._wrap_vRNG64_get_flags_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Get_name() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_vRNG64_get_name_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrVRNG64) Seek_forward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG64_seek_forward128_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_47(_swig_i_0), C.swig_type_48(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG64) Seek_backward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG64_seek_backward128_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_49(_swig_i_0), C.swig_type_50(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG64) Seek_forward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG64_seek_forward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_51(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG64) Seek_backward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG64_seek_backward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_52(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG64) Reset_entropy() {
+	C._wrap_vRNG64_reset_entropy_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrVRNG64) Add_entropy8(arg1 byte) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG64_add_entropy8_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG64) Add_entropy16(arg1 uint16) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG64_add_entropy16_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG64) Add_entropy32(arg1 uint) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG64_add_entropy32_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG64) Add_entropy64(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_vRNG64_add_entropy64_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_53(_swig_i_0))
+}
+
+func (_swig_base SwigcptrVRNG64) Add_entropy_N(arg1 uintptr, arg2 int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_vRNG64_add_entropy_N_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_54(_swig_i_1))
+}
+
+func (_swig_base SwigcptrVRNG64) Add_entropy_automatically__SWIG_0(arg1 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_vRNG64_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrVRNG64) Add_entropy_automatically__SWIG_1() (_swig_ret bool) {
+	var swig_r bool
+	swig_r = (bool)(C._wrap_vRNG64_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (p SwigcptrVRNG64) Add_entropy_automatically(a ...interface{}) bool {
+	argc := len(a)
+	if argc == 0 {
+		return p.Add_entropy_automatically__SWIG_1()
+	}
+	if argc == 1 {
+		return p.Add_entropy_automatically__SWIG_0(a[0].(int))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrVRNG64) Flush_buffers() {
+	C._wrap_vRNG64_flush_buffers_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (p SwigcptrVRNG64) SwigIsVRNG() {
+}
+
+func (p SwigcptrVRNG64) SwigGetVRNG() VRNG {
+	return SwigcptrVRNG(p.Swigcptr())
+}
+
+type VRNG64 interface {
+	Swigcptr() uintptr
+	SwigIsVRNG64()
+	Raw8() (_swig_ret byte)
+	Raw16() (_swig_ret uint16)
+	Raw32() (_swig_ret uint)
+	Get_native_output_size() (_swig_ret int)
+	Seed(a ...interface{})
+	Seed_fast(arg1 uint64)
+	Autoseed()
+	Serialize(a ...interface{}) interface{}
+	Deserialize(arg1 string, arg2 int64) (_swig_ret bool)
+	Print_state() (_swig_ret string)
+	Walk_state(arg1 StateWalkingObject)
+	Raw64() (_swig_ret uint64)
+	Randi(a ...interface{}) uint
+	Randi_fast(a ...interface{}) uint
+	Randli(a ...interface{}) uint64
+	Randf(a ...interface{}) float32
+	Randlf(a ...interface{}) float64
+	Gaussian(a ...interface{}) float64
+	Get_flags() (_swig_ret uint64)
+	Get_name() (_swig_ret string)
+	Seek_forward128(arg1 uint64, arg2 uint64)
+	Seek_backward128(arg1 uint64, arg2 uint64)
+	Seek_forward(arg1 uint64)
+	Seek_backward(arg1 uint64)
+	Reset_entropy()
+	Add_entropy8(arg1 byte)
+	Add_entropy16(arg1 uint16)
+	Add_entropy32(arg1 uint)
+	Add_entropy64(arg1 uint64)
+	Add_entropy_N(arg1 uintptr, arg2 int64)
+	Add_entropy_automatically(a ...interface{}) bool
+	Flush_buffers()
+	SwigIsVRNG()
+	SwigGetVRNG() VRNG
+}
+
+func _swig_getNORMAL_1() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_NORMAL_1_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var NORMAL_1 int = _swig_getNORMAL_1()
+func _swig_getNORMAL_ALL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_NORMAL_ALL_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var NORMAL_ALL int = _swig_getNORMAL_ALL()
+func _swig_getSUPPORTS_FASTFORWARD() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_SUPPORTS_FASTFORWARD_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var SUPPORTS_FASTFORWARD int = _swig_getSUPPORTS_FASTFORWARD()
+func _swig_getSUPPORTS_ENTROPY_ACCUMULATION() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_SUPPORTS_ENTROPY_ACCUMULATION_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var SUPPORTS_ENTROPY_ACCUMULATION int = _swig_getSUPPORTS_ENTROPY_ACCUMULATION()
+func _swig_getCRYPTOGRAPHIC_SECURITY() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_CRYPTOGRAPHIC_SECURITY_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var CRYPTOGRAPHIC_SECURITY int = _swig_getCRYPTOGRAPHIC_SECURITY()
+func _swig_getUSES_SPECIFIED() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_USES_SPECIFIED_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var USES_SPECIFIED int = _swig_getUSES_SPECIFIED()
+func _swig_getUSES_MULTIPLICATION() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_USES_MULTIPLICATION_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var USES_MULTIPLICATION int = _swig_getUSES_MULTIPLICATION()
+func _swig_getUSES_COMPLEX_INSTRUCTIONS() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_USES_COMPLEX_INSTRUCTIONS_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var USES_COMPLEX_INSTRUCTIONS int = _swig_getUSES_COMPLEX_INSTRUCTIONS()
+func _swig_getUSES_VARIABLE_SHIFTS() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_USES_VARIABLE_SHIFTS_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var USES_VARIABLE_SHIFTS int = _swig_getUSES_VARIABLE_SHIFTS()
+func _swig_getUSES_INDIRECTION() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_USES_INDIRECTION_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var USES_INDIRECTION int = _swig_getUSES_INDIRECTION()
+func _swig_getUSES_CYCLIC_BUFFER() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_USES_CYCLIC_BUFFER_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var USES_CYCLIC_BUFFER int = _swig_getUSES_CYCLIC_BUFFER()
+func _swig_getUSES_FLOW_CONTROL() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_USES_FLOW_CONTROL_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var USES_FLOW_CONTROL int = _swig_getUSES_FLOW_CONTROL()
+func _swig_getUSES_BIT_SCANS() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_USES_BIT_SCANS_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var USES_BIT_SCANS int = _swig_getUSES_BIT_SCANS()
+func _swig_getUSES_OTHER_WORD_SIZES() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_USES_OTHER_WORD_SIZES_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var USES_OTHER_WORD_SIZES int = _swig_getUSES_OTHER_WORD_SIZES()
+func _swig_getENDIAN_SAFE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_ENDIAN_SAFE_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var ENDIAN_SAFE int = _swig_getENDIAN_SAFE()
+func _swig_getOUTPUT_IS_BUFFERED() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_IS_BUFFERED_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var OUTPUT_IS_BUFFERED int = _swig_getOUTPUT_IS_BUFFERED()
+func _swig_getOUTPUT_IS_HASHED() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_IS_HASHED_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var OUTPUT_IS_HASHED int = _swig_getOUTPUT_IS_HASHED()
+func _swig_getSTATE_UNAVAILABLE() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_STATE_UNAVAILABLE_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var STATE_UNAVAILABLE int = _swig_getSTATE_UNAVAILABLE()
+func _swig_getSEEDING_UNSUPPORTED() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_SEEDING_UNSUPPORTED_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var SEEDING_UNSUPPORTED int = _swig_getSEEDING_UNSUPPORTED()
+func _swig_getNEEDS_GENERIC_SEEDING() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_NEEDS_GENERIC_SEEDING_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var NEEDS_GENERIC_SEEDING int = _swig_getNEEDS_GENERIC_SEEDING()
 type SwigcptrStateWalkingObject uintptr
 
 func (p SwigcptrStateWalkingObject) Swigcptr() uintptr {
@@ -139,136 +3327,136 @@ func (p SwigcptrStateWalkingObject) SwigIsStateWalkingObject() {
 
 func DeleteStateWalkingObject(arg1 StateWalkingObject) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_StateWalkingObject_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_StateWalkingObject_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_0(arg2 *bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_handle__SWIG_0_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_handle__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
-func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_1(arg2 Uint8) {
+func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_1(arg2 *byte) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_StateWalkingObject_handle__SWIG_1_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_StateWalkingObject_handle__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
-func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_2(arg2 Uint16) {
+func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_2(arg2 *uint16) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_StateWalkingObject_handle__SWIG_2_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_StateWalkingObject_handle__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
-func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_3(arg2 Uint32) {
+func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_3(arg2 *uint) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_StateWalkingObject_handle__SWIG_3_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_StateWalkingObject_handle__SWIG_3_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
-func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_4(arg2 Uint64) {
+func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_4(arg2 *uint64) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_StateWalkingObject_handle__SWIG_4_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_StateWalkingObject_handle__SWIG_4_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_5(arg2 *float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_handle__SWIG_5_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_handle__SWIG_5_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_6(arg2 *float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_handle__SWIG_6_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_handle__SWIG_6_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func _swig_getStateWalkingObject_FLAG_READ_ONLY_StateWalkingObject() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAG_READ_ONLY_StateWalkingObject_rng_bfbcb6a9797b2cf1())
+	swig_r = (int)(C._wrap_FLAG_READ_ONLY_StateWalkingObject_rng_ae47b152c742082b())
 	return swig_r
 }
 
 var StateWalkingObjectFLAG_READ_ONLY int = _swig_getStateWalkingObject_FLAG_READ_ONLY_StateWalkingObject()
 func _swig_getStateWalkingObject_FLAG_WRITE_ONLY_StateWalkingObject() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAG_WRITE_ONLY_StateWalkingObject_rng_bfbcb6a9797b2cf1())
+	swig_r = (int)(C._wrap_FLAG_WRITE_ONLY_StateWalkingObject_rng_ae47b152c742082b())
 	return swig_r
 }
 
 var StateWalkingObjectFLAG_WRITE_ONLY int = _swig_getStateWalkingObject_FLAG_WRITE_ONLY_StateWalkingObject()
 func _swig_getStateWalkingObject_FLAG_CLUMSY_StateWalkingObject() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAG_CLUMSY_StateWalkingObject_rng_bfbcb6a9797b2cf1())
+	swig_r = (int)(C._wrap_FLAG_CLUMSY_StateWalkingObject_rng_ae47b152c742082b())
 	return swig_r
 }
 
 var StateWalkingObjectFLAG_CLUMSY int = _swig_getStateWalkingObject_FLAG_CLUMSY_StateWalkingObject()
 func _swig_getStateWalkingObject_FLAG_SEEDER_StateWalkingObject() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAG_SEEDER_StateWalkingObject_rng_bfbcb6a9797b2cf1())
+	swig_r = (int)(C._wrap_FLAG_SEEDER_StateWalkingObject_rng_ae47b152c742082b())
 	return swig_r
 }
 
 var StateWalkingObjectFLAG_SEEDER int = _swig_getStateWalkingObject_FLAG_SEEDER_StateWalkingObject()
-func (arg1 SwigcptrStateWalkingObject) Get_properties() (_swig_ret Uint32) {
-	var swig_r Uint32
+func (arg1 SwigcptrStateWalkingObject) Get_properties() (_swig_ret uint) {
+	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (Uint32)(SwigcptrUint32(C._wrap_StateWalkingObject_get_properties_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0))))
+	swig_r = (uint)(C._wrap_StateWalkingObject_get_properties_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrStateWalkingObject) Is_read_only() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_StateWalkingObject_is_read_only_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_StateWalkingObject_is_read_only_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrStateWalkingObject) Is_write_only() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_StateWalkingObject_is_write_only_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_StateWalkingObject_is_write_only_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrStateWalkingObject) Is_clumsy() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_StateWalkingObject_is_clumsy_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_StateWalkingObject_is_clumsy_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrStateWalkingObject) Is_seeder() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_StateWalkingObject_is_seeder_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_StateWalkingObject_is_seeder_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_7(arg2 Sint8) {
+func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_7(arg2 *int8) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_StateWalkingObject_handle__SWIG_7_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_StateWalkingObject_handle__SWIG_7_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
-func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_8(arg2 Sint16) {
+func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_8(arg2 *int16) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_StateWalkingObject_handle__SWIG_8_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_StateWalkingObject_handle__SWIG_8_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
-func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_9(arg2 Sint32) {
+func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_9(arg2 *int) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_StateWalkingObject_handle__SWIG_9_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_StateWalkingObject_handle__SWIG_9_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
-func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_10(arg2 Sint64) {
+func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_10(arg2 *int64) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_StateWalkingObject_handle__SWIG_10_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_StateWalkingObject_handle__SWIG_10_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (p SwigcptrStateWalkingObject) Handle(a ...interface{}) {
@@ -282,34 +3470,34 @@ func (p SwigcptrStateWalkingObject) Handle(a ...interface{}) {
 	}
 check_1:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrUint8); !ok {
+		if _, ok := a[0].(*byte); !ok {
 			goto check_2
 		}
-		p.Handle__SWIG_1(a[0].(Uint8))
+		p.Handle__SWIG_1(a[0].(*byte))
 		return
 	}
 check_2:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrUint16); !ok {
+		if _, ok := a[0].(*uint16); !ok {
 			goto check_3
 		}
-		p.Handle__SWIG_2(a[0].(Uint16))
+		p.Handle__SWIG_2(a[0].(*uint16))
 		return
 	}
 check_3:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrUint32); !ok {
+		if _, ok := a[0].(*uint); !ok {
 			goto check_4
 		}
-		p.Handle__SWIG_3(a[0].(Uint32))
+		p.Handle__SWIG_3(a[0].(*uint))
 		return
 	}
 check_4:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrUint64); !ok {
+		if _, ok := a[0].(*uint64); !ok {
 			goto check_5
 		}
-		p.Handle__SWIG_4(a[0].(Uint64))
+		p.Handle__SWIG_4(a[0].(*uint64))
 		return
 	}
 check_5:
@@ -330,97 +3518,97 @@ check_6:
 	}
 check_7:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrSint8); !ok {
+		if _, ok := a[0].(*int8); !ok {
 			goto check_8
 		}
-		p.Handle__SWIG_7(a[0].(Sint8))
+		p.Handle__SWIG_7(a[0].(*int8))
 		return
 	}
 check_8:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrSint16); !ok {
+		if _, ok := a[0].(*int16); !ok {
 			goto check_9
 		}
-		p.Handle__SWIG_8(a[0].(Sint16))
+		p.Handle__SWIG_8(a[0].(*int16))
 		return
 	}
 check_9:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrSint32); !ok {
+		if _, ok := a[0].(*int); !ok {
 			goto check_10
 		}
-		p.Handle__SWIG_9(a[0].(Sint32))
+		p.Handle__SWIG_9(a[0].(*int))
 		return
 	}
 check_10:
 	if argc == 1 {
-		p.Handle__SWIG_10(a[0].(Sint64))
+		p.Handle__SWIG_10(a[0].(*int64))
 		return
 	}
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_0(arg2 Uint8) (_swig_ret StateWalkingObject) {
+func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_0(arg2 *byte) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_0_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	_swig_i_1 := arg2
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_1(arg2 Uint16) (_swig_ret StateWalkingObject) {
+func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_1(arg2 *uint16) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_1_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	_swig_i_1 := arg2
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_2(arg2 Uint32) (_swig_ret StateWalkingObject) {
+func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_2(arg2 *uint) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_2_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	_swig_i_1 := arg2
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_3(arg2 Uint64) (_swig_ret StateWalkingObject) {
+func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_3(arg2 *uint64) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_3_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	_swig_i_1 := arg2
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_3_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_4(arg2 Sint8) (_swig_ret StateWalkingObject) {
+func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_4(arg2 *int8) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_4_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	_swig_i_1 := arg2
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_4_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_5(arg2 Sint16) (_swig_ret StateWalkingObject) {
+func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_5(arg2 *int16) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_5_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	_swig_i_1 := arg2
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_5_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_6(arg2 Sint32) (_swig_ret StateWalkingObject) {
+func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_6(arg2 *int) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_6_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	_swig_i_1 := arg2
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_6_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_7(arg2 Sint64) (_swig_ret StateWalkingObject) {
+func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_7(arg2 *int64) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_7_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	_swig_i_1 := arg2
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_7_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -428,7 +3616,7 @@ func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_8(arg2 *float32) (_swig_r
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_8_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_8_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -436,66 +3624,66 @@ func (arg1 SwigcptrStateWalkingObject) LeftShift__SWIG_9(arg2 *float64) (_swig_r
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_9_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShift__SWIG_9_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
 func (p SwigcptrStateWalkingObject) LeftShift(a ...interface{}) StateWalkingObject {
 	argc := len(a)
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrUint8); !ok {
+		if _, ok := a[0].(*byte); !ok {
 			goto check_1
 		}
-		return p.LeftShift__SWIG_0(a[0].(Uint8))
+		return p.LeftShift__SWIG_0(a[0].(*byte))
 	}
 check_1:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrUint16); !ok {
+		if _, ok := a[0].(*uint16); !ok {
 			goto check_2
 		}
-		return p.LeftShift__SWIG_1(a[0].(Uint16))
+		return p.LeftShift__SWIG_1(a[0].(*uint16))
 	}
 check_2:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrUint32); !ok {
+		if _, ok := a[0].(*uint); !ok {
 			goto check_3
 		}
-		return p.LeftShift__SWIG_2(a[0].(Uint32))
+		return p.LeftShift__SWIG_2(a[0].(*uint))
 	}
 check_3:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrUint64); !ok {
+		if _, ok := a[0].(*uint64); !ok {
 			goto check_4
 		}
-		return p.LeftShift__SWIG_3(a[0].(Uint64))
+		return p.LeftShift__SWIG_3(a[0].(*uint64))
 	}
 check_4:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrSint8); !ok {
+		if _, ok := a[0].(*int8); !ok {
 			goto check_5
 		}
-		return p.LeftShift__SWIG_4(a[0].(Sint8))
+		return p.LeftShift__SWIG_4(a[0].(*int8))
 	}
 check_5:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrSint16); !ok {
+		if _, ok := a[0].(*int16); !ok {
 			goto check_6
 		}
-		return p.LeftShift__SWIG_5(a[0].(Sint16))
+		return p.LeftShift__SWIG_5(a[0].(*int16))
 	}
 check_6:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrSint32); !ok {
+		if _, ok := a[0].(*int); !ok {
 			goto check_7
 		}
-		return p.LeftShift__SWIG_6(a[0].(Sint32))
+		return p.LeftShift__SWIG_6(a[0].(*int))
 	}
 check_7:
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrSint64); !ok {
+		if _, ok := a[0].(*int64); !ok {
 			goto check_8
 		}
-		return p.LeftShift__SWIG_7(a[0].(Sint64))
+		return p.LeftShift__SWIG_7(a[0].(*int64))
 	}
 check_8:
 	if argc == 1 {
@@ -514,7 +3702,7 @@ check_9:
 type StateWalkingObject interface {
 	Swigcptr() uintptr
 	SwigIsStateWalkingObject()
-	Get_properties() (_swig_ret Uint32)
+	Get_properties() (_swig_ret uint)
 	Is_read_only() (_swig_ret bool)
 	Is_write_only() (_swig_ret bool)
 	Is_clumsy() (_swig_ret bool)
@@ -523,17 +3711,17 @@ type StateWalkingObject interface {
 	LeftShift(a ...interface{}) StateWalkingObject
 }
 
-func Vrng_to_rng_seeder(arg1 PractRand_RNGs_vRNG) (_swig_ret StateWalkingObject) {
+func Vrng_to_rng_seeder(arg1 VRNG) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_vrng_to_rng_seeder_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_vrng_to_rng_seeder_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func Get_autoseeder(arg1 uintptr) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_get_autoseeder_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_get_autoseeder_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -548,104 +3736,104 @@ func (p SwigcptrSalsa) SwigIsSalsa() {
 
 func _swig_getsalsa_OUTPUT_TYPE_salsa() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_TYPE_salsa_rng_bfbcb6a9797b2cf1())
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_salsa_rng_ae47b152c742082b())
 	return swig_r
 }
 
 var SalsaOUTPUT_TYPE int = _swig_getsalsa_OUTPUT_TYPE_salsa()
 func _swig_getsalsa_OUTPUT_BITS_salsa() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_salsa_rng_bfbcb6a9797b2cf1())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_salsa_rng_ae47b152c742082b())
 	return swig_r
 }
 
 var SalsaOUTPUT_BITS int = _swig_getsalsa_OUTPUT_BITS_salsa()
 func _swig_getsalsa_FLAGS_salsa() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_salsa_rng_bfbcb6a9797b2cf1())
+	swig_r = (int)(C._wrap_FLAGS_salsa_rng_ae47b152c742082b())
 	return swig_r
 }
 
 var SalsaFLAGS int = _swig_getsalsa_FLAGS_salsa()
 func NewSalsa() (_swig_ret Salsa) {
 	var swig_r Salsa
-	swig_r = (Salsa)(SwigcptrSalsa(C._wrap_new_salsa_rng_bfbcb6a9797b2cf1()))
+	swig_r = (Salsa)(SwigcptrSalsa(C._wrap_new_salsa_rng_ae47b152c742082b()))
 	return swig_r
 }
 
 func DeleteSalsa(arg1 Salsa) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_salsa_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_salsa_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
 }
 
-func (arg1 SwigcptrSalsa) Raw32() (_swig_ret Uint32) {
-	var swig_r Uint32
+func (arg1 SwigcptrSalsa) Raw32() (_swig_ret uint) {
+	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (Uint32)(SwigcptrUint32(C._wrap_salsa_raw32_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0))))
+	swig_r = (uint)(C._wrap_salsa_raw32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrSalsa) Seed__SWIG_0(arg2 Uint64) {
+func (arg1 SwigcptrSalsa) Seed__SWIG_0(arg2 uint64) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_salsa_seed__SWIG_0_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_salsa_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_79(_swig_i_1))
 }
 
-func (arg1 SwigcptrSalsa) Seed__SWIG_1(arg2 Uint32, arg3 bool) {
+func (arg1 SwigcptrSalsa) Seed__SWIG_1(arg2 *uint, arg3 bool) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
+	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_salsa_seed__SWIG_1_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_salsa_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
 }
 
-func (arg1 SwigcptrSalsa) Seed__SWIG_2(arg2 Uint32) {
+func (arg1 SwigcptrSalsa) Seed__SWIG_2(arg2 *uint) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_salsa_seed__SWIG_2_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_salsa_seed__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (p SwigcptrSalsa) Seed(a ...interface{}) {
 	argc := len(a)
 	if argc == 1 {
-		if _, ok := a[0].(SwigcptrUint64); !ok {
+		if _, ok := a[0].(*uint); !ok {
 			goto check_1
 		}
-		p.Seed__SWIG_0(a[0].(Uint64))
+		p.Seed__SWIG_2(a[0].(*uint))
 		return
 	}
 check_1:
 	if argc == 1 {
-		p.Seed__SWIG_2(a[0].(Uint32))
+		p.Seed__SWIG_0(a[0].(uint64))
 		return
 	}
 	if argc == 2 {
-		p.Seed__SWIG_1(a[0].(Uint32), a[1].(bool))
+		p.Seed__SWIG_1(a[0].(*uint), a[1].(bool))
 		return
 	}
 	panic("No match for overloaded function call")
 }
 
-func (arg1 SwigcptrSalsa) Seed_short__SWIG_0(arg2 Uint32, arg3 bool) {
+func (arg1 SwigcptrSalsa) Seed_short__SWIG_0(arg2 *uint, arg3 bool) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
+	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_salsa_seed_short__SWIG_0_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_salsa_seed_short__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
 }
 
-func (arg1 SwigcptrSalsa) Seed_short__SWIG_1(arg2 Uint32) {
+func (arg1 SwigcptrSalsa) Seed_short__SWIG_1(arg2 *uint) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_salsa_seed_short__SWIG_1_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_salsa_seed_short__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (p SwigcptrSalsa) Seed_short(a ...interface{}) {
 	argc := len(a)
 	if argc == 1 {
-		p.Seed_short__SWIG_1(a[0].(Uint32))
+		p.Seed_short__SWIG_1(a[0].(*uint))
 		return
 	}
 	if argc == 2 {
-		p.Seed_short__SWIG_0(a[0].(Uint32), a[1].(bool))
+		p.Seed_short__SWIG_0(a[0].(*uint), a[1].(bool))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -654,51 +3842,644 @@ func (p SwigcptrSalsa) Seed_short(a ...interface{}) {
 func (arg1 SwigcptrSalsa) Walk_state(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_salsa_walk_state_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_salsa_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrSalsa) Seek_forward(arg2 Uint64, arg3 Uint64) {
+func (arg1 SwigcptrSalsa) Seek_forward(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_salsa_seek_forward_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_salsa_seek_forward_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_80(_swig_i_1), C.swig_type_81(_swig_i_2))
 }
 
-func (arg1 SwigcptrSalsa) Seek_backward(arg2 Uint64, arg3 Uint64) {
+func (arg1 SwigcptrSalsa) Seek_backward(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_salsa_seek_backward_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_salsa_seek_backward_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_82(_swig_i_1), C.swig_type_83(_swig_i_2))
 }
 
 func (arg1 SwigcptrSalsa) Set_rounds(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_salsa_set_rounds_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_salsa_set_rounds_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSalsa) Get_rounds() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_salsa_get_rounds_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_salsa_get_rounds_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SalsaSelf_test() {
-	C._wrap_salsa_self_test_rng_bfbcb6a9797b2cf1()
+	C._wrap_salsa_self_test_rng_ae47b152c742082b()
 }
 
 type Salsa interface {
 	Swigcptr() uintptr
 	SwigIsSalsa()
-	Raw32() (_swig_ret Uint32)
+	Raw32() (_swig_ret uint)
 	Seed(a ...interface{})
 	Seed_short(a ...interface{})
 	Walk_state(arg2 StateWalkingObject)
-	Seek_forward(arg2 Uint64, arg3 Uint64)
-	Seek_backward(arg2 Uint64, arg3 Uint64)
+	Seek_forward(arg2 uint64, arg3 uint64)
+	Seek_backward(arg2 uint64, arg3 uint64)
 	Set_rounds(arg2 int)
 	Get_rounds() (_swig_ret int)
+}
+
+type SwigcptrPolymorphicSalsa uintptr
+
+func (p SwigcptrPolymorphicSalsa) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrPolymorphicSalsa) SwigIsPolymorphicSalsa() {
+}
+
+func _swig_getPolymorphicSalsa_OUTPUT_TYPE_PolymorphicSalsa() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_PolymorphicSalsa_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var PolymorphicSalsaOUTPUT_TYPE int = _swig_getPolymorphicSalsa_OUTPUT_TYPE_PolymorphicSalsa()
+func _swig_getPolymorphicSalsa_OUTPUT_BITS_PolymorphicSalsa() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_PolymorphicSalsa_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var PolymorphicSalsaOUTPUT_BITS int = _swig_getPolymorphicSalsa_OUTPUT_BITS_PolymorphicSalsa()
+func _swig_getPolymorphicSalsa_FLAGS_PolymorphicSalsa() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_FLAGS_PolymorphicSalsa_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var PolymorphicSalsaFLAGS int = _swig_getPolymorphicSalsa_FLAGS_PolymorphicSalsa()
+func (arg1 SwigcptrPolymorphicSalsa) SetImplementation(arg2 Salsa) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_PolymorphicSalsa_implementation_set_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) GetImplementation() (_swig_ret Salsa) {
+	var swig_r Salsa
+	_swig_i_0 := arg1
+	swig_r = (Salsa)(SwigcptrSalsa(C._wrap_PolymorphicSalsa_implementation_get_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewPolymorphicSalsaFromUInt64(arg1 uint64) (_swig_ret PolymorphicSalsa) {
+	var swig_r PolymorphicSalsa
+	_swig_i_0 := arg1
+	swig_r = (PolymorphicSalsa)(SwigcptrPolymorphicSalsa(C._wrap_new_PolymorphicSalsaFromUInt64_rng_ae47b152c742082b(C.swig_type_84(_swig_i_0))))
+	return swig_r
+}
+
+func NewPolymorphicSalsaFromRNG(arg1 VRNG) (_swig_ret PolymorphicSalsa) {
+	var swig_r PolymorphicSalsa
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (PolymorphicSalsa)(SwigcptrPolymorphicSalsa(C._wrap_new_PolymorphicSalsaFromRNG_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewPolymorphicSalsaFromAuto(arg1 SEED_AUTO_TYPE) (_swig_ret PolymorphicSalsa) {
+	var swig_r PolymorphicSalsa
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (PolymorphicSalsa)(SwigcptrPolymorphicSalsa(C._wrap_new_PolymorphicSalsaFromAuto_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewPolymorphicSalsaFromNone(arg1 SEED_NONE_TYPE) (_swig_ret PolymorphicSalsa) {
+	var swig_r PolymorphicSalsa
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (PolymorphicSalsa)(SwigcptrPolymorphicSalsa(C._wrap_new_PolymorphicSalsaFromNone_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Raw8() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_PolymorphicSalsa_raw8_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Raw16() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_PolymorphicSalsa_raw16_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_PolymorphicSalsa_raw32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_PolymorphicSalsa_raw64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Seed_SWIG_0_0(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSalsa_seed_SWIG_0_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_86(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Seed_SWIG_0_1(arg2 VRNG) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_PolymorphicSalsa_seed_SWIG_0_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (p SwigcptrPolymorphicSalsa) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		if _, ok := a[0].(SwigcptrVRNG); !ok {
+			goto check_1
+		}
+		p.Seed_SWIG_0_1(a[0].(VRNG))
+		return
+	}
+check_1:
+	if argc == 1 {
+		p.Seed_SWIG_0_0(a[0].(uint64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Get_flags() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_PolymorphicSalsa_get_flags_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Get_name() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_PolymorphicSalsa_get_name_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Walk_state(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_PolymorphicSalsa_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func NewPolymorphicSalsaFromSeedAndIV(arg1 *uint, arg2 bool) (_swig_ret PolymorphicSalsa) {
+	var swig_r PolymorphicSalsa
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (PolymorphicSalsa)(SwigcptrPolymorphicSalsa(C._wrap_new_PolymorphicSalsaFromSeedAndIV_rng_ae47b152c742082b(C.swig_voidp(_swig_i_0), C._Bool(_swig_i_1))))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) SeedAndIV(arg2 *uint, arg3 bool) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_PolymorphicSalsa_SeedAndIV_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Seed_short__SWIG_0(arg2 *uint, arg3 bool) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_PolymorphicSalsa_seed_short__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Seed_short__SWIG_1(arg2 *uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSalsa_seed_short__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (p SwigcptrPolymorphicSalsa) Seed_short(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		p.Seed_short__SWIG_1(a[0].(*uint))
+		return
+	}
+	if argc == 2 {
+		p.Seed_short__SWIG_0(a[0].(*uint), a[1].(bool))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Seek_forward128(arg2 uint64, arg3 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_PolymorphicSalsa_seek_forward128_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_89(_swig_i_1), C.swig_type_90(_swig_i_2))
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Seek_backward128(arg2 uint64, arg3 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_PolymorphicSalsa_seek_backward128_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_91(_swig_i_1), C.swig_type_92(_swig_i_2))
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Set_rounds(arg2 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSalsa_set_rounds_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSalsa) Get_rounds() (_swig_ret int) {
+	var swig_r int
+	_swig_i_0 := arg1
+	swig_r = (int)(C._wrap_PolymorphicSalsa_get_rounds_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func DeletePolymorphicSalsa(arg1 PolymorphicSalsa) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_PolymorphicSalsa_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Get_native_output_size() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_PolymorphicSalsa_get_native_output_size_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Seed_fast(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSalsa_seed_fast_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_32(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Autoseed() {
+	C._wrap_PolymorphicSalsa_autoseed_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Serialize__SWIG_0(arg1 string, arg2 int64) (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (int64)(C._wrap_PolymorphicSalsa_serialize__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_0)), C.swig_type_35(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Serialize__SWIG_1(arg1 *int64) (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_PolymorphicSalsa_serialize__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_voidp(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (p SwigcptrPolymorphicSalsa) Serialize(a ...interface{}) interface{} {
+	argc := len(a)
+	if argc == 1 {
+		return p.Serialize__SWIG_1(a[0].(*int64))
+	}
+	if argc == 2 {
+		return p.Serialize__SWIG_0(a[0].(string), a[1].(int64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Deserialize(arg1 string, arg2 int64) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_PolymorphicSalsa_deserialize_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_0)), C.swig_type_38(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Print_state() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_PolymorphicSalsa_print_state_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randi__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_PolymorphicSalsa_randi__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randi__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_PolymorphicSalsa_randi__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSalsa) Randi(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randi_fast__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_PolymorphicSalsa_randi_fast__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randi_fast__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_PolymorphicSalsa_randi_fast__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSalsa) Randi_fast(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi_fast__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi_fast__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randli__SWIG_0(arg1 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_PolymorphicSalsa_randli__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randli__SWIG_1(arg1 uint64, arg2 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint64)(C._wrap_PolymorphicSalsa_randli__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0), C.swig_type_44(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSalsa) Randli(a ...interface{}) uint64 {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randli__SWIG_0(a[0].(uint64))
+	}
+	if argc == 2 {
+		return p.Randli__SWIG_1(a[0].(uint64), a[1].(uint64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randf__SWIG_0() (_swig_ret float32) {
+	var swig_r float32
+	swig_r = (float32)(C._wrap_PolymorphicSalsa_randf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randf__SWIG_1(arg1 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_PolymorphicSalsa_randf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randf__SWIG_2(arg1 float32, arg2 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float32)(C._wrap_PolymorphicSalsa_randf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSalsa) Randf(a ...interface{}) float32 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randf__SWIG_1(a[0].(float32))
+	}
+	if argc == 2 {
+		return p.Randf__SWIG_2(a[0].(float32), a[1].(float32))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randlf__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_PolymorphicSalsa_randlf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randlf__SWIG_1(arg1 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_PolymorphicSalsa_randlf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Randlf__SWIG_2(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_PolymorphicSalsa_randlf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSalsa) Randlf(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randlf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randlf__SWIG_1(a[0].(float64))
+	}
+	if argc == 2 {
+		return p.Randlf__SWIG_2(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Gaussian__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_PolymorphicSalsa_gaussian__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Gaussian__SWIG_1(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_PolymorphicSalsa_gaussian__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSalsa) Gaussian(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Gaussian__SWIG_0()
+	}
+	if argc == 2 {
+		return p.Gaussian__SWIG_1(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Seek_forward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSalsa_seek_forward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_51(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Seek_backward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSalsa_seek_backward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_52(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Reset_entropy() {
+	C._wrap_PolymorphicSalsa_reset_entropy_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Add_entropy8(arg1 byte) {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSalsa_add_entropy8_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Add_entropy16(arg1 uint16) {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSalsa_add_entropy16_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Add_entropy32(arg1 uint) {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSalsa_add_entropy32_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Add_entropy64(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSalsa_add_entropy64_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_53(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Add_entropy_N(arg1 uintptr, arg2 int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSalsa_add_entropy_N_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_54(_swig_i_1))
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Add_entropy_automatically__SWIG_0(arg1 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_PolymorphicSalsa_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Add_entropy_automatically__SWIG_1() (_swig_ret bool) {
+	var swig_r bool
+	swig_r = (bool)(C._wrap_PolymorphicSalsa_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSalsa) Add_entropy_automatically(a ...interface{}) bool {
+	argc := len(a)
+	if argc == 0 {
+		return p.Add_entropy_automatically__SWIG_1()
+	}
+	if argc == 1 {
+		return p.Add_entropy_automatically__SWIG_0(a[0].(int))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSalsa) Flush_buffers() {
+	C._wrap_PolymorphicSalsa_flush_buffers_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (p SwigcptrPolymorphicSalsa) SwigIsVRNG32() {
+}
+
+func (p SwigcptrPolymorphicSalsa) SwigGetVRNG32() VRNG32 {
+	return SwigcptrVRNG32(p.Swigcptr())
+}
+
+func (p SwigcptrPolymorphicSalsa) SwigIsVRNG() {
+}
+
+func (p SwigcptrPolymorphicSalsa) SwigGetVRNG() VRNG {
+	return SwigcptrVRNG(p.Swigcptr())
+}
+
+type PolymorphicSalsa interface {
+	Swigcptr() uintptr
+	SwigIsPolymorphicSalsa()
+	SetImplementation(arg2 Salsa)
+	GetImplementation() (_swig_ret Salsa)
+	Raw8() (_swig_ret byte)
+	Raw16() (_swig_ret uint16)
+	Raw32() (_swig_ret uint)
+	Raw64() (_swig_ret uint64)
+	Seed(a ...interface{})
+	Get_flags() (_swig_ret uint64)
+	Get_name() (_swig_ret string)
+	Walk_state(arg2 StateWalkingObject)
+	SeedAndIV(arg2 *uint, arg3 bool)
+	Seed_short(a ...interface{})
+	Seek_forward128(arg2 uint64, arg3 uint64)
+	Seek_backward128(arg2 uint64, arg3 uint64)
+	Set_rounds(arg2 int)
+	Get_rounds() (_swig_ret int)
+	Get_native_output_size() (_swig_ret int)
+	Seed_fast(arg1 uint64)
+	Autoseed()
+	Serialize(a ...interface{}) interface{}
+	Deserialize(arg1 string, arg2 int64) (_swig_ret bool)
+	Print_state() (_swig_ret string)
+	Randi(a ...interface{}) uint
+	Randi_fast(a ...interface{}) uint
+	Randli(a ...interface{}) uint64
+	Randf(a ...interface{}) float32
+	Randlf(a ...interface{}) float64
+	Gaussian(a ...interface{}) float64
+	Seek_forward(arg1 uint64)
+	Seek_backward(arg1 uint64)
+	Reset_entropy()
+	Add_entropy8(arg1 byte)
+	Add_entropy16(arg1 uint16)
+	Add_entropy32(arg1 uint)
+	Add_entropy64(arg1 uint64)
+	Add_entropy_N(arg1 uintptr, arg2 int64)
+	Add_entropy_automatically(a ...interface{}) bool
+	Flush_buffers()
+	SwigIsVRNG32()
+	SwigGetVRNG32() VRNG32
+	SwigIsVRNG()
+	SwigGetVRNG() VRNG
 }
 
 type SwigcptrSfc16 uintptr
@@ -712,60 +4493,60 @@ func (p SwigcptrSfc16) SwigIsSfc16() {
 
 func _swig_getsfc16_OUTPUT_TYPE_sfc16() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_TYPE_sfc16_rng_bfbcb6a9797b2cf1())
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_sfc16_rng_ae47b152c742082b())
 	return swig_r
 }
 
 var Sfc16OUTPUT_TYPE int = _swig_getsfc16_OUTPUT_TYPE_sfc16()
 func _swig_getsfc16_OUTPUT_BITS_sfc16() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_sfc16_rng_bfbcb6a9797b2cf1())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_sfc16_rng_ae47b152c742082b())
 	return swig_r
 }
 
 var Sfc16OUTPUT_BITS int = _swig_getsfc16_OUTPUT_BITS_sfc16()
 func _swig_getsfc16_FLAGS_sfc16() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_sfc16_rng_bfbcb6a9797b2cf1())
+	swig_r = (int)(C._wrap_FLAGS_sfc16_rng_ae47b152c742082b())
 	return swig_r
 }
 
 var Sfc16FLAGS int = _swig_getsfc16_FLAGS_sfc16()
-func (arg1 SwigcptrSfc16) Raw16() (_swig_ret Uint16) {
-	var swig_r Uint16
+func (arg1 SwigcptrSfc16) Raw16() (_swig_ret uint16) {
+	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (Uint16)(SwigcptrUint16(C._wrap_sfc16_raw16_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0))))
+	swig_r = (uint16)(C._wrap_sfc16_raw16_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
-func (arg1 SwigcptrSfc16) Seed__SWIG_0(arg2 Uint64) {
+func (arg1 SwigcptrSfc16) Seed__SWIG_0(arg2 uint64) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_sfc16_seed__SWIG_0_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_sfc16_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_98(_swig_i_1))
 }
 
-func (arg1 SwigcptrSfc16) Seed_fast(arg2 Uint64) {
+func (arg1 SwigcptrSfc16) Seed_fast(arg2 uint64) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_sfc16_seed_fast_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	_swig_i_1 := arg2
+	C._wrap_sfc16_seed_fast_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_99(_swig_i_1))
 }
 
-func (arg1 SwigcptrSfc16) Seed__SWIG_1(arg2 Uint16, arg3 Uint16, arg4 Uint16) {
+func (arg1 SwigcptrSfc16) Seed__SWIG_1(arg2 uint16, arg3 uint16, arg4 uint16) {
 	_swig_i_0 := arg1
-	_swig_i_1 := arg2.Swigcptr()
-	_swig_i_2 := arg3.Swigcptr()
-	_swig_i_3 := arg4.Swigcptr()
-	C._wrap_sfc16_seed__SWIG_1_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3))
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_sfc16_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.short(_swig_i_1), C.short(_swig_i_2), C.short(_swig_i_3))
 }
 
 func (p SwigcptrSfc16) Seed(a ...interface{}) {
 	argc := len(a)
 	if argc == 1 {
-		p.Seed__SWIG_0(a[0].(Uint64))
+		p.Seed__SWIG_0(a[0].(uint64))
 		return
 	}
 	if argc == 3 {
-		p.Seed__SWIG_1(a[0].(Uint16), a[1].(Uint16), a[2].(Uint16))
+		p.Seed__SWIG_1(a[0].(uint16), a[1].(uint16), a[2].(uint16))
 		return
 	}
 	panic("No match for overloaded function call")
@@ -774,99 +4555,1221 @@ func (p SwigcptrSfc16) Seed(a ...interface{}) {
 func (arg1 SwigcptrSfc16) Walk_state(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_sfc16_walk_state_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfc16_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func NewSfc16() (_swig_ret Sfc16) {
 	var swig_r Sfc16
-	swig_r = (Sfc16)(SwigcptrSfc16(C._wrap_new_sfc16_rng_bfbcb6a9797b2cf1()))
+	swig_r = (Sfc16)(SwigcptrSfc16(C._wrap_new_sfc16_rng_ae47b152c742082b()))
 	return swig_r
 }
 
 func DeleteSfc16(arg1 Sfc16) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_sfc16_rng_bfbcb6a9797b2cf1(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfc16_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
 }
 
 type Sfc16 interface {
 	Swigcptr() uintptr
 	SwigIsSfc16()
-	Raw16() (_swig_ret Uint16)
-	Seed_fast(arg2 Uint64)
+	Raw16() (_swig_ret uint16)
+	Seed_fast(arg2 uint64)
 	Seed(a ...interface{})
 	Walk_state(arg2 StateWalkingObject)
 }
 
+type SwigcptrSfc32 uintptr
 
-type SwigcptrSint16 uintptr
-type Sint16 interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrSint16) Swigcptr() uintptr {
-	return uintptr(p)
+func (p SwigcptrSfc32) Swigcptr() uintptr {
+	return (uintptr)(p)
 }
 
-type SwigcptrUint32 uintptr
-type Uint32 interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrUint32) Swigcptr() uintptr {
-	return uintptr(p)
+func (p SwigcptrSfc32) SwigIsSfc32() {
 }
 
-type SwigcptrUint64 uintptr
-type Uint64 interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrUint64) Swigcptr() uintptr {
-	return uintptr(p)
+func _swig_getsfc32_OUTPUT_TYPE_sfc32() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_sfc32_rng_ae47b152c742082b())
+	return swig_r
 }
 
-type SwigcptrSint8 uintptr
-type Sint8 interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrSint8) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrUint8 uintptr
-type Uint8 interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrUint8) Swigcptr() uintptr {
-	return uintptr(p)
+var Sfc32OUTPUT_TYPE int = _swig_getsfc32_OUTPUT_TYPE_sfc32()
+func _swig_getsfc32_OUTPUT_BITS_sfc32() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_sfc32_rng_ae47b152c742082b())
+	return swig_r
 }
 
-type SwigcptrUint16 uintptr
-type Uint16 interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrUint16) Swigcptr() uintptr {
-	return uintptr(p)
-}
-
-type SwigcptrSint32 uintptr
-type Sint32 interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrSint32) Swigcptr() uintptr {
-	return uintptr(p)
+var Sfc32OUTPUT_BITS int = _swig_getsfc32_OUTPUT_BITS_sfc32()
+func _swig_getsfc32_FLAGS_sfc32() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_FLAGS_sfc32_rng_ae47b152c742082b())
+	return swig_r
 }
 
-type SwigcptrSint64 uintptr
-type Sint64 interface {
-	Swigcptr() uintptr;
-}
-func (p SwigcptrSint64) Swigcptr() uintptr {
-	return uintptr(p)
+var Sfc32FLAGS int = _swig_getsfc32_FLAGS_sfc32()
+func (arg1 SwigcptrSfc32) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_sfc32_raw32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
 }
 
-type SwigcptrPractRand_RNGs_vRNG uintptr
-type PractRand_RNGs_vRNG interface {
-	Swigcptr() uintptr;
+func (arg1 SwigcptrSfc32) Seed__SWIG_0(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_sfc32_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_100(_swig_i_1))
 }
-func (p SwigcptrPractRand_RNGs_vRNG) Swigcptr() uintptr {
-	return uintptr(p)
+
+func (arg1 SwigcptrSfc32) Seed_fast(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_sfc32_seed_fast_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_101(_swig_i_1))
 }
+
+func (arg1 SwigcptrSfc32) Seed__SWIG_1(arg2 uint, arg3 uint, arg4 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_sfc32_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
+}
+
+func (p SwigcptrSfc32) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		p.Seed__SWIG_0(a[0].(uint64))
+		return
+	}
+	if argc == 3 {
+		p.Seed__SWIG_1(a[0].(uint), a[1].(uint), a[2].(uint))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrSfc32) Walk_state(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_sfc32_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func NewSfc32() (_swig_ret Sfc32) {
+	var swig_r Sfc32
+	swig_r = (Sfc32)(SwigcptrSfc32(C._wrap_new_sfc32_rng_ae47b152c742082b()))
+	return swig_r
+}
+
+func DeleteSfc32(arg1 Sfc32) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_sfc32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+type Sfc32 interface {
+	Swigcptr() uintptr
+	SwigIsSfc32()
+	Raw32() (_swig_ret uint)
+	Seed_fast(arg2 uint64)
+	Seed(a ...interface{})
+	Walk_state(arg2 StateWalkingObject)
+}
+
+type SwigcptrSfc64 uintptr
+
+func (p SwigcptrSfc64) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrSfc64) SwigIsSfc64() {
+}
+
+func _swig_getsfc64_OUTPUT_TYPE_sfc64() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_sfc64_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var Sfc64OUTPUT_TYPE int = _swig_getsfc64_OUTPUT_TYPE_sfc64()
+func _swig_getsfc64_OUTPUT_BITS_sfc64() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_sfc64_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var Sfc64OUTPUT_BITS int = _swig_getsfc64_OUTPUT_BITS_sfc64()
+func _swig_getsfc64_FLAGS_sfc64() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_FLAGS_sfc64_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var Sfc64FLAGS int = _swig_getsfc64_FLAGS_sfc64()
+func (arg1 SwigcptrSfc64) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_sfc64_raw64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrSfc64) Seed__SWIG_0(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_sfc64_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_103(_swig_i_1))
+}
+
+func (arg1 SwigcptrSfc64) Seed_fast(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_sfc64_seed_fast_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_104(_swig_i_1))
+}
+
+func (arg1 SwigcptrSfc64) Seed__SWIG_1(arg2 uint64, arg3 uint64, arg4 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_sfc64_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_105(_swig_i_1), C.swig_type_106(_swig_i_2), C.swig_type_107(_swig_i_3))
+}
+
+func (p SwigcptrSfc64) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		p.Seed__SWIG_0(a[0].(uint64))
+		return
+	}
+	if argc == 3 {
+		p.Seed__SWIG_1(a[0].(uint64), a[1].(uint64), a[2].(uint64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrSfc64) Walk_state(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_sfc64_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func NewSfc64() (_swig_ret Sfc64) {
+	var swig_r Sfc64
+	swig_r = (Sfc64)(SwigcptrSfc64(C._wrap_new_sfc64_rng_ae47b152c742082b()))
+	return swig_r
+}
+
+func DeleteSfc64(arg1 Sfc64) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_sfc64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+type Sfc64 interface {
+	Swigcptr() uintptr
+	SwigIsSfc64()
+	Raw64() (_swig_ret uint64)
+	Seed_fast(arg2 uint64)
+	Seed(a ...interface{})
+	Walk_state(arg2 StateWalkingObject)
+}
+
+type SwigcptrPolymorphicSha2Pooled uintptr
+
+func (p SwigcptrPolymorphicSha2Pooled) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) SwigIsPolymorphicSha2Pooled() {
+}
+
+func _swig_getPolymorphicSha2Pooled_OUTPUT_TYPE_PolymorphicSha2Pooled() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_PolymorphicSha2Pooled_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var PolymorphicSha2PooledOUTPUT_TYPE int = _swig_getPolymorphicSha2Pooled_OUTPUT_TYPE_PolymorphicSha2Pooled()
+func _swig_getPolymorphicSha2Pooled_OUTPUT_BITS_PolymorphicSha2Pooled() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_PolymorphicSha2Pooled_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var PolymorphicSha2PooledOUTPUT_BITS int = _swig_getPolymorphicSha2Pooled_OUTPUT_BITS_PolymorphicSha2Pooled()
+func _swig_getPolymorphicSha2Pooled_FLAGS_PolymorphicSha2Pooled() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_FLAGS_PolymorphicSha2Pooled_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var PolymorphicSha2PooledFLAGS int = _swig_getPolymorphicSha2Pooled_FLAGS_PolymorphicSha2Pooled()
+func _swig_getPolymorphicSha2Pooled_STATE_SIZE_PolymorphicSha2Pooled() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_STATE_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var PolymorphicSha2PooledSTATE_SIZE int = _swig_getPolymorphicSha2Pooled_STATE_SIZE_PolymorphicSha2Pooled()
+func _swig_getPolymorphicSha2Pooled_INPUT_BUFFER_SIZE_PolymorphicSha2Pooled() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_INPUT_BUFFER_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var PolymorphicSha2PooledINPUT_BUFFER_SIZE int = _swig_getPolymorphicSha2Pooled_INPUT_BUFFER_SIZE_PolymorphicSha2Pooled()
+func _swig_getPolymorphicSha2Pooled_OUTPUT_BUFFER_SIZE_PolymorphicSha2Pooled() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BUFFER_SIZE_PolymorphicSha2Pooled_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var PolymorphicSha2PooledOUTPUT_BUFFER_SIZE int = _swig_getPolymorphicSha2Pooled_OUTPUT_BUFFER_SIZE_PolymorphicSha2Pooled()
+func (arg1 SwigcptrPolymorphicSha2Pooled) SetState(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_state_set_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) GetState() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_PolymorphicSha2Pooled_state_get_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) SetInput_buffer(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_input_buffer_set_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) GetInput_buffer() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_PolymorphicSha2Pooled_input_buffer_get_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) SetOutput_buffer(arg2 *byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_output_buffer_set_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) GetOutput_buffer() (_swig_ret *byte) {
+	var swig_r *byte
+	_swig_i_0 := arg1
+	swig_r = (*byte)(C._wrap_PolymorphicSha2Pooled_output_buffer_get_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) SetInput_buffer_left(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_input_buffer_left_set_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) GetInput_buffer_left() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_PolymorphicSha2Pooled_input_buffer_left_get_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) SetOutput_buffer_left(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_output_buffer_left_set_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) GetOutput_buffer_left() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_PolymorphicSha2Pooled_output_buffer_left_get_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) SetState_phase(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_state_phase_set_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) GetState_phase() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_PolymorphicSha2Pooled_state_phase_get_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func NewPolymorphicSha2PooledFromUInt64(arg1 uint64) (_swig_ret PolymorphicSha2Pooled) {
+	var swig_r PolymorphicSha2Pooled
+	_swig_i_0 := arg1
+	swig_r = (PolymorphicSha2Pooled)(SwigcptrPolymorphicSha2Pooled(C._wrap_new_PolymorphicSha2PooledFromUInt64_rng_ae47b152c742082b(C.swig_type_108(_swig_i_0))))
+	return swig_r
+}
+
+func NewPolymorphicSha2PooledFromRNG(arg1 VRNG) (_swig_ret PolymorphicSha2Pooled) {
+	var swig_r PolymorphicSha2Pooled
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (PolymorphicSha2Pooled)(SwigcptrPolymorphicSha2Pooled(C._wrap_new_PolymorphicSha2PooledFromRNG_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewPolymorphicSha2PooledFromAuto(arg1 SEED_AUTO_TYPE) (_swig_ret PolymorphicSha2Pooled) {
+	var swig_r PolymorphicSha2Pooled
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (PolymorphicSha2Pooled)(SwigcptrPolymorphicSha2Pooled(C._wrap_new_PolymorphicSha2PooledFromAuto_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewPolymorphicSha2PooledFromNone(arg1 SEED_NONE_TYPE) (_swig_ret PolymorphicSha2Pooled) {
+	var swig_r PolymorphicSha2Pooled
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (PolymorphicSha2Pooled)(SwigcptrPolymorphicSha2Pooled(C._wrap_new_PolymorphicSha2PooledFromNone_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewPolymorphicSha2Pooled() (_swig_ret PolymorphicSha2Pooled) {
+	var swig_r PolymorphicSha2Pooled
+	swig_r = (PolymorphicSha2Pooled)(SwigcptrPolymorphicSha2Pooled(C._wrap_new_PolymorphicSha2Pooled_rng_ae47b152c742082b()))
+	return swig_r
+}
+
+func DeletePolymorphicSha2Pooled(arg1 PolymorphicSha2Pooled) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_PolymorphicSha2Pooled_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Get_name() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_PolymorphicSha2Pooled_get_name_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Get_flags() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_PolymorphicSha2Pooled_get_flags_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Raw8() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_PolymorphicSha2Pooled_raw8_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Seed__SWIG_0(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_111(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Reset_state() {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSha2Pooled_reset_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Seed__SWIG_1_0(arg2 VRNG) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_PolymorphicSha2Pooled_seed__SWIG_1_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		if _, ok := a[0].(SwigcptrVRNG); !ok {
+			goto check_1
+		}
+		p.Seed__SWIG_1_0(a[0].(VRNG))
+		return
+	}
+check_1:
+	if argc == 1 {
+		p.Seed__SWIG_0(a[0].(uint64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Walk_state(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_PolymorphicSha2Pooled_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Reset_entropy() {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSha2Pooled_reset_entropy_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Add_entropy8(arg2 byte) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_add_entropy8_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Add_entropy16(arg2 uint16) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_add_entropy16_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Add_entropy32(arg2 uint) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_add_entropy32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Add_entropy64(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_add_entropy64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_112(_swig_i_1))
+}
+
+func (arg1 SwigcptrPolymorphicSha2Pooled) Flush_buffers() {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSha2Pooled_flush_buffers_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Raw16() (_swig_ret uint16) {
+	var swig_r uint16
+	swig_r = (uint16)(C._wrap_PolymorphicSha2Pooled_raw16_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	swig_r = (uint)(C._wrap_PolymorphicSha2Pooled_raw32_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	swig_r = (uint64)(C._wrap_PolymorphicSha2Pooled_raw64_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Get_native_output_size() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_PolymorphicSha2Pooled_get_native_output_size_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Seed_fast(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSha2Pooled_seed_fast_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_32(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Autoseed() {
+	C._wrap_PolymorphicSha2Pooled_autoseed_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Serialize__SWIG_0(arg1 string, arg2 int64) (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (int64)(C._wrap_PolymorphicSha2Pooled_serialize__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_0)), C.swig_type_35(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Serialize__SWIG_1(arg1 *int64) (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_PolymorphicSha2Pooled_serialize__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_voidp(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) Serialize(a ...interface{}) interface{} {
+	argc := len(a)
+	if argc == 1 {
+		return p.Serialize__SWIG_1(a[0].(*int64))
+	}
+	if argc == 2 {
+		return p.Serialize__SWIG_0(a[0].(string), a[1].(int64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Deserialize(arg1 string, arg2 int64) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_PolymorphicSha2Pooled_deserialize_rng_ae47b152c742082b(C.uintptr_t(_swig_base), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_0)), C.swig_type_38(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Print_state() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_PolymorphicSha2Pooled_print_state_rng_ae47b152c742082b(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randi__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_PolymorphicSha2Pooled_randi__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randi__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_PolymorphicSha2Pooled_randi__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) Randi(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randi_fast__SWIG_0(arg1 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_PolymorphicSha2Pooled_randi_fast__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randi_fast__SWIG_1(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_PolymorphicSha2Pooled_randi_fast__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) Randi_fast(a ...interface{}) uint {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randi_fast__SWIG_0(a[0].(uint))
+	}
+	if argc == 2 {
+		return p.Randi_fast__SWIG_1(a[0].(uint), a[1].(uint))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randli__SWIG_0(arg1 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_PolymorphicSha2Pooled_randli__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randli__SWIG_1(arg1 uint64, arg2 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint64)(C._wrap_PolymorphicSha2Pooled_randli__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0), C.swig_type_44(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) Randli(a ...interface{}) uint64 {
+	argc := len(a)
+	if argc == 1 {
+		return p.Randli__SWIG_0(a[0].(uint64))
+	}
+	if argc == 2 {
+		return p.Randli__SWIG_1(a[0].(uint64), a[1].(uint64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randf__SWIG_0() (_swig_ret float32) {
+	var swig_r float32
+	swig_r = (float32)(C._wrap_PolymorphicSha2Pooled_randf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randf__SWIG_1(arg1 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	swig_r = (float32)(C._wrap_PolymorphicSha2Pooled_randf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randf__SWIG_2(arg1 float32, arg2 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float32)(C._wrap_PolymorphicSha2Pooled_randf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) Randf(a ...interface{}) float32 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randf__SWIG_1(a[0].(float32))
+	}
+	if argc == 2 {
+		return p.Randf__SWIG_2(a[0].(float32), a[1].(float32))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randlf__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_PolymorphicSha2Pooled_randlf__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randlf__SWIG_1(arg1 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	swig_r = (float64)(C._wrap_PolymorphicSha2Pooled_randlf__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Randlf__SWIG_2(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_PolymorphicSha2Pooled_randlf__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) Randlf(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Randlf__SWIG_0()
+	}
+	if argc == 1 {
+		return p.Randlf__SWIG_1(a[0].(float64))
+	}
+	if argc == 2 {
+		return p.Randlf__SWIG_2(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Gaussian__SWIG_0() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_PolymorphicSha2Pooled_gaussian__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Gaussian__SWIG_1(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_PolymorphicSha2Pooled_gaussian__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) Gaussian(a ...interface{}) float64 {
+	argc := len(a)
+	if argc == 0 {
+		return p.Gaussian__SWIG_0()
+	}
+	if argc == 2 {
+		return p.Gaussian__SWIG_1(a[0].(float64), a[1].(float64))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Seek_forward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_seek_forward128_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_47(_swig_i_0), C.swig_type_48(_swig_i_1))
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Seek_backward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_seek_backward128_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_49(_swig_i_0), C.swig_type_50(_swig_i_1))
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Seek_forward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSha2Pooled_seek_forward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_51(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Seek_backward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_PolymorphicSha2Pooled_seek_backward_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_type_52(_swig_i_0))
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Add_entropy_N(arg1 uintptr, arg2 int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_PolymorphicSha2Pooled_add_entropy_N_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_54(_swig_i_1))
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Add_entropy_automatically__SWIG_0(arg1 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_PolymorphicSha2Pooled_add_entropy_automatically__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrPolymorphicSha2Pooled) Add_entropy_automatically__SWIG_1() (_swig_ret bool) {
+	var swig_r bool
+	swig_r = (bool)(C._wrap_PolymorphicSha2Pooled_add_entropy_automatically__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) Add_entropy_automatically(a ...interface{}) bool {
+	argc := len(a)
+	if argc == 0 {
+		return p.Add_entropy_automatically__SWIG_1()
+	}
+	if argc == 1 {
+		return p.Add_entropy_automatically__SWIG_0(a[0].(int))
+	}
+	panic("No match for overloaded function call")
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) SwigIsVRNG8() {
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) SwigGetVRNG8() VRNG8 {
+	return SwigcptrVRNG8(p.Swigcptr())
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) SwigIsVRNG() {
+}
+
+func (p SwigcptrPolymorphicSha2Pooled) SwigGetVRNG() VRNG {
+	return SwigcptrVRNG(p.Swigcptr())
+}
+
+type PolymorphicSha2Pooled interface {
+	Swigcptr() uintptr
+	SwigIsPolymorphicSha2Pooled()
+	SetState(arg2 *byte)
+	GetState() (_swig_ret *byte)
+	SetInput_buffer(arg2 *byte)
+	GetInput_buffer() (_swig_ret *byte)
+	SetOutput_buffer(arg2 *byte)
+	GetOutput_buffer() (_swig_ret *byte)
+	SetInput_buffer_left(arg2 uint16)
+	GetInput_buffer_left() (_swig_ret uint16)
+	SetOutput_buffer_left(arg2 uint16)
+	GetOutput_buffer_left() (_swig_ret uint16)
+	SetState_phase(arg2 uint16)
+	GetState_phase() (_swig_ret uint16)
+	Get_name() (_swig_ret string)
+	Get_flags() (_swig_ret uint64)
+	Raw8() (_swig_ret byte)
+	Reset_state()
+	Seed(a ...interface{})
+	Walk_state(arg2 StateWalkingObject)
+	Reset_entropy()
+	Add_entropy8(arg2 byte)
+	Add_entropy16(arg2 uint16)
+	Add_entropy32(arg2 uint)
+	Add_entropy64(arg2 uint64)
+	Flush_buffers()
+	Raw16() (_swig_ret uint16)
+	Raw32() (_swig_ret uint)
+	Raw64() (_swig_ret uint64)
+	Get_native_output_size() (_swig_ret int)
+	Seed_fast(arg1 uint64)
+	Autoseed()
+	Serialize(a ...interface{}) interface{}
+	Deserialize(arg1 string, arg2 int64) (_swig_ret bool)
+	Print_state() (_swig_ret string)
+	Randi(a ...interface{}) uint
+	Randi_fast(a ...interface{}) uint
+	Randli(a ...interface{}) uint64
+	Randf(a ...interface{}) float32
+	Randlf(a ...interface{}) float64
+	Gaussian(a ...interface{}) float64
+	Seek_forward128(arg1 uint64, arg2 uint64)
+	Seek_backward128(arg1 uint64, arg2 uint64)
+	Seek_forward(arg1 uint64)
+	Seek_backward(arg1 uint64)
+	Add_entropy_N(arg1 uintptr, arg2 int64)
+	Add_entropy_automatically(a ...interface{}) bool
+	SwigIsVRNG8()
+	SwigGetVRNG8() VRNG8
+	SwigIsVRNG()
+	SwigGetVRNG() VRNG
+}
+
+type SwigcptrTrivium uintptr
+
+func (p SwigcptrTrivium) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrTrivium) SwigIsTrivium() {
+}
+
+func _swig_gettrivium_OUTPUT_TYPE_trivium() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_trivium_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var TriviumOUTPUT_TYPE int = _swig_gettrivium_OUTPUT_TYPE_trivium()
+func _swig_gettrivium_OUTPUT_BITS_trivium() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_trivium_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var TriviumOUTPUT_BITS int = _swig_gettrivium_OUTPUT_BITS_trivium()
+func _swig_gettrivium_FLAGS_trivium() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_FLAGS_trivium_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var TriviumFLAGS int = _swig_gettrivium_FLAGS_trivium()
+func DeleteTrivium(arg1 Trivium) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_trivium_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrTrivium) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_trivium_raw64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrTrivium) Seed__SWIG_0(arg2 *byte, arg3 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_trivium_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2))
+}
+
+func (arg1 SwigcptrTrivium) Seed__SWIG_1(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_trivium_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_120(_swig_i_1))
+}
+
+func (arg1 SwigcptrTrivium) Seed_fast__SWIG_0(arg2 uint64, arg3 uint64, arg4 int) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	C._wrap_trivium_seed_fast__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_121(_swig_i_1), C.swig_type_122(_swig_i_2), C.swig_intgo(_swig_i_3))
+}
+
+func (arg1 SwigcptrTrivium) Seed_fast__SWIG_1(arg2 uint64, arg3 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_trivium_seed_fast__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_123(_swig_i_1), C.swig_type_124(_swig_i_2))
+}
+
+func (p SwigcptrTrivium) Seed_fast(a ...interface{}) {
+	argc := len(a)
+	if argc == 2 {
+		p.Seed_fast__SWIG_1(a[0].(uint64), a[1].(uint64))
+		return
+	}
+	if argc == 3 {
+		p.Seed_fast__SWIG_0(a[0].(uint64), a[1].(uint64), a[2].(int))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrTrivium) Seed__SWIG_2(arg2 VRNG) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_trivium_seed__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (p SwigcptrTrivium) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		if _, ok := a[0].(SwigcptrVRNG); !ok {
+			goto check_1
+		}
+		p.Seed__SWIG_2(a[0].(VRNG))
+		return
+	}
+check_1:
+	if argc == 1 {
+		p.Seed__SWIG_1(a[0].(uint64))
+		return
+	}
+	if argc == 2 {
+		p.Seed__SWIG_0(a[0].(*byte), a[1].(int))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrTrivium) Walk_state(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_trivium_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func TriviumSelf_test() {
+	C._wrap_trivium_self_test_rng_ae47b152c742082b()
+}
+
+func NewTrivium() (_swig_ret Trivium) {
+	var swig_r Trivium
+	swig_r = (Trivium)(SwigcptrTrivium(C._wrap_new_trivium_rng_ae47b152c742082b()))
+	return swig_r
+}
+
+type Trivium interface {
+	Swigcptr() uintptr
+	SwigIsTrivium()
+	Raw64() (_swig_ret uint64)
+	Seed_fast(a ...interface{})
+	Seed(a ...interface{})
+	Walk_state(arg2 StateWalkingObject)
+}
+
+type SwigcptrXsm32 uintptr
+
+func (p SwigcptrXsm32) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrXsm32) SwigIsXsm32() {
+}
+
+func _swig_getxsm32_OUTPUT_TYPE_xsm32() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_xsm32_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var Xsm32OUTPUT_TYPE int = _swig_getxsm32_OUTPUT_TYPE_xsm32()
+func _swig_getxsm32_OUTPUT_BITS_xsm32() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_xsm32_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var Xsm32OUTPUT_BITS int = _swig_getxsm32_OUTPUT_BITS_xsm32()
+func _swig_getxsm32_FLAGS_xsm32() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_FLAGS_xsm32_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var Xsm32FLAGS int = _swig_getxsm32_FLAGS_xsm32()
+func (arg1 SwigcptrXsm32) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_xsm32_raw32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrXsm32) Seed__SWIG_0(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_xsm32_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_125(_swig_i_1))
+}
+
+func (arg1 SwigcptrXsm32) Seed__SWIG_1(arg2 VRNG) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_xsm32_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (p SwigcptrXsm32) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		if _, ok := a[0].(SwigcptrVRNG); !ok {
+			goto check_1
+		}
+		p.Seed__SWIG_1(a[0].(VRNG))
+		return
+	}
+check_1:
+	if argc == 1 {
+		p.Seed__SWIG_0(a[0].(uint64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrXsm32) Walk_state(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_xsm32_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrXsm32) Seek_forward(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_xsm32_seek_forward_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_126(_swig_i_1))
+}
+
+func (arg1 SwigcptrXsm32) Seek_backward(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_xsm32_seek_backward_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_127(_swig_i_1))
+}
+
+func NewXsm32() (_swig_ret Xsm32) {
+	var swig_r Xsm32
+	swig_r = (Xsm32)(SwigcptrXsm32(C._wrap_new_xsm32_rng_ae47b152c742082b()))
+	return swig_r
+}
+
+func DeleteXsm32(arg1 Xsm32) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_xsm32_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+type Xsm32 interface {
+	Swigcptr() uintptr
+	SwigIsXsm32()
+	Raw32() (_swig_ret uint)
+	Seed(a ...interface{})
+	Walk_state(arg2 StateWalkingObject)
+	Seek_forward(arg2 uint64)
+	Seek_backward(arg2 uint64)
+}
+
+type SwigcptrXsm64 uintptr
+
+func (p SwigcptrXsm64) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrXsm64) SwigIsXsm64() {
+}
+
+func _swig_getxsm64_OUTPUT_TYPE_xsm64() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_xsm64_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var Xsm64OUTPUT_TYPE int = _swig_getxsm64_OUTPUT_TYPE_xsm64()
+func _swig_getxsm64_OUTPUT_BITS_xsm64() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_xsm64_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var Xsm64OUTPUT_BITS int = _swig_getxsm64_OUTPUT_BITS_xsm64()
+func _swig_getxsm64_FLAGS_xsm64() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_FLAGS_xsm64_rng_ae47b152c742082b())
+	return swig_r
+}
+
+var Xsm64FLAGS int = _swig_getxsm64_FLAGS_xsm64()
+func (arg1 SwigcptrXsm64) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_xsm64_raw64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrXsm64) Seed__SWIG_0(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_xsm64_seed__SWIG_0_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_129(_swig_i_1))
+}
+
+func (arg1 SwigcptrXsm64) Seed__SWIG_1(arg2 uint64, arg3 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_xsm64_seed__SWIG_1_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_130(_swig_i_1), C.swig_type_131(_swig_i_2))
+}
+
+func (arg1 SwigcptrXsm64) Seed__SWIG_2(arg2 VRNG) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_xsm64_seed__SWIG_2_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (p SwigcptrXsm64) Seed(a ...interface{}) {
+	argc := len(a)
+	if argc == 1 {
+		if _, ok := a[0].(SwigcptrVRNG); !ok {
+			goto check_1
+		}
+		p.Seed__SWIG_2(a[0].(VRNG))
+		return
+	}
+check_1:
+	if argc == 1 {
+		p.Seed__SWIG_0(a[0].(uint64))
+		return
+	}
+	if argc == 2 {
+		p.Seed__SWIG_1(a[0].(uint64), a[1].(uint64))
+		return
+	}
+	panic("No match for overloaded function call")
+}
+
+func (arg1 SwigcptrXsm64) Walk_state(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_xsm64_walk_state_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrXsm64) Seek_forward(arg2 uint64, arg3 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_xsm64_seek_forward_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_132(_swig_i_1), C.swig_type_133(_swig_i_2))
+}
+
+func (arg1 SwigcptrXsm64) Seek_backward(arg2 uint64, arg3 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	C._wrap_xsm64_seek_backward_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0), C.swig_type_134(_swig_i_1), C.swig_type_135(_swig_i_2))
+}
+
+func NewXsm64() (_swig_ret Xsm64) {
+	var swig_r Xsm64
+	swig_r = (Xsm64)(SwigcptrXsm64(C._wrap_new_xsm64_rng_ae47b152c742082b()))
+	return swig_r
+}
+
+func DeleteXsm64(arg1 Xsm64) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_xsm64_rng_ae47b152c742082b(C.uintptr_t(_swig_i_0))
+}
+
+type Xsm64 interface {
+	Swigcptr() uintptr
+	SwigIsXsm64()
+	Raw64() (_swig_ret uint64)
+	Seed(a ...interface{})
+	Walk_state(arg2 StateWalkingObject)
+	Seek_forward(arg2 uint64, arg3 uint64)
+	Seek_backward(arg2 uint64, arg3 uint64)
+}
+
 
