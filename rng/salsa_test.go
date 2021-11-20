@@ -12,7 +12,7 @@ func TestNewSalsa(t *testing.T) {
 	DeleteSalsa(rng)
 }
 
-func TestSalsaRaw32(t *testing.T) {
+func TestSalsaRaw(t *testing.T) {
 	rng := NewSalsa()
 	val := rng.Raw32()
 	if val < 0 {
@@ -24,19 +24,32 @@ func TestSalsaRaw32(t *testing.T) {
 func TestSalsaSeed(t *testing.T) {
 	rng := NewSalsa()
 	rng.Seed(123123)
+	if rng.Raw32() != 2225711153 {
+		t.Errorf("Seed(uint64) should have produced an expected value.")
+	}
 	seed := uint(554)
 	rng.SeedAndIV(&seed, false)
+	if rng.Raw32() != 251969256 {
+		t.Errorf("Seed(uint, bool) should have produced an expected value.")
+	}
+	DeleteSalsa(rng)
+}
+
+func TestSalsaSeek(t *testing.T) {
+	rng := NewSalsa()
+	rng.SeekForward(434, 4344)
+	rng.SeekBackward(111, 444)
 	DeleteSalsa(rng)
 }
 
 func TestSalsaRounds(t *testing.T) {
 	rng := NewSalsa()
-	if rng.Get_rounds() != 20 {
-		t.Errorf("Get_rounds() returned %d, but 20 was expected.", rng.Get_rounds())
+	if rng.GetRounds() != 20 {
+		t.Errorf("GetRounds() returned %d, but 20 was expected.", rng.GetRounds())
 	}
-	rng.Set_rounds(100)
-	if rng.Get_rounds() != 100 {
-		t.Errorf("Set_rounds() was called, but Get_rounds() returned %d, but 100 was expected.", rng.Get_rounds())
+	rng.SetRounds(100)
+	if rng.GetRounds() != 100 {
+		t.Errorf("SetRounds() was called, but GetRounds() returned %d, but 100 was expected.", rng.GetRounds())
 	}
 	DeleteSalsa(rng)
 }
