@@ -4,86 +4,86 @@ import (
 	"testing"
 )
 
-func TestNewSalsaPolymorpic(t *testing.T) {
-	rng := NewSalsaPolymorphicFromAuto(GetSEED_AUTO())
+func TestNewChachaPolymorpic(t *testing.T) {
+	rng := NewChachaPolymorphicFromAuto(GetSEED_AUTO())
 	if rng == nil {
 		t.Error("Instance should not be nil")
 	}
-	rng = NewSalsaPolymorphicFromNone(GetSEED_NONE())
+	rng = NewChachaPolymorphicFromNone(GetSEED_NONE())
 	if rng == nil {
 		t.Error("Instance should not be nil")
 	}
 	seed := uint(454)
-	rng = NewSalsaPolymorphicFromSeedAndIV(&seed, false)
+	rng = NewChachaPolymorphicFromSeedAndIV(&seed, false)
 	if rng == nil {
 		t.Error("Instance should not be nil")
 	}
-	rng = NewSalsaPolymorphicFromUInt64(uint64(2342999999999943455))
+	rng = NewChachaPolymorphicFromUInt64(uint64(2342999999999943455))
 	if rng == nil {
 		t.Error("Instance should not be nil")
 	}
-	DeleteSalsaPolymorphic(rng)
+	DeleteChachaPolymorphic(rng)
 }
 
-func TestSalsaPolymorphicRaw(t *testing.T) {
-	rng := NewSalsaPolymorphicFromAuto(GetSEED_AUTO())
+func TestChachaPolymorphicRaw(t *testing.T) {
+	rng := NewChachaPolymorphicFromAuto(GetSEED_AUTO())
 	rng.Raw8()
 	rng.Raw16()
 	rng.Raw32()
 	rng.Raw64()
-	DeleteSalsaPolymorphic(rng)
+	DeleteChachaPolymorphic(rng)
 }
 
-func TestSalsaPolymorphicGetFlags(t *testing.T) {
-	rng := NewSalsaPolymorphicFromAuto(GetSEED_AUTO())
+func TestChachaPolymorphicGetFlags(t *testing.T) {
+	rng := NewChachaPolymorphicFromAuto(GetSEED_AUTO())
 	flags := rng.GetFlags()
 	if flags != 28684 {
 		t.Errorf("GetFlags() returned %d, but 28684 was expected.", flags)
 	}
-	DeleteSalsaPolymorphic(rng)
+	DeleteChachaPolymorphic(rng)
 }
 
-func TestSalsaPolymorphicGetName(t *testing.T) {
-	rng := NewSalsaPolymorphicFromAuto(GetSEED_AUTO())
-	if rng.GetName() != "salsa(20)" {
-		t.Errorf("GetName() returned '%s', but 'salsa(20)' was expected.", rng.GetName())
+func TestChachaPolymorphicGetName(t *testing.T) {
+	rng := NewChachaPolymorphicFromAuto(GetSEED_AUTO())
+	if rng.GetName() != "chacha(20)" {
+		t.Errorf("GetName() returned '%s', but 'chacha(20)' was expected.", rng.GetName())
 	}
-	DeleteSalsaPolymorphic(rng)
+	DeleteChachaPolymorphic(rng)
 }
 
-func TestSalsaPolymorphicSeed(t *testing.T) {
-	rng := NewSalsaPolymorphicFromAuto(GetSEED_AUTO())
+func TestChachaPolymorphicSeed(t *testing.T) {
+	rng := NewChachaPolymorphicFromAuto(GetSEED_AUTO())
 	rng.SeedFast(123123)
 	result := rng.Raw32()
-	expected := uint(2695039661)
+	expected := uint(4072055510)
 	if result != expected {
 		t.Errorf("SeedFast(uint64) should have produced an expected %d value, but received %d.", expected, result)
 	}
 	seed := uint(9445355602342343454)
 	rng.SeedAndIV(&seed, false)
 	result = rng.Raw32()
-	expected = uint(1592220107)
+	expected = uint(2263486148)
 	if result != expected {
 		t.Errorf("SeedAndIV(uint, bool) should have produced an expected %d value, but received %d.", expected, result)
 	}
 	rng.SeedShort(&seed, false)
 	result = rng.Raw32()
-	expected = uint(1592220107)
+	expected = uint(2833116015)
 	if result != expected {
 		t.Errorf("SeedShort(uint, bool) should have produced an expected %d value, but received %d.", expected, result)
 	}
-	DeleteSalsaPolymorphic(rng)
+	DeleteChachaPolymorphic(rng)
 }
 
-func TestSalsaPolymorphicSeek(t *testing.T) {
-	rng := NewSalsaPolymorphicFromAuto(GetSEED_AUTO())
+func TestChachaPolymorphicSeek(t *testing.T) {
+	rng := NewChachaPolymorphicFromAuto(GetSEED_AUTO())
 	rng.SeekForward(434)
 	rng.SeekBackward(111)
-	DeleteSalsaPolymorphic(rng)
+	DeleteChachaPolymorphic(rng)
 }
 
-func TestSalsaPolymorphicRounds(t *testing.T) {
-	rng := NewSalsaPolymorphicFromAuto(GetSEED_AUTO())
+func TestChachaPolymorphicRounds(t *testing.T) {
+	rng := NewChachaPolymorphicFromAuto(GetSEED_AUTO())
 	if rng.GetRounds() != 20 {
 		t.Errorf("GetRounds() returned %d, but 20 was expected.", rng.GetRounds())
 	}
@@ -91,14 +91,14 @@ func TestSalsaPolymorphicRounds(t *testing.T) {
 	if rng.GetRounds() != 100 {
 		t.Errorf("SetRounds() was called, but GetRounds() returned %d, but 100 was expected.", rng.GetRounds())
 	}
-	DeleteSalsaPolymorphic(rng)
+	DeleteChachaPolymorphic(rng)
 }
 
-func TestSalsaPolymorphicPrintState(t *testing.T) {
-	rng := NewSalsaPolymorphicFromAuto(GetSEED_AUTO())
+func TestChachaPolymorphicPrintState(t *testing.T) {
+	rng := NewChachaPolymorphicFromAuto(GetSEED_AUTO())
 	state := rng.PrintState()
 	if state == "" {
 		t.Error("PrintState() returned an empty string.")
 	}
-	DeleteSalsaPolymorphic(rng)
+	DeleteChachaPolymorphic(rng)
 }

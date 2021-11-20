@@ -101,4 +101,5 @@ namespace PractRand {
 %include "../practrand/include/PractRand/rng_basics.h"
 %include "../practrand/include/PractRand/rng_helpers.h"
 %include "./arbee.i"
+%include "./chacha.i"
 %include "./salsa.i"

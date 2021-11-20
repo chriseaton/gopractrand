@@ -34,8 +34,8 @@ go run main.go
 ```
 # Goals for v-0.1.0
 Complete buildable generated APIs for all RNGs:
-- [ ] arbee
-- [ ] chacha
+- [x] arbee
+- [x] chacha
 - [ ] efiix16x384
 - [ ] efiix16x48
 - [ ] efiix32x384
@@ -54,7 +54,7 @@ Complete buildable generated APIs for all RNGs:
 - [ ] rarns32
 - [ ] rarns64
 - [x] salsa
-- [x] sfc16
+- [ ] sfc16
 - [ ] sfc32
 - [ ] sfc64
 - [ ] sha2_based_pool
