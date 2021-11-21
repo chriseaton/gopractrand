@@ -56,13 +56,13 @@ func TestArbeePolymorphicSeed(t *testing.T) {
 	result := rng.Raw32()
 	expected := uint(3689989285)
 	if result != expected {
-		t.Errorf("SeedFast(uint64) should have produced an expected %d value, but received %d.", expected, result)
+		t.Errorf("SeedFast(uint64) produced a %d value, but %d was expected.", result, expected)
 	}
 	rng.Seed(2342, 23424, 2343, 33)
 	result = rng.Raw32()
 	expected = uint(2466057160)
 	if result != expected {
-		t.Errorf("Seed(uint64, uint64, uint64, uint64) should have produced an expected %d value, but received %d.", expected, result)
+		t.Errorf("Seed(uint64, uint64, uint64, uint64) produced a %d value, but %d was expected.", result, expected)
 	}
 	DeleteArbeePolymorphic(rng)
 }

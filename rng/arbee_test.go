@@ -27,13 +27,13 @@ func TestArbeeSeed(t *testing.T) {
 	result := rng.Raw32()
 	expected := uint(1688777746)
 	if result != expected {
-		t.Errorf("Seed(uint64) should have produced an expected %d value, but received %d.", expected, result)
+		t.Errorf("Seed(uint64) produced a %d value, but %d was expected.", result, expected)
 	}
 	rng.SeedFromMix(32, 44344455, 34334, 4422)
 	result = rng.Raw32()
 	expected = uint(4259917038)
 	if result != expected {
-		t.Errorf("SeedFromMix(uint64, uint64, uint64, uint64) should have produced an expected %d value, but received %d.", expected, result)
+		t.Errorf("SeedFromMix(uint64, uint64, uint64, uint64) produced a %d value, but %d was expected.", result, expected)
 	}
 	DeleteArbee(rng)
 }

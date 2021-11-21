@@ -36,14 +36,14 @@ go run main.go
 Complete buildable generated APIs for all RNGs:
 - [x] arbee
 - [x] chacha
+- [ ] efiix8x384
+- [x] efiix8x48
 - [ ] efiix16x384
-- [ ] efiix16x48
+- [x] efiix16x48
 - [ ] efiix32x384
 - [ ] efiix32x48
 - [ ] efiix64x384
 - [ ] efiix64x48
-- [ ] efiix8x384
-- [ ] efiix8x48
 - [ ] hc256
 - [ ] isaac32x256
 - [ ] isaac64x256

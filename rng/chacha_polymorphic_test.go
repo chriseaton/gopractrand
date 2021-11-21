@@ -57,20 +57,20 @@ func TestChachaPolymorphicSeed(t *testing.T) {
 	result := rng.Raw32()
 	expected := uint(4072055510)
 	if result != expected {
-		t.Errorf("SeedFast(uint64) should have produced an expected %d value, but received %d.", expected, result)
+		t.Errorf("SeedFast(uint64) produced a %d value, but %d was expected.", result, expected)
 	}
 	seed := uint(9445355602342343454)
 	rng.SeedAndIV(&seed, false)
 	result = rng.Raw32()
 	expected = uint(2263486148)
 	if result != expected {
-		t.Errorf("SeedAndIV(uint, bool) should have produced an expected %d value, but received %d.", expected, result)
+		t.Errorf("SeedAndIV(uint, bool) produced a %d value, but %d was expected.", result, expected)
 	}
 	rng.SeedShort(&seed, false)
 	result = rng.Raw32()
 	expected = uint(2833116015)
 	if result != expected {
-		t.Errorf("SeedShort(uint, bool) should have produced an expected %d value, but received %d.", expected, result)
+		t.Errorf("SeedShort(uint, bool) produced a %d value, but %d was expected.", result, expected)
 	}
 	DeleteChachaPolymorphic(rng)
 }

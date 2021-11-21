@@ -102,4 +102,6 @@ namespace PractRand {
 %include "../practrand/include/PractRand/rng_helpers.h"
 %include "./arbee.i"
 %include "./chacha.i"
+%include "./efiix8x48.i"
+%include "./efiix16x48.i"
 %include "./salsa.i"

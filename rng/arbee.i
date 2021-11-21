@@ -1,15 +1,5 @@
 %module rng
 %{
-    /* Includes the header in the wrapper code */
-    #include <vector>
-    #include <string>
-    #include <math.h>
-    #include <inttypes.h>
-    #include "../practrand/include/PractRand/config-swig.h"
-    #include "../practrand/include/PractRand_full.h"
-    #include "../practrand/include/PractRand/rng_basics.h"
-    #include "../practrand/include/PractRand/rng_adaptors.h"
-    #include "../practrand/include/PractRand/rng_helpers.h"
     #include "../practrand/include/PractRand/RNGs/arbee.h"
 %}
 
