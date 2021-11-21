@@ -189,541 +189,680 @@ typedef long long swig_type_155;
 typedef long long swig_type_156;
 typedef _gostring_ swig_type_157;
 typedef long long swig_type_158;
-extern void _wrap_Swig_free_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_rng_2e82867d6f5a68af(swig_intgo arg1);
-extern void _wrap_version_str_set_rng_2e82867d6f5a68af(swig_type_1 arg1);
-extern swig_type_2 _wrap_version_str_get_rng_2e82867d6f5a68af(void);
-extern _Bool _wrap_initialize_PractRand_rng_2e82867d6f5a68af(void);
-extern void _wrap_self_test_PractRand_rng_2e82867d6f5a68af(void);
-extern void _wrap_issue_error__SWIG_0_rng_2e82867d6f5a68af(swig_type_3 arg1);
-extern void _wrap_issue_error__SWIG_1_rng_2e82867d6f5a68af(void);
-extern void _wrap_hook_error_handler_rng_2e82867d6f5a68af(swig_type_4 arg1);
-extern uintptr_t _wrap_new_SEED_AUTO_TYPE_rng_2e82867d6f5a68af(void);
-extern void _wrap_delete_SEED_AUTO_TYPE_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_SEED_NONE_TYPE_rng_2e82867d6f5a68af(void);
-extern void _wrap_delete_SEED_NONE_TYPE_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_SEED_AUTO_set_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_SEED_AUTO_get_rng_2e82867d6f5a68af(void);
-extern void _wrap_SEED_NONE_set_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_SEED_NONE_get_rng_2e82867d6f5a68af(void);
-extern void _wrap_delete_vRNG_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_vRNG_SeedFast_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_5 arg2);
-extern void _wrap_vRNG_SeedFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_vRNG_autoseed_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_6 _wrap_vRNG_serialize_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_7 arg2, swig_type_8 arg3);
-extern _Bool _wrap_vRNG_deserialize_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_9 arg2, swig_type_10 arg3);
-extern swig_type_11 _wrap_vRNG_PrintState_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_vRNG_WalkState_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern char _wrap_vRNG_raw8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern short _wrap_vRNG_raw16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_vRNG_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_12 _wrap_vRNG_raw64_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_vRNG_randi_rng_2e82867d6f5a68af(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern swig_intgo _wrap_vRNG_RandiFast_rng_2e82867d6f5a68af(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern swig_type_13 _wrap_vRNG_randli_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_14 arg2, swig_type_15 arg3);
-extern float _wrap_vRNG_randf_rng_2e82867d6f5a68af(uintptr_t arg1, float arg2, float arg3);
-extern double _wrap_vRNG_randlf_rng_2e82867d6f5a68af(uintptr_t arg1, double arg2, double arg3);
-extern double _wrap_vRNG_gaussian_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern double _wrap_vRNG_GaussianFromMeanDev_rng_2e82867d6f5a68af(uintptr_t arg1, double arg2, double arg3);
-extern swig_type_16 _wrap_vRNG_GetFlags_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_17 _wrap_vRNG_GetName_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_vRNG_GetNativeOutputSize_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_vRNG_SeekForward128_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_18 arg2, swig_type_19 arg3);
-extern void _wrap_vRNG_SeekBackward128_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_20 arg2, swig_type_21 arg3);
-extern void _wrap_vRNG_SeekForward_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_22 arg2);
-extern void _wrap_vRNG_SeekBackward_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_23 arg2);
-extern void _wrap_vRNG_ResetEntropy_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_vRNG_AddEntropy8_rng_2e82867d6f5a68af(uintptr_t arg1, char arg2);
-extern void _wrap_vRNG_AddEntropy16_rng_2e82867d6f5a68af(uintptr_t arg1, short arg2);
-extern void _wrap_vRNG_AddEntropy32_rng_2e82867d6f5a68af(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_vRNG_AddEntropy64_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_24 arg2);
-extern void _wrap_vRNG_AddEntropyN_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2, swig_type_25 arg3);
-extern _Bool _wrap_vRNG_AddEntropyAuto_rng_2e82867d6f5a68af(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_vRNG_FlushBuffers_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_OUTPUT_BITS_vRNG8_rng_2e82867d6f5a68af(void);
-extern short _wrap_vRNG8_raw16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_vRNG8_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_26 _wrap_vRNG8_raw64_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_vRNG8_GetNativeOutputSize_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_delete_vRNG8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_vRNG8_SeedFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_27 arg1);
-extern void _wrap_vRNG8_SeedFromRNG_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1);
-extern void _wrap_vRNG8_autoseed_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_28 _wrap_vRNG8_serialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
-extern _Bool _wrap_vRNG8_deserialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
-extern swig_type_33 _wrap_vRNG8_PrintState_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG8_WalkState_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1);
-extern char _wrap_vRNG8_raw8_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_vRNG8_randi_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_intgo _wrap_vRNG8_RandiFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_type_34 _wrap_vRNG8_randli_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
-extern float _wrap_vRNG8_randf_rng_2e82867d6f5a68af(uintptr_t _swig_base, float arg1, float arg2);
-extern double _wrap_vRNG8_randlf_rng_2e82867d6f5a68af(uintptr_t _swig_base, double arg1, double arg2);
-extern double _wrap_vRNG8_gaussian_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_37 _wrap_vRNG8_GetFlags_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_38 _wrap_vRNG8_GetName_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG8_SeekForward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
-extern void _wrap_vRNG8_SeekBackward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
-extern void _wrap_vRNG8_SeekForward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_43 arg1);
-extern void _wrap_vRNG8_SeekBackward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_44 arg1);
-extern void _wrap_vRNG8_ResetEntropy_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG8_AddEntropy8_rng_2e82867d6f5a68af(uintptr_t _swig_base, char arg1);
-extern void _wrap_vRNG8_AddEntropy16_rng_2e82867d6f5a68af(uintptr_t _swig_base, short arg1);
-extern void _wrap_vRNG8_AddEntropy32_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_vRNG8_AddEntropy64_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_45 arg1);
-extern void _wrap_vRNG8_AddEntropyN_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
-extern _Bool _wrap_vRNG8_AddEntropyAuto_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_vRNG8_FlushBuffers_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_OUTPUT_BITS_vRNG16_rng_2e82867d6f5a68af(void);
-extern char _wrap_vRNG16_raw8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_vRNG16_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_47 _wrap_vRNG16_raw64_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_vRNG16_GetNativeOutputSize_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_delete_vRNG16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_vRNG16_SeedFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_27 arg1);
-extern void _wrap_vRNG16_SeedFromRNG_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1);
-extern void _wrap_vRNG16_autoseed_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_48 _wrap_vRNG16_serialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
-extern _Bool _wrap_vRNG16_deserialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
-extern swig_type_49 _wrap_vRNG16_PrintState_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG16_WalkState_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1);
-extern short _wrap_vRNG16_raw16_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_vRNG16_randi_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_intgo _wrap_vRNG16_RandiFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_type_50 _wrap_vRNG16_randli_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
-extern float _wrap_vRNG16_randf_rng_2e82867d6f5a68af(uintptr_t _swig_base, float arg1, float arg2);
-extern double _wrap_vRNG16_randlf_rng_2e82867d6f5a68af(uintptr_t _swig_base, double arg1, double arg2);
-extern double _wrap_vRNG16_gaussian_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_51 _wrap_vRNG16_GetFlags_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_52 _wrap_vRNG16_GetName_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG16_SeekForward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
-extern void _wrap_vRNG16_SeekBackward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
-extern void _wrap_vRNG16_SeekForward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_43 arg1);
-extern void _wrap_vRNG16_SeekBackward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_44 arg1);
-extern void _wrap_vRNG16_ResetEntropy_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG16_AddEntropy8_rng_2e82867d6f5a68af(uintptr_t _swig_base, char arg1);
-extern void _wrap_vRNG16_AddEntropy16_rng_2e82867d6f5a68af(uintptr_t _swig_base, short arg1);
-extern void _wrap_vRNG16_AddEntropy32_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_vRNG16_AddEntropy64_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_45 arg1);
-extern void _wrap_vRNG16_AddEntropyN_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
-extern _Bool _wrap_vRNG16_AddEntropyAuto_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_vRNG16_FlushBuffers_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_OUTPUT_BITS_vRNG32_rng_2e82867d6f5a68af(void);
-extern char _wrap_vRNG32_raw8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern short _wrap_vRNG32_raw16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_53 _wrap_vRNG32_raw64_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_vRNG32_GetNativeOutputSize_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_delete_vRNG32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_vRNG32_SeedFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_27 arg1);
-extern void _wrap_vRNG32_SeedFromRNG_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1);
-extern void _wrap_vRNG32_autoseed_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_54 _wrap_vRNG32_serialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
-extern _Bool _wrap_vRNG32_deserialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
-extern swig_type_55 _wrap_vRNG32_PrintState_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG32_WalkState_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1);
-extern swig_intgo _wrap_vRNG32_raw32_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_vRNG32_randi_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_intgo _wrap_vRNG32_RandiFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_type_56 _wrap_vRNG32_randli_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
-extern float _wrap_vRNG32_randf_rng_2e82867d6f5a68af(uintptr_t _swig_base, float arg1, float arg2);
-extern double _wrap_vRNG32_randlf_rng_2e82867d6f5a68af(uintptr_t _swig_base, double arg1, double arg2);
-extern double _wrap_vRNG32_gaussian_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_57 _wrap_vRNG32_GetFlags_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_58 _wrap_vRNG32_GetName_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG32_SeekForward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
-extern void _wrap_vRNG32_SeekBackward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
-extern void _wrap_vRNG32_SeekForward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_43 arg1);
-extern void _wrap_vRNG32_SeekBackward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_44 arg1);
-extern void _wrap_vRNG32_ResetEntropy_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG32_AddEntropy8_rng_2e82867d6f5a68af(uintptr_t _swig_base, char arg1);
-extern void _wrap_vRNG32_AddEntropy16_rng_2e82867d6f5a68af(uintptr_t _swig_base, short arg1);
-extern void _wrap_vRNG32_AddEntropy32_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_vRNG32_AddEntropy64_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_45 arg1);
-extern void _wrap_vRNG32_AddEntropyN_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
-extern _Bool _wrap_vRNG32_AddEntropyAuto_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_vRNG32_FlushBuffers_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_OUTPUT_BITS_vRNG64_rng_2e82867d6f5a68af(void);
-extern char _wrap_vRNG64_raw8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern short _wrap_vRNG64_raw16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_vRNG64_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_vRNG64_GetNativeOutputSize_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_delete_vRNG64_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_vRNG64_SeedFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_27 arg1);
-extern void _wrap_vRNG64_SeedFromRNG_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1);
-extern void _wrap_vRNG64_autoseed_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_59 _wrap_vRNG64_serialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
-extern _Bool _wrap_vRNG64_deserialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
-extern swig_type_60 _wrap_vRNG64_PrintState_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG64_WalkState_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1);
-extern swig_type_61 _wrap_vRNG64_raw64_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_vRNG64_randi_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_intgo _wrap_vRNG64_RandiFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_type_62 _wrap_vRNG64_randli_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
-extern float _wrap_vRNG64_randf_rng_2e82867d6f5a68af(uintptr_t _swig_base, float arg1, float arg2);
-extern double _wrap_vRNG64_randlf_rng_2e82867d6f5a68af(uintptr_t _swig_base, double arg1, double arg2);
-extern double _wrap_vRNG64_gaussian_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_63 _wrap_vRNG64_GetFlags_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_64 _wrap_vRNG64_GetName_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG64_SeekForward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
-extern void _wrap_vRNG64_SeekBackward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
-extern void _wrap_vRNG64_SeekForward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_43 arg1);
-extern void _wrap_vRNG64_SeekBackward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_44 arg1);
-extern void _wrap_vRNG64_ResetEntropy_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_vRNG64_AddEntropy8_rng_2e82867d6f5a68af(uintptr_t _swig_base, char arg1);
-extern void _wrap_vRNG64_AddEntropy16_rng_2e82867d6f5a68af(uintptr_t _swig_base, short arg1);
-extern void _wrap_vRNG64_AddEntropy32_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_vRNG64_AddEntropy64_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_45 arg1);
-extern void _wrap_vRNG64_AddEntropyN_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
-extern _Bool _wrap_vRNG64_AddEntropyAuto_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_vRNG64_FlushBuffers_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_NORMAL_1_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_NORMAL_ALL_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_SUPPORTS_FASTFORWARD_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_SUPPORTS_ENTROPY_ACCUMULATION_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_CRYPTOGRAPHIC_SECURITY_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_USES_SPECIFIED_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_USES_MULTIPLICATION_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_USES_COMPLEX_INSTRUCTIONS_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_USES_VARIABLE_SHIFTS_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_USES_INDIRECTION_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_USES_CYCLIC_BUFFER_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_USES_FLOW_CONTROL_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_USES_BIT_SCANS_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_USES_OTHER_WORD_SIZES_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_ENDIAN_SAFE_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_IS_BUFFERED_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_IS_HASHED_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_STATE_UNAVAILABLE_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_SEEDING_UNSUPPORTED_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_NEEDS_GENERIC_SEEDING_rng_2e82867d6f5a68af(void);
-extern void _wrap_delete_StateWalkingObject_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_StateWalkingObject_handle__SWIG_0_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_1_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_2_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_3_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_4_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_5_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_StateWalkingObject_handle__SWIG_6_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern swig_intgo _wrap_FLAG_READ_ONLY_StateWalkingObject_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAG_WRITE_ONLY_StateWalkingObject_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAG_CLUMSY_StateWalkingObject_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAG_SEEDER_StateWalkingObject_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_StateWalkingObject_GetProperties_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern _Bool _wrap_StateWalkingObject_IsReadOnly_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern _Bool _wrap_StateWalkingObject_IsWriteOnly_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern _Bool _wrap_StateWalkingObject_IsClumsy_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern _Bool _wrap_StateWalkingObject_IsSeeder_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_StateWalkingObject_HandleInt8_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_StateWalkingObject_HandleInt16_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_StateWalkingObject_HandleInt32_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_StateWalkingObject_HandleInt64_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShiftUInt8_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShiftUInt16_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShiftUInt32_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShiftUInt64_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShiftInt8_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShiftInt16_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShiftInt32_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShiftInt64_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShiftFloat32_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_StateWalkingObject_LeftShiftFloat64_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_vrng_to_rng_seeder_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_get_autoseeder_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_OUTPUT_TYPE_arbee_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_BITS_arbee_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAGS_arbee_rng_2e82867d6f5a68af(void);
-extern uintptr_t _wrap_new_arbee__SWIG_0_rng_2e82867d6f5a68af(void);
-extern uintptr_t _wrap_new_arbee__SWIG_1_rng_2e82867d6f5a68af(swig_type_65 arg1);
-extern uintptr_t _wrap_new_arbee__SWIG_2_rng_2e82867d6f5a68af(swig_type_66 arg1, swig_type_67 arg2, swig_type_68 arg3, swig_type_69 arg4);
-extern uintptr_t _wrap_new_arbee__SWIG_3_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_arbee__SWIG_4_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern char _wrap_arbee_raw8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern short _wrap_arbee_raw16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_arbee_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_70 _wrap_arbee_raw64_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_arbee_seed_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_71 arg2);
-extern void _wrap_arbee_SeedFromMix_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_72 arg2, swig_type_73 arg3, swig_type_74 arg4, swig_type_75 arg5);
-extern void _wrap_arbee_SeedFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_arbee_WalkState_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_arbee_ResetEntropy_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_arbee_AddEntropy8_rng_2e82867d6f5a68af(uintptr_t arg1, char arg2);
-extern void _wrap_arbee_AddEntropy16_rng_2e82867d6f5a68af(uintptr_t arg1, short arg2);
-extern void _wrap_arbee_AddEntropy32_rng_2e82867d6f5a68af(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_arbee_AddEntropy64_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_76 arg2);
-extern void _wrap_arbee_AddEntropyN_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2, swig_type_77 arg3);
-extern void _wrap_arbee_FlushBuffers_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_delete_arbee_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_FLAGS_ArbeePolymorphic_rng_2e82867d6f5a68af(void);
-extern void _wrap_ArbeePolymorphic_implementation_set_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ArbeePolymorphic_implementation_get_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_78 _wrap_ArbeePolymorphic_GetFlags_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_79 _wrap_ArbeePolymorphic_GetName_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_ArbeePolymorphicFromUInt64_rng_2e82867d6f5a68af(swig_type_80 arg1);
-extern uintptr_t _wrap_new_ArbeePolymorphic__SWIG_0_rng_2e82867d6f5a68af(swig_type_81 arg1, swig_type_82 arg2, swig_type_83 arg3, swig_type_84 arg4);
-extern uintptr_t _wrap_new_ArbeePolymorphicFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_ArbeePolymorphicFromAuto_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_ArbeePolymorphicFromNone_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_ArbeePolymorphic__SWIG_1_rng_2e82867d6f5a68af(void);
-extern char _wrap_ArbeePolymorphic_raw8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern short _wrap_ArbeePolymorphic_raw16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_ArbeePolymorphic_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_85 _wrap_ArbeePolymorphic_raw64_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_ArbeePolymorphic_seed_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_86 arg2, swig_type_87 arg3, swig_type_88 arg4, swig_type_89 arg5);
-extern void _wrap_ArbeePolymorphic_SeedFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_ArbeePolymorphic_WalkState_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_ArbeePolymorphic_ResetEntropy_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_ArbeePolymorphic_AddEntropy8_rng_2e82867d6f5a68af(uintptr_t arg1, char arg2);
-extern void _wrap_ArbeePolymorphic_AddEntropy16_rng_2e82867d6f5a68af(uintptr_t arg1, short arg2);
-extern void _wrap_ArbeePolymorphic_AddEntropy32_rng_2e82867d6f5a68af(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_ArbeePolymorphic_AddEntropy64_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_90 arg2);
-extern void _wrap_ArbeePolymorphic_AddEntropyN_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2, swig_type_91 arg3);
-extern void _wrap_ArbeePolymorphic_FlushBuffers_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_delete_ArbeePolymorphic_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_ArbeePolymorphic_GetNativeOutputSize_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_ArbeePolymorphic_SeedFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_27 arg1);
-extern void _wrap_ArbeePolymorphic_autoseed_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_92 _wrap_ArbeePolymorphic_serialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
-extern _Bool _wrap_ArbeePolymorphic_deserialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
-extern swig_type_93 _wrap_ArbeePolymorphic_PrintState_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_ArbeePolymorphic_randi_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_intgo _wrap_ArbeePolymorphic_RandiFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_type_94 _wrap_ArbeePolymorphic_randli_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
-extern float _wrap_ArbeePolymorphic_randf_rng_2e82867d6f5a68af(uintptr_t _swig_base, float arg1, float arg2);
-extern double _wrap_ArbeePolymorphic_randlf_rng_2e82867d6f5a68af(uintptr_t _swig_base, double arg1, double arg2);
-extern double _wrap_ArbeePolymorphic_gaussian_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_ArbeePolymorphic_SeekForward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
-extern void _wrap_ArbeePolymorphic_SeekBackward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
-extern void _wrap_ArbeePolymorphic_SeekForward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_43 arg1);
-extern void _wrap_ArbeePolymorphic_SeekBackward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_44 arg1);
-extern _Bool _wrap_ArbeePolymorphic_AddEntropyAuto_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern swig_intgo _wrap_OUTPUT_TYPE_chacha_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_BITS_chacha_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAGS_chacha_rng_2e82867d6f5a68af(void);
-extern uintptr_t _wrap_new_chacha_rng_2e82867d6f5a68af(void);
-extern void _wrap_delete_chacha_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_chacha_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_chacha_seed_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_95 arg2);
-extern void _wrap_chacha_SeedAndIV_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
-extern void _wrap_chacha_SeedShort_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
-extern void _wrap_chacha_WalkState_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_chacha_SeekForward_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_96 arg2, swig_type_97 arg3);
-extern void _wrap_chacha_SeekBackward_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_98 arg2, swig_type_99 arg3);
-extern void _wrap_chacha_SetRounds_rng_2e82867d6f5a68af(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_chacha_GetRounds_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_chacha_self_test_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_TYPE_ChachaPolymorphic_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_BITS_ChachaPolymorphic_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAGS_ChachaPolymorphic_rng_2e82867d6f5a68af(void);
-extern void _wrap_ChachaPolymorphic_implementation_set_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_ChachaPolymorphic_implementation_get_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_ChachaPolymorphicFromUInt64_rng_2e82867d6f5a68af(swig_type_100 arg1);
-extern uintptr_t _wrap_new_ChachaPolymorphicFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_ChachaPolymorphicFromAuto_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_ChachaPolymorphicFromNone_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern char _wrap_ChachaPolymorphic_raw8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern short _wrap_ChachaPolymorphic_raw16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_ChachaPolymorphic_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_101 _wrap_ChachaPolymorphic_raw64_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_102 _wrap_ChachaPolymorphic_GetFlags_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_103 _wrap_ChachaPolymorphic_GetName_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_ChachaPolymorphic_WalkState_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_ChachaPolymorphicFromSeedAndIV_rng_2e82867d6f5a68af(swig_voidp arg1, _Bool arg2);
-extern void _wrap_ChachaPolymorphic_SeedAndIV_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
-extern void _wrap_ChachaPolymorphic_SeedShort_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
-extern void _wrap_ChachaPolymorphic_SeekForward128_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_104 arg2, swig_type_105 arg3);
-extern void _wrap_ChachaPolymorphic_SeekBackward128_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_106 arg2, swig_type_107 arg3);
-extern void _wrap_ChachaPolymorphic_SetRounds_rng_2e82867d6f5a68af(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_ChachaPolymorphic_GetRounds_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_delete_ChachaPolymorphic_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_ChachaPolymorphic_GetNativeOutputSize_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_ChachaPolymorphic_SeedFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_27 arg1);
-extern void _wrap_ChachaPolymorphic_autoseed_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_108 _wrap_ChachaPolymorphic_serialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
-extern _Bool _wrap_ChachaPolymorphic_deserialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
-extern swig_type_109 _wrap_ChachaPolymorphic_PrintState_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_ChachaPolymorphic_randi_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_intgo _wrap_ChachaPolymorphic_RandiFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_type_110 _wrap_ChachaPolymorphic_randli_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
-extern float _wrap_ChachaPolymorphic_randf_rng_2e82867d6f5a68af(uintptr_t _swig_base, float arg1, float arg2);
-extern double _wrap_ChachaPolymorphic_randlf_rng_2e82867d6f5a68af(uintptr_t _swig_base, double arg1, double arg2);
-extern double _wrap_ChachaPolymorphic_gaussian_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_ChachaPolymorphic_SeekForward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_43 arg1);
-extern void _wrap_ChachaPolymorphic_SeekBackward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_44 arg1);
-extern void _wrap_ChachaPolymorphic_ResetEntropy_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_ChachaPolymorphic_AddEntropy8_rng_2e82867d6f5a68af(uintptr_t _swig_base, char arg1);
-extern void _wrap_ChachaPolymorphic_AddEntropy16_rng_2e82867d6f5a68af(uintptr_t _swig_base, short arg1);
-extern void _wrap_ChachaPolymorphic_AddEntropy32_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_ChachaPolymorphic_AddEntropy64_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_45 arg1);
-extern void _wrap_ChachaPolymorphic_AddEntropyN_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
-extern _Bool _wrap_ChachaPolymorphic_AddEntropyAuto_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_ChachaPolymorphic_FlushBuffers_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_OUTPUT_TYPE_efiix8x48_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_BITS_efiix8x48_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAGS_efiix8x48_rng_2e82867d6f5a68af(void);
-extern void _wrap_delete_efiix8x48_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern char _wrap_efiix8x48_raw8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_efiix8x48_SeedFromMix_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_111 arg2, swig_type_112 arg3, swig_type_113 arg4, swig_type_114 arg5);
-extern void _wrap_efiix8x48_seed_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_115 arg2);
-extern void _wrap_efiix8x48_SeedFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_efiix8x48_WalkState_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_efiix8x48_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_TYPE_Efiix8x48Polymorphic_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_BITS_Efiix8x48Polymorphic_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAGS_Efiix8x48Polymorphic_rng_2e82867d6f5a68af(void);
-extern void _wrap_Efiix8x48Polymorphic_implementation_set_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Efiix8x48Polymorphic_implementation_get_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_Efiix8x48PolymorphicFromUInt64_rng_2e82867d6f5a68af(swig_type_116 arg1);
-extern uintptr_t _wrap_new_Efiix8x48PolymorphicFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_Efiix8x48PolymorphicFromAuto_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_Efiix8x48PolymorphicFromNone_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern char _wrap_Efiix8x48Polymorphic_raw8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern short _wrap_Efiix8x48Polymorphic_raw16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_Efiix8x48Polymorphic_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_117 _wrap_Efiix8x48Polymorphic_raw64_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_118 _wrap_Efiix8x48Polymorphic_GetFlags_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_119 _wrap_Efiix8x48Polymorphic_GetName_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_Efiix8x48Polymorphic_WalkState_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Efiix8x48Polymorphic_seed_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_120 arg2, swig_type_121 arg3, swig_type_122 arg4, swig_type_123 arg5);
-extern void _wrap_Efiix8x48Polymorphic_SeedFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_delete_Efiix8x48Polymorphic_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_Efiix8x48Polymorphic_GetNativeOutputSize_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_Efiix8x48Polymorphic_SeedFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_27 arg1);
-extern void _wrap_Efiix8x48Polymorphic_autoseed_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_124 _wrap_Efiix8x48Polymorphic_serialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
-extern _Bool _wrap_Efiix8x48Polymorphic_deserialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
-extern swig_type_125 _wrap_Efiix8x48Polymorphic_PrintState_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_Efiix8x48Polymorphic_randi_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Efiix8x48Polymorphic_RandiFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_type_126 _wrap_Efiix8x48Polymorphic_randli_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
-extern float _wrap_Efiix8x48Polymorphic_randf_rng_2e82867d6f5a68af(uintptr_t _swig_base, float arg1, float arg2);
-extern double _wrap_Efiix8x48Polymorphic_randlf_rng_2e82867d6f5a68af(uintptr_t _swig_base, double arg1, double arg2);
-extern double _wrap_Efiix8x48Polymorphic_gaussian_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_Efiix8x48Polymorphic_SeekForward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
-extern void _wrap_Efiix8x48Polymorphic_SeekBackward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
-extern void _wrap_Efiix8x48Polymorphic_SeekForward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_43 arg1);
-extern void _wrap_Efiix8x48Polymorphic_SeekBackward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_44 arg1);
-extern void _wrap_Efiix8x48Polymorphic_ResetEntropy_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_Efiix8x48Polymorphic_AddEntropy8_rng_2e82867d6f5a68af(uintptr_t _swig_base, char arg1);
-extern void _wrap_Efiix8x48Polymorphic_AddEntropy16_rng_2e82867d6f5a68af(uintptr_t _swig_base, short arg1);
-extern void _wrap_Efiix8x48Polymorphic_AddEntropy32_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_Efiix8x48Polymorphic_AddEntropy64_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_45 arg1);
-extern void _wrap_Efiix8x48Polymorphic_AddEntropyN_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
-extern _Bool _wrap_Efiix8x48Polymorphic_AddEntropyAuto_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_Efiix8x48Polymorphic_FlushBuffers_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_OUTPUT_TYPE_efiix16x48_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_BITS_efiix16x48_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAGS_efiix16x48_rng_2e82867d6f5a68af(void);
-extern void _wrap_delete_efiix16x48_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern short _wrap_efiix16x48_raw16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_efiix16x48_SeedFromMix_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_127 arg2, swig_type_128 arg3, swig_type_129 arg4, swig_type_130 arg5);
-extern void _wrap_efiix16x48_seed_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_131 arg2);
-extern void _wrap_efiix16x48_SeedFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_efiix16x48_WalkState_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_efiix16x48_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_TYPE_Efiix16x48Polymorphic_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_BITS_Efiix16x48Polymorphic_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAGS_Efiix16x48Polymorphic_rng_2e82867d6f5a68af(void);
-extern void _wrap_Efiix16x48Polymorphic_implementation_set_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_Efiix16x48Polymorphic_implementation_get_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_Efiix16x48PolymorphicFromUInt64_rng_2e82867d6f5a68af(swig_type_132 arg1);
-extern uintptr_t _wrap_new_Efiix16x48PolymorphicFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_Efiix16x48PolymorphicFromAuto_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_Efiix16x48PolymorphicFromNone_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern char _wrap_Efiix16x48Polymorphic_raw8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern short _wrap_Efiix16x48Polymorphic_raw16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_Efiix16x48Polymorphic_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_133 _wrap_Efiix16x48Polymorphic_raw64_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_134 _wrap_Efiix16x48Polymorphic_GetFlags_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_135 _wrap_Efiix16x48Polymorphic_GetName_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_Efiix16x48Polymorphic_WalkState_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_Efiix16x48Polymorphic_seed_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_136 arg2, swig_type_137 arg3, swig_type_138 arg4, swig_type_139 arg5);
-extern void _wrap_Efiix16x48Polymorphic_SeedFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_delete_Efiix16x48Polymorphic_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_Efiix16x48Polymorphic_GetNativeOutputSize_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_Efiix16x48Polymorphic_SeedFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_27 arg1);
-extern void _wrap_Efiix16x48Polymorphic_autoseed_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_140 _wrap_Efiix16x48Polymorphic_serialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
-extern _Bool _wrap_Efiix16x48Polymorphic_deserialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
-extern swig_type_141 _wrap_Efiix16x48Polymorphic_PrintState_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_Efiix16x48Polymorphic_randi_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_intgo _wrap_Efiix16x48Polymorphic_RandiFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_type_142 _wrap_Efiix16x48Polymorphic_randli_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
-extern float _wrap_Efiix16x48Polymorphic_randf_rng_2e82867d6f5a68af(uintptr_t _swig_base, float arg1, float arg2);
-extern double _wrap_Efiix16x48Polymorphic_randlf_rng_2e82867d6f5a68af(uintptr_t _swig_base, double arg1, double arg2);
-extern double _wrap_Efiix16x48Polymorphic_gaussian_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_Efiix16x48Polymorphic_SeekForward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
-extern void _wrap_Efiix16x48Polymorphic_SeekBackward128_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
-extern void _wrap_Efiix16x48Polymorphic_SeekForward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_43 arg1);
-extern void _wrap_Efiix16x48Polymorphic_SeekBackward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_44 arg1);
-extern void _wrap_Efiix16x48Polymorphic_ResetEntropy_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_Efiix16x48Polymorphic_AddEntropy8_rng_2e82867d6f5a68af(uintptr_t _swig_base, char arg1);
-extern void _wrap_Efiix16x48Polymorphic_AddEntropy16_rng_2e82867d6f5a68af(uintptr_t _swig_base, short arg1);
-extern void _wrap_Efiix16x48Polymorphic_AddEntropy32_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_Efiix16x48Polymorphic_AddEntropy64_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_45 arg1);
-extern void _wrap_Efiix16x48Polymorphic_AddEntropyN_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
-extern _Bool _wrap_Efiix16x48Polymorphic_AddEntropyAuto_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_Efiix16x48Polymorphic_FlushBuffers_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_OUTPUT_TYPE_salsa_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_BITS_salsa_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAGS_salsa_rng_2e82867d6f5a68af(void);
-extern uintptr_t _wrap_new_salsa_rng_2e82867d6f5a68af(void);
-extern void _wrap_delete_salsa_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_salsa_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_salsa_seed_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_143 arg2);
-extern void _wrap_salsa_SeedAndIV_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
-extern void _wrap_salsa_SeedShort_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
-extern void _wrap_salsa_WalkState_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_salsa_SeekForward_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_144 arg2, swig_type_145 arg3);
-extern void _wrap_salsa_SeekBackward_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_146 arg2, swig_type_147 arg3);
-extern void _wrap_salsa_SetRounds_rng_2e82867d6f5a68af(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_salsa_GetRounds_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_salsa_self_test_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_TYPE_SalsaPolymorphic_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_OUTPUT_BITS_SalsaPolymorphic_rng_2e82867d6f5a68af(void);
-extern swig_intgo _wrap_FLAGS_SalsaPolymorphic_rng_2e82867d6f5a68af(void);
-extern void _wrap_SalsaPolymorphic_implementation_set_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_SalsaPolymorphic_implementation_get_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_SalsaPolymorphicFromUInt64_rng_2e82867d6f5a68af(swig_type_148 arg1);
-extern uintptr_t _wrap_new_SalsaPolymorphicFromRNG_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_SalsaPolymorphicFromAuto_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern uintptr_t _wrap_new_SalsaPolymorphicFromNone_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern char _wrap_SalsaPolymorphic_raw8_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern short _wrap_SalsaPolymorphic_raw16_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_SalsaPolymorphic_raw32_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_149 _wrap_SalsaPolymorphic_raw64_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_150 _wrap_SalsaPolymorphic_GetFlags_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_type_151 _wrap_SalsaPolymorphic_GetName_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_SalsaPolymorphic_WalkState_rng_2e82867d6f5a68af(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_new_SalsaPolymorphicFromSeedAndIV_rng_2e82867d6f5a68af(swig_voidp arg1, _Bool arg2);
-extern void _wrap_SalsaPolymorphic_SeedAndIV_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
-extern void _wrap_SalsaPolymorphic_SeedShort_rng_2e82867d6f5a68af(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
-extern void _wrap_SalsaPolymorphic_SeekForward128_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_152 arg2, swig_type_153 arg3);
-extern void _wrap_SalsaPolymorphic_SeekBackward128_rng_2e82867d6f5a68af(uintptr_t arg1, swig_type_154 arg2, swig_type_155 arg3);
-extern void _wrap_SalsaPolymorphic_SetRounds_rng_2e82867d6f5a68af(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_SalsaPolymorphic_GetRounds_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern void _wrap_delete_SalsaPolymorphic_rng_2e82867d6f5a68af(uintptr_t arg1);
-extern swig_intgo _wrap_SalsaPolymorphic_GetNativeOutputSize_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_SalsaPolymorphic_SeedFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_27 arg1);
-extern void _wrap_SalsaPolymorphic_autoseed_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_type_156 _wrap_SalsaPolymorphic_serialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
-extern _Bool _wrap_SalsaPolymorphic_deserialize_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
-extern swig_type_157 _wrap_SalsaPolymorphic_PrintState_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern swig_intgo _wrap_SalsaPolymorphic_randi_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_intgo _wrap_SalsaPolymorphic_RandiFast_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
-extern swig_type_158 _wrap_SalsaPolymorphic_randli_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
-extern float _wrap_SalsaPolymorphic_randf_rng_2e82867d6f5a68af(uintptr_t _swig_base, float arg1, float arg2);
-extern double _wrap_SalsaPolymorphic_randlf_rng_2e82867d6f5a68af(uintptr_t _swig_base, double arg1, double arg2);
-extern double _wrap_SalsaPolymorphic_gaussian_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_SalsaPolymorphic_SeekForward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_43 arg1);
-extern void _wrap_SalsaPolymorphic_SeekBackward_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_44 arg1);
-extern void _wrap_SalsaPolymorphic_ResetEntropy_rng_2e82867d6f5a68af(uintptr_t _swig_base);
-extern void _wrap_SalsaPolymorphic_AddEntropy8_rng_2e82867d6f5a68af(uintptr_t _swig_base, char arg1);
-extern void _wrap_SalsaPolymorphic_AddEntropy16_rng_2e82867d6f5a68af(uintptr_t _swig_base, short arg1);
-extern void _wrap_SalsaPolymorphic_AddEntropy32_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_SalsaPolymorphic_AddEntropy64_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_type_45 arg1);
-extern void _wrap_SalsaPolymorphic_AddEntropyN_rng_2e82867d6f5a68af(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
-extern _Bool _wrap_SalsaPolymorphic_AddEntropyAuto_rng_2e82867d6f5a68af(uintptr_t _swig_base, swig_intgo arg1);
-extern void _wrap_SalsaPolymorphic_FlushBuffers_rng_2e82867d6f5a68af(uintptr_t _swig_base);
+typedef long long swig_type_159;
+typedef long long swig_type_160;
+typedef long long swig_type_161;
+typedef long long swig_type_162;
+typedef long long swig_type_163;
+typedef long long swig_type_164;
+typedef long long swig_type_165;
+typedef long long swig_type_166;
+typedef long long swig_type_167;
+typedef _gostring_ swig_type_168;
+typedef long long swig_type_169;
+typedef long long swig_type_170;
+typedef long long swig_type_171;
+typedef long long swig_type_172;
+typedef long long swig_type_173;
+typedef _gostring_ swig_type_174;
+typedef long long swig_type_175;
+typedef long long swig_type_176;
+typedef long long swig_type_177;
+typedef long long swig_type_178;
+typedef long long swig_type_179;
+typedef long long swig_type_180;
+typedef long long swig_type_181;
+typedef long long swig_type_182;
+typedef long long swig_type_183;
+typedef _gostring_ swig_type_184;
+typedef long long swig_type_185;
+typedef long long swig_type_186;
+typedef long long swig_type_187;
+typedef long long swig_type_188;
+typedef long long swig_type_189;
+typedef _gostring_ swig_type_190;
+typedef long long swig_type_191;
+extern void _wrap_Swig_free_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_rng_11ac3d340bb029ea(swig_intgo arg1);
+extern void _wrap_version_str_set_rng_11ac3d340bb029ea(swig_type_1 arg1);
+extern swig_type_2 _wrap_version_str_get_rng_11ac3d340bb029ea(void);
+extern _Bool _wrap_initialize_PractRand_rng_11ac3d340bb029ea(void);
+extern void _wrap_self_test_PractRand_rng_11ac3d340bb029ea(void);
+extern void _wrap_issue_error__SWIG_0_rng_11ac3d340bb029ea(swig_type_3 arg1);
+extern void _wrap_issue_error__SWIG_1_rng_11ac3d340bb029ea(void);
+extern void _wrap_hook_error_handler_rng_11ac3d340bb029ea(swig_type_4 arg1);
+extern uintptr_t _wrap_new_SEED_AUTO_TYPE_rng_11ac3d340bb029ea(void);
+extern void _wrap_delete_SEED_AUTO_TYPE_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_SEED_NONE_TYPE_rng_11ac3d340bb029ea(void);
+extern void _wrap_delete_SEED_NONE_TYPE_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_SEED_AUTO_set_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_SEED_AUTO_get_rng_11ac3d340bb029ea(void);
+extern void _wrap_SEED_NONE_set_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_SEED_NONE_get_rng_11ac3d340bb029ea(void);
+extern void _wrap_delete_vRNG_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_vRNG_SeedFast_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_5 arg2);
+extern void _wrap_vRNG_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_vRNG_autoseed_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_6 _wrap_vRNG_serialize_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_7 arg2, swig_type_8 arg3);
+extern _Bool _wrap_vRNG_deserialize_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_9 arg2, swig_type_10 arg3);
+extern swig_type_11 _wrap_vRNG_PrintState_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_vRNG_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern char _wrap_vRNG_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_vRNG_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_12 _wrap_vRNG_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG_randi_rng_11ac3d340bb029ea(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern swig_intgo _wrap_vRNG_RandiFast_rng_11ac3d340bb029ea(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern swig_type_13 _wrap_vRNG_randli_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_14 arg2, swig_type_15 arg3);
+extern float _wrap_vRNG_randf_rng_11ac3d340bb029ea(uintptr_t arg1, float arg2, float arg3);
+extern double _wrap_vRNG_randlf_rng_11ac3d340bb029ea(uintptr_t arg1, double arg2, double arg3);
+extern double _wrap_vRNG_gaussian_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern double _wrap_vRNG_GaussianFromMeanDev_rng_11ac3d340bb029ea(uintptr_t arg1, double arg2, double arg3);
+extern swig_type_16 _wrap_vRNG_GetFlags_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_17 _wrap_vRNG_GetName_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_vRNG_SeekForward128_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_18 arg2, swig_type_19 arg3);
+extern void _wrap_vRNG_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_20 arg2, swig_type_21 arg3);
+extern void _wrap_vRNG_SeekForward_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_22 arg2);
+extern void _wrap_vRNG_SeekBackward_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_23 arg2);
+extern void _wrap_vRNG_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_vRNG_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t arg1, char arg2);
+extern void _wrap_vRNG_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t arg1, short arg2);
+extern void _wrap_vRNG_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_vRNG_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_24 arg2);
+extern void _wrap_vRNG_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2, swig_type_25 arg3);
+extern _Bool _wrap_vRNG_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_vRNG_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_OUTPUT_BITS_vRNG8_rng_11ac3d340bb029ea(void);
+extern short _wrap_vRNG8_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG8_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_26 _wrap_vRNG8_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG8_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_delete_vRNG8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_vRNG8_SeedFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_27 arg1);
+extern void _wrap_vRNG8_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1);
+extern void _wrap_vRNG8_autoseed_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_28 _wrap_vRNG8_serialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
+extern _Bool _wrap_vRNG8_deserialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
+extern swig_type_33 _wrap_vRNG8_PrintState_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG8_WalkState_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1);
+extern char _wrap_vRNG8_raw8_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_vRNG8_randi_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_vRNG8_RandiFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_34 _wrap_vRNG8_randli_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
+extern float _wrap_vRNG8_randf_rng_11ac3d340bb029ea(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_vRNG8_randlf_rng_11ac3d340bb029ea(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_vRNG8_gaussian_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_37 _wrap_vRNG8_GetFlags_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_38 _wrap_vRNG8_GetName_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG8_SeekForward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
+extern void _wrap_vRNG8_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
+extern void _wrap_vRNG8_SeekForward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_43 arg1);
+extern void _wrap_vRNG8_SeekBackward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_44 arg1);
+extern void _wrap_vRNG8_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG8_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t _swig_base, char arg1);
+extern void _wrap_vRNG8_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t _swig_base, short arg1);
+extern void _wrap_vRNG8_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG8_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_45 arg1);
+extern void _wrap_vRNG8_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
+extern _Bool _wrap_vRNG8_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG8_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_BITS_vRNG16_rng_11ac3d340bb029ea(void);
+extern char _wrap_vRNG16_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG16_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_47 _wrap_vRNG16_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG16_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_delete_vRNG16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_vRNG16_SeedFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_27 arg1);
+extern void _wrap_vRNG16_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1);
+extern void _wrap_vRNG16_autoseed_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_48 _wrap_vRNG16_serialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
+extern _Bool _wrap_vRNG16_deserialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
+extern swig_type_49 _wrap_vRNG16_PrintState_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG16_WalkState_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1);
+extern short _wrap_vRNG16_raw16_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_vRNG16_randi_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_vRNG16_RandiFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_50 _wrap_vRNG16_randli_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
+extern float _wrap_vRNG16_randf_rng_11ac3d340bb029ea(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_vRNG16_randlf_rng_11ac3d340bb029ea(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_vRNG16_gaussian_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_51 _wrap_vRNG16_GetFlags_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_52 _wrap_vRNG16_GetName_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG16_SeekForward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
+extern void _wrap_vRNG16_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
+extern void _wrap_vRNG16_SeekForward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_43 arg1);
+extern void _wrap_vRNG16_SeekBackward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_44 arg1);
+extern void _wrap_vRNG16_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG16_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t _swig_base, char arg1);
+extern void _wrap_vRNG16_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t _swig_base, short arg1);
+extern void _wrap_vRNG16_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG16_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_45 arg1);
+extern void _wrap_vRNG16_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
+extern _Bool _wrap_vRNG16_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG16_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_BITS_vRNG32_rng_11ac3d340bb029ea(void);
+extern char _wrap_vRNG32_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_vRNG32_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_53 _wrap_vRNG32_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG32_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_delete_vRNG32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_vRNG32_SeedFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_27 arg1);
+extern void _wrap_vRNG32_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1);
+extern void _wrap_vRNG32_autoseed_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_54 _wrap_vRNG32_serialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
+extern _Bool _wrap_vRNG32_deserialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
+extern swig_type_55 _wrap_vRNG32_PrintState_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG32_WalkState_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1);
+extern swig_intgo _wrap_vRNG32_raw32_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_vRNG32_randi_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_vRNG32_RandiFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_56 _wrap_vRNG32_randli_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
+extern float _wrap_vRNG32_randf_rng_11ac3d340bb029ea(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_vRNG32_randlf_rng_11ac3d340bb029ea(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_vRNG32_gaussian_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_57 _wrap_vRNG32_GetFlags_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_58 _wrap_vRNG32_GetName_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG32_SeekForward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
+extern void _wrap_vRNG32_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
+extern void _wrap_vRNG32_SeekForward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_43 arg1);
+extern void _wrap_vRNG32_SeekBackward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_44 arg1);
+extern void _wrap_vRNG32_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG32_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t _swig_base, char arg1);
+extern void _wrap_vRNG32_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t _swig_base, short arg1);
+extern void _wrap_vRNG32_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG32_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_45 arg1);
+extern void _wrap_vRNG32_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
+extern _Bool _wrap_vRNG32_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG32_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_BITS_vRNG64_rng_11ac3d340bb029ea(void);
+extern char _wrap_vRNG64_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_vRNG64_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG64_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_vRNG64_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_delete_vRNG64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_vRNG64_SeedFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_27 arg1);
+extern void _wrap_vRNG64_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1);
+extern void _wrap_vRNG64_autoseed_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_59 _wrap_vRNG64_serialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
+extern _Bool _wrap_vRNG64_deserialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
+extern swig_type_60 _wrap_vRNG64_PrintState_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG64_WalkState_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1);
+extern swig_type_61 _wrap_vRNG64_raw64_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_vRNG64_randi_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_vRNG64_RandiFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_62 _wrap_vRNG64_randli_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
+extern float _wrap_vRNG64_randf_rng_11ac3d340bb029ea(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_vRNG64_randlf_rng_11ac3d340bb029ea(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_vRNG64_gaussian_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_63 _wrap_vRNG64_GetFlags_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_64 _wrap_vRNG64_GetName_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG64_SeekForward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
+extern void _wrap_vRNG64_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
+extern void _wrap_vRNG64_SeekForward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_43 arg1);
+extern void _wrap_vRNG64_SeekBackward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_44 arg1);
+extern void _wrap_vRNG64_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_vRNG64_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t _swig_base, char arg1);
+extern void _wrap_vRNG64_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t _swig_base, short arg1);
+extern void _wrap_vRNG64_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG64_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_45 arg1);
+extern void _wrap_vRNG64_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
+extern _Bool _wrap_vRNG64_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_vRNG64_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_NORMAL_1_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_NORMAL_ALL_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_SUPPORTS_FASTFORWARD_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_SUPPORTS_ENTROPY_ACCUMULATION_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_CRYPTOGRAPHIC_SECURITY_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_USES_SPECIFIED_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_USES_MULTIPLICATION_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_USES_COMPLEX_INSTRUCTIONS_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_USES_VARIABLE_SHIFTS_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_USES_INDIRECTION_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_USES_CYCLIC_BUFFER_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_USES_FLOW_CONTROL_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_USES_BIT_SCANS_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_USES_OTHER_WORD_SIZES_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_ENDIAN_SAFE_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_IS_BUFFERED_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_IS_HASHED_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_STATE_UNAVAILABLE_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_SEEDING_UNSUPPORTED_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_NEEDS_GENERIC_SEEDING_rng_11ac3d340bb029ea(void);
+extern void _wrap_delete_StateWalkingObject_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_StateWalkingObject_handle__SWIG_0_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_1_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_2_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_3_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_4_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_5_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_handle__SWIG_6_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern swig_intgo _wrap_FLAG_READ_ONLY_StateWalkingObject_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAG_WRITE_ONLY_StateWalkingObject_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAG_CLUMSY_StateWalkingObject_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAG_SEEDER_StateWalkingObject_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_StateWalkingObject_GetProperties_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern _Bool _wrap_StateWalkingObject_IsReadOnly_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern _Bool _wrap_StateWalkingObject_IsWriteOnly_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern _Bool _wrap_StateWalkingObject_IsClumsy_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern _Bool _wrap_StateWalkingObject_IsSeeder_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_StateWalkingObject_HandleInt8_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_HandleInt16_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_HandleInt32_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_StateWalkingObject_HandleInt64_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShiftUInt8_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShiftUInt16_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShiftUInt32_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShiftUInt64_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShiftInt8_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShiftInt16_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShiftInt32_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShiftInt64_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShiftFloat32_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_StateWalkingObject_LeftShiftFloat64_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_vrng_to_rng_seeder_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_get_autoseeder_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_OUTPUT_TYPE_arbee_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_arbee_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_arbee_rng_11ac3d340bb029ea(void);
+extern uintptr_t _wrap_new_arbee__SWIG_0_rng_11ac3d340bb029ea(void);
+extern uintptr_t _wrap_new_arbee__SWIG_1_rng_11ac3d340bb029ea(swig_type_65 arg1);
+extern uintptr_t _wrap_new_arbee__SWIG_2_rng_11ac3d340bb029ea(swig_type_66 arg1, swig_type_67 arg2, swig_type_68 arg3, swig_type_69 arg4);
+extern uintptr_t _wrap_new_arbee__SWIG_3_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_arbee__SWIG_4_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern char _wrap_arbee_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_arbee_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_arbee_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_70 _wrap_arbee_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_arbee_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_71 arg2);
+extern void _wrap_arbee_SeedFromMix_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_72 arg2, swig_type_73 arg3, swig_type_74 arg4, swig_type_75 arg5);
+extern void _wrap_arbee_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_arbee_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_arbee_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_arbee_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t arg1, char arg2);
+extern void _wrap_arbee_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t arg1, short arg2);
+extern void _wrap_arbee_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_arbee_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_76 arg2);
+extern void _wrap_arbee_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2, swig_type_77 arg3);
+extern void _wrap_arbee_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_delete_arbee_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_FLAGS_ArbeePolymorphic_rng_11ac3d340bb029ea(void);
+extern void _wrap_ArbeePolymorphic_implementation_set_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ArbeePolymorphic_implementation_get_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_78 _wrap_ArbeePolymorphic_GetFlags_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_79 _wrap_ArbeePolymorphic_GetName_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_ArbeePolymorphicFromUInt64_rng_11ac3d340bb029ea(swig_type_80 arg1);
+extern uintptr_t _wrap_new_ArbeePolymorphic__SWIG_0_rng_11ac3d340bb029ea(swig_type_81 arg1, swig_type_82 arg2, swig_type_83 arg3, swig_type_84 arg4);
+extern uintptr_t _wrap_new_ArbeePolymorphicFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_ArbeePolymorphicFromAuto_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_ArbeePolymorphicFromNone_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_ArbeePolymorphic__SWIG_1_rng_11ac3d340bb029ea(void);
+extern char _wrap_ArbeePolymorphic_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_ArbeePolymorphic_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_ArbeePolymorphic_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_85 _wrap_ArbeePolymorphic_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_ArbeePolymorphic_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_86 arg2, swig_type_87 arg3, swig_type_88 arg4, swig_type_89 arg5);
+extern void _wrap_ArbeePolymorphic_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_ArbeePolymorphic_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_ArbeePolymorphic_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_ArbeePolymorphic_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t arg1, char arg2);
+extern void _wrap_ArbeePolymorphic_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t arg1, short arg2);
+extern void _wrap_ArbeePolymorphic_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_ArbeePolymorphic_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_90 arg2);
+extern void _wrap_ArbeePolymorphic_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2, swig_type_91 arg3);
+extern void _wrap_ArbeePolymorphic_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_delete_ArbeePolymorphic_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_ArbeePolymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_ArbeePolymorphic_SeedFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_27 arg1);
+extern void _wrap_ArbeePolymorphic_autoseed_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_92 _wrap_ArbeePolymorphic_serialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
+extern _Bool _wrap_ArbeePolymorphic_deserialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
+extern swig_type_93 _wrap_ArbeePolymorphic_PrintState_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_ArbeePolymorphic_randi_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ArbeePolymorphic_RandiFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_94 _wrap_ArbeePolymorphic_randli_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
+extern float _wrap_ArbeePolymorphic_randf_rng_11ac3d340bb029ea(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_ArbeePolymorphic_randlf_rng_11ac3d340bb029ea(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_ArbeePolymorphic_gaussian_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_ArbeePolymorphic_SeekForward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
+extern void _wrap_ArbeePolymorphic_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
+extern void _wrap_ArbeePolymorphic_SeekForward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_43 arg1);
+extern void _wrap_ArbeePolymorphic_SeekBackward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_44 arg1);
+extern _Bool _wrap_ArbeePolymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern swig_intgo _wrap_OUTPUT_TYPE_chacha_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_chacha_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_chacha_rng_11ac3d340bb029ea(void);
+extern uintptr_t _wrap_new_chacha_rng_11ac3d340bb029ea(void);
+extern void _wrap_delete_chacha_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_chacha_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_chacha_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_95 arg2);
+extern void _wrap_chacha_SeedAndIV_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_chacha_SeedShort_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_chacha_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_chacha_SeekForward_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_96 arg2, swig_type_97 arg3);
+extern void _wrap_chacha_SeekBackward_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_98 arg2, swig_type_99 arg3);
+extern void _wrap_chacha_SetRounds_rng_11ac3d340bb029ea(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_chacha_GetRounds_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_chacha_self_test_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_TYPE_ChachaPolymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_ChachaPolymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_ChachaPolymorphic_rng_11ac3d340bb029ea(void);
+extern void _wrap_ChachaPolymorphic_implementation_set_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_ChachaPolymorphic_implementation_get_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_ChachaPolymorphicFromUInt64_rng_11ac3d340bb029ea(swig_type_100 arg1);
+extern uintptr_t _wrap_new_ChachaPolymorphicFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_ChachaPolymorphicFromAuto_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_ChachaPolymorphicFromNone_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern char _wrap_ChachaPolymorphic_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_ChachaPolymorphic_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_ChachaPolymorphic_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_101 _wrap_ChachaPolymorphic_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_102 _wrap_ChachaPolymorphic_GetFlags_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_103 _wrap_ChachaPolymorphic_GetName_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_ChachaPolymorphic_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_ChachaPolymorphicFromSeedAndIV_rng_11ac3d340bb029ea(swig_voidp arg1, _Bool arg2);
+extern void _wrap_ChachaPolymorphic_SeedAndIV_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_ChachaPolymorphic_SeedShort_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_ChachaPolymorphic_SeekForward128_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_104 arg2, swig_type_105 arg3);
+extern void _wrap_ChachaPolymorphic_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_106 arg2, swig_type_107 arg3);
+extern void _wrap_ChachaPolymorphic_SetRounds_rng_11ac3d340bb029ea(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ChachaPolymorphic_GetRounds_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_delete_ChachaPolymorphic_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_ChachaPolymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_ChachaPolymorphic_SeedFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_27 arg1);
+extern void _wrap_ChachaPolymorphic_autoseed_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_108 _wrap_ChachaPolymorphic_serialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
+extern _Bool _wrap_ChachaPolymorphic_deserialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
+extern swig_type_109 _wrap_ChachaPolymorphic_PrintState_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_ChachaPolymorphic_randi_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_ChachaPolymorphic_RandiFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_110 _wrap_ChachaPolymorphic_randli_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
+extern float _wrap_ChachaPolymorphic_randf_rng_11ac3d340bb029ea(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_ChachaPolymorphic_randlf_rng_11ac3d340bb029ea(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_ChachaPolymorphic_gaussian_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_ChachaPolymorphic_SeekForward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_43 arg1);
+extern void _wrap_ChachaPolymorphic_SeekBackward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_44 arg1);
+extern void _wrap_ChachaPolymorphic_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_ChachaPolymorphic_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t _swig_base, char arg1);
+extern void _wrap_ChachaPolymorphic_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t _swig_base, short arg1);
+extern void _wrap_ChachaPolymorphic_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_ChachaPolymorphic_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_45 arg1);
+extern void _wrap_ChachaPolymorphic_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
+extern _Bool _wrap_ChachaPolymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_ChachaPolymorphic_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_TYPE_efiix8x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_efiix8x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_efiix8x48_rng_11ac3d340bb029ea(void);
+extern void _wrap_delete_efiix8x48_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern char _wrap_efiix8x48_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_efiix8x48_SeedFromMix_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_111 arg2, swig_type_112 arg3, swig_type_113 arg4, swig_type_114 arg5);
+extern void _wrap_efiix8x48_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_115 arg2);
+extern void _wrap_efiix8x48_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_efiix8x48_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_efiix8x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_TYPE_Efiix8x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_Efiix8x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_Efiix8x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern void _wrap_Efiix8x48Polymorphic_implementation_set_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Efiix8x48Polymorphic_implementation_get_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix8x48PolymorphicFromUInt64_rng_11ac3d340bb029ea(swig_type_116 arg1);
+extern uintptr_t _wrap_new_Efiix8x48PolymorphicFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix8x48PolymorphicFromAuto_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix8x48PolymorphicFromNone_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern char _wrap_Efiix8x48Polymorphic_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_Efiix8x48Polymorphic_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_Efiix8x48Polymorphic_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_117 _wrap_Efiix8x48Polymorphic_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_118 _wrap_Efiix8x48Polymorphic_GetFlags_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_119 _wrap_Efiix8x48Polymorphic_GetName_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_Efiix8x48Polymorphic_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Efiix8x48Polymorphic_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_120 arg2, swig_type_121 arg3, swig_type_122 arg4, swig_type_123 arg5);
+extern void _wrap_Efiix8x48Polymorphic_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_Efiix8x48Polymorphic_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_Efiix8x48Polymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix8x48Polymorphic_SeedFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_27 arg1);
+extern void _wrap_Efiix8x48Polymorphic_autoseed_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_124 _wrap_Efiix8x48Polymorphic_serialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
+extern _Bool _wrap_Efiix8x48Polymorphic_deserialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
+extern swig_type_125 _wrap_Efiix8x48Polymorphic_PrintState_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_Efiix8x48Polymorphic_randi_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Efiix8x48Polymorphic_RandiFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_126 _wrap_Efiix8x48Polymorphic_randli_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
+extern float _wrap_Efiix8x48Polymorphic_randf_rng_11ac3d340bb029ea(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_Efiix8x48Polymorphic_randlf_rng_11ac3d340bb029ea(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_Efiix8x48Polymorphic_gaussian_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix8x48Polymorphic_SeekForward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
+extern void _wrap_Efiix8x48Polymorphic_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
+extern void _wrap_Efiix8x48Polymorphic_SeekForward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_43 arg1);
+extern void _wrap_Efiix8x48Polymorphic_SeekBackward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_44 arg1);
+extern void _wrap_Efiix8x48Polymorphic_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix8x48Polymorphic_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t _swig_base, char arg1);
+extern void _wrap_Efiix8x48Polymorphic_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t _swig_base, short arg1);
+extern void _wrap_Efiix8x48Polymorphic_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_Efiix8x48Polymorphic_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_45 arg1);
+extern void _wrap_Efiix8x48Polymorphic_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
+extern _Bool _wrap_Efiix8x48Polymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_Efiix8x48Polymorphic_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_TYPE_efiix16x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_efiix16x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_efiix16x48_rng_11ac3d340bb029ea(void);
+extern void _wrap_delete_efiix16x48_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_efiix16x48_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_efiix16x48_SeedFromMix_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_127 arg2, swig_type_128 arg3, swig_type_129 arg4, swig_type_130 arg5);
+extern void _wrap_efiix16x48_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_131 arg2);
+extern void _wrap_efiix16x48_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_efiix16x48_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_efiix16x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_TYPE_Efiix16x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_Efiix16x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_Efiix16x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern void _wrap_Efiix16x48Polymorphic_implementation_set_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Efiix16x48Polymorphic_implementation_get_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix16x48PolymorphicFromUInt64_rng_11ac3d340bb029ea(swig_type_132 arg1);
+extern uintptr_t _wrap_new_Efiix16x48PolymorphicFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix16x48PolymorphicFromAuto_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix16x48PolymorphicFromNone_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern char _wrap_Efiix16x48Polymorphic_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_Efiix16x48Polymorphic_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_Efiix16x48Polymorphic_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_133 _wrap_Efiix16x48Polymorphic_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_134 _wrap_Efiix16x48Polymorphic_GetFlags_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_135 _wrap_Efiix16x48Polymorphic_GetName_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_Efiix16x48Polymorphic_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Efiix16x48Polymorphic_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_136 arg2, swig_type_137 arg3, swig_type_138 arg4, swig_type_139 arg5);
+extern void _wrap_Efiix16x48Polymorphic_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_Efiix16x48Polymorphic_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_Efiix16x48Polymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix16x48Polymorphic_SeedFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_27 arg1);
+extern void _wrap_Efiix16x48Polymorphic_autoseed_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_140 _wrap_Efiix16x48Polymorphic_serialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
+extern _Bool _wrap_Efiix16x48Polymorphic_deserialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
+extern swig_type_141 _wrap_Efiix16x48Polymorphic_PrintState_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_Efiix16x48Polymorphic_randi_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Efiix16x48Polymorphic_RandiFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_142 _wrap_Efiix16x48Polymorphic_randli_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
+extern float _wrap_Efiix16x48Polymorphic_randf_rng_11ac3d340bb029ea(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_Efiix16x48Polymorphic_randlf_rng_11ac3d340bb029ea(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_Efiix16x48Polymorphic_gaussian_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix16x48Polymorphic_SeekForward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
+extern void _wrap_Efiix16x48Polymorphic_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
+extern void _wrap_Efiix16x48Polymorphic_SeekForward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_43 arg1);
+extern void _wrap_Efiix16x48Polymorphic_SeekBackward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_44 arg1);
+extern void _wrap_Efiix16x48Polymorphic_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix16x48Polymorphic_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t _swig_base, char arg1);
+extern void _wrap_Efiix16x48Polymorphic_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t _swig_base, short arg1);
+extern void _wrap_Efiix16x48Polymorphic_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_Efiix16x48Polymorphic_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_45 arg1);
+extern void _wrap_Efiix16x48Polymorphic_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
+extern _Bool _wrap_Efiix16x48Polymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_Efiix16x48Polymorphic_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_TYPE_efiix32x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_efiix32x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_efiix32x48_rng_11ac3d340bb029ea(void);
+extern void _wrap_delete_efiix32x48_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_efiix32x48_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_efiix32x48_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_143 arg2);
+extern void _wrap_efiix32x48_SeedFromMix_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_144 arg2, swig_type_145 arg3, swig_type_146 arg4, swig_type_147 arg5);
+extern void _wrap_efiix32x48_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_efiix32x48_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_efiix32x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_TYPE_Efiix32x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_Efiix32x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_Efiix32x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern void _wrap_Efiix32x48Polymorphic_implementation_set_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Efiix32x48Polymorphic_implementation_get_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix32x48PolymorphicFromUInt64_rng_11ac3d340bb029ea(swig_type_148 arg1);
+extern uintptr_t _wrap_new_Efiix32x48PolymorphicFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix32x48PolymorphicFromAuto_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix32x48PolymorphicFromNone_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern char _wrap_Efiix32x48Polymorphic_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_Efiix32x48Polymorphic_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_Efiix32x48Polymorphic_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_149 _wrap_Efiix32x48Polymorphic_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_150 _wrap_Efiix32x48Polymorphic_GetFlags_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_151 _wrap_Efiix32x48Polymorphic_GetName_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_Efiix32x48Polymorphic_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Efiix32x48Polymorphic_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_152 arg2, swig_type_153 arg3, swig_type_154 arg4, swig_type_155 arg5);
+extern void _wrap_Efiix32x48Polymorphic_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_Efiix32x48Polymorphic_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_Efiix32x48Polymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix32x48Polymorphic_SeedFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_27 arg1);
+extern void _wrap_Efiix32x48Polymorphic_autoseed_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_156 _wrap_Efiix32x48Polymorphic_serialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
+extern _Bool _wrap_Efiix32x48Polymorphic_deserialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
+extern swig_type_157 _wrap_Efiix32x48Polymorphic_PrintState_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_Efiix32x48Polymorphic_randi_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Efiix32x48Polymorphic_RandiFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_158 _wrap_Efiix32x48Polymorphic_randli_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
+extern float _wrap_Efiix32x48Polymorphic_randf_rng_11ac3d340bb029ea(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_Efiix32x48Polymorphic_randlf_rng_11ac3d340bb029ea(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_Efiix32x48Polymorphic_gaussian_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix32x48Polymorphic_SeekForward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
+extern void _wrap_Efiix32x48Polymorphic_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
+extern void _wrap_Efiix32x48Polymorphic_SeekForward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_43 arg1);
+extern void _wrap_Efiix32x48Polymorphic_SeekBackward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_44 arg1);
+extern void _wrap_Efiix32x48Polymorphic_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix32x48Polymorphic_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t _swig_base, char arg1);
+extern void _wrap_Efiix32x48Polymorphic_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t _swig_base, short arg1);
+extern void _wrap_Efiix32x48Polymorphic_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_Efiix32x48Polymorphic_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_45 arg1);
+extern void _wrap_Efiix32x48Polymorphic_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
+extern _Bool _wrap_Efiix32x48Polymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_Efiix32x48Polymorphic_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_TYPE_efiix64x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_efiix64x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_efiix64x48_rng_11ac3d340bb029ea(void);
+extern void _wrap_delete_efiix64x48_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_159 _wrap_efiix64x48_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_efiix64x48_SeedFromMix_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_160 arg2, swig_type_161 arg3, swig_type_162 arg4, swig_type_163 arg5);
+extern void _wrap_efiix64x48_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_164 arg2);
+extern void _wrap_efiix64x48_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_efiix64x48_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_efiix64x48_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_TYPE_Efiix64x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_Efiix64x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_Efiix64x48Polymorphic_rng_11ac3d340bb029ea(void);
+extern void _wrap_Efiix64x48Polymorphic_implementation_set_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_Efiix64x48Polymorphic_implementation_get_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix64x48PolymorphicFromUInt64_rng_11ac3d340bb029ea(swig_type_165 arg1);
+extern uintptr_t _wrap_new_Efiix64x48PolymorphicFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix64x48PolymorphicFromAuto_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_Efiix64x48PolymorphicFromNone_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern char _wrap_Efiix64x48Polymorphic_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_Efiix64x48Polymorphic_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_Efiix64x48Polymorphic_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_166 _wrap_Efiix64x48Polymorphic_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_167 _wrap_Efiix64x48Polymorphic_GetFlags_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_168 _wrap_Efiix64x48Polymorphic_GetName_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_Efiix64x48Polymorphic_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_Efiix64x48Polymorphic_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_169 arg2, swig_type_170 arg3, swig_type_171 arg4, swig_type_172 arg5);
+extern void _wrap_Efiix64x48Polymorphic_SeedFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_delete_Efiix64x48Polymorphic_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_Efiix64x48Polymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix64x48Polymorphic_SeedFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_27 arg1);
+extern void _wrap_Efiix64x48Polymorphic_autoseed_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_173 _wrap_Efiix64x48Polymorphic_serialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
+extern _Bool _wrap_Efiix64x48Polymorphic_deserialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
+extern swig_type_174 _wrap_Efiix64x48Polymorphic_PrintState_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_Efiix64x48Polymorphic_randi_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_Efiix64x48Polymorphic_RandiFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_175 _wrap_Efiix64x48Polymorphic_randli_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
+extern float _wrap_Efiix64x48Polymorphic_randf_rng_11ac3d340bb029ea(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_Efiix64x48Polymorphic_randlf_rng_11ac3d340bb029ea(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_Efiix64x48Polymorphic_gaussian_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix64x48Polymorphic_SeekForward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_39 arg1, swig_type_40 arg2);
+extern void _wrap_Efiix64x48Polymorphic_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_41 arg1, swig_type_42 arg2);
+extern void _wrap_Efiix64x48Polymorphic_SeekForward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_43 arg1);
+extern void _wrap_Efiix64x48Polymorphic_SeekBackward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_44 arg1);
+extern void _wrap_Efiix64x48Polymorphic_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_Efiix64x48Polymorphic_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t _swig_base, char arg1);
+extern void _wrap_Efiix64x48Polymorphic_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t _swig_base, short arg1);
+extern void _wrap_Efiix64x48Polymorphic_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_Efiix64x48Polymorphic_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_45 arg1);
+extern void _wrap_Efiix64x48Polymorphic_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
+extern _Bool _wrap_Efiix64x48Polymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_Efiix64x48Polymorphic_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_OUTPUT_TYPE_salsa_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_salsa_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_salsa_rng_11ac3d340bb029ea(void);
+extern uintptr_t _wrap_new_salsa_rng_11ac3d340bb029ea(void);
+extern void _wrap_delete_salsa_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_salsa_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_salsa_seed_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_176 arg2);
+extern void _wrap_salsa_SeedAndIV_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_salsa_SeedShort_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_salsa_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_salsa_SeekForward_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_177 arg2, swig_type_178 arg3);
+extern void _wrap_salsa_SeekBackward_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_179 arg2, swig_type_180 arg3);
+extern void _wrap_salsa_SetRounds_rng_11ac3d340bb029ea(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_salsa_GetRounds_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_salsa_self_test_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_TYPE_SalsaPolymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_OUTPUT_BITS_SalsaPolymorphic_rng_11ac3d340bb029ea(void);
+extern swig_intgo _wrap_FLAGS_SalsaPolymorphic_rng_11ac3d340bb029ea(void);
+extern void _wrap_SalsaPolymorphic_implementation_set_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_SalsaPolymorphic_implementation_get_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_SalsaPolymorphicFromUInt64_rng_11ac3d340bb029ea(swig_type_181 arg1);
+extern uintptr_t _wrap_new_SalsaPolymorphicFromRNG_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_SalsaPolymorphicFromAuto_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern uintptr_t _wrap_new_SalsaPolymorphicFromNone_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern char _wrap_SalsaPolymorphic_raw8_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern short _wrap_SalsaPolymorphic_raw16_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_SalsaPolymorphic_raw32_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_182 _wrap_SalsaPolymorphic_raw64_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_183 _wrap_SalsaPolymorphic_GetFlags_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_type_184 _wrap_SalsaPolymorphic_GetName_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_SalsaPolymorphic_WalkState_rng_11ac3d340bb029ea(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_new_SalsaPolymorphicFromSeedAndIV_rng_11ac3d340bb029ea(swig_voidp arg1, _Bool arg2);
+extern void _wrap_SalsaPolymorphic_SeedAndIV_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_SalsaPolymorphic_SeedShort_rng_11ac3d340bb029ea(uintptr_t arg1, swig_voidp arg2, _Bool arg3);
+extern void _wrap_SalsaPolymorphic_SeekForward128_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_185 arg2, swig_type_186 arg3);
+extern void _wrap_SalsaPolymorphic_SeekBackward128_rng_11ac3d340bb029ea(uintptr_t arg1, swig_type_187 arg2, swig_type_188 arg3);
+extern void _wrap_SalsaPolymorphic_SetRounds_rng_11ac3d340bb029ea(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_SalsaPolymorphic_GetRounds_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern void _wrap_delete_SalsaPolymorphic_rng_11ac3d340bb029ea(uintptr_t arg1);
+extern swig_intgo _wrap_SalsaPolymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_SalsaPolymorphic_SeedFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_27 arg1);
+extern void _wrap_SalsaPolymorphic_autoseed_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_type_189 _wrap_SalsaPolymorphic_serialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_29 arg1, swig_type_30 arg2);
+extern _Bool _wrap_SalsaPolymorphic_deserialize_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_31 arg1, swig_type_32 arg2);
+extern swig_type_190 _wrap_SalsaPolymorphic_PrintState_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern swig_intgo _wrap_SalsaPolymorphic_randi_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_intgo _wrap_SalsaPolymorphic_RandiFast_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1, swig_intgo arg2);
+extern swig_type_191 _wrap_SalsaPolymorphic_randli_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_35 arg1, swig_type_36 arg2);
+extern float _wrap_SalsaPolymorphic_randf_rng_11ac3d340bb029ea(uintptr_t _swig_base, float arg1, float arg2);
+extern double _wrap_SalsaPolymorphic_randlf_rng_11ac3d340bb029ea(uintptr_t _swig_base, double arg1, double arg2);
+extern double _wrap_SalsaPolymorphic_gaussian_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_SalsaPolymorphic_SeekForward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_43 arg1);
+extern void _wrap_SalsaPolymorphic_SeekBackward_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_44 arg1);
+extern void _wrap_SalsaPolymorphic_ResetEntropy_rng_11ac3d340bb029ea(uintptr_t _swig_base);
+extern void _wrap_SalsaPolymorphic_AddEntropy8_rng_11ac3d340bb029ea(uintptr_t _swig_base, char arg1);
+extern void _wrap_SalsaPolymorphic_AddEntropy16_rng_11ac3d340bb029ea(uintptr_t _swig_base, short arg1);
+extern void _wrap_SalsaPolymorphic_AddEntropy32_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_SalsaPolymorphic_AddEntropy64_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_type_45 arg1);
+extern void _wrap_SalsaPolymorphic_AddEntropyN_rng_11ac3d340bb029ea(uintptr_t _swig_base, uintptr_t arg1, swig_type_46 arg2);
+extern _Bool _wrap_SalsaPolymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(uintptr_t _swig_base, swig_intgo arg1);
+extern void _wrap_SalsaPolymorphic_FlushBuffers_rng_11ac3d340bb029ea(uintptr_t _swig_base);
 #undef intgo
 */
 import "C"
@@ -758,19 +897,19 @@ func swigCopyString(s string) string {
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_rng_2e82867d6f5a68af(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_rng_11ac3d340bb029ea(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
 func SetVersion_str(arg1 string) {
 	_swig_i_0 := arg1
-	C._wrap_version_str_set_rng_2e82867d6f5a68af(*(*C.swig_type_1)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap_version_str_set_rng_11ac3d340bb029ea(*(*C.swig_type_1)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -778,7 +917,7 @@ func SetVersion_str(arg1 string) {
 
 func GetVersion_str() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_version_str_get_rng_2e82867d6f5a68af()
+	swig_r_p := C._wrap_version_str_get_rng_11ac3d340bb029ea()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -787,24 +926,24 @@ func GetVersion_str() (_swig_ret string) {
 
 func Initialize_PractRand() (_swig_ret bool) {
 	var swig_r bool
-	swig_r = (bool)(C._wrap_initialize_PractRand_rng_2e82867d6f5a68af())
+	swig_r = (bool)(C._wrap_initialize_PractRand_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 func Self_test_PractRand() {
-	C._wrap_self_test_PractRand_rng_2e82867d6f5a68af()
+	C._wrap_self_test_PractRand_rng_11ac3d340bb029ea()
 }
 
 func Issue_error__SWIG_0(arg1 string) {
 	_swig_i_0 := arg1
-	C._wrap_issue_error__SWIG_0_rng_2e82867d6f5a68af(*(*C.swig_type_3)(unsafe.Pointer(&_swig_i_0)))
+	C._wrap_issue_error__SWIG_0_rng_11ac3d340bb029ea(*(*C.swig_type_3)(unsafe.Pointer(&_swig_i_0)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
 }
 
 func Issue_error__SWIG_1() {
-	C._wrap_issue_error__SWIG_1_rng_2e82867d6f5a68af()
+	C._wrap_issue_error__SWIG_1_rng_11ac3d340bb029ea()
 }
 
 func Issue_error(a ...interface{}) {
@@ -822,7 +961,7 @@ func Issue_error(a ...interface{}) {
 
 func Hook_error_handler(arg1 _swig_fnptr) {
 	_swig_i_0 := arg1
-	C._wrap_hook_error_handler_rng_2e82867d6f5a68af(C.swig_type_4(_swig_i_0))
+	C._wrap_hook_error_handler_rng_11ac3d340bb029ea(C.swig_type_4(_swig_i_0))
 }
 
 type SwigcptrSEED_AUTO_TYPE uintptr
@@ -836,13 +975,13 @@ func (p SwigcptrSEED_AUTO_TYPE) SwigIsSEED_AUTO_TYPE() {
 
 func NewSEED_AUTO_TYPE() (_swig_ret SEED_AUTO_TYPE) {
 	var swig_r SEED_AUTO_TYPE
-	swig_r = (SEED_AUTO_TYPE)(SwigcptrSEED_AUTO_TYPE(C._wrap_new_SEED_AUTO_TYPE_rng_2e82867d6f5a68af()))
+	swig_r = (SEED_AUTO_TYPE)(SwigcptrSEED_AUTO_TYPE(C._wrap_new_SEED_AUTO_TYPE_rng_11ac3d340bb029ea()))
 	return swig_r
 }
 
 func DeleteSEED_AUTO_TYPE(arg1 SEED_AUTO_TYPE) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_SEED_AUTO_TYPE_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_SEED_AUTO_TYPE_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 type SEED_AUTO_TYPE interface {
@@ -861,13 +1000,13 @@ func (p SwigcptrSEED_NONE_TYPE) SwigIsSEED_NONE_TYPE() {
 
 func NewSEED_NONE_TYPE() (_swig_ret SEED_NONE_TYPE) {
 	var swig_r SEED_NONE_TYPE
-	swig_r = (SEED_NONE_TYPE)(SwigcptrSEED_NONE_TYPE(C._wrap_new_SEED_NONE_TYPE_rng_2e82867d6f5a68af()))
+	swig_r = (SEED_NONE_TYPE)(SwigcptrSEED_NONE_TYPE(C._wrap_new_SEED_NONE_TYPE_rng_11ac3d340bb029ea()))
 	return swig_r
 }
 
 func DeleteSEED_NONE_TYPE(arg1 SEED_NONE_TYPE) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_SEED_NONE_TYPE_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_SEED_NONE_TYPE_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 type SEED_NONE_TYPE interface {
@@ -877,23 +1016,23 @@ type SEED_NONE_TYPE interface {
 
 func SetSEED_AUTO(arg1 SEED_AUTO_TYPE) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_SEED_AUTO_set_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_SEED_AUTO_set_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func GetSEED_AUTO() (_swig_ret SEED_AUTO_TYPE) {
 	var swig_r SEED_AUTO_TYPE
-	swig_r = (SEED_AUTO_TYPE)(SwigcptrSEED_AUTO_TYPE(C._wrap_SEED_AUTO_get_rng_2e82867d6f5a68af()))
+	swig_r = (SEED_AUTO_TYPE)(SwigcptrSEED_AUTO_TYPE(C._wrap_SEED_AUTO_get_rng_11ac3d340bb029ea()))
 	return swig_r
 }
 
 func SetSEED_NONE(arg1 SEED_NONE_TYPE) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_SEED_NONE_set_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_SEED_NONE_set_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func GetSEED_NONE() (_swig_ret SEED_NONE_TYPE) {
 	var swig_r SEED_NONE_TYPE
-	swig_r = (SEED_NONE_TYPE)(SwigcptrSEED_NONE_TYPE(C._wrap_SEED_NONE_get_rng_2e82867d6f5a68af()))
+	swig_r = (SEED_NONE_TYPE)(SwigcptrSEED_NONE_TYPE(C._wrap_SEED_NONE_get_rng_11ac3d340bb029ea()))
 	return swig_r
 }
 
@@ -908,24 +1047,24 @@ func (p SwigcptrVRNG) SwigIsVRNG() {
 
 func DeleteVRNG(arg1 VRNG) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_vRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_vRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVRNG) SeedFast(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG_SeedFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_5(_swig_i_1))
+	C._wrap_vRNG_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_5(_swig_i_1))
 }
 
 func (arg1 SwigcptrVRNG) SeedFromRNG(arg2 VRNG) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_vRNG_SeedFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_vRNG_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrVRNG) Autoseed() {
 	_swig_i_0 := arg1
-	C._wrap_vRNG_autoseed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_vRNG_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVRNG) Serialize(arg2 string, arg3 int64) (_swig_ret int64) {
@@ -933,7 +1072,7 @@ func (arg1 SwigcptrVRNG) Serialize(arg2 string, arg3 int64) (_swig_ret int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (int64)(C._wrap_vRNG_serialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), *(*C.swig_type_7)(unsafe.Pointer(&_swig_i_1)), C.swig_type_8(_swig_i_2)))
+	swig_r = (int64)(C._wrap_vRNG_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), *(*C.swig_type_7)(unsafe.Pointer(&_swig_i_1)), C.swig_type_8(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -945,7 +1084,7 @@ func (arg1 SwigcptrVRNG) Deserialize(arg2 string, arg3 int64) (_swig_ret bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (bool)(C._wrap_vRNG_deserialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), *(*C.swig_type_9)(unsafe.Pointer(&_swig_i_1)), C.swig_type_10(_swig_i_2)))
+	swig_r = (bool)(C._wrap_vRNG_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), *(*C.swig_type_9)(unsafe.Pointer(&_swig_i_1)), C.swig_type_10(_swig_i_2)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -955,7 +1094,7 @@ func (arg1 SwigcptrVRNG) Deserialize(arg2 string, arg3 int64) (_swig_ret bool) {
 func (arg1 SwigcptrVRNG) PrintState() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_vRNG_PrintState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_vRNG_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -965,34 +1104,34 @@ func (arg1 SwigcptrVRNG) PrintState() (_swig_ret string) {
 func (arg1 SwigcptrVRNG) WalkState(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_vRNG_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_vRNG_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrVRNG) Raw8() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_vRNG_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_vRNG_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (uint16)(C._wrap_vRNG_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint16)(C._wrap_vRNG_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_vRNG_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_vRNG_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG) Raw64() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_vRNG_raw64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_vRNG_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -1001,7 +1140,7 @@ func (arg1 SwigcptrVRNG) Randi(arg2 uint, arg3 uint) (_swig_ret uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (uint)(C._wrap_vRNG_randi_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (uint)(C._wrap_vRNG_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	return swig_r
 }
 
@@ -1010,7 +1149,7 @@ func (arg1 SwigcptrVRNG) RandiFast(arg2 uint, arg3 uint) (_swig_ret uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (uint)(C._wrap_vRNG_RandiFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (uint)(C._wrap_vRNG_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	return swig_r
 }
 
@@ -1019,7 +1158,7 @@ func (arg1 SwigcptrVRNG) Randli(arg2 uint64, arg3 uint64) (_swig_ret uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (uint64)(C._wrap_vRNG_randli_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_14(_swig_i_1), C.swig_type_15(_swig_i_2)))
+	swig_r = (uint64)(C._wrap_vRNG_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_14(_swig_i_1), C.swig_type_15(_swig_i_2)))
 	return swig_r
 }
 
@@ -1028,7 +1167,7 @@ func (arg1 SwigcptrVRNG) Randf(arg2 float32, arg3 float32) (_swig_ret float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (float32)(C._wrap_vRNG_randf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2)))
+	swig_r = (float32)(C._wrap_vRNG_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2)))
 	return swig_r
 }
 
@@ -1037,14 +1176,14 @@ func (arg1 SwigcptrVRNG) Randlf(arg2 float64, arg3 float64) (_swig_ret float64) 
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (float64)(C._wrap_vRNG_randlf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2)))
+	swig_r = (float64)(C._wrap_vRNG_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG) Gaussian() (_swig_ret float64) {
 	var swig_r float64
 	_swig_i_0 := arg1
-	swig_r = (float64)(C._wrap_vRNG_gaussian_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (float64)(C._wrap_vRNG_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -1053,21 +1192,21 @@ func (arg1 SwigcptrVRNG) GaussianFromMeanDev(arg2 float64, arg3 float64) (_swig_
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (float64)(C._wrap_vRNG_GaussianFromMeanDev_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2)))
+	swig_r = (float64)(C._wrap_vRNG_GaussianFromMeanDev_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.double(_swig_i_1), C.double(_swig_i_2)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG) GetFlags() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_vRNG_GetFlags_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_vRNG_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_vRNG_GetName_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_vRNG_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1077,7 +1216,7 @@ func (arg1 SwigcptrVRNG) GetName() (_swig_ret string) {
 func (arg1 SwigcptrVRNG) GetNativeOutputSize() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_vRNG_GetNativeOutputSize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_vRNG_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -1085,75 +1224,75 @@ func (arg1 SwigcptrVRNG) SeekForward128(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_vRNG_SeekForward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_18(_swig_i_1), C.swig_type_19(_swig_i_2))
+	C._wrap_vRNG_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_18(_swig_i_1), C.swig_type_19(_swig_i_2))
 }
 
 func (arg1 SwigcptrVRNG) SeekBackward128(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_vRNG_SeekBackward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_20(_swig_i_1), C.swig_type_21(_swig_i_2))
+	C._wrap_vRNG_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_20(_swig_i_1), C.swig_type_21(_swig_i_2))
 }
 
 func (arg1 SwigcptrVRNG) SeekForward(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_22(_swig_i_1))
+	C._wrap_vRNG_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_22(_swig_i_1))
 }
 
 func (arg1 SwigcptrVRNG) SeekBackward(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_23(_swig_i_1))
+	C._wrap_vRNG_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_23(_swig_i_1))
 }
 
 func (arg1 SwigcptrVRNG) ResetEntropy() {
 	_swig_i_0 := arg1
-	C._wrap_vRNG_ResetEntropy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_vRNG_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrVRNG) AddEntropy8(arg2 byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG_AddEntropy8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+	C._wrap_vRNG_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
 }
 
 func (arg1 SwigcptrVRNG) AddEntropy16(arg2 uint16) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG_AddEntropy16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+	C._wrap_vRNG_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
 }
 
 func (arg1 SwigcptrVRNG) AddEntropy32(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG_AddEntropy32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_vRNG_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrVRNG) AddEntropy64(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG_AddEntropy64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_24(_swig_i_1))
+	C._wrap_vRNG_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_24(_swig_i_1))
 }
 
 func (arg1 SwigcptrVRNG) AddEntropyN(arg2 uintptr, arg3 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_vRNG_AddEntropyN_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_25(_swig_i_2))
+	C._wrap_vRNG_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_25(_swig_i_2))
 }
 
 func (arg1 SwigcptrVRNG) AddEntropyAuto(arg2 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_vRNG_AddEntropyAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (bool)(C._wrap_vRNG_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG) FlushBuffers() {
 	_swig_i_0 := arg1
-	C._wrap_vRNG_FlushBuffers_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_vRNG_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 type VRNG interface {
@@ -1205,7 +1344,7 @@ func (p SwigcptrVRNG8) SwigIsVRNG8() {
 
 func _swig_getvRNG8_OUTPUT_BITS_vRNG8() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG8_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG8_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
@@ -1213,55 +1352,55 @@ var VRNG8OUTPUT_BITS int = _swig_getvRNG8_OUTPUT_BITS_vRNG8()
 func (arg1 SwigcptrVRNG8) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (uint16)(C._wrap_vRNG8_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint16)(C._wrap_vRNG8_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG8) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_vRNG8_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_vRNG8_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG8) Raw64() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_vRNG8_raw64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_vRNG8_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG8) GetNativeOutputSize() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_vRNG8_GetNativeOutputSize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_vRNG8_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func DeleteVRNG8(arg1 VRNG8) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_vRNG8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_vRNG8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG8) SeedFast(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG8_SeedFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
+	C._wrap_vRNG8_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG8) SeedFromRNG(arg1 VRNG) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_vRNG8_SeedFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_vRNG8_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG8) Autoseed() {
-	C._wrap_vRNG8_autoseed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG8_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrVRNG8) Serialize(arg1 string, arg2 int64) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_vRNG8_serialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
+	swig_r = (int64)(C._wrap_vRNG8_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1272,7 +1411,7 @@ func (_swig_base SwigcptrVRNG8) Deserialize(arg1 string, arg2 int64) (_swig_ret 
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_vRNG8_deserialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
+	swig_r = (bool)(C._wrap_vRNG8_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1281,7 +1420,7 @@ func (_swig_base SwigcptrVRNG8) Deserialize(arg1 string, arg2 int64) (_swig_ret 
 
 func (_swig_base SwigcptrVRNG8) PrintState() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_vRNG8_PrintState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_vRNG8_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1290,12 +1429,12 @@ func (_swig_base SwigcptrVRNG8) PrintState() (_swig_ret string) {
 
 func (_swig_base SwigcptrVRNG8) WalkState(arg1 StateWalkingObject) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_vRNG8_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_vRNG8_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG8) Raw8() (_swig_ret byte) {
 	var swig_r byte
-	swig_r = (byte)(C._wrap_vRNG8_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (byte)(C._wrap_vRNG8_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
@@ -1303,7 +1442,7 @@ func (_swig_base SwigcptrVRNG8) Randi(arg1 uint, arg2 uint) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_vRNG8_randi_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_vRNG8_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -1311,7 +1450,7 @@ func (_swig_base SwigcptrVRNG8) RandiFast(arg1 uint, arg2 uint) (_swig_ret uint)
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_vRNG8_RandiFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_vRNG8_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -1319,7 +1458,7 @@ func (_swig_base SwigcptrVRNG8) Randli(arg1 uint64, arg2 uint64) (_swig_ret uint
 	var swig_r uint64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint64)(C._wrap_vRNG8_randli_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
+	swig_r = (uint64)(C._wrap_vRNG8_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
 	return swig_r
 }
 
@@ -1327,7 +1466,7 @@ func (_swig_base SwigcptrVRNG8) Randf(arg1 float32, arg2 float32) (_swig_ret flo
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_vRNG8_randf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	swig_r = (float32)(C._wrap_vRNG8_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
 	return swig_r
 }
 
@@ -1335,25 +1474,25 @@ func (_swig_base SwigcptrVRNG8) Randlf(arg1 float64, arg2 float64) (_swig_ret fl
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_vRNG8_randlf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	swig_r = (float64)(C._wrap_vRNG8_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG8) Gaussian() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_vRNG8_gaussian_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_vRNG8_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG8) GetFlags() (_swig_ret uint64) {
 	var swig_r uint64
-	swig_r = (uint64)(C._wrap_vRNG8_GetFlags_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (uint64)(C._wrap_vRNG8_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG8) GetName() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_vRNG8_GetName_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_vRNG8_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1363,64 +1502,64 @@ func (_swig_base SwigcptrVRNG8) GetName() (_swig_ret string) {
 func (_swig_base SwigcptrVRNG8) SeekForward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG8_SeekForward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
+	C._wrap_vRNG8_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG8) SeekBackward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG8_SeekBackward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
+	C._wrap_vRNG8_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG8) SeekForward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG8_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
+	C._wrap_vRNG8_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG8) SeekBackward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG8_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
+	C._wrap_vRNG8_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG8) ResetEntropy() {
-	C._wrap_vRNG8_ResetEntropy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG8_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrVRNG8) AddEntropy8(arg1 byte) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG8_AddEntropy8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+	C._wrap_vRNG8_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.char(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG8) AddEntropy16(arg1 uint16) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG8_AddEntropy16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+	C._wrap_vRNG8_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.short(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG8) AddEntropy32(arg1 uint) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG8_AddEntropy32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+	C._wrap_vRNG8_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG8) AddEntropy64(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG8_AddEntropy64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
+	C._wrap_vRNG8_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG8) AddEntropyN(arg1 uintptr, arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG8_AddEntropyN_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
+	C._wrap_vRNG8_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG8) AddEntropyAuto(arg1 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_vRNG8_AddEntropyAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	swig_r = (bool)(C._wrap_vRNG8_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG8) FlushBuffers() {
-	C._wrap_vRNG8_FlushBuffers_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG8_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrVRNG8) SwigIsVRNG() {
@@ -1480,7 +1619,7 @@ func (p SwigcptrVRNG16) SwigIsVRNG16() {
 
 func _swig_getvRNG16_OUTPUT_BITS_vRNG16() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG16_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG16_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
@@ -1488,55 +1627,55 @@ var VRNG16OUTPUT_BITS int = _swig_getvRNG16_OUTPUT_BITS_vRNG16()
 func (arg1 SwigcptrVRNG16) Raw8() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_vRNG16_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_vRNG16_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG16) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_vRNG16_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_vRNG16_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG16) Raw64() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_vRNG16_raw64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_vRNG16_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG16) GetNativeOutputSize() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_vRNG16_GetNativeOutputSize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_vRNG16_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func DeleteVRNG16(arg1 VRNG16) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_vRNG16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_vRNG16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG16) SeedFast(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG16_SeedFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
+	C._wrap_vRNG16_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG16) SeedFromRNG(arg1 VRNG) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_vRNG16_SeedFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_vRNG16_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG16) Autoseed() {
-	C._wrap_vRNG16_autoseed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG16_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrVRNG16) Serialize(arg1 string, arg2 int64) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_vRNG16_serialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
+	swig_r = (int64)(C._wrap_vRNG16_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1547,7 +1686,7 @@ func (_swig_base SwigcptrVRNG16) Deserialize(arg1 string, arg2 int64) (_swig_ret
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_vRNG16_deserialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
+	swig_r = (bool)(C._wrap_vRNG16_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1556,7 +1695,7 @@ func (_swig_base SwigcptrVRNG16) Deserialize(arg1 string, arg2 int64) (_swig_ret
 
 func (_swig_base SwigcptrVRNG16) PrintState() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_vRNG16_PrintState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_vRNG16_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1565,12 +1704,12 @@ func (_swig_base SwigcptrVRNG16) PrintState() (_swig_ret string) {
 
 func (_swig_base SwigcptrVRNG16) WalkState(arg1 StateWalkingObject) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_vRNG16_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_vRNG16_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG16) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
-	swig_r = (uint16)(C._wrap_vRNG16_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (uint16)(C._wrap_vRNG16_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
@@ -1578,7 +1717,7 @@ func (_swig_base SwigcptrVRNG16) Randi(arg1 uint, arg2 uint) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_vRNG16_randi_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_vRNG16_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -1586,7 +1725,7 @@ func (_swig_base SwigcptrVRNG16) RandiFast(arg1 uint, arg2 uint) (_swig_ret uint
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_vRNG16_RandiFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_vRNG16_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -1594,7 +1733,7 @@ func (_swig_base SwigcptrVRNG16) Randli(arg1 uint64, arg2 uint64) (_swig_ret uin
 	var swig_r uint64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint64)(C._wrap_vRNG16_randli_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
+	swig_r = (uint64)(C._wrap_vRNG16_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
 	return swig_r
 }
 
@@ -1602,7 +1741,7 @@ func (_swig_base SwigcptrVRNG16) Randf(arg1 float32, arg2 float32) (_swig_ret fl
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_vRNG16_randf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	swig_r = (float32)(C._wrap_vRNG16_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
 	return swig_r
 }
 
@@ -1610,25 +1749,25 @@ func (_swig_base SwigcptrVRNG16) Randlf(arg1 float64, arg2 float64) (_swig_ret f
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_vRNG16_randlf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	swig_r = (float64)(C._wrap_vRNG16_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG16) Gaussian() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_vRNG16_gaussian_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_vRNG16_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG16) GetFlags() (_swig_ret uint64) {
 	var swig_r uint64
-	swig_r = (uint64)(C._wrap_vRNG16_GetFlags_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (uint64)(C._wrap_vRNG16_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG16) GetName() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_vRNG16_GetName_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_vRNG16_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1638,64 +1777,64 @@ func (_swig_base SwigcptrVRNG16) GetName() (_swig_ret string) {
 func (_swig_base SwigcptrVRNG16) SeekForward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG16_SeekForward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
+	C._wrap_vRNG16_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG16) SeekBackward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG16_SeekBackward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
+	C._wrap_vRNG16_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG16) SeekForward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG16_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
+	C._wrap_vRNG16_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG16) SeekBackward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG16_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
+	C._wrap_vRNG16_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG16) ResetEntropy() {
-	C._wrap_vRNG16_ResetEntropy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG16_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrVRNG16) AddEntropy8(arg1 byte) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG16_AddEntropy8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+	C._wrap_vRNG16_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.char(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG16) AddEntropy16(arg1 uint16) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG16_AddEntropy16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+	C._wrap_vRNG16_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.short(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG16) AddEntropy32(arg1 uint) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG16_AddEntropy32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+	C._wrap_vRNG16_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG16) AddEntropy64(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG16_AddEntropy64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
+	C._wrap_vRNG16_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG16) AddEntropyN(arg1 uintptr, arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG16_AddEntropyN_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
+	C._wrap_vRNG16_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG16) AddEntropyAuto(arg1 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_vRNG16_AddEntropyAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	swig_r = (bool)(C._wrap_vRNG16_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG16) FlushBuffers() {
-	C._wrap_vRNG16_FlushBuffers_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG16_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrVRNG16) SwigIsVRNG() {
@@ -1755,7 +1894,7 @@ func (p SwigcptrVRNG32) SwigIsVRNG32() {
 
 func _swig_getvRNG32_OUTPUT_BITS_vRNG32() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG32_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG32_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
@@ -1763,55 +1902,55 @@ var VRNG32OUTPUT_BITS int = _swig_getvRNG32_OUTPUT_BITS_vRNG32()
 func (arg1 SwigcptrVRNG32) Raw8() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_vRNG32_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_vRNG32_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG32) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (uint16)(C._wrap_vRNG32_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint16)(C._wrap_vRNG32_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG32) Raw64() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_vRNG32_raw64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_vRNG32_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG32) GetNativeOutputSize() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_vRNG32_GetNativeOutputSize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_vRNG32_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func DeleteVRNG32(arg1 VRNG32) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_vRNG32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_vRNG32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG32) SeedFast(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG32_SeedFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
+	C._wrap_vRNG32_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG32) SeedFromRNG(arg1 VRNG) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_vRNG32_SeedFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_vRNG32_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG32) Autoseed() {
-	C._wrap_vRNG32_autoseed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG32_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrVRNG32) Serialize(arg1 string, arg2 int64) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_vRNG32_serialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
+	swig_r = (int64)(C._wrap_vRNG32_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1822,7 +1961,7 @@ func (_swig_base SwigcptrVRNG32) Deserialize(arg1 string, arg2 int64) (_swig_ret
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_vRNG32_deserialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
+	swig_r = (bool)(C._wrap_vRNG32_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1831,7 +1970,7 @@ func (_swig_base SwigcptrVRNG32) Deserialize(arg1 string, arg2 int64) (_swig_ret
 
 func (_swig_base SwigcptrVRNG32) PrintState() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_vRNG32_PrintState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_vRNG32_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1840,12 +1979,12 @@ func (_swig_base SwigcptrVRNG32) PrintState() (_swig_ret string) {
 
 func (_swig_base SwigcptrVRNG32) WalkState(arg1 StateWalkingObject) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_vRNG32_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_vRNG32_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG32) Raw32() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_vRNG32_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (uint)(C._wrap_vRNG32_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
@@ -1853,7 +1992,7 @@ func (_swig_base SwigcptrVRNG32) Randi(arg1 uint, arg2 uint) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_vRNG32_randi_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_vRNG32_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -1861,7 +2000,7 @@ func (_swig_base SwigcptrVRNG32) RandiFast(arg1 uint, arg2 uint) (_swig_ret uint
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_vRNG32_RandiFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_vRNG32_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -1869,7 +2008,7 @@ func (_swig_base SwigcptrVRNG32) Randli(arg1 uint64, arg2 uint64) (_swig_ret uin
 	var swig_r uint64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint64)(C._wrap_vRNG32_randli_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
+	swig_r = (uint64)(C._wrap_vRNG32_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
 	return swig_r
 }
 
@@ -1877,7 +2016,7 @@ func (_swig_base SwigcptrVRNG32) Randf(arg1 float32, arg2 float32) (_swig_ret fl
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_vRNG32_randf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	swig_r = (float32)(C._wrap_vRNG32_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
 	return swig_r
 }
 
@@ -1885,25 +2024,25 @@ func (_swig_base SwigcptrVRNG32) Randlf(arg1 float64, arg2 float64) (_swig_ret f
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_vRNG32_randlf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	swig_r = (float64)(C._wrap_vRNG32_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG32) Gaussian() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_vRNG32_gaussian_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_vRNG32_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG32) GetFlags() (_swig_ret uint64) {
 	var swig_r uint64
-	swig_r = (uint64)(C._wrap_vRNG32_GetFlags_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (uint64)(C._wrap_vRNG32_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG32) GetName() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_vRNG32_GetName_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_vRNG32_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1913,64 +2052,64 @@ func (_swig_base SwigcptrVRNG32) GetName() (_swig_ret string) {
 func (_swig_base SwigcptrVRNG32) SeekForward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG32_SeekForward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
+	C._wrap_vRNG32_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG32) SeekBackward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG32_SeekBackward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
+	C._wrap_vRNG32_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG32) SeekForward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG32_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
+	C._wrap_vRNG32_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG32) SeekBackward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG32_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
+	C._wrap_vRNG32_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG32) ResetEntropy() {
-	C._wrap_vRNG32_ResetEntropy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG32_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrVRNG32) AddEntropy8(arg1 byte) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG32_AddEntropy8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+	C._wrap_vRNG32_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.char(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG32) AddEntropy16(arg1 uint16) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG32_AddEntropy16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+	C._wrap_vRNG32_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.short(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG32) AddEntropy32(arg1 uint) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG32_AddEntropy32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+	C._wrap_vRNG32_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG32) AddEntropy64(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG32_AddEntropy64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
+	C._wrap_vRNG32_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG32) AddEntropyN(arg1 uintptr, arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG32_AddEntropyN_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
+	C._wrap_vRNG32_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG32) AddEntropyAuto(arg1 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_vRNG32_AddEntropyAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	swig_r = (bool)(C._wrap_vRNG32_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG32) FlushBuffers() {
-	C._wrap_vRNG32_FlushBuffers_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG32_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrVRNG32) SwigIsVRNG() {
@@ -2030,7 +2169,7 @@ func (p SwigcptrVRNG64) SwigIsVRNG64() {
 
 func _swig_getvRNG64_OUTPUT_BITS_vRNG64() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG64_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_vRNG64_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
@@ -2038,55 +2177,55 @@ var VRNG64OUTPUT_BITS int = _swig_getvRNG64_OUTPUT_BITS_vRNG64()
 func (arg1 SwigcptrVRNG64) Raw8() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_vRNG64_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_vRNG64_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG64) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (uint16)(C._wrap_vRNG64_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint16)(C._wrap_vRNG64_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG64) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_vRNG64_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_vRNG64_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrVRNG64) GetNativeOutputSize() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_vRNG64_GetNativeOutputSize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_vRNG64_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func DeleteVRNG64(arg1 VRNG64) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_vRNG64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_vRNG64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG64) SeedFast(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG64_SeedFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
+	C._wrap_vRNG64_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG64) SeedFromRNG(arg1 VRNG) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_vRNG64_SeedFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_vRNG64_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG64) Autoseed() {
-	C._wrap_vRNG64_autoseed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG64_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrVRNG64) Serialize(arg1 string, arg2 int64) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_vRNG64_serialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
+	swig_r = (int64)(C._wrap_vRNG64_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -2097,7 +2236,7 @@ func (_swig_base SwigcptrVRNG64) Deserialize(arg1 string, arg2 int64) (_swig_ret
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_vRNG64_deserialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
+	swig_r = (bool)(C._wrap_vRNG64_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -2106,7 +2245,7 @@ func (_swig_base SwigcptrVRNG64) Deserialize(arg1 string, arg2 int64) (_swig_ret
 
 func (_swig_base SwigcptrVRNG64) PrintState() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_vRNG64_PrintState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_vRNG64_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -2115,12 +2254,12 @@ func (_swig_base SwigcptrVRNG64) PrintState() (_swig_ret string) {
 
 func (_swig_base SwigcptrVRNG64) WalkState(arg1 StateWalkingObject) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_vRNG64_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
+	C._wrap_vRNG64_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG64) Raw64() (_swig_ret uint64) {
 	var swig_r uint64
-	swig_r = (uint64)(C._wrap_vRNG64_raw64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (uint64)(C._wrap_vRNG64_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
@@ -2128,7 +2267,7 @@ func (_swig_base SwigcptrVRNG64) Randi(arg1 uint, arg2 uint) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_vRNG64_randi_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_vRNG64_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -2136,7 +2275,7 @@ func (_swig_base SwigcptrVRNG64) RandiFast(arg1 uint, arg2 uint) (_swig_ret uint
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_vRNG64_RandiFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_vRNG64_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -2144,7 +2283,7 @@ func (_swig_base SwigcptrVRNG64) Randli(arg1 uint64, arg2 uint64) (_swig_ret uin
 	var swig_r uint64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint64)(C._wrap_vRNG64_randli_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
+	swig_r = (uint64)(C._wrap_vRNG64_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
 	return swig_r
 }
 
@@ -2152,7 +2291,7 @@ func (_swig_base SwigcptrVRNG64) Randf(arg1 float32, arg2 float32) (_swig_ret fl
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_vRNG64_randf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	swig_r = (float32)(C._wrap_vRNG64_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
 	return swig_r
 }
 
@@ -2160,25 +2299,25 @@ func (_swig_base SwigcptrVRNG64) Randlf(arg1 float64, arg2 float64) (_swig_ret f
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_vRNG64_randlf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	swig_r = (float64)(C._wrap_vRNG64_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG64) Gaussian() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_vRNG64_gaussian_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_vRNG64_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG64) GetFlags() (_swig_ret uint64) {
 	var swig_r uint64
-	swig_r = (uint64)(C._wrap_vRNG64_GetFlags_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (uint64)(C._wrap_vRNG64_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG64) GetName() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_vRNG64_GetName_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_vRNG64_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -2188,64 +2327,64 @@ func (_swig_base SwigcptrVRNG64) GetName() (_swig_ret string) {
 func (_swig_base SwigcptrVRNG64) SeekForward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG64_SeekForward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
+	C._wrap_vRNG64_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG64) SeekBackward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG64_SeekBackward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
+	C._wrap_vRNG64_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG64) SeekForward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG64_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
+	C._wrap_vRNG64_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG64) SeekBackward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG64_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
+	C._wrap_vRNG64_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG64) ResetEntropy() {
-	C._wrap_vRNG64_ResetEntropy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG64_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrVRNG64) AddEntropy8(arg1 byte) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG64_AddEntropy8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+	C._wrap_vRNG64_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.char(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG64) AddEntropy16(arg1 uint16) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG64_AddEntropy16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+	C._wrap_vRNG64_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.short(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG64) AddEntropy32(arg1 uint) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG64_AddEntropy32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+	C._wrap_vRNG64_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG64) AddEntropy64(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_vRNG64_AddEntropy64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
+	C._wrap_vRNG64_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
 }
 
 func (_swig_base SwigcptrVRNG64) AddEntropyN(arg1 uintptr, arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_vRNG64_AddEntropyN_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
+	C._wrap_vRNG64_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
 }
 
 func (_swig_base SwigcptrVRNG64) AddEntropyAuto(arg1 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_vRNG64_AddEntropyAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	swig_r = (bool)(C._wrap_vRNG64_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrVRNG64) FlushBuffers() {
-	C._wrap_vRNG64_FlushBuffers_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_vRNG64_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrVRNG64) SwigIsVRNG() {
@@ -2296,140 +2435,140 @@ type VRNG64 interface {
 
 func _swig_getNORMAL_1() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_NORMAL_1_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_NORMAL_1_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var NORMAL_1 int = _swig_getNORMAL_1()
 func _swig_getNORMAL_ALL() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_NORMAL_ALL_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_NORMAL_ALL_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var NORMAL_ALL int = _swig_getNORMAL_ALL()
 func _swig_getSUPPORTS_FASTFORWARD() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_SUPPORTS_FASTFORWARD_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_SUPPORTS_FASTFORWARD_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var SUPPORTS_FASTFORWARD int = _swig_getSUPPORTS_FASTFORWARD()
 func _swig_getSUPPORTS_ENTROPY_ACCUMULATION() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_SUPPORTS_ENTROPY_ACCUMULATION_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_SUPPORTS_ENTROPY_ACCUMULATION_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var SUPPORTS_ENTROPY_ACCUMULATION int = _swig_getSUPPORTS_ENTROPY_ACCUMULATION()
 func _swig_getCRYPTOGRAPHIC_SECURITY() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_CRYPTOGRAPHIC_SECURITY_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_CRYPTOGRAPHIC_SECURITY_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var CRYPTOGRAPHIC_SECURITY int = _swig_getCRYPTOGRAPHIC_SECURITY()
 func _swig_getUSES_SPECIFIED() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_USES_SPECIFIED_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_USES_SPECIFIED_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var USES_SPECIFIED int = _swig_getUSES_SPECIFIED()
 func _swig_getUSES_MULTIPLICATION() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_USES_MULTIPLICATION_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_USES_MULTIPLICATION_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var USES_MULTIPLICATION int = _swig_getUSES_MULTIPLICATION()
 func _swig_getUSES_COMPLEX_INSTRUCTIONS() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_USES_COMPLEX_INSTRUCTIONS_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_USES_COMPLEX_INSTRUCTIONS_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var USES_COMPLEX_INSTRUCTIONS int = _swig_getUSES_COMPLEX_INSTRUCTIONS()
 func _swig_getUSES_VARIABLE_SHIFTS() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_USES_VARIABLE_SHIFTS_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_USES_VARIABLE_SHIFTS_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var USES_VARIABLE_SHIFTS int = _swig_getUSES_VARIABLE_SHIFTS()
 func _swig_getUSES_INDIRECTION() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_USES_INDIRECTION_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_USES_INDIRECTION_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var USES_INDIRECTION int = _swig_getUSES_INDIRECTION()
 func _swig_getUSES_CYCLIC_BUFFER() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_USES_CYCLIC_BUFFER_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_USES_CYCLIC_BUFFER_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var USES_CYCLIC_BUFFER int = _swig_getUSES_CYCLIC_BUFFER()
 func _swig_getUSES_FLOW_CONTROL() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_USES_FLOW_CONTROL_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_USES_FLOW_CONTROL_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var USES_FLOW_CONTROL int = _swig_getUSES_FLOW_CONTROL()
 func _swig_getUSES_BIT_SCANS() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_USES_BIT_SCANS_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_USES_BIT_SCANS_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var USES_BIT_SCANS int = _swig_getUSES_BIT_SCANS()
 func _swig_getUSES_OTHER_WORD_SIZES() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_USES_OTHER_WORD_SIZES_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_USES_OTHER_WORD_SIZES_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var USES_OTHER_WORD_SIZES int = _swig_getUSES_OTHER_WORD_SIZES()
 func _swig_getENDIAN_SAFE() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_ENDIAN_SAFE_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_ENDIAN_SAFE_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var ENDIAN_SAFE int = _swig_getENDIAN_SAFE()
 func _swig_getOUTPUT_IS_BUFFERED() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_IS_BUFFERED_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_IS_BUFFERED_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var OUTPUT_IS_BUFFERED int = _swig_getOUTPUT_IS_BUFFERED()
 func _swig_getOUTPUT_IS_HASHED() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_IS_HASHED_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_IS_HASHED_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var OUTPUT_IS_HASHED int = _swig_getOUTPUT_IS_HASHED()
 func _swig_getSTATE_UNAVAILABLE() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_STATE_UNAVAILABLE_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_STATE_UNAVAILABLE_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var STATE_UNAVAILABLE int = _swig_getSTATE_UNAVAILABLE()
 func _swig_getSEEDING_UNSUPPORTED() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_SEEDING_UNSUPPORTED_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_SEEDING_UNSUPPORTED_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var SEEDING_UNSUPPORTED int = _swig_getSEEDING_UNSUPPORTED()
 func _swig_getNEEDS_GENERIC_SEEDING() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_NEEDS_GENERIC_SEEDING_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_NEEDS_GENERIC_SEEDING_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
@@ -2445,49 +2584,49 @@ func (p SwigcptrStateWalkingObject) SwigIsStateWalkingObject() {
 
 func DeleteStateWalkingObject(arg1 StateWalkingObject) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_StateWalkingObject_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_StateWalkingObject_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_0(arg2 *bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_handle__SWIG_0_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_handle__SWIG_0_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_1(arg2 *byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_handle__SWIG_1_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_handle__SWIG_1_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_2(arg2 *uint16) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_handle__SWIG_2_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_handle__SWIG_2_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_3(arg2 *uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_handle__SWIG_3_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_handle__SWIG_3_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_4(arg2 *uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_handle__SWIG_4_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_handle__SWIG_4_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_5(arg2 *float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_handle__SWIG_5_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_handle__SWIG_5_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) Handle__SWIG_6(arg2 *float64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_handle__SWIG_6_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_handle__SWIG_6_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (p SwigcptrStateWalkingObject) Handle(a ...interface{}) {
@@ -2549,28 +2688,28 @@ check_6:
 
 func _swig_getStateWalkingObject_FLAG_READ_ONLY_StateWalkingObject() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAG_READ_ONLY_StateWalkingObject_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAG_READ_ONLY_StateWalkingObject_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var StateWalkingObjectFLAG_READ_ONLY int = _swig_getStateWalkingObject_FLAG_READ_ONLY_StateWalkingObject()
 func _swig_getStateWalkingObject_FLAG_WRITE_ONLY_StateWalkingObject() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAG_WRITE_ONLY_StateWalkingObject_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAG_WRITE_ONLY_StateWalkingObject_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var StateWalkingObjectFLAG_WRITE_ONLY int = _swig_getStateWalkingObject_FLAG_WRITE_ONLY_StateWalkingObject()
 func _swig_getStateWalkingObject_FLAG_CLUMSY_StateWalkingObject() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAG_CLUMSY_StateWalkingObject_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAG_CLUMSY_StateWalkingObject_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var StateWalkingObjectFLAG_CLUMSY int = _swig_getStateWalkingObject_FLAG_CLUMSY_StateWalkingObject()
 func _swig_getStateWalkingObject_FLAG_SEEDER_StateWalkingObject() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAG_SEEDER_StateWalkingObject_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAG_SEEDER_StateWalkingObject_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
@@ -2578,67 +2717,67 @@ var StateWalkingObjectFLAG_SEEDER int = _swig_getStateWalkingObject_FLAG_SEEDER_
 func (arg1 SwigcptrStateWalkingObject) GetProperties() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_StateWalkingObject_GetProperties_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_StateWalkingObject_GetProperties_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrStateWalkingObject) IsReadOnly() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_StateWalkingObject_IsReadOnly_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_StateWalkingObject_IsReadOnly_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrStateWalkingObject) IsWriteOnly() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_StateWalkingObject_IsWriteOnly_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_StateWalkingObject_IsWriteOnly_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrStateWalkingObject) IsClumsy() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_StateWalkingObject_IsClumsy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_StateWalkingObject_IsClumsy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrStateWalkingObject) IsSeeder() (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_StateWalkingObject_IsSeeder_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (bool)(C._wrap_StateWalkingObject_IsSeeder_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrStateWalkingObject) HandleInt8(arg2 *int8) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_HandleInt8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_HandleInt8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) HandleInt16(arg2 *int16) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_HandleInt16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_HandleInt16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) HandleInt32(arg2 *int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_HandleInt32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_HandleInt32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) HandleInt64(arg2 *int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_StateWalkingObject_HandleInt64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_StateWalkingObject_HandleInt64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrStateWalkingObject) LeftShiftUInt8(arg2 *byte) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftUInt8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftUInt8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -2646,7 +2785,7 @@ func (arg1 SwigcptrStateWalkingObject) LeftShiftUInt16(arg2 *uint16) (_swig_ret 
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftUInt16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftUInt16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -2654,7 +2793,7 @@ func (arg1 SwigcptrStateWalkingObject) LeftShiftUInt32(arg2 *uint) (_swig_ret St
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftUInt32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftUInt32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -2662,7 +2801,7 @@ func (arg1 SwigcptrStateWalkingObject) LeftShiftUInt64(arg2 *uint64) (_swig_ret 
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftUInt64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftUInt64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -2670,7 +2809,7 @@ func (arg1 SwigcptrStateWalkingObject) LeftShiftInt8(arg2 *int8) (_swig_ret Stat
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftInt8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftInt8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -2678,7 +2817,7 @@ func (arg1 SwigcptrStateWalkingObject) LeftShiftInt16(arg2 *int16) (_swig_ret St
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftInt16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftInt16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -2686,7 +2825,7 @@ func (arg1 SwigcptrStateWalkingObject) LeftShiftInt32(arg2 *int) (_swig_ret Stat
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftInt32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftInt32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -2694,7 +2833,7 @@ func (arg1 SwigcptrStateWalkingObject) LeftShiftInt64(arg2 *int64) (_swig_ret St
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftInt64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftInt64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -2702,7 +2841,7 @@ func (arg1 SwigcptrStateWalkingObject) LeftShiftFloat32(arg2 *float32) (_swig_re
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftFloat32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftFloat32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -2710,7 +2849,7 @@ func (arg1 SwigcptrStateWalkingObject) LeftShiftFloat64(arg2 *float64) (_swig_re
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftFloat64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_StateWalkingObject_LeftShiftFloat64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))))
 	return swig_r
 }
 
@@ -2742,14 +2881,14 @@ type StateWalkingObject interface {
 func Vrng_to_rng_seeder(arg1 VRNG) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_vrng_to_rng_seeder_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_vrng_to_rng_seeder_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func Get_autoseeder(arg1 uintptr) (_swig_ret StateWalkingObject) {
 	var swig_r StateWalkingObject
 	_swig_i_0 := arg1
-	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_get_autoseeder_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (StateWalkingObject)(SwigcptrStateWalkingObject(C._wrap_get_autoseeder_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2764,35 +2903,35 @@ func (p SwigcptrArbee) SwigIsArbee() {
 
 func _swig_getarbee_OUTPUT_TYPE_arbee() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_TYPE_arbee_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_arbee_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var ArbeeOUTPUT_TYPE int = _swig_getarbee_OUTPUT_TYPE_arbee()
 func _swig_getarbee_OUTPUT_BITS_arbee() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_arbee_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_arbee_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var ArbeeOUTPUT_BITS int = _swig_getarbee_OUTPUT_BITS_arbee()
 func _swig_getarbee_FLAGS_arbee() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_arbee_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAGS_arbee_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var ArbeeFLAGS int = _swig_getarbee_FLAGS_arbee()
 func NewArbee__SWIG_0() (_swig_ret Arbee) {
 	var swig_r Arbee
-	swig_r = (Arbee)(SwigcptrArbee(C._wrap_new_arbee__SWIG_0_rng_2e82867d6f5a68af()))
+	swig_r = (Arbee)(SwigcptrArbee(C._wrap_new_arbee__SWIG_0_rng_11ac3d340bb029ea()))
 	return swig_r
 }
 
 func NewArbee__SWIG_1(arg1 uint64) (_swig_ret Arbee) {
 	var swig_r Arbee
 	_swig_i_0 := arg1
-	swig_r = (Arbee)(SwigcptrArbee(C._wrap_new_arbee__SWIG_1_rng_2e82867d6f5a68af(C.swig_type_65(_swig_i_0))))
+	swig_r = (Arbee)(SwigcptrArbee(C._wrap_new_arbee__SWIG_1_rng_11ac3d340bb029ea(C.swig_type_65(_swig_i_0))))
 	return swig_r
 }
 
@@ -2802,21 +2941,21 @@ func NewArbee__SWIG_2(arg1 uint64, arg2 uint64, arg3 uint64, arg4 uint64) (_swig
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (Arbee)(SwigcptrArbee(C._wrap_new_arbee__SWIG_2_rng_2e82867d6f5a68af(C.swig_type_66(_swig_i_0), C.swig_type_67(_swig_i_1), C.swig_type_68(_swig_i_2), C.swig_type_69(_swig_i_3))))
+	swig_r = (Arbee)(SwigcptrArbee(C._wrap_new_arbee__SWIG_2_rng_11ac3d340bb029ea(C.swig_type_66(_swig_i_0), C.swig_type_67(_swig_i_1), C.swig_type_68(_swig_i_2), C.swig_type_69(_swig_i_3))))
 	return swig_r
 }
 
 func NewArbee__SWIG_3(arg1 SEED_NONE_TYPE) (_swig_ret Arbee) {
 	var swig_r Arbee
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Arbee)(SwigcptrArbee(C._wrap_new_arbee__SWIG_3_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Arbee)(SwigcptrArbee(C._wrap_new_arbee__SWIG_3_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewArbee__SWIG_4(arg1 SEED_AUTO_TYPE) (_swig_ret Arbee) {
 	var swig_r Arbee
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Arbee)(SwigcptrArbee(C._wrap_new_arbee__SWIG_4_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Arbee)(SwigcptrArbee(C._wrap_new_arbee__SWIG_4_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2851,35 +2990,35 @@ check_3:
 func (arg1 SwigcptrArbee) Raw8() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_arbee_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_arbee_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArbee) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (uint16)(C._wrap_arbee_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint16)(C._wrap_arbee_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArbee) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_arbee_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_arbee_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArbee) Raw64() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_arbee_raw64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_arbee_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArbee) Seed(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_arbee_seed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_71(_swig_i_1))
+	C._wrap_arbee_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_71(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbee) SeedFromMix(arg2 uint64, arg3 uint64, arg4 uint64, arg5 uint64) {
@@ -2888,65 +3027,65 @@ func (arg1 SwigcptrArbee) SeedFromMix(arg2 uint64, arg3 uint64, arg4 uint64, arg
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_arbee_SeedFromMix_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_72(_swig_i_1), C.swig_type_73(_swig_i_2), C.swig_type_74(_swig_i_3), C.swig_type_75(_swig_i_4))
+	C._wrap_arbee_SeedFromMix_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_72(_swig_i_1), C.swig_type_73(_swig_i_2), C.swig_type_74(_swig_i_3), C.swig_type_75(_swig_i_4))
 }
 
 func (arg1 SwigcptrArbee) SeedFromRNG(arg2 VRNG) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_arbee_SeedFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_arbee_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbee) WalkState(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_arbee_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_arbee_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbee) ResetEntropy() {
 	_swig_i_0 := arg1
-	C._wrap_arbee_ResetEntropy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_arbee_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrArbee) AddEntropy8(arg2 byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_arbee_AddEntropy8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+	C._wrap_arbee_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbee) AddEntropy16(arg2 uint16) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_arbee_AddEntropy16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+	C._wrap_arbee_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbee) AddEntropy32(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_arbee_AddEntropy32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_arbee_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbee) AddEntropy64(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_arbee_AddEntropy64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_76(_swig_i_1))
+	C._wrap_arbee_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_76(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbee) AddEntropyN(arg2 uintptr, arg3 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_arbee_AddEntropyN_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_77(_swig_i_2))
+	C._wrap_arbee_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_77(_swig_i_2))
 }
 
 func (arg1 SwigcptrArbee) FlushBuffers() {
 	_swig_i_0 := arg1
-	C._wrap_arbee_FlushBuffers_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_arbee_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func DeleteArbee(arg1 Arbee) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_arbee_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_arbee_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 type Arbee interface {
@@ -2980,7 +3119,7 @@ func (p SwigcptrArbeePolymorphic) SwigIsArbeePolymorphic() {
 
 func _swig_getArbeePolymorphic_FLAGS_ArbeePolymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_ArbeePolymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAGS_ArbeePolymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
@@ -2988,27 +3127,27 @@ var ArbeePolymorphicFLAGS int = _swig_getArbeePolymorphic_FLAGS_ArbeePolymorphic
 func (arg1 SwigcptrArbeePolymorphic) SetImplementation(arg2 Arbee) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArbeePolymorphic_implementation_set_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArbeePolymorphic_implementation_set_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbeePolymorphic) GetImplementation() (_swig_ret Arbee) {
 	var swig_r Arbee
 	_swig_i_0 := arg1
-	swig_r = (Arbee)(SwigcptrArbee(C._wrap_ArbeePolymorphic_implementation_get_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Arbee)(SwigcptrArbee(C._wrap_ArbeePolymorphic_implementation_get_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrArbeePolymorphic) GetFlags() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_ArbeePolymorphic_GetFlags_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_ArbeePolymorphic_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArbeePolymorphic) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_ArbeePolymorphic_GetName_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_ArbeePolymorphic_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -3018,7 +3157,7 @@ func (arg1 SwigcptrArbeePolymorphic) GetName() (_swig_ret string) {
 func NewArbeePolymorphicFromUInt64(arg1 uint64) (_swig_ret ArbeePolymorphic) {
 	var swig_r ArbeePolymorphic
 	_swig_i_0 := arg1
-	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphicFromUInt64_rng_2e82867d6f5a68af(C.swig_type_80(_swig_i_0))))
+	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphicFromUInt64_rng_11ac3d340bb029ea(C.swig_type_80(_swig_i_0))))
 	return swig_r
 }
 
@@ -3028,34 +3167,34 @@ func NewArbeePolymorphic__SWIG_0(arg1 uint64, arg2 uint64, arg3 uint64, arg4 uin
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphic__SWIG_0_rng_2e82867d6f5a68af(C.swig_type_81(_swig_i_0), C.swig_type_82(_swig_i_1), C.swig_type_83(_swig_i_2), C.swig_type_84(_swig_i_3))))
+	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphic__SWIG_0_rng_11ac3d340bb029ea(C.swig_type_81(_swig_i_0), C.swig_type_82(_swig_i_1), C.swig_type_83(_swig_i_2), C.swig_type_84(_swig_i_3))))
 	return swig_r
 }
 
 func NewArbeePolymorphicFromRNG(arg1 VRNG) (_swig_ret ArbeePolymorphic) {
 	var swig_r ArbeePolymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphicFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphicFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewArbeePolymorphicFromAuto(arg1 SEED_AUTO_TYPE) (_swig_ret ArbeePolymorphic) {
 	var swig_r ArbeePolymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphicFromAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphicFromAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewArbeePolymorphicFromNone(arg1 SEED_NONE_TYPE) (_swig_ret ArbeePolymorphic) {
 	var swig_r ArbeePolymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphicFromNone_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphicFromNone_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewArbeePolymorphic__SWIG_1() (_swig_ret ArbeePolymorphic) {
 	var swig_r ArbeePolymorphic
-	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphic__SWIG_1_rng_2e82867d6f5a68af()))
+	swig_r = (ArbeePolymorphic)(SwigcptrArbeePolymorphic(C._wrap_new_ArbeePolymorphic__SWIG_1_rng_11ac3d340bb029ea()))
 	return swig_r
 }
 
@@ -3073,28 +3212,28 @@ func NewArbeePolymorphic(a ...interface{}) ArbeePolymorphic {
 func (arg1 SwigcptrArbeePolymorphic) Raw8() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_ArbeePolymorphic_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_ArbeePolymorphic_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArbeePolymorphic) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (uint16)(C._wrap_ArbeePolymorphic_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint16)(C._wrap_ArbeePolymorphic_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArbeePolymorphic) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_ArbeePolymorphic_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_ArbeePolymorphic_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrArbeePolymorphic) Raw64() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_ArbeePolymorphic_raw64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_ArbeePolymorphic_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -3104,87 +3243,87 @@ func (arg1 SwigcptrArbeePolymorphic) Seed(arg2 uint64, arg3 uint64, arg4 uint64,
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_ArbeePolymorphic_seed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_86(_swig_i_1), C.swig_type_87(_swig_i_2), C.swig_type_88(_swig_i_3), C.swig_type_89(_swig_i_4))
+	C._wrap_ArbeePolymorphic_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_86(_swig_i_1), C.swig_type_87(_swig_i_2), C.swig_type_88(_swig_i_3), C.swig_type_89(_swig_i_4))
 }
 
 func (arg1 SwigcptrArbeePolymorphic) SeedFromRNG(arg2 VRNG) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArbeePolymorphic_SeedFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArbeePolymorphic_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbeePolymorphic) WalkState(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ArbeePolymorphic_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ArbeePolymorphic_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbeePolymorphic) ResetEntropy() {
 	_swig_i_0 := arg1
-	C._wrap_ArbeePolymorphic_ResetEntropy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_ArbeePolymorphic_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrArbeePolymorphic) AddEntropy8(arg2 byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArbeePolymorphic_AddEntropy8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+	C._wrap_ArbeePolymorphic_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbeePolymorphic) AddEntropy16(arg2 uint16) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArbeePolymorphic_AddEntropy16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
+	C._wrap_ArbeePolymorphic_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.short(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbeePolymorphic) AddEntropy32(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArbeePolymorphic_AddEntropy32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_ArbeePolymorphic_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbeePolymorphic) AddEntropy64(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArbeePolymorphic_AddEntropy64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_90(_swig_i_1))
+	C._wrap_ArbeePolymorphic_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_90(_swig_i_1))
 }
 
 func (arg1 SwigcptrArbeePolymorphic) AddEntropyN(arg2 uintptr, arg3 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_ArbeePolymorphic_AddEntropyN_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_91(_swig_i_2))
+	C._wrap_ArbeePolymorphic_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_91(_swig_i_2))
 }
 
 func (arg1 SwigcptrArbeePolymorphic) FlushBuffers() {
 	_swig_i_0 := arg1
-	C._wrap_ArbeePolymorphic_FlushBuffers_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_ArbeePolymorphic_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func DeleteArbeePolymorphic(arg1 ArbeePolymorphic) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_ArbeePolymorphic_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_ArbeePolymorphic_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrArbeePolymorphic) GetNativeOutputSize() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_ArbeePolymorphic_GetNativeOutputSize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (int)(C._wrap_ArbeePolymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrArbeePolymorphic) SeedFast(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_ArbeePolymorphic_SeedFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
+	C._wrap_ArbeePolymorphic_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
 }
 
 func (_swig_base SwigcptrArbeePolymorphic) Autoseed() {
-	C._wrap_ArbeePolymorphic_autoseed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_ArbeePolymorphic_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrArbeePolymorphic) Serialize(arg1 string, arg2 int64) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_ArbeePolymorphic_serialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
+	swig_r = (int64)(C._wrap_ArbeePolymorphic_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -3195,7 +3334,7 @@ func (_swig_base SwigcptrArbeePolymorphic) Deserialize(arg1 string, arg2 int64) 
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_ArbeePolymorphic_deserialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
+	swig_r = (bool)(C._wrap_ArbeePolymorphic_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -3204,7 +3343,7 @@ func (_swig_base SwigcptrArbeePolymorphic) Deserialize(arg1 string, arg2 int64) 
 
 func (_swig_base SwigcptrArbeePolymorphic) PrintState() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_ArbeePolymorphic_PrintState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_ArbeePolymorphic_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -3215,7 +3354,7 @@ func (_swig_base SwigcptrArbeePolymorphic) Randi(arg1 uint, arg2 uint) (_swig_re
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_ArbeePolymorphic_randi_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_ArbeePolymorphic_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -3223,7 +3362,7 @@ func (_swig_base SwigcptrArbeePolymorphic) RandiFast(arg1 uint, arg2 uint) (_swi
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_ArbeePolymorphic_RandiFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_ArbeePolymorphic_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -3231,7 +3370,7 @@ func (_swig_base SwigcptrArbeePolymorphic) Randli(arg1 uint64, arg2 uint64) (_sw
 	var swig_r uint64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint64)(C._wrap_ArbeePolymorphic_randli_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
+	swig_r = (uint64)(C._wrap_ArbeePolymorphic_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
 	return swig_r
 }
 
@@ -3239,7 +3378,7 @@ func (_swig_base SwigcptrArbeePolymorphic) Randf(arg1 float32, arg2 float32) (_s
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_ArbeePolymorphic_randf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	swig_r = (float32)(C._wrap_ArbeePolymorphic_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
 	return swig_r
 }
 
@@ -3247,42 +3386,42 @@ func (_swig_base SwigcptrArbeePolymorphic) Randlf(arg1 float64, arg2 float64) (_
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_ArbeePolymorphic_randlf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	swig_r = (float64)(C._wrap_ArbeePolymorphic_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrArbeePolymorphic) Gaussian() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_ArbeePolymorphic_gaussian_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_ArbeePolymorphic_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrArbeePolymorphic) SeekForward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArbeePolymorphic_SeekForward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
+	C._wrap_ArbeePolymorphic_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
 }
 
 func (_swig_base SwigcptrArbeePolymorphic) SeekBackward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ArbeePolymorphic_SeekBackward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
+	C._wrap_ArbeePolymorphic_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
 }
 
 func (_swig_base SwigcptrArbeePolymorphic) SeekForward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_ArbeePolymorphic_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
+	C._wrap_ArbeePolymorphic_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
 }
 
 func (_swig_base SwigcptrArbeePolymorphic) SeekBackward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_ArbeePolymorphic_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
+	C._wrap_ArbeePolymorphic_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
 }
 
 func (_swig_base SwigcptrArbeePolymorphic) AddEntropyAuto(arg1 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_ArbeePolymorphic_AddEntropyAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	swig_r = (bool)(C._wrap_ArbeePolymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
@@ -3355,98 +3494,98 @@ func (p SwigcptrChacha) SwigIsChacha() {
 
 func _swig_getchacha_OUTPUT_TYPE_chacha() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_TYPE_chacha_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_chacha_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var ChachaOUTPUT_TYPE int = _swig_getchacha_OUTPUT_TYPE_chacha()
 func _swig_getchacha_OUTPUT_BITS_chacha() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_chacha_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_chacha_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var ChachaOUTPUT_BITS int = _swig_getchacha_OUTPUT_BITS_chacha()
 func _swig_getchacha_FLAGS_chacha() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_chacha_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAGS_chacha_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var ChachaFLAGS int = _swig_getchacha_FLAGS_chacha()
 func NewChacha() (_swig_ret Chacha) {
 	var swig_r Chacha
-	swig_r = (Chacha)(SwigcptrChacha(C._wrap_new_chacha_rng_2e82867d6f5a68af()))
+	swig_r = (Chacha)(SwigcptrChacha(C._wrap_new_chacha_rng_11ac3d340bb029ea()))
 	return swig_r
 }
 
 func DeleteChacha(arg1 Chacha) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_chacha_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_chacha_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrChacha) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_chacha_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_chacha_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrChacha) Seed(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_chacha_seed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_95(_swig_i_1))
+	C._wrap_chacha_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_95(_swig_i_1))
 }
 
 func (arg1 SwigcptrChacha) SeedAndIV(arg2 *uint, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_chacha_SeedAndIV_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_chacha_SeedAndIV_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
 }
 
 func (arg1 SwigcptrChacha) SeedShort(arg2 *uint, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_chacha_SeedShort_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_chacha_SeedShort_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
 }
 
 func (arg1 SwigcptrChacha) WalkState(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_chacha_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_chacha_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrChacha) SeekForward(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_chacha_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_96(_swig_i_1), C.swig_type_97(_swig_i_2))
+	C._wrap_chacha_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_96(_swig_i_1), C.swig_type_97(_swig_i_2))
 }
 
 func (arg1 SwigcptrChacha) SeekBackward(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_chacha_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_98(_swig_i_1), C.swig_type_99(_swig_i_2))
+	C._wrap_chacha_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_98(_swig_i_1), C.swig_type_99(_swig_i_2))
 }
 
 func (arg1 SwigcptrChacha) SetRounds(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_chacha_SetRounds_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_chacha_SetRounds_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrChacha) GetRounds() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_chacha_GetRounds_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_chacha_GetRounds_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func ChachaSelf_test() {
-	C._wrap_chacha_self_test_rng_2e82867d6f5a68af()
+	C._wrap_chacha_self_test_rng_11ac3d340bb029ea()
 }
 
 type Chacha interface {
@@ -3474,21 +3613,21 @@ func (p SwigcptrChachaPolymorphic) SwigIsChachaPolymorphic() {
 
 func _swig_getChachaPolymorphic_OUTPUT_TYPE_ChachaPolymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_TYPE_ChachaPolymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_ChachaPolymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var ChachaPolymorphicOUTPUT_TYPE int = _swig_getChachaPolymorphic_OUTPUT_TYPE_ChachaPolymorphic()
 func _swig_getChachaPolymorphic_OUTPUT_BITS_ChachaPolymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_ChachaPolymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_ChachaPolymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var ChachaPolymorphicOUTPUT_BITS int = _swig_getChachaPolymorphic_OUTPUT_BITS_ChachaPolymorphic()
 func _swig_getChachaPolymorphic_FLAGS_ChachaPolymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_ChachaPolymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAGS_ChachaPolymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
@@ -3496,83 +3635,83 @@ var ChachaPolymorphicFLAGS int = _swig_getChachaPolymorphic_FLAGS_ChachaPolymorp
 func (arg1 SwigcptrChachaPolymorphic) SetImplementation(arg2 Chacha) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ChachaPolymorphic_implementation_set_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ChachaPolymorphic_implementation_set_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrChachaPolymorphic) GetImplementation() (_swig_ret Chacha) {
 	var swig_r Chacha
 	_swig_i_0 := arg1
-	swig_r = (Chacha)(SwigcptrChacha(C._wrap_ChachaPolymorphic_implementation_get_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Chacha)(SwigcptrChacha(C._wrap_ChachaPolymorphic_implementation_get_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewChachaPolymorphicFromUInt64(arg1 uint64) (_swig_ret ChachaPolymorphic) {
 	var swig_r ChachaPolymorphic
 	_swig_i_0 := arg1
-	swig_r = (ChachaPolymorphic)(SwigcptrChachaPolymorphic(C._wrap_new_ChachaPolymorphicFromUInt64_rng_2e82867d6f5a68af(C.swig_type_100(_swig_i_0))))
+	swig_r = (ChachaPolymorphic)(SwigcptrChachaPolymorphic(C._wrap_new_ChachaPolymorphicFromUInt64_rng_11ac3d340bb029ea(C.swig_type_100(_swig_i_0))))
 	return swig_r
 }
 
 func NewChachaPolymorphicFromRNG(arg1 VRNG) (_swig_ret ChachaPolymorphic) {
 	var swig_r ChachaPolymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (ChachaPolymorphic)(SwigcptrChachaPolymorphic(C._wrap_new_ChachaPolymorphicFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (ChachaPolymorphic)(SwigcptrChachaPolymorphic(C._wrap_new_ChachaPolymorphicFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewChachaPolymorphicFromAuto(arg1 SEED_AUTO_TYPE) (_swig_ret ChachaPolymorphic) {
 	var swig_r ChachaPolymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (ChachaPolymorphic)(SwigcptrChachaPolymorphic(C._wrap_new_ChachaPolymorphicFromAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (ChachaPolymorphic)(SwigcptrChachaPolymorphic(C._wrap_new_ChachaPolymorphicFromAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewChachaPolymorphicFromNone(arg1 SEED_NONE_TYPE) (_swig_ret ChachaPolymorphic) {
 	var swig_r ChachaPolymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (ChachaPolymorphic)(SwigcptrChachaPolymorphic(C._wrap_new_ChachaPolymorphicFromNone_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (ChachaPolymorphic)(SwigcptrChachaPolymorphic(C._wrap_new_ChachaPolymorphicFromNone_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrChachaPolymorphic) Raw8() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_ChachaPolymorphic_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_ChachaPolymorphic_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrChachaPolymorphic) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (uint16)(C._wrap_ChachaPolymorphic_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint16)(C._wrap_ChachaPolymorphic_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrChachaPolymorphic) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_ChachaPolymorphic_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_ChachaPolymorphic_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrChachaPolymorphic) Raw64() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_ChachaPolymorphic_raw64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_ChachaPolymorphic_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrChachaPolymorphic) GetFlags() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_ChachaPolymorphic_GetFlags_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_ChachaPolymorphic_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrChachaPolymorphic) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_ChachaPolymorphic_GetName_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_ChachaPolymorphic_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -3582,14 +3721,14 @@ func (arg1 SwigcptrChachaPolymorphic) GetName() (_swig_ret string) {
 func (arg1 SwigcptrChachaPolymorphic) WalkState(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_ChachaPolymorphic_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_ChachaPolymorphic_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func NewChachaPolymorphicFromSeedAndIV(arg1 *uint, arg2 bool) (_swig_ret ChachaPolymorphic) {
 	var swig_r ChachaPolymorphic
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (ChachaPolymorphic)(SwigcptrChachaPolymorphic(C._wrap_new_ChachaPolymorphicFromSeedAndIV_rng_2e82867d6f5a68af(C.swig_voidp(_swig_i_0), C._Bool(_swig_i_1))))
+	swig_r = (ChachaPolymorphic)(SwigcptrChachaPolymorphic(C._wrap_new_ChachaPolymorphicFromSeedAndIV_rng_11ac3d340bb029ea(C.swig_voidp(_swig_i_0), C._Bool(_swig_i_1))))
 	return swig_r
 }
 
@@ -3597,68 +3736,68 @@ func (arg1 SwigcptrChachaPolymorphic) SeedAndIV(arg2 *uint, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_ChachaPolymorphic_SeedAndIV_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_ChachaPolymorphic_SeedAndIV_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
 }
 
 func (arg1 SwigcptrChachaPolymorphic) SeedShort(arg2 *uint, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_ChachaPolymorphic_SeedShort_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_ChachaPolymorphic_SeedShort_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
 }
 
 func (arg1 SwigcptrChachaPolymorphic) SeekForward128(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_ChachaPolymorphic_SeekForward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_104(_swig_i_1), C.swig_type_105(_swig_i_2))
+	C._wrap_ChachaPolymorphic_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_104(_swig_i_1), C.swig_type_105(_swig_i_2))
 }
 
 func (arg1 SwigcptrChachaPolymorphic) SeekBackward128(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_ChachaPolymorphic_SeekBackward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_106(_swig_i_1), C.swig_type_107(_swig_i_2))
+	C._wrap_ChachaPolymorphic_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_106(_swig_i_1), C.swig_type_107(_swig_i_2))
 }
 
 func (arg1 SwigcptrChachaPolymorphic) SetRounds(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ChachaPolymorphic_SetRounds_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_ChachaPolymorphic_SetRounds_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrChachaPolymorphic) GetRounds() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_ChachaPolymorphic_GetRounds_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_ChachaPolymorphic_GetRounds_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func DeleteChachaPolymorphic(arg1 ChachaPolymorphic) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_ChachaPolymorphic_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_ChachaPolymorphic_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) GetNativeOutputSize() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_ChachaPolymorphic_GetNativeOutputSize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (int)(C._wrap_ChachaPolymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) SeedFast(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_ChachaPolymorphic_SeedFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
+	C._wrap_ChachaPolymorphic_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) Autoseed() {
-	C._wrap_ChachaPolymorphic_autoseed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_ChachaPolymorphic_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) Serialize(arg1 string, arg2 int64) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_ChachaPolymorphic_serialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
+	swig_r = (int64)(C._wrap_ChachaPolymorphic_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -3669,7 +3808,7 @@ func (_swig_base SwigcptrChachaPolymorphic) Deserialize(arg1 string, arg2 int64)
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_ChachaPolymorphic_deserialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
+	swig_r = (bool)(C._wrap_ChachaPolymorphic_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -3678,7 +3817,7 @@ func (_swig_base SwigcptrChachaPolymorphic) Deserialize(arg1 string, arg2 int64)
 
 func (_swig_base SwigcptrChachaPolymorphic) PrintState() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_ChachaPolymorphic_PrintState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_ChachaPolymorphic_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -3689,7 +3828,7 @@ func (_swig_base SwigcptrChachaPolymorphic) Randi(arg1 uint, arg2 uint) (_swig_r
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_ChachaPolymorphic_randi_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_ChachaPolymorphic_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -3697,7 +3836,7 @@ func (_swig_base SwigcptrChachaPolymorphic) RandiFast(arg1 uint, arg2 uint) (_sw
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_ChachaPolymorphic_RandiFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_ChachaPolymorphic_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -3705,7 +3844,7 @@ func (_swig_base SwigcptrChachaPolymorphic) Randli(arg1 uint64, arg2 uint64) (_s
 	var swig_r uint64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint64)(C._wrap_ChachaPolymorphic_randli_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
+	swig_r = (uint64)(C._wrap_ChachaPolymorphic_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
 	return swig_r
 }
 
@@ -3713,7 +3852,7 @@ func (_swig_base SwigcptrChachaPolymorphic) Randf(arg1 float32, arg2 float32) (_
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_ChachaPolymorphic_randf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	swig_r = (float32)(C._wrap_ChachaPolymorphic_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
 	return swig_r
 }
 
@@ -3721,65 +3860,65 @@ func (_swig_base SwigcptrChachaPolymorphic) Randlf(arg1 float64, arg2 float64) (
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_ChachaPolymorphic_randlf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	swig_r = (float64)(C._wrap_ChachaPolymorphic_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) Gaussian() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_ChachaPolymorphic_gaussian_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_ChachaPolymorphic_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) SeekForward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_ChachaPolymorphic_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
+	C._wrap_ChachaPolymorphic_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) SeekBackward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_ChachaPolymorphic_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
+	C._wrap_ChachaPolymorphic_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) ResetEntropy() {
-	C._wrap_ChachaPolymorphic_ResetEntropy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_ChachaPolymorphic_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) AddEntropy8(arg1 byte) {
 	_swig_i_0 := arg1
-	C._wrap_ChachaPolymorphic_AddEntropy8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+	C._wrap_ChachaPolymorphic_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.char(_swig_i_0))
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) AddEntropy16(arg1 uint16) {
 	_swig_i_0 := arg1
-	C._wrap_ChachaPolymorphic_AddEntropy16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+	C._wrap_ChachaPolymorphic_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.short(_swig_i_0))
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) AddEntropy32(arg1 uint) {
 	_swig_i_0 := arg1
-	C._wrap_ChachaPolymorphic_AddEntropy32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+	C._wrap_ChachaPolymorphic_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) AddEntropy64(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_ChachaPolymorphic_AddEntropy64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
+	C._wrap_ChachaPolymorphic_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) AddEntropyN(arg1 uintptr, arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_ChachaPolymorphic_AddEntropyN_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
+	C._wrap_ChachaPolymorphic_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) AddEntropyAuto(arg1 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_ChachaPolymorphic_AddEntropyAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	swig_r = (bool)(C._wrap_ChachaPolymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrChachaPolymorphic) FlushBuffers() {
-	C._wrap_ChachaPolymorphic_FlushBuffers_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_ChachaPolymorphic_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrChachaPolymorphic) SwigIsVRNG32() {
@@ -3853,34 +3992,34 @@ func (p SwigcptrEfiix8x48) SwigIsEfiix8x48() {
 
 func _swig_getefiix8x48_OUTPUT_TYPE_efiix8x48() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_TYPE_efiix8x48_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_efiix8x48_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var Efiix8x48OUTPUT_TYPE int = _swig_getefiix8x48_OUTPUT_TYPE_efiix8x48()
 func _swig_getefiix8x48_OUTPUT_BITS_efiix8x48() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_efiix8x48_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_efiix8x48_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var Efiix8x48OUTPUT_BITS int = _swig_getefiix8x48_OUTPUT_BITS_efiix8x48()
 func _swig_getefiix8x48_FLAGS_efiix8x48() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_efiix8x48_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAGS_efiix8x48_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var Efiix8x48FLAGS int = _swig_getefiix8x48_FLAGS_efiix8x48()
 func DeleteEfiix8x48(arg1 Efiix8x48) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_efiix8x48_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_efiix8x48_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrEfiix8x48) Raw8() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_efiix8x48_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_efiix8x48_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -3890,30 +4029,30 @@ func (arg1 SwigcptrEfiix8x48) SeedFromMix(arg2 uint64, arg3 uint64, arg4 uint64,
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_efiix8x48_SeedFromMix_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_111(_swig_i_1), C.swig_type_112(_swig_i_2), C.swig_type_113(_swig_i_3), C.swig_type_114(_swig_i_4))
+	C._wrap_efiix8x48_SeedFromMix_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_111(_swig_i_1), C.swig_type_112(_swig_i_2), C.swig_type_113(_swig_i_3), C.swig_type_114(_swig_i_4))
 }
 
 func (arg1 SwigcptrEfiix8x48) Seed(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_efiix8x48_seed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_115(_swig_i_1))
+	C._wrap_efiix8x48_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_115(_swig_i_1))
 }
 
 func (arg1 SwigcptrEfiix8x48) SeedFromRNG(arg2 VRNG) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_efiix8x48_SeedFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_efiix8x48_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrEfiix8x48) WalkState(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_efiix8x48_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_efiix8x48_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func NewEfiix8x48() (_swig_ret Efiix8x48) {
 	var swig_r Efiix8x48
-	swig_r = (Efiix8x48)(SwigcptrEfiix8x48(C._wrap_new_efiix8x48_rng_2e82867d6f5a68af()))
+	swig_r = (Efiix8x48)(SwigcptrEfiix8x48(C._wrap_new_efiix8x48_rng_11ac3d340bb029ea()))
 	return swig_r
 }
 
@@ -3938,21 +4077,21 @@ func (p SwigcptrEfiix8x48Polymorphic) SwigIsEfiix8x48Polymorphic() {
 
 func _swig_getEfiix8x48Polymorphic_OUTPUT_TYPE_Efiix8x48Polymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_TYPE_Efiix8x48Polymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_Efiix8x48Polymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var Efiix8x48PolymorphicOUTPUT_TYPE int = _swig_getEfiix8x48Polymorphic_OUTPUT_TYPE_Efiix8x48Polymorphic()
 func _swig_getEfiix8x48Polymorphic_OUTPUT_BITS_Efiix8x48Polymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_Efiix8x48Polymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_Efiix8x48Polymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var Efiix8x48PolymorphicOUTPUT_BITS int = _swig_getEfiix8x48Polymorphic_OUTPUT_BITS_Efiix8x48Polymorphic()
 func _swig_getEfiix8x48Polymorphic_FLAGS_Efiix8x48Polymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_Efiix8x48Polymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAGS_Efiix8x48Polymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
@@ -3960,83 +4099,83 @@ var Efiix8x48PolymorphicFLAGS int = _swig_getEfiix8x48Polymorphic_FLAGS_Efiix8x4
 func (arg1 SwigcptrEfiix8x48Polymorphic) SetImplementation(arg2 Efiix8x48) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Efiix8x48Polymorphic_implementation_set_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Efiix8x48Polymorphic_implementation_set_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrEfiix8x48Polymorphic) GetImplementation() (_swig_ret Efiix8x48) {
 	var swig_r Efiix8x48
 	_swig_i_0 := arg1
-	swig_r = (Efiix8x48)(SwigcptrEfiix8x48(C._wrap_Efiix8x48Polymorphic_implementation_get_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Efiix8x48)(SwigcptrEfiix8x48(C._wrap_Efiix8x48Polymorphic_implementation_get_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewEfiix8x48PolymorphicFromUInt64(arg1 uint64) (_swig_ret Efiix8x48Polymorphic) {
 	var swig_r Efiix8x48Polymorphic
 	_swig_i_0 := arg1
-	swig_r = (Efiix8x48Polymorphic)(SwigcptrEfiix8x48Polymorphic(C._wrap_new_Efiix8x48PolymorphicFromUInt64_rng_2e82867d6f5a68af(C.swig_type_116(_swig_i_0))))
+	swig_r = (Efiix8x48Polymorphic)(SwigcptrEfiix8x48Polymorphic(C._wrap_new_Efiix8x48PolymorphicFromUInt64_rng_11ac3d340bb029ea(C.swig_type_116(_swig_i_0))))
 	return swig_r
 }
 
 func NewEfiix8x48PolymorphicFromRNG(arg1 VRNG) (_swig_ret Efiix8x48Polymorphic) {
 	var swig_r Efiix8x48Polymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Efiix8x48Polymorphic)(SwigcptrEfiix8x48Polymorphic(C._wrap_new_Efiix8x48PolymorphicFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Efiix8x48Polymorphic)(SwigcptrEfiix8x48Polymorphic(C._wrap_new_Efiix8x48PolymorphicFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewEfiix8x48PolymorphicFromAuto(arg1 SEED_AUTO_TYPE) (_swig_ret Efiix8x48Polymorphic) {
 	var swig_r Efiix8x48Polymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Efiix8x48Polymorphic)(SwigcptrEfiix8x48Polymorphic(C._wrap_new_Efiix8x48PolymorphicFromAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Efiix8x48Polymorphic)(SwigcptrEfiix8x48Polymorphic(C._wrap_new_Efiix8x48PolymorphicFromAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewEfiix8x48PolymorphicFromNone(arg1 SEED_NONE_TYPE) (_swig_ret Efiix8x48Polymorphic) {
 	var swig_r Efiix8x48Polymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Efiix8x48Polymorphic)(SwigcptrEfiix8x48Polymorphic(C._wrap_new_Efiix8x48PolymorphicFromNone_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Efiix8x48Polymorphic)(SwigcptrEfiix8x48Polymorphic(C._wrap_new_Efiix8x48PolymorphicFromNone_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix8x48Polymorphic) Raw8() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_Efiix8x48Polymorphic_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_Efiix8x48Polymorphic_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix8x48Polymorphic) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (uint16)(C._wrap_Efiix8x48Polymorphic_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint16)(C._wrap_Efiix8x48Polymorphic_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix8x48Polymorphic) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_Efiix8x48Polymorphic_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_Efiix8x48Polymorphic_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix8x48Polymorphic) Raw64() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_Efiix8x48Polymorphic_raw64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_Efiix8x48Polymorphic_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix8x48Polymorphic) GetFlags() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_Efiix8x48Polymorphic_GetFlags_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_Efiix8x48Polymorphic_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix8x48Polymorphic) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_Efiix8x48Polymorphic_GetName_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_Efiix8x48Polymorphic_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -4046,7 +4185,7 @@ func (arg1 SwigcptrEfiix8x48Polymorphic) GetName() (_swig_ret string) {
 func (arg1 SwigcptrEfiix8x48Polymorphic) WalkState(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Efiix8x48Polymorphic_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Efiix8x48Polymorphic_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrEfiix8x48Polymorphic) Seed(arg2 uint64, arg3 uint64, arg4 uint64, arg5 uint64) {
@@ -4055,40 +4194,40 @@ func (arg1 SwigcptrEfiix8x48Polymorphic) Seed(arg2 uint64, arg3 uint64, arg4 uin
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_Efiix8x48Polymorphic_seed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_120(_swig_i_1), C.swig_type_121(_swig_i_2), C.swig_type_122(_swig_i_3), C.swig_type_123(_swig_i_4))
+	C._wrap_Efiix8x48Polymorphic_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_120(_swig_i_1), C.swig_type_121(_swig_i_2), C.swig_type_122(_swig_i_3), C.swig_type_123(_swig_i_4))
 }
 
 func (arg1 SwigcptrEfiix8x48Polymorphic) SeedFromRNG(arg2 VRNG) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Efiix8x48Polymorphic_SeedFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Efiix8x48Polymorphic_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func DeleteEfiix8x48Polymorphic(arg1 Efiix8x48Polymorphic) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Efiix8x48Polymorphic_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Efiix8x48Polymorphic_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) GetNativeOutputSize() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_Efiix8x48Polymorphic_GetNativeOutputSize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (int)(C._wrap_Efiix8x48Polymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) SeedFast(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix8x48Polymorphic_SeedFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
+	C._wrap_Efiix8x48Polymorphic_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) Autoseed() {
-	C._wrap_Efiix8x48Polymorphic_autoseed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_Efiix8x48Polymorphic_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) Serialize(arg1 string, arg2 int64) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_Efiix8x48Polymorphic_serialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Efiix8x48Polymorphic_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -4099,7 +4238,7 @@ func (_swig_base SwigcptrEfiix8x48Polymorphic) Deserialize(arg1 string, arg2 int
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_Efiix8x48Polymorphic_deserialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Efiix8x48Polymorphic_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -4108,7 +4247,7 @@ func (_swig_base SwigcptrEfiix8x48Polymorphic) Deserialize(arg1 string, arg2 int
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) PrintState() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_Efiix8x48Polymorphic_PrintState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_Efiix8x48Polymorphic_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -4119,7 +4258,7 @@ func (_swig_base SwigcptrEfiix8x48Polymorphic) Randi(arg1 uint, arg2 uint) (_swi
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_Efiix8x48Polymorphic_randi_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_Efiix8x48Polymorphic_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -4127,7 +4266,7 @@ func (_swig_base SwigcptrEfiix8x48Polymorphic) RandiFast(arg1 uint, arg2 uint) (
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_Efiix8x48Polymorphic_RandiFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_Efiix8x48Polymorphic_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -4135,7 +4274,7 @@ func (_swig_base SwigcptrEfiix8x48Polymorphic) Randli(arg1 uint64, arg2 uint64) 
 	var swig_r uint64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint64)(C._wrap_Efiix8x48Polymorphic_randli_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
+	swig_r = (uint64)(C._wrap_Efiix8x48Polymorphic_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
 	return swig_r
 }
 
@@ -4143,7 +4282,7 @@ func (_swig_base SwigcptrEfiix8x48Polymorphic) Randf(arg1 float32, arg2 float32)
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_Efiix8x48Polymorphic_randf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	swig_r = (float32)(C._wrap_Efiix8x48Polymorphic_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
 	return swig_r
 }
 
@@ -4151,77 +4290,77 @@ func (_swig_base SwigcptrEfiix8x48Polymorphic) Randlf(arg1 float64, arg2 float64
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_Efiix8x48Polymorphic_randlf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	swig_r = (float64)(C._wrap_Efiix8x48Polymorphic_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) Gaussian() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_Efiix8x48Polymorphic_gaussian_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_Efiix8x48Polymorphic_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) SeekForward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Efiix8x48Polymorphic_SeekForward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
+	C._wrap_Efiix8x48Polymorphic_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) SeekBackward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Efiix8x48Polymorphic_SeekBackward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
+	C._wrap_Efiix8x48Polymorphic_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) SeekForward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix8x48Polymorphic_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
+	C._wrap_Efiix8x48Polymorphic_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) SeekBackward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix8x48Polymorphic_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
+	C._wrap_Efiix8x48Polymorphic_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) ResetEntropy() {
-	C._wrap_Efiix8x48Polymorphic_ResetEntropy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_Efiix8x48Polymorphic_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) AddEntropy8(arg1 byte) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix8x48Polymorphic_AddEntropy8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+	C._wrap_Efiix8x48Polymorphic_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.char(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) AddEntropy16(arg1 uint16) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix8x48Polymorphic_AddEntropy16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+	C._wrap_Efiix8x48Polymorphic_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.short(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) AddEntropy32(arg1 uint) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix8x48Polymorphic_AddEntropy32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+	C._wrap_Efiix8x48Polymorphic_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) AddEntropy64(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix8x48Polymorphic_AddEntropy64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
+	C._wrap_Efiix8x48Polymorphic_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) AddEntropyN(arg1 uintptr, arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Efiix8x48Polymorphic_AddEntropyN_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
+	C._wrap_Efiix8x48Polymorphic_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) AddEntropyAuto(arg1 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Efiix8x48Polymorphic_AddEntropyAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Efiix8x48Polymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrEfiix8x48Polymorphic) FlushBuffers() {
-	C._wrap_Efiix8x48Polymorphic_FlushBuffers_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_Efiix8x48Polymorphic_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrEfiix8x48Polymorphic) SwigIsVRNG8() {
@@ -4293,34 +4432,34 @@ func (p SwigcptrEfiix16x48) SwigIsEfiix16x48() {
 
 func _swig_getefiix16x48_OUTPUT_TYPE_efiix16x48() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_TYPE_efiix16x48_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_efiix16x48_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var Efiix16x48OUTPUT_TYPE int = _swig_getefiix16x48_OUTPUT_TYPE_efiix16x48()
 func _swig_getefiix16x48_OUTPUT_BITS_efiix16x48() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_efiix16x48_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_efiix16x48_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var Efiix16x48OUTPUT_BITS int = _swig_getefiix16x48_OUTPUT_BITS_efiix16x48()
 func _swig_getefiix16x48_FLAGS_efiix16x48() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_efiix16x48_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAGS_efiix16x48_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var Efiix16x48FLAGS int = _swig_getefiix16x48_FLAGS_efiix16x48()
 func DeleteEfiix16x48(arg1 Efiix16x48) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_efiix16x48_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_efiix16x48_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrEfiix16x48) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (uint16)(C._wrap_efiix16x48_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint16)(C._wrap_efiix16x48_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -4330,30 +4469,30 @@ func (arg1 SwigcptrEfiix16x48) SeedFromMix(arg2 uint64, arg3 uint64, arg4 uint64
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_efiix16x48_SeedFromMix_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_127(_swig_i_1), C.swig_type_128(_swig_i_2), C.swig_type_129(_swig_i_3), C.swig_type_130(_swig_i_4))
+	C._wrap_efiix16x48_SeedFromMix_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_127(_swig_i_1), C.swig_type_128(_swig_i_2), C.swig_type_129(_swig_i_3), C.swig_type_130(_swig_i_4))
 }
 
 func (arg1 SwigcptrEfiix16x48) Seed(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_efiix16x48_seed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_131(_swig_i_1))
+	C._wrap_efiix16x48_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_131(_swig_i_1))
 }
 
 func (arg1 SwigcptrEfiix16x48) SeedFromRNG(arg2 VRNG) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_efiix16x48_SeedFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_efiix16x48_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrEfiix16x48) WalkState(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_efiix16x48_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_efiix16x48_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func NewEfiix16x48() (_swig_ret Efiix16x48) {
 	var swig_r Efiix16x48
-	swig_r = (Efiix16x48)(SwigcptrEfiix16x48(C._wrap_new_efiix16x48_rng_2e82867d6f5a68af()))
+	swig_r = (Efiix16x48)(SwigcptrEfiix16x48(C._wrap_new_efiix16x48_rng_11ac3d340bb029ea()))
 	return swig_r
 }
 
@@ -4378,21 +4517,21 @@ func (p SwigcptrEfiix16x48Polymorphic) SwigIsEfiix16x48Polymorphic() {
 
 func _swig_getEfiix16x48Polymorphic_OUTPUT_TYPE_Efiix16x48Polymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_TYPE_Efiix16x48Polymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_Efiix16x48Polymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var Efiix16x48PolymorphicOUTPUT_TYPE int = _swig_getEfiix16x48Polymorphic_OUTPUT_TYPE_Efiix16x48Polymorphic()
 func _swig_getEfiix16x48Polymorphic_OUTPUT_BITS_Efiix16x48Polymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_Efiix16x48Polymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_Efiix16x48Polymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var Efiix16x48PolymorphicOUTPUT_BITS int = _swig_getEfiix16x48Polymorphic_OUTPUT_BITS_Efiix16x48Polymorphic()
 func _swig_getEfiix16x48Polymorphic_FLAGS_Efiix16x48Polymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_Efiix16x48Polymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAGS_Efiix16x48Polymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
@@ -4400,83 +4539,83 @@ var Efiix16x48PolymorphicFLAGS int = _swig_getEfiix16x48Polymorphic_FLAGS_Efiix1
 func (arg1 SwigcptrEfiix16x48Polymorphic) SetImplementation(arg2 Efiix16x48) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Efiix16x48Polymorphic_implementation_set_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Efiix16x48Polymorphic_implementation_set_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrEfiix16x48Polymorphic) GetImplementation() (_swig_ret Efiix16x48) {
 	var swig_r Efiix16x48
 	_swig_i_0 := arg1
-	swig_r = (Efiix16x48)(SwigcptrEfiix16x48(C._wrap_Efiix16x48Polymorphic_implementation_get_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Efiix16x48)(SwigcptrEfiix16x48(C._wrap_Efiix16x48Polymorphic_implementation_get_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewEfiix16x48PolymorphicFromUInt64(arg1 uint64) (_swig_ret Efiix16x48Polymorphic) {
 	var swig_r Efiix16x48Polymorphic
 	_swig_i_0 := arg1
-	swig_r = (Efiix16x48Polymorphic)(SwigcptrEfiix16x48Polymorphic(C._wrap_new_Efiix16x48PolymorphicFromUInt64_rng_2e82867d6f5a68af(C.swig_type_132(_swig_i_0))))
+	swig_r = (Efiix16x48Polymorphic)(SwigcptrEfiix16x48Polymorphic(C._wrap_new_Efiix16x48PolymorphicFromUInt64_rng_11ac3d340bb029ea(C.swig_type_132(_swig_i_0))))
 	return swig_r
 }
 
 func NewEfiix16x48PolymorphicFromRNG(arg1 VRNG) (_swig_ret Efiix16x48Polymorphic) {
 	var swig_r Efiix16x48Polymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Efiix16x48Polymorphic)(SwigcptrEfiix16x48Polymorphic(C._wrap_new_Efiix16x48PolymorphicFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Efiix16x48Polymorphic)(SwigcptrEfiix16x48Polymorphic(C._wrap_new_Efiix16x48PolymorphicFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewEfiix16x48PolymorphicFromAuto(arg1 SEED_AUTO_TYPE) (_swig_ret Efiix16x48Polymorphic) {
 	var swig_r Efiix16x48Polymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Efiix16x48Polymorphic)(SwigcptrEfiix16x48Polymorphic(C._wrap_new_Efiix16x48PolymorphicFromAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Efiix16x48Polymorphic)(SwigcptrEfiix16x48Polymorphic(C._wrap_new_Efiix16x48PolymorphicFromAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewEfiix16x48PolymorphicFromNone(arg1 SEED_NONE_TYPE) (_swig_ret Efiix16x48Polymorphic) {
 	var swig_r Efiix16x48Polymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (Efiix16x48Polymorphic)(SwigcptrEfiix16x48Polymorphic(C._wrap_new_Efiix16x48PolymorphicFromNone_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Efiix16x48Polymorphic)(SwigcptrEfiix16x48Polymorphic(C._wrap_new_Efiix16x48PolymorphicFromNone_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix16x48Polymorphic) Raw8() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_Efiix16x48Polymorphic_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_Efiix16x48Polymorphic_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix16x48Polymorphic) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (uint16)(C._wrap_Efiix16x48Polymorphic_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint16)(C._wrap_Efiix16x48Polymorphic_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix16x48Polymorphic) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_Efiix16x48Polymorphic_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_Efiix16x48Polymorphic_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix16x48Polymorphic) Raw64() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_Efiix16x48Polymorphic_raw64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_Efiix16x48Polymorphic_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix16x48Polymorphic) GetFlags() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_Efiix16x48Polymorphic_GetFlags_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_Efiix16x48Polymorphic_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrEfiix16x48Polymorphic) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_Efiix16x48Polymorphic_GetName_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_Efiix16x48Polymorphic_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -4486,7 +4625,7 @@ func (arg1 SwigcptrEfiix16x48Polymorphic) GetName() (_swig_ret string) {
 func (arg1 SwigcptrEfiix16x48Polymorphic) WalkState(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Efiix16x48Polymorphic_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Efiix16x48Polymorphic_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrEfiix16x48Polymorphic) Seed(arg2 uint64, arg3 uint64, arg4 uint64, arg5 uint64) {
@@ -4495,40 +4634,40 @@ func (arg1 SwigcptrEfiix16x48Polymorphic) Seed(arg2 uint64, arg3 uint64, arg4 ui
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_Efiix16x48Polymorphic_seed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_136(_swig_i_1), C.swig_type_137(_swig_i_2), C.swig_type_138(_swig_i_3), C.swig_type_139(_swig_i_4))
+	C._wrap_Efiix16x48Polymorphic_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_136(_swig_i_1), C.swig_type_137(_swig_i_2), C.swig_type_138(_swig_i_3), C.swig_type_139(_swig_i_4))
 }
 
 func (arg1 SwigcptrEfiix16x48Polymorphic) SeedFromRNG(arg2 VRNG) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_Efiix16x48Polymorphic_SeedFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_Efiix16x48Polymorphic_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func DeleteEfiix16x48Polymorphic(arg1 Efiix16x48Polymorphic) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_Efiix16x48Polymorphic_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_Efiix16x48Polymorphic_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) GetNativeOutputSize() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_Efiix16x48Polymorphic_GetNativeOutputSize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (int)(C._wrap_Efiix16x48Polymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) SeedFast(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix16x48Polymorphic_SeedFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
+	C._wrap_Efiix16x48Polymorphic_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) Autoseed() {
-	C._wrap_Efiix16x48Polymorphic_autoseed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_Efiix16x48Polymorphic_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) Serialize(arg1 string, arg2 int64) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_Efiix16x48Polymorphic_serialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
+	swig_r = (int64)(C._wrap_Efiix16x48Polymorphic_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -4539,7 +4678,7 @@ func (_swig_base SwigcptrEfiix16x48Polymorphic) Deserialize(arg1 string, arg2 in
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_Efiix16x48Polymorphic_deserialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
+	swig_r = (bool)(C._wrap_Efiix16x48Polymorphic_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -4548,7 +4687,7 @@ func (_swig_base SwigcptrEfiix16x48Polymorphic) Deserialize(arg1 string, arg2 in
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) PrintState() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_Efiix16x48Polymorphic_PrintState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_Efiix16x48Polymorphic_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -4559,7 +4698,7 @@ func (_swig_base SwigcptrEfiix16x48Polymorphic) Randi(arg1 uint, arg2 uint) (_sw
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_Efiix16x48Polymorphic_randi_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_Efiix16x48Polymorphic_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -4567,7 +4706,7 @@ func (_swig_base SwigcptrEfiix16x48Polymorphic) RandiFast(arg1 uint, arg2 uint) 
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_Efiix16x48Polymorphic_RandiFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_Efiix16x48Polymorphic_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -4575,7 +4714,7 @@ func (_swig_base SwigcptrEfiix16x48Polymorphic) Randli(arg1 uint64, arg2 uint64)
 	var swig_r uint64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint64)(C._wrap_Efiix16x48Polymorphic_randli_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
+	swig_r = (uint64)(C._wrap_Efiix16x48Polymorphic_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
 	return swig_r
 }
 
@@ -4583,7 +4722,7 @@ func (_swig_base SwigcptrEfiix16x48Polymorphic) Randf(arg1 float32, arg2 float32
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_Efiix16x48Polymorphic_randf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	swig_r = (float32)(C._wrap_Efiix16x48Polymorphic_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
 	return swig_r
 }
 
@@ -4591,77 +4730,77 @@ func (_swig_base SwigcptrEfiix16x48Polymorphic) Randlf(arg1 float64, arg2 float6
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_Efiix16x48Polymorphic_randlf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	swig_r = (float64)(C._wrap_Efiix16x48Polymorphic_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) Gaussian() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_Efiix16x48Polymorphic_gaussian_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_Efiix16x48Polymorphic_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) SeekForward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Efiix16x48Polymorphic_SeekForward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
+	C._wrap_Efiix16x48Polymorphic_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) SeekBackward128(arg1 uint64, arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Efiix16x48Polymorphic_SeekBackward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
+	C._wrap_Efiix16x48Polymorphic_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) SeekForward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix16x48Polymorphic_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
+	C._wrap_Efiix16x48Polymorphic_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) SeekBackward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix16x48Polymorphic_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
+	C._wrap_Efiix16x48Polymorphic_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) ResetEntropy() {
-	C._wrap_Efiix16x48Polymorphic_ResetEntropy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_Efiix16x48Polymorphic_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) AddEntropy8(arg1 byte) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix16x48Polymorphic_AddEntropy8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+	C._wrap_Efiix16x48Polymorphic_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.char(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) AddEntropy16(arg1 uint16) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix16x48Polymorphic_AddEntropy16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+	C._wrap_Efiix16x48Polymorphic_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.short(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) AddEntropy32(arg1 uint) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix16x48Polymorphic_AddEntropy32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+	C._wrap_Efiix16x48Polymorphic_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) AddEntropy64(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_Efiix16x48Polymorphic_AddEntropy64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
+	C._wrap_Efiix16x48Polymorphic_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) AddEntropyN(arg1 uintptr, arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Efiix16x48Polymorphic_AddEntropyN_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
+	C._wrap_Efiix16x48Polymorphic_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) AddEntropyAuto(arg1 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_Efiix16x48Polymorphic_AddEntropyAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	swig_r = (bool)(C._wrap_Efiix16x48Polymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrEfiix16x48Polymorphic) FlushBuffers() {
-	C._wrap_Efiix16x48Polymorphic_FlushBuffers_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_Efiix16x48Polymorphic_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrEfiix16x48Polymorphic) SwigIsVRNG16() {
@@ -4722,6 +4861,886 @@ type Efiix16x48Polymorphic interface {
 	SwigGetVRNG() VRNG
 }
 
+type SwigcptrEfiix32x48 uintptr
+
+func (p SwigcptrEfiix32x48) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrEfiix32x48) SwigIsEfiix32x48() {
+}
+
+func _swig_getefiix32x48_OUTPUT_TYPE_efiix32x48() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_efiix32x48_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix32x48OUTPUT_TYPE int = _swig_getefiix32x48_OUTPUT_TYPE_efiix32x48()
+func _swig_getefiix32x48_OUTPUT_BITS_efiix32x48() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_efiix32x48_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix32x48OUTPUT_BITS int = _swig_getefiix32x48_OUTPUT_BITS_efiix32x48()
+func _swig_getefiix32x48_FLAGS_efiix32x48() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_FLAGS_efiix32x48_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix32x48FLAGS int = _swig_getefiix32x48_FLAGS_efiix32x48()
+func DeleteEfiix32x48(arg1 Efiix32x48) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_efiix32x48_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrEfiix32x48) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_efiix32x48_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix32x48) Seed(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_efiix32x48_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_143(_swig_i_1))
+}
+
+func (arg1 SwigcptrEfiix32x48) SeedFromMix(arg2 uint64, arg3 uint64, arg4 uint64, arg5 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	_swig_i_4 := arg5
+	C._wrap_efiix32x48_SeedFromMix_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_144(_swig_i_1), C.swig_type_145(_swig_i_2), C.swig_type_146(_swig_i_3), C.swig_type_147(_swig_i_4))
+}
+
+func (arg1 SwigcptrEfiix32x48) SeedFromRNG(arg2 VRNG) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_efiix32x48_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrEfiix32x48) WalkState(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_efiix32x48_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func NewEfiix32x48() (_swig_ret Efiix32x48) {
+	var swig_r Efiix32x48
+	swig_r = (Efiix32x48)(SwigcptrEfiix32x48(C._wrap_new_efiix32x48_rng_11ac3d340bb029ea()))
+	return swig_r
+}
+
+type Efiix32x48 interface {
+	Swigcptr() uintptr
+	SwigIsEfiix32x48()
+	Raw32() (_swig_ret uint)
+	Seed(arg2 uint64)
+	SeedFromMix(arg2 uint64, arg3 uint64, arg4 uint64, arg5 uint64)
+	SeedFromRNG(arg2 VRNG)
+	WalkState(arg2 StateWalkingObject)
+}
+
+type SwigcptrEfiix32x48Polymorphic uintptr
+
+func (p SwigcptrEfiix32x48Polymorphic) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrEfiix32x48Polymorphic) SwigIsEfiix32x48Polymorphic() {
+}
+
+func _swig_getEfiix32x48Polymorphic_OUTPUT_TYPE_Efiix32x48Polymorphic() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_Efiix32x48Polymorphic_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix32x48PolymorphicOUTPUT_TYPE int = _swig_getEfiix32x48Polymorphic_OUTPUT_TYPE_Efiix32x48Polymorphic()
+func _swig_getEfiix32x48Polymorphic_OUTPUT_BITS_Efiix32x48Polymorphic() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_Efiix32x48Polymorphic_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix32x48PolymorphicOUTPUT_BITS int = _swig_getEfiix32x48Polymorphic_OUTPUT_BITS_Efiix32x48Polymorphic()
+func _swig_getEfiix32x48Polymorphic_FLAGS_Efiix32x48Polymorphic() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_FLAGS_Efiix32x48Polymorphic_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix32x48PolymorphicFLAGS int = _swig_getEfiix32x48Polymorphic_FLAGS_Efiix32x48Polymorphic()
+func (arg1 SwigcptrEfiix32x48Polymorphic) SetImplementation(arg2 Efiix32x48) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_Efiix32x48Polymorphic_implementation_set_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrEfiix32x48Polymorphic) GetImplementation() (_swig_ret Efiix32x48) {
+	var swig_r Efiix32x48
+	_swig_i_0 := arg1
+	swig_r = (Efiix32x48)(SwigcptrEfiix32x48(C._wrap_Efiix32x48Polymorphic_implementation_get_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewEfiix32x48PolymorphicFromUInt64(arg1 uint64) (_swig_ret Efiix32x48Polymorphic) {
+	var swig_r Efiix32x48Polymorphic
+	_swig_i_0 := arg1
+	swig_r = (Efiix32x48Polymorphic)(SwigcptrEfiix32x48Polymorphic(C._wrap_new_Efiix32x48PolymorphicFromUInt64_rng_11ac3d340bb029ea(C.swig_type_148(_swig_i_0))))
+	return swig_r
+}
+
+func NewEfiix32x48PolymorphicFromRNG(arg1 VRNG) (_swig_ret Efiix32x48Polymorphic) {
+	var swig_r Efiix32x48Polymorphic
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (Efiix32x48Polymorphic)(SwigcptrEfiix32x48Polymorphic(C._wrap_new_Efiix32x48PolymorphicFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewEfiix32x48PolymorphicFromAuto(arg1 SEED_AUTO_TYPE) (_swig_ret Efiix32x48Polymorphic) {
+	var swig_r Efiix32x48Polymorphic
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (Efiix32x48Polymorphic)(SwigcptrEfiix32x48Polymorphic(C._wrap_new_Efiix32x48PolymorphicFromAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewEfiix32x48PolymorphicFromNone(arg1 SEED_NONE_TYPE) (_swig_ret Efiix32x48Polymorphic) {
+	var swig_r Efiix32x48Polymorphic
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (Efiix32x48Polymorphic)(SwigcptrEfiix32x48Polymorphic(C._wrap_new_Efiix32x48PolymorphicFromNone_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix32x48Polymorphic) Raw8() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_Efiix32x48Polymorphic_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix32x48Polymorphic) Raw16() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_Efiix32x48Polymorphic_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix32x48Polymorphic) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_Efiix32x48Polymorphic_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix32x48Polymorphic) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_Efiix32x48Polymorphic_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix32x48Polymorphic) GetFlags() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_Efiix32x48Polymorphic_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix32x48Polymorphic) GetName() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_Efiix32x48Polymorphic_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrEfiix32x48Polymorphic) WalkState(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_Efiix32x48Polymorphic_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrEfiix32x48Polymorphic) Seed(arg2 uint64, arg3 uint64, arg4 uint64, arg5 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	_swig_i_4 := arg5
+	C._wrap_Efiix32x48Polymorphic_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_152(_swig_i_1), C.swig_type_153(_swig_i_2), C.swig_type_154(_swig_i_3), C.swig_type_155(_swig_i_4))
+}
+
+func (arg1 SwigcptrEfiix32x48Polymorphic) SeedFromRNG(arg2 VRNG) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_Efiix32x48Polymorphic_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func DeleteEfiix32x48Polymorphic(arg1 Efiix32x48Polymorphic) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_Efiix32x48Polymorphic_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) GetNativeOutputSize() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Efiix32x48Polymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) SeedFast(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix32x48Polymorphic_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) Autoseed() {
+	C._wrap_Efiix32x48Polymorphic_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) Serialize(arg1 string, arg2 int64) (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (int64)(C._wrap_Efiix32x48Polymorphic_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) Deserialize(arg1 string, arg2 int64) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_Efiix32x48Polymorphic_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) PrintState() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_Efiix32x48Polymorphic_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) Randi(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_Efiix32x48Polymorphic_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) RandiFast(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_Efiix32x48Polymorphic_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) Randli(arg1 uint64, arg2 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint64)(C._wrap_Efiix32x48Polymorphic_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) Randf(arg1 float32, arg2 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float32)(C._wrap_Efiix32x48Polymorphic_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) Randlf(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_Efiix32x48Polymorphic_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) Gaussian() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_Efiix32x48Polymorphic_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) SeekForward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Efiix32x48Polymorphic_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) SeekBackward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Efiix32x48Polymorphic_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) SeekForward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix32x48Polymorphic_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) SeekBackward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix32x48Polymorphic_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) ResetEntropy() {
+	C._wrap_Efiix32x48Polymorphic_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) AddEntropy8(arg1 byte) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix32x48Polymorphic_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) AddEntropy16(arg1 uint16) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix32x48Polymorphic_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) AddEntropy32(arg1 uint) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix32x48Polymorphic_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) AddEntropy64(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix32x48Polymorphic_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) AddEntropyN(arg1 uintptr, arg2 int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Efiix32x48Polymorphic_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) AddEntropyAuto(arg1 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_Efiix32x48Polymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix32x48Polymorphic) FlushBuffers() {
+	C._wrap_Efiix32x48Polymorphic_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
+}
+
+func (p SwigcptrEfiix32x48Polymorphic) SwigIsVRNG32() {
+}
+
+func (p SwigcptrEfiix32x48Polymorphic) SwigGetVRNG32() VRNG32 {
+	return SwigcptrVRNG32(p.Swigcptr())
+}
+
+func (p SwigcptrEfiix32x48Polymorphic) SwigIsVRNG() {
+}
+
+func (p SwigcptrEfiix32x48Polymorphic) SwigGetVRNG() VRNG {
+	return SwigcptrVRNG(p.Swigcptr())
+}
+
+type Efiix32x48Polymorphic interface {
+	Swigcptr() uintptr
+	SwigIsEfiix32x48Polymorphic()
+	SetImplementation(arg2 Efiix32x48)
+	GetImplementation() (_swig_ret Efiix32x48)
+	Raw8() (_swig_ret byte)
+	Raw16() (_swig_ret uint16)
+	Raw32() (_swig_ret uint)
+	Raw64() (_swig_ret uint64)
+	GetFlags() (_swig_ret uint64)
+	GetName() (_swig_ret string)
+	WalkState(arg2 StateWalkingObject)
+	Seed(arg2 uint64, arg3 uint64, arg4 uint64, arg5 uint64)
+	SeedFromRNG(arg2 VRNG)
+	GetNativeOutputSize() (_swig_ret int)
+	SeedFast(arg1 uint64)
+	Autoseed()
+	Serialize(arg1 string, arg2 int64) (_swig_ret int64)
+	Deserialize(arg1 string, arg2 int64) (_swig_ret bool)
+	PrintState() (_swig_ret string)
+	Randi(arg1 uint, arg2 uint) (_swig_ret uint)
+	RandiFast(arg1 uint, arg2 uint) (_swig_ret uint)
+	Randli(arg1 uint64, arg2 uint64) (_swig_ret uint64)
+	Randf(arg1 float32, arg2 float32) (_swig_ret float32)
+	Randlf(arg1 float64, arg2 float64) (_swig_ret float64)
+	Gaussian() (_swig_ret float64)
+	SeekForward128(arg1 uint64, arg2 uint64)
+	SeekBackward128(arg1 uint64, arg2 uint64)
+	SeekForward(arg1 uint64)
+	SeekBackward(arg1 uint64)
+	ResetEntropy()
+	AddEntropy8(arg1 byte)
+	AddEntropy16(arg1 uint16)
+	AddEntropy32(arg1 uint)
+	AddEntropy64(arg1 uint64)
+	AddEntropyN(arg1 uintptr, arg2 int64)
+	AddEntropyAuto(arg1 int) (_swig_ret bool)
+	FlushBuffers()
+	SwigIsVRNG32()
+	SwigGetVRNG32() VRNG32
+	SwigIsVRNG()
+	SwigGetVRNG() VRNG
+}
+
+type SwigcptrEfiix64x48 uintptr
+
+func (p SwigcptrEfiix64x48) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrEfiix64x48) SwigIsEfiix64x48() {
+}
+
+func _swig_getefiix64x48_OUTPUT_TYPE_efiix64x48() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_efiix64x48_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix64x48OUTPUT_TYPE int = _swig_getefiix64x48_OUTPUT_TYPE_efiix64x48()
+func _swig_getefiix64x48_OUTPUT_BITS_efiix64x48() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_efiix64x48_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix64x48OUTPUT_BITS int = _swig_getefiix64x48_OUTPUT_BITS_efiix64x48()
+func _swig_getefiix64x48_FLAGS_efiix64x48() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_FLAGS_efiix64x48_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix64x48FLAGS int = _swig_getefiix64x48_FLAGS_efiix64x48()
+func DeleteEfiix64x48(arg1 Efiix64x48) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_efiix64x48_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
+}
+
+func (arg1 SwigcptrEfiix64x48) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_efiix64x48_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix64x48) SeedFromMix(arg2 uint64, arg3 uint64, arg4 uint64, arg5 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	_swig_i_4 := arg5
+	C._wrap_efiix64x48_SeedFromMix_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_160(_swig_i_1), C.swig_type_161(_swig_i_2), C.swig_type_162(_swig_i_3), C.swig_type_163(_swig_i_4))
+}
+
+func (arg1 SwigcptrEfiix64x48) Seed(arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_efiix64x48_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_164(_swig_i_1))
+}
+
+func (arg1 SwigcptrEfiix64x48) SeedFromRNG(arg2 VRNG) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_efiix64x48_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrEfiix64x48) WalkState(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_efiix64x48_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func NewEfiix64x48() (_swig_ret Efiix64x48) {
+	var swig_r Efiix64x48
+	swig_r = (Efiix64x48)(SwigcptrEfiix64x48(C._wrap_new_efiix64x48_rng_11ac3d340bb029ea()))
+	return swig_r
+}
+
+type Efiix64x48 interface {
+	Swigcptr() uintptr
+	SwigIsEfiix64x48()
+	Raw64() (_swig_ret uint64)
+	SeedFromMix(arg2 uint64, arg3 uint64, arg4 uint64, arg5 uint64)
+	Seed(arg2 uint64)
+	SeedFromRNG(arg2 VRNG)
+	WalkState(arg2 StateWalkingObject)
+}
+
+type SwigcptrEfiix64x48Polymorphic uintptr
+
+func (p SwigcptrEfiix64x48Polymorphic) Swigcptr() uintptr {
+	return (uintptr)(p)
+}
+
+func (p SwigcptrEfiix64x48Polymorphic) SwigIsEfiix64x48Polymorphic() {
+}
+
+func _swig_getEfiix64x48Polymorphic_OUTPUT_TYPE_Efiix64x48Polymorphic() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_Efiix64x48Polymorphic_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix64x48PolymorphicOUTPUT_TYPE int = _swig_getEfiix64x48Polymorphic_OUTPUT_TYPE_Efiix64x48Polymorphic()
+func _swig_getEfiix64x48Polymorphic_OUTPUT_BITS_Efiix64x48Polymorphic() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_OUTPUT_BITS_Efiix64x48Polymorphic_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix64x48PolymorphicOUTPUT_BITS int = _swig_getEfiix64x48Polymorphic_OUTPUT_BITS_Efiix64x48Polymorphic()
+func _swig_getEfiix64x48Polymorphic_FLAGS_Efiix64x48Polymorphic() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_FLAGS_Efiix64x48Polymorphic_rng_11ac3d340bb029ea())
+	return swig_r
+}
+
+var Efiix64x48PolymorphicFLAGS int = _swig_getEfiix64x48Polymorphic_FLAGS_Efiix64x48Polymorphic()
+func (arg1 SwigcptrEfiix64x48Polymorphic) SetImplementation(arg2 Efiix64x48) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_Efiix64x48Polymorphic_implementation_set_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrEfiix64x48Polymorphic) GetImplementation() (_swig_ret Efiix64x48) {
+	var swig_r Efiix64x48
+	_swig_i_0 := arg1
+	swig_r = (Efiix64x48)(SwigcptrEfiix64x48(C._wrap_Efiix64x48Polymorphic_implementation_get_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewEfiix64x48PolymorphicFromUInt64(arg1 uint64) (_swig_ret Efiix64x48Polymorphic) {
+	var swig_r Efiix64x48Polymorphic
+	_swig_i_0 := arg1
+	swig_r = (Efiix64x48Polymorphic)(SwigcptrEfiix64x48Polymorphic(C._wrap_new_Efiix64x48PolymorphicFromUInt64_rng_11ac3d340bb029ea(C.swig_type_165(_swig_i_0))))
+	return swig_r
+}
+
+func NewEfiix64x48PolymorphicFromRNG(arg1 VRNG) (_swig_ret Efiix64x48Polymorphic) {
+	var swig_r Efiix64x48Polymorphic
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (Efiix64x48Polymorphic)(SwigcptrEfiix64x48Polymorphic(C._wrap_new_Efiix64x48PolymorphicFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewEfiix64x48PolymorphicFromAuto(arg1 SEED_AUTO_TYPE) (_swig_ret Efiix64x48Polymorphic) {
+	var swig_r Efiix64x48Polymorphic
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (Efiix64x48Polymorphic)(SwigcptrEfiix64x48Polymorphic(C._wrap_new_Efiix64x48PolymorphicFromAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func NewEfiix64x48PolymorphicFromNone(arg1 SEED_NONE_TYPE) (_swig_ret Efiix64x48Polymorphic) {
+	var swig_r Efiix64x48Polymorphic
+	_swig_i_0 := arg1.Swigcptr()
+	swig_r = (Efiix64x48Polymorphic)(SwigcptrEfiix64x48Polymorphic(C._wrap_new_Efiix64x48PolymorphicFromNone_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix64x48Polymorphic) Raw8() (_swig_ret byte) {
+	var swig_r byte
+	_swig_i_0 := arg1
+	swig_r = (byte)(C._wrap_Efiix64x48Polymorphic_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix64x48Polymorphic) Raw16() (_swig_ret uint16) {
+	var swig_r uint16
+	_swig_i_0 := arg1
+	swig_r = (uint16)(C._wrap_Efiix64x48Polymorphic_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix64x48Polymorphic) Raw32() (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	swig_r = (uint)(C._wrap_Efiix64x48Polymorphic_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix64x48Polymorphic) Raw64() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_Efiix64x48Polymorphic_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix64x48Polymorphic) GetFlags() (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	swig_r = (uint64)(C._wrap_Efiix64x48Polymorphic_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
+	return swig_r
+}
+
+func (arg1 SwigcptrEfiix64x48Polymorphic) GetName() (_swig_ret string) {
+	var swig_r string
+	_swig_i_0 := arg1
+	swig_r_p := C._wrap_Efiix64x48Polymorphic_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (arg1 SwigcptrEfiix64x48Polymorphic) WalkState(arg2 StateWalkingObject) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_Efiix64x48Polymorphic_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func (arg1 SwigcptrEfiix64x48Polymorphic) Seed(arg2 uint64, arg3 uint64, arg4 uint64, arg5 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	_swig_i_2 := arg3
+	_swig_i_3 := arg4
+	_swig_i_4 := arg5
+	C._wrap_Efiix64x48Polymorphic_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_169(_swig_i_1), C.swig_type_170(_swig_i_2), C.swig_type_171(_swig_i_3), C.swig_type_172(_swig_i_4))
+}
+
+func (arg1 SwigcptrEfiix64x48Polymorphic) SeedFromRNG(arg2 VRNG) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2.Swigcptr()
+	C._wrap_Efiix64x48Polymorphic_SeedFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+}
+
+func DeleteEfiix64x48Polymorphic(arg1 Efiix64x48Polymorphic) {
+	_swig_i_0 := arg1.Swigcptr()
+	C._wrap_delete_Efiix64x48Polymorphic_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) GetNativeOutputSize() (_swig_ret int) {
+	var swig_r int
+	swig_r = (int)(C._wrap_Efiix64x48Polymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) SeedFast(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix64x48Polymorphic_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) Autoseed() {
+	C._wrap_Efiix64x48Polymorphic_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) Serialize(arg1 string, arg2 int64) (_swig_ret int64) {
+	var swig_r int64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (int64)(C._wrap_Efiix64x48Polymorphic_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) Deserialize(arg1 string, arg2 int64) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (bool)(C._wrap_Efiix64x48Polymorphic_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
+	if Swig_escape_always_false {
+		Swig_escape_val = arg1
+	}
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) PrintState() (_swig_ret string) {
+	var swig_r string
+	swig_r_p := C._wrap_Efiix64x48Polymorphic_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
+	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
+	var swig_r_1 string
+ swig_r_1 = swigCopyString(swig_r) 
+	return swig_r_1
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) Randi(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_Efiix64x48Polymorphic_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) RandiFast(arg1 uint, arg2 uint) (_swig_ret uint) {
+	var swig_r uint
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint)(C._wrap_Efiix64x48Polymorphic_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) Randli(arg1 uint64, arg2 uint64) (_swig_ret uint64) {
+	var swig_r uint64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (uint64)(C._wrap_Efiix64x48Polymorphic_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) Randf(arg1 float32, arg2 float32) (_swig_ret float32) {
+	var swig_r float32
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float32)(C._wrap_Efiix64x48Polymorphic_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) Randlf(arg1 float64, arg2 float64) (_swig_ret float64) {
+	var swig_r float64
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	swig_r = (float64)(C._wrap_Efiix64x48Polymorphic_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) Gaussian() (_swig_ret float64) {
+	var swig_r float64
+	swig_r = (float64)(C._wrap_Efiix64x48Polymorphic_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) SeekForward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Efiix64x48Polymorphic_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_39(_swig_i_0), C.swig_type_40(_swig_i_1))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) SeekBackward128(arg1 uint64, arg2 uint64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Efiix64x48Polymorphic_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_41(_swig_i_0), C.swig_type_42(_swig_i_1))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) SeekForward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix64x48Polymorphic_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) SeekBackward(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix64x48Polymorphic_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) ResetEntropy() {
+	C._wrap_Efiix64x48Polymorphic_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) AddEntropy8(arg1 byte) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix64x48Polymorphic_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) AddEntropy16(arg1 uint16) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix64x48Polymorphic_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) AddEntropy32(arg1 uint) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix64x48Polymorphic_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) AddEntropy64(arg1 uint64) {
+	_swig_i_0 := arg1
+	C._wrap_Efiix64x48Polymorphic_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) AddEntropyN(arg1 uintptr, arg2 int64) {
+	_swig_i_0 := arg1
+	_swig_i_1 := arg2
+	C._wrap_Efiix64x48Polymorphic_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) AddEntropyAuto(arg1 int) (_swig_ret bool) {
+	var swig_r bool
+	_swig_i_0 := arg1
+	swig_r = (bool)(C._wrap_Efiix64x48Polymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	return swig_r
+}
+
+func (_swig_base SwigcptrEfiix64x48Polymorphic) FlushBuffers() {
+	C._wrap_Efiix64x48Polymorphic_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
+}
+
+func (p SwigcptrEfiix64x48Polymorphic) SwigIsVRNG64() {
+}
+
+func (p SwigcptrEfiix64x48Polymorphic) SwigGetVRNG64() VRNG64 {
+	return SwigcptrVRNG64(p.Swigcptr())
+}
+
+func (p SwigcptrEfiix64x48Polymorphic) SwigIsVRNG() {
+}
+
+func (p SwigcptrEfiix64x48Polymorphic) SwigGetVRNG() VRNG {
+	return SwigcptrVRNG(p.Swigcptr())
+}
+
+type Efiix64x48Polymorphic interface {
+	Swigcptr() uintptr
+	SwigIsEfiix64x48Polymorphic()
+	SetImplementation(arg2 Efiix64x48)
+	GetImplementation() (_swig_ret Efiix64x48)
+	Raw8() (_swig_ret byte)
+	Raw16() (_swig_ret uint16)
+	Raw32() (_swig_ret uint)
+	Raw64() (_swig_ret uint64)
+	GetFlags() (_swig_ret uint64)
+	GetName() (_swig_ret string)
+	WalkState(arg2 StateWalkingObject)
+	Seed(arg2 uint64, arg3 uint64, arg4 uint64, arg5 uint64)
+	SeedFromRNG(arg2 VRNG)
+	GetNativeOutputSize() (_swig_ret int)
+	SeedFast(arg1 uint64)
+	Autoseed()
+	Serialize(arg1 string, arg2 int64) (_swig_ret int64)
+	Deserialize(arg1 string, arg2 int64) (_swig_ret bool)
+	PrintState() (_swig_ret string)
+	Randi(arg1 uint, arg2 uint) (_swig_ret uint)
+	RandiFast(arg1 uint, arg2 uint) (_swig_ret uint)
+	Randli(arg1 uint64, arg2 uint64) (_swig_ret uint64)
+	Randf(arg1 float32, arg2 float32) (_swig_ret float32)
+	Randlf(arg1 float64, arg2 float64) (_swig_ret float64)
+	Gaussian() (_swig_ret float64)
+	SeekForward128(arg1 uint64, arg2 uint64)
+	SeekBackward128(arg1 uint64, arg2 uint64)
+	SeekForward(arg1 uint64)
+	SeekBackward(arg1 uint64)
+	ResetEntropy()
+	AddEntropy8(arg1 byte)
+	AddEntropy16(arg1 uint16)
+	AddEntropy32(arg1 uint)
+	AddEntropy64(arg1 uint64)
+	AddEntropyN(arg1 uintptr, arg2 int64)
+	AddEntropyAuto(arg1 int) (_swig_ret bool)
+	FlushBuffers()
+	SwigIsVRNG64()
+	SwigGetVRNG64() VRNG64
+	SwigIsVRNG()
+	SwigGetVRNG() VRNG
+}
+
 type SwigcptrSalsa uintptr
 
 func (p SwigcptrSalsa) Swigcptr() uintptr {
@@ -4733,98 +5752,98 @@ func (p SwigcptrSalsa) SwigIsSalsa() {
 
 func _swig_getsalsa_OUTPUT_TYPE_salsa() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_TYPE_salsa_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_salsa_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var SalsaOUTPUT_TYPE int = _swig_getsalsa_OUTPUT_TYPE_salsa()
 func _swig_getsalsa_OUTPUT_BITS_salsa() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_salsa_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_salsa_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var SalsaOUTPUT_BITS int = _swig_getsalsa_OUTPUT_BITS_salsa()
 func _swig_getsalsa_FLAGS_salsa() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_salsa_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAGS_salsa_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var SalsaFLAGS int = _swig_getsalsa_FLAGS_salsa()
 func NewSalsa() (_swig_ret Salsa) {
 	var swig_r Salsa
-	swig_r = (Salsa)(SwigcptrSalsa(C._wrap_new_salsa_rng_2e82867d6f5a68af()))
+	swig_r = (Salsa)(SwigcptrSalsa(C._wrap_new_salsa_rng_11ac3d340bb029ea()))
 	return swig_r
 }
 
 func DeleteSalsa(arg1 Salsa) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_salsa_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_salsa_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (arg1 SwigcptrSalsa) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_salsa_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_salsa_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSalsa) Seed(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_salsa_seed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_143(_swig_i_1))
+	C._wrap_salsa_seed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_176(_swig_i_1))
 }
 
 func (arg1 SwigcptrSalsa) SeedAndIV(arg2 *uint, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_salsa_SeedAndIV_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_salsa_SeedAndIV_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
 }
 
 func (arg1 SwigcptrSalsa) SeedShort(arg2 *uint, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_salsa_SeedShort_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_salsa_SeedShort_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
 }
 
 func (arg1 SwigcptrSalsa) WalkState(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_salsa_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_salsa_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSalsa) SeekForward(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_salsa_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_144(_swig_i_1), C.swig_type_145(_swig_i_2))
+	C._wrap_salsa_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_177(_swig_i_1), C.swig_type_178(_swig_i_2))
 }
 
 func (arg1 SwigcptrSalsa) SeekBackward(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_salsa_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_146(_swig_i_1), C.swig_type_147(_swig_i_2))
+	C._wrap_salsa_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_179(_swig_i_1), C.swig_type_180(_swig_i_2))
 }
 
 func (arg1 SwigcptrSalsa) SetRounds(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_salsa_SetRounds_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_salsa_SetRounds_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSalsa) GetRounds() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_salsa_GetRounds_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_salsa_GetRounds_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SalsaSelf_test() {
-	C._wrap_salsa_self_test_rng_2e82867d6f5a68af()
+	C._wrap_salsa_self_test_rng_11ac3d340bb029ea()
 }
 
 type Salsa interface {
@@ -4852,21 +5871,21 @@ func (p SwigcptrSalsaPolymorphic) SwigIsSalsaPolymorphic() {
 
 func _swig_getSalsaPolymorphic_OUTPUT_TYPE_SalsaPolymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_TYPE_SalsaPolymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_TYPE_SalsaPolymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var SalsaPolymorphicOUTPUT_TYPE int = _swig_getSalsaPolymorphic_OUTPUT_TYPE_SalsaPolymorphic()
 func _swig_getSalsaPolymorphic_OUTPUT_BITS_SalsaPolymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_OUTPUT_BITS_SalsaPolymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_OUTPUT_BITS_SalsaPolymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
 var SalsaPolymorphicOUTPUT_BITS int = _swig_getSalsaPolymorphic_OUTPUT_BITS_SalsaPolymorphic()
 func _swig_getSalsaPolymorphic_FLAGS_SalsaPolymorphic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_FLAGS_SalsaPolymorphic_rng_2e82867d6f5a68af())
+	swig_r = (int)(C._wrap_FLAGS_SalsaPolymorphic_rng_11ac3d340bb029ea())
 	return swig_r
 }
 
@@ -4874,83 +5893,83 @@ var SalsaPolymorphicFLAGS int = _swig_getSalsaPolymorphic_FLAGS_SalsaPolymorphic
 func (arg1 SwigcptrSalsaPolymorphic) SetImplementation(arg2 Salsa) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_SalsaPolymorphic_implementation_set_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_SalsaPolymorphic_implementation_set_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) GetImplementation() (_swig_ret Salsa) {
 	var swig_r Salsa
 	_swig_i_0 := arg1
-	swig_r = (Salsa)(SwigcptrSalsa(C._wrap_SalsaPolymorphic_implementation_get_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (Salsa)(SwigcptrSalsa(C._wrap_SalsaPolymorphic_implementation_get_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewSalsaPolymorphicFromUInt64(arg1 uint64) (_swig_ret SalsaPolymorphic) {
 	var swig_r SalsaPolymorphic
 	_swig_i_0 := arg1
-	swig_r = (SalsaPolymorphic)(SwigcptrSalsaPolymorphic(C._wrap_new_SalsaPolymorphicFromUInt64_rng_2e82867d6f5a68af(C.swig_type_148(_swig_i_0))))
+	swig_r = (SalsaPolymorphic)(SwigcptrSalsaPolymorphic(C._wrap_new_SalsaPolymorphicFromUInt64_rng_11ac3d340bb029ea(C.swig_type_181(_swig_i_0))))
 	return swig_r
 }
 
 func NewSalsaPolymorphicFromRNG(arg1 VRNG) (_swig_ret SalsaPolymorphic) {
 	var swig_r SalsaPolymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (SalsaPolymorphic)(SwigcptrSalsaPolymorphic(C._wrap_new_SalsaPolymorphicFromRNG_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (SalsaPolymorphic)(SwigcptrSalsaPolymorphic(C._wrap_new_SalsaPolymorphicFromRNG_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewSalsaPolymorphicFromAuto(arg1 SEED_AUTO_TYPE) (_swig_ret SalsaPolymorphic) {
 	var swig_r SalsaPolymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (SalsaPolymorphic)(SwigcptrSalsaPolymorphic(C._wrap_new_SalsaPolymorphicFromAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (SalsaPolymorphic)(SwigcptrSalsaPolymorphic(C._wrap_new_SalsaPolymorphicFromAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewSalsaPolymorphicFromNone(arg1 SEED_NONE_TYPE) (_swig_ret SalsaPolymorphic) {
 	var swig_r SalsaPolymorphic
 	_swig_i_0 := arg1.Swigcptr()
-	swig_r = (SalsaPolymorphic)(SwigcptrSalsaPolymorphic(C._wrap_new_SalsaPolymorphicFromNone_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))))
+	swig_r = (SalsaPolymorphic)(SwigcptrSalsaPolymorphic(C._wrap_new_SalsaPolymorphicFromNone_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) Raw8() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_SalsaPolymorphic_raw8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_SalsaPolymorphic_raw8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) Raw16() (_swig_ret uint16) {
 	var swig_r uint16
 	_swig_i_0 := arg1
-	swig_r = (uint16)(C._wrap_SalsaPolymorphic_raw16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint16)(C._wrap_SalsaPolymorphic_raw16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) Raw32() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_SalsaPolymorphic_raw32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_SalsaPolymorphic_raw32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) Raw64() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_SalsaPolymorphic_raw64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_SalsaPolymorphic_raw64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) GetFlags() (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := arg1
-	swig_r = (uint64)(C._wrap_SalsaPolymorphic_GetFlags_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_SalsaPolymorphic_GetFlags_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) GetName() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_SalsaPolymorphic_GetName_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_SalsaPolymorphic_GetName_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -4960,14 +5979,14 @@ func (arg1 SwigcptrSalsaPolymorphic) GetName() (_swig_ret string) {
 func (arg1 SwigcptrSalsaPolymorphic) WalkState(arg2 StateWalkingObject) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_SalsaPolymorphic_WalkState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_SalsaPolymorphic_WalkState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func NewSalsaPolymorphicFromSeedAndIV(arg1 *uint, arg2 bool) (_swig_ret SalsaPolymorphic) {
 	var swig_r SalsaPolymorphic
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (SalsaPolymorphic)(SwigcptrSalsaPolymorphic(C._wrap_new_SalsaPolymorphicFromSeedAndIV_rng_2e82867d6f5a68af(C.swig_voidp(_swig_i_0), C._Bool(_swig_i_1))))
+	swig_r = (SalsaPolymorphic)(SwigcptrSalsaPolymorphic(C._wrap_new_SalsaPolymorphicFromSeedAndIV_rng_11ac3d340bb029ea(C.swig_voidp(_swig_i_0), C._Bool(_swig_i_1))))
 	return swig_r
 }
 
@@ -4975,68 +5994,68 @@ func (arg1 SwigcptrSalsaPolymorphic) SeedAndIV(arg2 *uint, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_SalsaPolymorphic_SeedAndIV_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_SalsaPolymorphic_SeedAndIV_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) SeedShort(arg2 *uint, arg3 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_SalsaPolymorphic_SeedShort_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
+	C._wrap_SalsaPolymorphic_SeedShort_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C._Bool(_swig_i_2))
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) SeekForward128(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_SalsaPolymorphic_SeekForward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_152(_swig_i_1), C.swig_type_153(_swig_i_2))
+	C._wrap_SalsaPolymorphic_SeekForward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_185(_swig_i_1), C.swig_type_186(_swig_i_2))
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) SeekBackward128(arg2 uint64, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_SalsaPolymorphic_SeekBackward128_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_type_154(_swig_i_1), C.swig_type_155(_swig_i_2))
+	C._wrap_SalsaPolymorphic_SeekBackward128_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_type_187(_swig_i_1), C.swig_type_188(_swig_i_2))
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) SetRounds(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SalsaPolymorphic_SetRounds_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_SalsaPolymorphic_SetRounds_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSalsaPolymorphic) GetRounds() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_SalsaPolymorphic_GetRounds_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_SalsaPolymorphic_GetRounds_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func DeleteSalsaPolymorphic(arg1 SalsaPolymorphic) {
 	_swig_i_0 := arg1.Swigcptr()
-	C._wrap_delete_SalsaPolymorphic_rng_2e82867d6f5a68af(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_SalsaPolymorphic_rng_11ac3d340bb029ea(C.uintptr_t(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) GetNativeOutputSize() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_SalsaPolymorphic_GetNativeOutputSize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (int)(C._wrap_SalsaPolymorphic_GetNativeOutputSize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) SeedFast(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_SalsaPolymorphic_SeedFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
+	C._wrap_SalsaPolymorphic_SeedFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_27(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) Autoseed() {
-	C._wrap_SalsaPolymorphic_autoseed_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_SalsaPolymorphic_autoseed_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) Serialize(arg1 string, arg2 int64) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int64)(C._wrap_SalsaPolymorphic_serialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
+	swig_r = (int64)(C._wrap_SalsaPolymorphic_serialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), C.swig_type_30(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5047,7 +6066,7 @@ func (_swig_base SwigcptrSalsaPolymorphic) Deserialize(arg1 string, arg2 int64) 
 	var swig_r bool
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (bool)(C._wrap_SalsaPolymorphic_deserialize_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
+	swig_r = (bool)(C._wrap_SalsaPolymorphic_deserialize_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_0)), C.swig_type_32(_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5056,7 +6075,7 @@ func (_swig_base SwigcptrSalsaPolymorphic) Deserialize(arg1 string, arg2 int64) 
 
 func (_swig_base SwigcptrSalsaPolymorphic) PrintState() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_SalsaPolymorphic_PrintState_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	swig_r_p := C._wrap_SalsaPolymorphic_PrintState_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -5067,7 +6086,7 @@ func (_swig_base SwigcptrSalsaPolymorphic) Randi(arg1 uint, arg2 uint) (_swig_re
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_SalsaPolymorphic_randi_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_SalsaPolymorphic_randi_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -5075,7 +6094,7 @@ func (_swig_base SwigcptrSalsaPolymorphic) RandiFast(arg1 uint, arg2 uint) (_swi
 	var swig_r uint
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint)(C._wrap_SalsaPolymorphic_RandiFast_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (uint)(C._wrap_SalsaPolymorphic_RandiFast_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -5083,7 +6102,7 @@ func (_swig_base SwigcptrSalsaPolymorphic) Randli(arg1 uint64, arg2 uint64) (_sw
 	var swig_r uint64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (uint64)(C._wrap_SalsaPolymorphic_randli_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
+	swig_r = (uint64)(C._wrap_SalsaPolymorphic_randli_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_35(_swig_i_0), C.swig_type_36(_swig_i_1)))
 	return swig_r
 }
 
@@ -5091,7 +6110,7 @@ func (_swig_base SwigcptrSalsaPolymorphic) Randf(arg1 float32, arg2 float32) (_s
 	var swig_r float32
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_SalsaPolymorphic_randf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
+	swig_r = (float32)(C._wrap_SalsaPolymorphic_randf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.float(_swig_i_0), C.float(_swig_i_1)))
 	return swig_r
 }
 
@@ -5099,65 +6118,65 @@ func (_swig_base SwigcptrSalsaPolymorphic) Randlf(arg1 float64, arg2 float64) (_
 	var swig_r float64
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (float64)(C._wrap_SalsaPolymorphic_randlf_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
+	swig_r = (float64)(C._wrap_SalsaPolymorphic_randlf_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.double(_swig_i_0), C.double(_swig_i_1)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) Gaussian() (_swig_ret float64) {
 	var swig_r float64
-	swig_r = (float64)(C._wrap_SalsaPolymorphic_gaussian_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base)))
+	swig_r = (float64)(C._wrap_SalsaPolymorphic_gaussian_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) SeekForward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_SalsaPolymorphic_SeekForward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
+	C._wrap_SalsaPolymorphic_SeekForward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_43(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) SeekBackward(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_SalsaPolymorphic_SeekBackward_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
+	C._wrap_SalsaPolymorphic_SeekBackward_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_44(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) ResetEntropy() {
-	C._wrap_SalsaPolymorphic_ResetEntropy_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_SalsaPolymorphic_ResetEntropy_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) AddEntropy8(arg1 byte) {
 	_swig_i_0 := arg1
-	C._wrap_SalsaPolymorphic_AddEntropy8_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.char(_swig_i_0))
+	C._wrap_SalsaPolymorphic_AddEntropy8_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.char(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) AddEntropy16(arg1 uint16) {
 	_swig_i_0 := arg1
-	C._wrap_SalsaPolymorphic_AddEntropy16_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.short(_swig_i_0))
+	C._wrap_SalsaPolymorphic_AddEntropy16_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.short(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) AddEntropy32(arg1 uint) {
 	_swig_i_0 := arg1
-	C._wrap_SalsaPolymorphic_AddEntropy32_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
+	C._wrap_SalsaPolymorphic_AddEntropy32_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) AddEntropy64(arg1 uint64) {
 	_swig_i_0 := arg1
-	C._wrap_SalsaPolymorphic_AddEntropy64_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
+	C._wrap_SalsaPolymorphic_AddEntropy64_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_type_45(_swig_i_0))
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) AddEntropyN(arg1 uintptr, arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SalsaPolymorphic_AddEntropyN_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
+	C._wrap_SalsaPolymorphic_AddEntropyN_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.uintptr_t(_swig_i_0), C.swig_type_46(_swig_i_1))
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) AddEntropyAuto(arg1 int) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_SalsaPolymorphic_AddEntropyAuto_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
+	swig_r = (bool)(C._wrap_SalsaPolymorphic_AddEntropyAuto_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base), C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
 func (_swig_base SwigcptrSalsaPolymorphic) FlushBuffers() {
-	C._wrap_SalsaPolymorphic_FlushBuffers_rng_2e82867d6f5a68af(C.uintptr_t(_swig_base))
+	C._wrap_SalsaPolymorphic_FlushBuffers_rng_11ac3d340bb029ea(C.uintptr_t(_swig_base))
 }
 
 func (p SwigcptrSalsaPolymorphic) SwigIsVRNG32() {

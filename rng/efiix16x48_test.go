@@ -16,7 +16,7 @@ func TestEfiix16x48Raw(t *testing.T) {
 	rng := NewEfiix16x48()
 	val := rng.Raw16()
 	if val < 0 {
-		t.Error("Raw8() returned a negative value.")
+		t.Error("Raw16() returned a negative value.")
 	}
 	DeleteEfiix16x48(rng)
 }

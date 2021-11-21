@@ -104,4 +104,6 @@ namespace PractRand {
 %include "./chacha.i"
 %include "./efiix8x48.i"
 %include "./efiix16x48.i"
+%include "./efiix32x48.i"
+%include "./efiix64x48.i"
 %include "./salsa.i"
